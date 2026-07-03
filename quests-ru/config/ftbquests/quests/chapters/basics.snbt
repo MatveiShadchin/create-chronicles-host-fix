@@ -1,0 +1,3934 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: ""
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "storagenetwork:network_book"
+		}
+	}
+	id: "09B56D111668F538"
+	images: [
+		{
+			height: 6.0d
+			image: "kubejs:textures/logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -40.0d
+			y: 18.1d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -28.0d
+			y: 17.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -31.6d
+			y: 17.2d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.5d
+			y: 17.0d
+		}
+		{
+			click: "https://discord.gg/pkEvhgByPw"
+			height: 1.0d
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -32.1d
+			y: 15.4d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -16.0d
+			y: 15.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.0d
+			x: -18.0d
+			y: 15.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"&5Дерево талантов&rЭто наиболее важный метод развития силы игрока."
+				""
+				"Вы можете открыть&5Дерево талантов&rнажав&bK&r"
+				""
+				"Чтобы переназначить свои таланты, используйте расходный предмет&cСброс дерева талантов&f, который возвращает все ваши очки навыков при использовании. Средства для приобретения&cСброс дерева талантов&fразблокируются на более позднем этапе."
+				""
+				"&eОчки навыков&fв основном зарабатываются в сложных битвах с боссами, максимум&671 навык&rв общей сложности все можно получить с помощью квестов."
+				""
+				"Подробное руководство по приобретению&eочки навыков&f, обратитесь к&2«Боссы и очки навыков»&fглава."
+			]
+			icon: "kubejs:skill_add_point"
+			id: "072DA448D144179C"
+			rewards: [{
+				command: "/puffish_skills points add @s talentree 1"
+				elevate_perms: true
+				icon: "kubejs:skill_add_point"
+				id: "2F72B652621B93C9"
+				silent: true
+				title: "+1 очко навыков"
+				type: "command"
+			}]
+			tasks: [{
+				id: "13FDAAB9648E3D0D"
+				title: "&l&6Разблокировать главу: Боссы и очки навыков"
+				type: "checkmark"
+			}]
+			title: "Прогресс: Дерево талантов"
+			x: -35.9d
+			y: 19.0d
+		}
+		{
+			description: [
+				"&lПриветствую тебя, бесстрашный исследователь!&rВы отправились в грандиозное путешествие, где творчество встречается с приключениями, сочетая автоматизацию и магию. Добро пожаловать в мир, полный возможностей!"
+				""
+				"Твой&2Книга квестов&rпроведет вас через прогресс игры. Если он когда-либо недоступен, посмотрите в верхний левый угол вашего инвентаря или нажмите&aF4, чтобы вспомнить это&r."
+				""
+				"Выполнение квестов вознаградит вас опытом и специальными предметами, которые улучшат ваше путешествие."
+				""
+				"В основе этого пакета лежит искусство&6Создать автоматизацию&r, разделенный на 10 глав. Каждая глава открывает новый контент по мере вашего продвижения."
+				""
+				"Этот мир полон приключений и опасностей, с величественными сооружениями, жесткими боссами и разнообразными мирами, которые предстоит исследовать. Будьте готовы к предстоящим трудностям."
+				""
+				"&dСпасибо за игру ❤&r"
+				""
+				"&b&lВ Create Chronicles: Bosses and Beyond ваша сага ждет!&r&r"
+			]
+			id: "1F6BC8C2A5B8F9B2"
+			rewards: [{
+				count: 20
+				id: "167DE99A77DBDD03"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Здравствуйте и добро пожаловать в&6Создавайте хроники: боссы и не только!&r"
+			tasks: [{
+				id: "184D02801FC28C38"
+				title: "&l&6Разблокировать главу 1"
+				type: "checkmark"
+			}]
+			title: "&9Добро пожаловать!"
+			x: -33.9d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Вы умеете бить деревья?"
+				""
+				"Если вы не знаете, что делать, просто начните играть в Minecraft как обычно."
+				""
+				"Постройте дом, откройте ферму и займитесь основами."
+				""
+				""
+				"&n&6JEI — твой лучший друг!&r&r"
+				"Для поиска предметов в JEI используйте панель поиска в правом нижнем углу экрана инвентаря."
+				""
+				"Чтобы найти предметы из определенного мода, введите&e@имямода&rв строке поиска. Например, введите&e@имямода&rчтобы увидеть все предметы из этого мода."
+				""
+				"Нажав на предметы в списке предметов справа от вашего инвентаря, вы увидите их рецепты и способы использования."
+				""
+				"Вы также можете нажать&dR&rпри наведении курсора на любой предмет, чтобы увидеть его рецепт, и&dU&rчтобы увидеть его использование."
+			]
+			id: "0C49795E134A27E0"
+			rewards: [{
+				id: "1388C1348A74DF51"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1DD5BBE838C429A3"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&6Всегда то же самое"
+			x: -29.85d
+			y: 18.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"В версии 1.20 изменилось создание инструментов и брони Netherie. Вам нужно будет найти&dШаблон удара незерита&rв сундуках, найденных внутри Бастионов."
+				""
+				"Не используйте все шаблоны за один раз, так как вы можете их дублировать."
+			]
+			id: "6EDC6D809402C84C"
+			rewards: [{
+				id: "3BE68D65CCD63759"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "096AF6AAAD52211A"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "&6Незеритовый шаблон"
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"Хотите парить в небе, не отправляясь в Край за надкрыльями? Вместо этого подумайте о создании реактивного ранца."
+				""
+				"Вы получите доступ к&6мастера-механики в главе 3&r, прокладывая путь к вашему воздушному приключению."
+				""
+				"Вы также можете погрузиться в магию и найти альтернативные способы полета."
+			]
+			id: "0C7046AD65831DAC"
+			rewards: [{
+				id: "6941E9B443360ADA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4CDC98F4B0439B5A"
+				item: {
+					Count: 1
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Ранний полет игры"
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Нам всем нравится находить сокровища, и&dСундуки с добычей&rсделай это весело."
+				""
+				"В этих сундуках каждый игрок получает разную добычу, поэтому вы и ваши друзья можете забирать сокровища, не отнимая друг у друга!"
+				""
+				"В этих сундуках вы можете найти специальные предметы, называемые&6Артефакты&rи&aКольца Вознесения&r. Вы можете поместить их в специальные слоты, называемые&bдиковинки&rза крутые силы или навыки."
+			]
+			icon: "lootr:trophy"
+			id: "7FA9BBBA1DBB5F32"
+			tasks: [{
+				id: "1A913BDE3452E930"
+				title: "Нажмите, чтобы подтвердить"
+				type: "checkmark"
+			}]
+			title: "Сундуки с добычей"
+			x: -35.9d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"&eПутевые камни&rИх можно найти разбросанными по всему миру или в деревнях, что позволяет быстро путешествовать на огромные расстояния."
+				""
+				"Кроме того, вы можете найти&aбашни в дикой природе&r, обычно на их вершине находится путевой камень."
+				""
+				"Вы можете переименовать любой путевой камень, щелкнув по нему правой кнопкой мыши пустой рукой."
+				""
+				"Разрушение путеводного камня дает&d3 фрагмента варпа&rа не весь блок."
+				""
+				"Эти фрагменты станут полезны для создания нового путевого камня, как только вы получите&8небесный камень&rс луны."
+				""
+				"Следите за&eпутевые камни&rв начале вашего приключения, так как они значительно облегчают исследование карты."
+				""
+				"Более того, существуют&dволшебный&rдоступные методы для создания точек телепортации по всему миру!"
+			]
+			icon: "waystones:waystone"
+			id: "67FA8896AD563A77"
+			rewards: [{
+				id: "7B0DEB5DF9F95C18"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			subtitle: "Путевые камни"
+			tasks: [{
+				id: "6F08B962A9B440A2"
+				title: "Нажмите, чтобы подтвердить"
+				type: "checkmark"
+			}]
+			title: "Путевые камни"
+			x: -33.9d
+			y: 16.0d
+		}
+		{
+			dependencies: ["640C3588E6BA8DF2"]
+			description: [
+				"&cПросто мечи&rдобавляет совершенно новый арсенал оружия, с которым можно поиграть."
+				""
+				"Он также представляет чрезвычайно редкие&6Легендарное оружие&rс особыми способностями. Это оружие может выпасть только с определенных боссов."
+				""
+				"Экспериментируйте с новыми захватывающими видами доступного оружия."
+				""
+				"Он также обладает уникальным набором функций&3Рунические силы&r, который можно передать оружию через&n&bрозетки&r!"
+				""
+				"Уникальное оружие имеет шанс выкатиться до&6две розетки&rкогда разграблено."
+				""
+				"Существует два типа розеток:&bNetherfused и Runefused&r."
+				""
+				"Чтобы вставить оружие, просто щелкните левой кнопкой мыши по драгоценному камню, а затем щелкните левой кнопкой мыши по оружию с соответствующим типом гнезда."
+				""
+				"Примечание. Драгоценные камни нельзя удалить после того, как они вставлены."
+			]
+			icon: {
+				Count: 1
+				id: "simplyswords:brimstone_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F1F1047E8A734EC"
+			rewards: [{
+				id: "721FF67AC2FD6B87"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Новое и легендарное оружие"
+			tasks: [{
+				id: "2641C625B57F3705"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simplyswords:runic_grimoire"
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"&bМобы Алекса&ris a mod that adds 89 new mobs to Minecraft. Все эти мобы делятся на две категории: большинство из них — существа из реального мира, такие как медведи гризли, дорожные бегуны, косатки и т. д.; но некоторые из них являются чисто вымышленными, например, Эндергейд и Костяной Змей."
+				""
+				"Все эти существа выполняют необходимую цель и имеют уникальные предметы, механику или функции, поскольку чисто эстетических существ не существует."
+				""
+				"&6Словарь животных&rЭто очень простое руководство и документация по каждому существу, добавленному модом, и оно должно дать представление об использовании каждого из мобов или их трофеев."
+			]
+			icon: "alexsmobs:animal_dictionary"
+			id: "018D3C4DBED54803"
+			rewards: [{
+				id: "3DAC8A3BB2FB7AFB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Новые животные"
+			tasks: [{
+				id: "15EDF99888160CC9"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Мобы Алекса"
+			x: -22.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: ["Dimensional Dungeons is a mod about creating portals to semi-randomly generated dungeons with different challenges and puzzles for you to solve or fight your way through. To get started you will need gilded portal blocks."]
+			id: "479BCCC330D6725A"
+			rewards: [{
+				id: "25AEE5EABCB3C6DD"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Позолоченный портальный блок"
+			tasks: [{
+				count: 2L
+				id: "3F8765763646ECDD"
+				item: "dimdungeons:block_gilded_portal"
+				type: "item"
+			}]
+			title: "Пространственные подземелья"
+			x: 6.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"7B4DB4B0D17BE6C4"
+				"6BC9E9B971DEE60A"
+			]
+			description: [
+				"Теперь, когда у нас есть ключ с надписью и позолоченные блоки портала, все, что нам нужно, это ключевой камень портала, который будет служить нам дверью в подземелья измерений. На изображении ниже показано, как установить каркас портала с использованием каменных кирпичей и блоков портала."
+				""
+				"{image:kubejs:textures/bare_portal_frame.png width:200 height:120 align:1}"
+			]
+			id: "70068CFDA790A856"
+			rewards: [
+				{
+					id: "5A6D5150CFD16EA9"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "56B9713B96937881"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Последний шаг"
+			tasks: [{
+				id: "5051B0937885FF15"
+				item: "dimdungeons:block_portal_keyhole"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["479BCCC330D6725A"]
+			description: ["Blank portal keys can be aquired via crafting, as loot, or from adventurer bounties. They are the key to opening new dimensional dungeons."]
+			id: "7B4DB4B0D17BE6C4"
+			rewards: [{
+				id: "07DDC96B14693645"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Получите пустой ключ портала."
+			tasks: [{
+				id: "67D7AB20A178B8A4"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["70068CFDA790A856"]
+			description: [
+				"Внутри пространственных подземелий вы иногда можете найти портальные установки со знаменами и блоками-коронами портала. вы можете обновить свой собственный портал, используя эти блоки, чтобы разрешить ему использовать дополнительные ключи. Keystones не примет расширенные ключи, если у вас нет блоков короны портала и баннеров на позолоченных блоках портала. Вы можете вписать пустой расширенный ключ портала так же, как и обычный ключ."
+				""
+				"{image:kubejs:textures/advanced_portal_build.png width:200 height:120 align:1}"
+			]
+			id: "6A465B0AE8586176"
+			rewards: [
+				{
+					id: "09562381EF6CF006"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "7FBB4AF74D31C240"
+					type: "xp"
+					xp: 70
+				}
+			]
+			subtitle: "Расширенные ключи портала"
+			tasks: [{
+				count: 2L
+				id: "44D4014014A0C6D4"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			title: "Расширенные порталы"
+			x: 5.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["479BCCC330D6725A"]
+			description: ["Each dimensional dungeon you open will have its own unique name inscribed on the key it belongs to. In order to name a key you must right-click the blank portal key on &6The Key Inscription Station&r."]
+			id: "6BC9E9B971DEE60A"
+			rewards: [
+				{
+					id: "56139D410D078D3C"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "1CBDEF934517F060"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Станция для ввода ключей"
+			tasks: [{
+				id: "6254D4627A80A005"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7B4DB4B0D17BE6C4"]
+			description: ["The Blank Personal Dimension Key can be inscribed the same as a normal blank key, but when inserted in the keystone will take you to your own empty dimension to build as you please."]
+			id: "03C4EA06B12B1656"
+			rewards: [{
+				id: "1AD3FDA3EF5444A4"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Личное измерение"
+			tasks: [{
+				id: "7B8C4A7F6C6AF405"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Парапланы — это вид простого воздушного транспорта. Скольжение происходит немного быстрее, чем ходьба."
+				""
+				"Использование&aэнергия&rоставаться на плаву в небе."
+			]
+			id: "107C7C1F5CADD79E"
+			rewards: [{
+				id: "1AC7296C76CD5F9F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Поймай ветер"
+			tasks: [{
+				id: "44B7D229A5F0DA91"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "Параплан"
+			x: -23.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5F54BFA919A9265B"]
+			description: ["A &6Lectern&r can be used to combine Manuscripts and the Bestiary, to unlock new chapters. The Bestiary goes in the left slot, and Manuscripts go in the right slot. The chapter options are on the right, to get them, click on the chapter you would like to have."]
+			id: "00CCA9A34E314582"
+			rewards: [{
+				count: 3
+				id: "5F3E6E7FBB2DCDD1"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1584A86F782C8BE3"
+				item: "iceandfire:lectern"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0A6D8A117DACC36B"]
+			description: ["By putting a Bestiary in a lectern you can paste new pages into it with manuscripts to unlock knowledge of monsters."]
+			id: "5F54BFA919A9265B"
+			rewards: [{
+				count: 3
+				id: "3ECA39C956698FC6"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			subtitle: "Знание монстров"
+			tasks: [{
+				id: "32B50B49CA6E5D3F"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: ["You can find manuscripts in chests around the world. These are used to uncover knowledge of monsters and beasts in the 'Bestiary'."]
+			id: "0A6D8A117DACC36B"
+			rewards: [{
+				count: 3
+				id: "5B9B991735FED2BB"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			subtitle: "Страницы книги"
+			tasks: [{
+				consume_items: false
+				id: "46ABA342D99C4D1E"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			title: "Старые рукописи"
+			x: -18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Мир в этом модпаке&cопасный&r. Хотя временами вы можете чувствовать слабость, не сдавайтесь."
+				""
+				"Есть много способов стать сильнее. Исследуйте мир в поисках лучшего снаряжения, отправляйтесь в другие измерения и инвестируйте в свои постройки и магию."
+				""
+				"Проверьте&9Боссы и очки навыков&rглава, чтобы понять&3сложность каждого босса&r. Некоторые боссы являются финальными и требуют больше энергии.&aПовышение вашего здоровья&rи&6наличие хорошего оборудования имеет важное значение.&r"
+				""
+				"&cЗа 1200 блоками опасные мобы из&r &bЛед&rи&cОгонь&r, такие как насесты драконов и морские змеи, будут появляться где угодно. Действуйте на свой страх и риск."
+				""
+				"Начиная с&n&6третья ночь&r&r, опасная толпа,&0Сталкер&r, появится. Вы услышите характерный звук и увидите сообщение в чате, когда он появится."
+				""
+				"&0Похититель жизни&rнежить может появиться из&n&6десятая ночь&r&r. Он прячется под плащом, замечает игроков за 100 блоков и начинает следовать за 30 блоками. После атаки или получения достаточного урона он с криком раскрывает свою истинную форму."
+			]
+			id: "05DF598DEBADABC3"
+			rewards: [{
+				count: 3
+				id: "4DB3D90257676F99"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Ваши кошмары будут преследовать вас..."
+			tasks: [{
+				id: "10C9EC641579B9FA"
+				title: "&l&aЯ не трус, я их всех побью"
+				type: "checkmark"
+			}]
+			title: "&l&4Мир опасен"
+			x: -17.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Вы начинаете свое путешествие с&c8 сердец&r, но вы можете увеличить свою жизнь за счет очков навыков или с помощью&cКонтейнеры-сердечки&rи&aСосуды выносливости&r. "
+				""
+				"Эти предметы могут расширить ваши сердца и колесо выносливости соответственно."
+				""
+				"Чтобы получить их, вам нужно будет взаимодействовать с&bСтатуя Богини&r, обычно встречается при посещении деревни."
+				""
+				"&e&l&nСферы духа&r&r&rможно найти в сундуках, но они довольно редки."
+			]
+			icon: "paraglider:spirit_orb"
+			id: "7436ABDD8951C18F"
+			rewards: [{
+				count: 4
+				id: "434657B780CD3573"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			subtitle: "Это как Зельда"
+			tasks: [{
+				id: "122AA19F6DAFA8EF"
+				title: "Нажмите, чтобы подтвердить"
+				type: "checkmark"
+			}]
+			title: "Почему у меня меньше сердец?"
+			x: -35.9d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"&eПещеры Алекса&rдобавляет уникальное разнообразие новых подземных пещерных биомов со множеством новых интересных мобов и механик, с которыми можно поиграть."
+				""
+				"Для начала вам нужно найти подземную хижину, чтобы приобрести несколько пещерных табличек, а также стол спелеолога."
+			]
+			icon: "alexscaves:cave_book"
+			id: "3A5D5C4FBFAFB109"
+			rewards: [
+				{
+					id: "7EA0167D03EE2A7C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "312039C027C5E676"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
+			subtitle: "Новые пещерные биомы"
+			tasks: [{
+				id: "1C23290C04C44FB9"
+				structure: "alexscaves:underground_cabin"
+				type: "structure"
+			}]
+			title: "Пещеры Алекса"
+			x: -17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3A5D5C4FBFAFB109"]
+			description: [
+				"Поместив кусок&2бумага&rи&eпещерная табличка&rв стол спелеологов, вы можете сыграть в мини-игру, чтобы разблокировать некоторые секреты, хранящиеся в планшете."
+				""
+				"Попробуйте угадать правильное владение загаданным словом, используя контекст предыдущих догадок."
+				""
+				"В этой мини-игре всего пять предположений на уровень, и для создания пещерного кодекса требуется три уровня."
+				""
+				"Если какой-либо уровень будет провален или процесс перевода прерван, пещерная табличка будет уничтожена."
+			]
+			id: "26D860BF5D02586C"
+			rewards: [{
+				id: "017B47440E473808"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Пещерные исследования"
+			tasks: [{
+				id: "2AEBADAF7BD0BDDE"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["26D860BF5D02586C"]
+			description: [
+				"Раз в&6Пещерный кодекс&rисследуется, его можно использовать для двух целей."
+				""
+				"1-> Простое использование предмета в основной руке откроет больше информации, касающейся биома кодексов в Cave Compendium."
+				""
+				""
+				"2-> Их можно превратить в&6Карты пещерных биомов.&r"
+			]
+			id: "2F7BB458FD5AFF19"
+			rewards: [{
+				id: "56F6A58BE40B3D37"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&6🔓 Открывает главу «Пещеры Алекса».&r"
+			tasks: [{
+				id: "37EFDE1A242FC6ED"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Изучите любой пещерный кодекс."
+			x: -17.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Этот пакет включает в себя&63 пакета шейдеров&rдля улучшения визуальных эффектов игрового процесса."
+				""
+				"Вы можете выбрать шейдер по своему вкусу, пройдя&aПараметры -> Настройки видео -> Пакеты шейдеров.&r"
+				""
+				"Для наилучшего качества изображения выберите&bДополнительное переосмысление&r."
+				""
+				"Наша рекомендация по высокой производительности и стилю, близкому к ванильному:&bРасширенный стандарт Сильдура,&rхотя максимальное расстояние тени равно 7."
+				"Если приспособления Create работают с ошибками, перейдите к настройкам шейдера и отключите туман."
+				""
+				"Для более сбалансированного подхода между графикой и производительностью выберите&bМакияж ультра быстрый&r."
+				""
+				"Кроме того, вы можете настроить параметры видео, чтобы увеличить расстояние рендеринга, улучшая общее визуальное восприятие."
+			]
+			icon: "create:goggles"
+			id: "6D382620BBC1E6C0"
+			rewards: [{
+				id: "1F572C2BD14B7F1B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1D986DC9FFE37C6A"
+				title: "Нажмите, чтобы подтвердить"
+				type: "checkmark"
+			}]
+			title: "Шейдеры"
+			x: -34.9d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["When right clicked it picks a &drandom block&r from your hotbar and places it down."]
+			id: "1E53659639A295D6"
+			rewards: [{
+				id: "326E60974EEBA815"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52B0934C4AB8F731"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"Найдите что-нибудь интересное в своем мире или просто хотите сфотографироваться на память об этом событии? Сфотографируйтесь с&bКамера&r!"
+				""
+				"Изображения можно сделать, щелкнув правой кнопкой мыши по камере. Вы попадете в видоискатель камеры. Повторный щелчок правой кнопкой мыши позволяет получить изображение той перспективы, которую вы видите в данный момент. Изображения сохраняются с тем же соотношением, что и ваше окно Minecraft."
+				""
+				""
+				"&6Камера&rумеет применять фильтры к изображению. Если подкрасться + щелкнуть правой кнопкой мыши по камере, откроется графический интерфейс, в котором можно выбрать фильтр."
+				""
+				"&6Альбом&rможет содержать до 54 изображений. Вы можете добавить изображения, нажав правой кнопкой мыши на альбом. Вы можете просмотреть содержащиеся изображения, щелкнув альбом правой кнопкой мыши. Прокручивая вверх и вниз или нажимая клавиши со стрелками вверх/вниз, вы можете переключить просматриваемое в данный момент изображение."
+				""
+				"&6Рамка изображения&rпозволяет разместить ваше изображение в мире. Просто поместите рамку изображения на стену. Скрытно + щелчок правой кнопкой мыши по фрейму изображения открывает графический интерфейс, который позволяет изменить размер фрейма. Простое нажатие кнопок изменения размера увеличивает рамку в заданном направлении. Если вы подкрадетесь и нажмете кнопку, размер кадра уменьшится в этом направлении. Чтобы отобразить изображение в рамке, щелкните его правой кнопкой мыши, держа выбранное изображение в руке. Чтобы удалить его из рамки, просто щелкните рамку правой кнопкой мыши еще раз."
+			]
+			id: "6205128D8BD81FE0"
+			rewards: [{
+				id: "2C5C933092E25AB9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Слизь!!!!"
+			tasks: [{
+				id: "6A97508FBE37DBEE"
+				item: "camera:camera"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["640C3588E6BA8DF2"]
+			description: ["The &aTarget Dummy&f is pretty self explanatory. You can use this to test how much damage your weapons deal."]
+			id: "77E129C820E2C154"
+			rewards: [{
+				id: "4A6C92FC3FF626ED"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Он не такой уж и тупой..."
+			tasks: [{
+				id: "03C5427638F1124F"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Thanks to a mod, the &aTotem of Undying&f can now be equipped in a &etrinket slot&f. This means you can keep your shield in your offhand and not fear death as long as it's equipped."]
+			id: "68623EA6ABCAE7C7"
+			rewards: [{
+				id: "2FF3E6689E3FAA2F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Носимая неуязвимость"
+			tasks: [{
+				id: "28D420D2D62375AD"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2F1F1047E8A734EC"]
+			description: [
+				"&cУсиленные остатки&rсоздаются путем переплавки уникального оружия."
+				""
+				"Их используют при создании&9Рунические драгоценные камни&r, и&6Слитые Пустотой драгоценные камни&r."
+			]
+			id: "3D8B2D9B4488D1C4"
+			rewards: [
+				{
+					id: "3044588ADA2C34F9"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "79F86FB1A5010108"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "06287D4183F54125"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Боль сделать..."
+			tasks: [{
+				id: "49E5F5147F07C67B"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3D8B2D9B4488D1C4"]
+			description: [
+				"Для этого соедините&cМощный остаток&rс&6Незеритовый слиток&rна кузнечном столе."
+				""
+				"Нажмите, чтобы определить, какую силу вы выкинули."
+			]
+			id: "374A73FE0C12C105"
+			rewards: [
+				{
+					id: "6C6877A0C6DC69B4"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A8AA9F560CC2350"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0EB8AE0F42606004"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Сделано с Эшем."
+			tasks: [{
+				id: "5FA9B1D918EC6529"
+				item: {
+					Count: 1
+					id: "simplyswords:netherfused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3D8B2D9B4488D1C4"]
+			description: [
+				"Для этого объедините&bРуническая табличка&rс&cМощный остаток&rна кузнечном столе."
+				""
+				"Нажмите, чтобы определить, какую силу вы выкинули."
+			]
+			id: "4E2CDE150137F5E9"
+			rewards: [
+				{
+					id: "532BB8E9D9518DEA"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "03BCC3F031B22DE0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "412AC6A306F89E98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Сделано с&kржу не могу&r"
+			tasks: [{
+				id: "5EC926FCEC96ADAC"
+				item: {
+					Count: 1
+					id: "simplyswords:runefused_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Большая часть модифицированных сочетаний клавиш не назначена."
+				""
+				"Перейдите к опциям, элементам управления и привяжите любую клавишу к нужной кнопке."
+				""
+				"Это сделано для предотвращения неприятных случаев, когда некоторые моды используют одну и ту же кнопку."
+				""
+				"Вы также можете показать свои предметы в чате, используя&3сдвиг + Т&r"
+			]
+			icon: "supplementaries:key"
+			id: "660C3D5CB407247F"
+			tasks: [{
+				id: "6FD0241035AC0F91"
+				type: "checkmark"
+			}]
+			title: "Сочетания клавиш"
+			x: -33.9d
+			y: 20.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"Быстрый способ переключения между инструментами."
+				""
+				"Улучшите поясные сумки на наковальне, чтобы увеличить вместимость."
+				""
+				"Ключ по умолчанию&6 \\\"J\\\"&rоткрыть."
+			]
+			id: "15E1385A52B7A632"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "1C0F32826DE96674"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "03BEAC42E06086CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "20611962F187E5FB"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"Мод&9Строительная палочка&rДобавляет полезные палочки, которые помогают в строительстве."
+				""
+				"Когда вы щелкаете палочкой правой кнопкой мыши по грани блока, она будет расширять эту грань наружу, пока блоки есть в вашем инвентаре."
+				""
+				"Вы можете улучшить свою палочку дополнительными&4ядра&r, что позволяет вам создавать блоки в воздухе или очень быстро уничтожать множество блоков."
+				""
+				"Жезлы бывают четырёх ярусов:"
+				""
+				"&l&7Камень&r:&r9 блоков"
+				"&l&fЖелезо&r:&r27 блоков"
+				"&l&bАлмаз&r:&r128 блоков"
+				"&l&dБесконечность&r:&r1027 блоков"
+			]
+			id: "0D05759E84652BAA"
+			rewards: [{
+				id: "5A4C954FF624C154"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "060CEA85A1BF9C84"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Строительные палочки"
+				type: "item"
+			}]
+			title: "Освойте Жезлы Бесконечности"
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"При размещении&9Мега Факел&rпредотвращает естественное появление всех враждебных мобов в&dРадиус блока 96&r."
+				""
+				"Отлично подходит для остановки появления враждебных врагов в темных частях вашей базы!"
+				""
+				"Вы также можете увидеть уровень освещенности,&3нажав F7&r"
+			]
+			id: "478DE12D3EF8C22A"
+			rewards: [
+				{
+					id: "50E030E9EBB5E5CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 32
+					id: "1D06972FAEF3D196"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BF67A3FC299BCB1"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Предотвращение появления мобов"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["261651FB7B600587"]
+			description: [
+				"Независимо от того, являетесь ли вы опытным игроком в моддинге или полным новичком в MC, каждый должен сделать&2Деревянная кирка&r."
+				""
+				"Кирки позволяют разбивать большинство каменных и металлических блоков. Этот деревянный долго не прослужит, поэтому обязательно соберите немного&3Булыжник&rс этим!"
+			]
+			id: "7EF948B39FBEA377"
+			rewards: [{
+				id: "4A44E1F48CD46585"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "703514C592E5C630"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Наш первый выбор"
+			x: -22.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"С нашей деревянной киркой разбить камень не составит труда!"
+				""
+				"Вы также захотите улучшить свою кирку до каменной, чтобы добывать более качественные руды, такие как&bЖелезо&r!"
+			]
+			icon: "minecraft:furnace"
+			id: "05B32DE12868C6DE"
+			rewards: [{
+				id: "09C2CCAD1F30005D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					icon: "minecraft:cobblestone"
+					id: "6509C61E10237C4F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					title: "Любой булыжник"
+					type: "item"
+				}
+				{
+					id: "2EF81FCBEE5CCC21"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "Возьмите камень"
+			x: -12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: ["I'm going to assume you've been out mining, right? It is &4Minecraft&r after all."]
+			id: "28B245505F91D21C"
+			rewards: [{
+				id: "73FD6CD9F16B0FDC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B6E37E280F23809"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3FE10EF0A2154395"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Металлы"
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"Следующий шаг — изготовление железной кирки."
+				""
+				"С помощью этой кирки можно добывать некоторые из самых редких руд в игре, в том числе&3Бриллиант!&r"
+			]
+			id: "7FA5CDC0F616D2C5"
+			rewards: [{
+				id: "6E032A8E6435C192"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "567D18852F5AB585"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Ан&aЖелезо&rВыбирать"
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3D93780758BA7194"]
+			description: [
+				"&2Археология&r— это новая функция в Minecraft v1.20, которая позволяет игрокам находить предметы внутри подозрительных блоков, таких как песок и гравий. Эти блоки можно найти в таких структурах, как руины теплого океана, пустынные пирамиды, пустынные колодцы."
+				""
+				"Чтобы обнаружить предметы из подозрительных блоков, создайте кисть, чтобы аккуратно удалить блок и обнаружить предмет. Используйте&bАрхеологический стол&rанализировать неопознанные артефакты кистью любого типа."
+				""
+				"Создайте археологический стол, используя 4 деревянные доски, кисть и осколки артефакта. Он выводит один из трех различных Идентифицированных Артефактов, каждый из которых обладает уникальными особыми способностями."
+				""
+				"Вы также можете найти&6артефакты&rс помощью археологии."
+			]
+			hide_until_deps_complete: false
+			id: "0C4974DE21CEDF4B"
+			rewards: [{
+				id: "2029C4079E097488"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0C5834C0899BEF2B"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B21E1D56517ADD"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+			]
+			title: "&2Археология&r!"
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"&aШаблоны кузнечного дела&r— это совершенно новые предметы, используемые для украшения вашей брони! Это можно сделать в кузнечного стола."
+				""
+				"Хотя у них есть рецепт, большинство отделок являются редкими находками в сундуках с добычей или археологических раскопках. Найдя один, вы сможете обмануть шаблон, используя рецепт, чтобы создать больше!"
+			]
+			id: "65B47B2E1AA75ED3"
+			rewards: [{
+				id: "48CCA5D27575C069"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "760E2C0115B25B09"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:trim_templates"
+					}
+				}
+				title: "Обрезать шаблоны"
+				type: "item"
+			}]
+			title: "&dБроня Отделка&r"
+			x: -3.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"Чтобы найти это яйцо, вам нужно смахнуть&aПодозрительный песок&rв руинах теплого океана."
+				""
+				"Вы можете поместить яйцо в мир, и из него медленно вылупится&dСниффлет&r. Обычно для вылупления требуется около 20 минут, но его можно поместить на блок Мосса, чтобы удвоить скорость вылупления, при этом вылупление займет всего 10 минут."
+				""
+				"Сниффлет со временем вырастет во взрослую особь.&dНюхач&rкоторый может нюхать такие предметы, как&2Семена факела&rили&2кувшины&rкогда они бродят по блокам, они могут закопаться."
+				""
+				"Вы можете вывести двух взрослых Нюхачей с помощью Факельных цветов."
+			]
+			id: "77EEE919C23E18B1"
+			rewards: [{
+				id: "60B1B82C0EFA564B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2DC4927BB3208BB3"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "&a&r &5Нюхач&r"
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: ["&bDiamonds&r are one of the&n best materials&r to use for tool crafting, but also allows you to visit new dimensions like the Nether!"]
+			id: "06267D7C266DE215"
+			rewards: [{
+				id: "5CCB3BCA3CDDC471"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "07A73C61881D36D0"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Мы нанесли удар&bБриллианты&r!"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: [
+				"С киркой алмазного уровня вы сможете добывать&dОбсидиан&r. Обсидиан можно использовать для создания портала в мир.&cПустота&r."
+				""
+				"Рама портала может быть разных размеров, но большинство из них соответствует базовой форме «Двери». Это полая форма 4х5, для которой требуется минимум 10 обсидианов. Вам не обязательно использовать обсидиан для углов, только сам каркас портала!"
+			]
+			id: "72A5DEFDD0F3470D"
+			min_width: 300
+			rewards: [{
+				id: "2DA219D2C2C27D52"
+				type: "xp"
+				xp: 50
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					count: 10L
+					id: "50E50067EA492EBE"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "726DAD7F99D8DE4E"
+					title: "Войдите в Пустоту"
+					type: "advancement"
+				}
+			]
+			title: "&cВ Пустоту&r!"
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"Начните захватывающее путешествие за пределы обычного мира."
+				""
+				"Пройдите через мистические врата, чтобы открыть для себя новые измерения с уникальными ресурсами и существами."
+				""
+				"Проявив смелость и любопытство, раскройте секреты этих миров."
+				""
+				"Твоё приключение ждёт —&eстанешь ли ты настоящим исследователем измерений?&r"
+			]
+			id: "123D70CA4959F172"
+			rewards: [{
+				id: "74501D93CD967375"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60FB6758FF913425"
+				title: "&l&6Открывает главы измерений."
+				type: "checkmark"
+			}]
+			title: "&c&lЯ хочу исследовать новые измерения&r&r"
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"{ \\\\\\\"текст\\\\\\\": \\\\\\\"Черный рынок\\\\\\\", \\\\\\\"подчеркнуто\\\\\\\": \\\\\\\"истина\\\\\\\", \\\\\\\"цвет\\\\\\\": \\\\\\\"черный\\\\\\\", \\\\\\\"жирный шрифт\\\\\\\": \\\\\\\"истина\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"21FB9D855FA9D2DF\\\\\\\" } }"
+				"— это идеальный полигон для ваших гениальных средств автоматизации Create. Здесь вы можете обменять плоды своего механического мастерства на уникальные предметы.&cбольше нигде не встречается."
+				""
+				"Вы можете использовать&9экран задач&rи&9конфигуратор экрана задач&rавтоматизировать."
+				""
+				"Вы также можете купить вещи, используя&6Создать валюту.&r "
+				""
+				"Валюту можно заработать&5через квесты&rили через&5убийство боссов&r. "
+				""
+				"Вот немного денег, которые помогут вам начать, так что потратьте их с умом."
+				""
+				"{@pagebreak}"
+				"Также ходит слух о"
+				""
+				"{ \\\\\\\"текст\\\\\\\": \\\\\\\"Космический капитан [нажмите на меня!]\\\\\\\", \\\\\\\"подчеркнуто\\\\\\\": \\\\\\\"истина\\\\\\\", \\\\\\\"цвет\\\\\\\": \\\\\\\"синий\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"4D995A3D7DC968C7\\\\\\\" } }"
+				""
+				"кому нужна помощь!"
+			]
+			id: "21FB9D855FA9D2DF"
+			rewards: [
+				{
+					count: 2
+					id: "50F4EC485372FEF2"
+					item: "numismatics:cog"
+					title: "Ваше пособие"
+					type: "item"
+				}
+				{
+					id: "3AABBBEC1097C9A2"
+					item: "numismatics:bank_terminal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0D128D27E6FC641D"
+				title: "&l&6Разблокировать главу: Черный рынок"
+				type: "checkmark"
+			}]
+			title: "&0&lЧерный рынок"
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6613D41573B7F0B9"]
+			description: ["Stoves are a good-looking and very useful campfire alternative. Together with a Cooking Pot, it can help you prepare the most delicious meals in the game."]
+			id: "327AE18669E4B9F0"
+			rewards: [{
+				count: 5
+				id: "2FA95BED56ECC377"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D9D2F824D60EAC1"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "Радость кулинарии"
+			x: -13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"Получите доступ к мощным магическим знаниям и навыкам. Выполнив этот квест, вы откроете следующие магические главы:"
+				""
+				"&d-> Арс Ново&r"
+				""
+				"&6-> Запретный Аркан&r"
+				""
+				"&b-> Книги об утюгах и заклинаниях&r"
+				""
+				"Отправьтесь в путешествие в мистические искусства и раскройте секреты этих мощных модов."
+			]
+			id: "04D09899362AFC7A"
+			rewards: [{
+				id: "618495DCE46CFF23"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Магия? Заклинания? ДА ПОЖАЛУЙСТА!!!!!"
+			tasks: [{
+				id: "4E1D5074A8E3A8D2"
+				title: "&l&6Разблокируйте магические главы"
+				type: "checkmark"
+			}]
+			title: "&dОткрытие тайной магии&r "
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"Механика боя была изменена&6Лучший бой&r, &6Додж Ролл&r, &6Капитальный ремонт щита&rи&6Расширение щита&rмод."
+				""
+				"&c-> Увернуться от ролла&r"
+				"Нажимать&6\\\"R\\\"&r(клавиша по умолчанию), чтобы перевернуться. Вы можете катиться в любом направлении. Это очень важно для уклонения от атак во время сражений с боссами!"
+				""
+				"Способность боевого переката по умолчанию имеет время восстановления 10 секунд."
+				""
+				"Время восстановления вашей способности боевого броска можно увидеть в главном интерфейсе."
+				""
+				"&c-> Лучший бой&r"
+				"Оружие Каждое оружие имеет свою собственную анимацию и время атаки, последовательные атаки будут выполнять комбо, и вы можете удерживать кнопку атаки, чтобы продолжать атаковать непрерывно."
+				""
+				"&c-> Капитальный ремонт щита&r"
+				"У щитов есть новая механика, такая как удар: атакуйте, блокируя, чтобы нанести удар щитом. Это оглушит цель на 1 секунду, если только это не босс."
+				""
+				"&c-> Расширение щита&r"
+				"Мод добавляет традиционные уровни щитам и вводит две новые механики: время восстановления без защиты и парирование!"
+			]
+			id: "640C3588E6BA8DF2"
+			rewards: [{
+				id: "71C3D2FFBD888B63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66A18BC1D70CC3C1"
+				title: "Да, я готов драться!"
+				type: "checkmark"
+			}]
+			title: "&6Новая боевая механика"
+			x: -22.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Вы можете требовать куски, чтобы защитить свою базу(ы)."
+				""
+				"Откройте карту мира с помощью&6\\\"M\\\"&rключ и щелкните значок карты в верхнем левом углу с надписью&bЗаявленные куски&r."
+				""
+				"Здесь вы можете свободно претендовать на доступные фрагменты, просто рисуя на карте мышью."
+				""
+				"Чтобы отменить использование фрагмента, вы делаете обратное: вместо этого просто рисуете, удерживая правую кнопку мыши."
+				""
+				"Для принудительной загрузки кусков удерживайте&a'левый сдвиг'&r"
+			]
+			icon: "twilightforest:ore_map"
+			id: "2E3B821A8A402B3E"
+			tasks: [{
+				id: "5A0FD6D40314D526"
+				title: "Нажмите, чтобы подтвердить"
+				type: "checkmark"
+			}]
+			title: "&6Мультиплеер:&rПретензия на чанк"
+			x: -34.9d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"С помощью счетов можно гораздо быстрее и эффективнее подсчитать расстояние между двумя блоками."
+				""
+				"Просто щелкнув правой кнопкой мыши по одному блоку, а затем наведя курсор на другой блок, вы получите расстояние между этими двумя."
+				""
+				"Этот инструмент имеет диапазон 48 блоков."
+			]
+			id: "714B3994BC2C04CB"
+			rewards: [{
+				id: "0A2EF6FF86549F7A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3AE7928601517133"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			title: "Счеты"
+			x: -12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				""
+				"{image:kubejs:textures/vent.png width:350 height:200 align:1}"
+				""
+				"&6Расплавленные источники&r— это мод, который добавляет возобновляемый источник руд."
+				""
+				"&nСохраните их на своей карте, они вам понадобятся позже, и их редко можно найти.&r "
+			]
+			id: "67145CE26EFAD16D"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "2705180D70FA1C18"
+				title: "&l&6Разблокировать главу: Возобновляемые руды"
+				type: "checkmark"
+			}]
+			title: "&6Обратите внимание на эту структуру!"
+			x: -16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"Во время своих приключений вы не только найдете множество артефактов и Кольца Вознесения, но и уникальные трофеи, из которых с очень низким шансом выпадет каждый встреченный вами моб."
+				""
+				"Если вам удастся собрать и собрать все предметы из каждой категории, вы будете вознаграждены&6секретный приз.&rБудьте внимательны и соберите их все, чтобы найти скрытые награды, ожидающие вас!"
+				""
+				"&c-> Артефакты&r"
+				"&6&lАртефакты&r&r— это мод, цель которого сделать исследование более полезным, добавляя различные мощные предметы, которые невозможно создать."
+				""
+				"Предметы, добавленные этим модом, можно найти в сундуках ванильных построек."
+				""
+				"У всех артефактов есть только несколько сундуков, в которых их можно найти, так что выходите и исследуйте!"
+				""
+				""
+				"&c-> Кольца Вознесения&r"
+				"&6Кольца Вознесения&r— это мод, который использует API Curios для добавления более 20 новых колец в ваш Minecraft. Каждое кольцо имеет свой особый эффект, который активируется при надевании кольца."
+				""
+				"Кольца из этого мода не имеют рецепта и их можно найти только в определенных местах."
+			]
+			id: "0D0118FCEFE0A8E2"
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "3F0F062B13DBD93A"
+				title: "&l&6Разблокировать главу: Коллекционирование"
+				type: "checkmark"
+			}]
+			title: "&2Для тех, кто хочет 100%"
+			x: -18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"Мел позволяет рисовать отметки для облегчения навигации в пещерах или сооружениях. Он доступен во всех цветах."
+				""
+				"Вы также можете нарисовать пару разных символов, используя&6Щелкните правой кнопкой мыши во время подкрадывания&rчтобы открыть меню, в котором вы можете выбрать нужный символ для рисования. Некоторые символы можно разблокировать, выполнив достижения."
+				""
+				"Метки можно сделать светящимися, нанеся на них светящуюся пыль или мешочек со светящимися чернилами."
+				""
+				"&eМеловая коробка&rэто удобный способ хранить и использовать мелки."
+				"- Его можно открыть, используя его, не глядя на какой-либо блок или не щелкая правой кнопкой мыши в графическом интерфейсе."
+				"- Отметка будет нарисована крайним левым мелом, чтобы незаметно прокрасться."
+				"- Вы можете нарисовать светящуюся метку с помощью Chalk Box, добавив светящиеся предметы в пространственный слот."
+			]
+			id: "419327E6573538F7"
+			rewards: [{
+				count: 2
+				id: "2A7D00993B48E84D"
+				item: {
+					Count: 1
+					id: "chalk:yellow_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6FF668A7502BD876"
+					item: {
+						Count: 1
+						id: "chalk:chalk_box"
+						tag: {
+							Items: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "367973CDFE4547F1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chalks"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Мел"
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"Ваши отзывы и помощь неоценимы для улучшения этого модпака."
+				""
+				"Если у вас есть предложения, отчеты об ошибках или вы хотите внести свой вклад, свяжитесь с нами в Discord."
+				""
+				"Ваша поддержка поможет нам сделать этот модпак лучше для всех!"
+				""
+				"https://discord.gg/pkEvhgByPw"
+			]
+			icon: "createdeco:decal_warning"
+			id: "5525E70F7FBDBD92"
+			rewards: [{
+				id: "7F4AC2523DDD270D"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBC9A977ED7A39C"
+				title: "Конечно, я могу помочь!"
+				type: "checkmark"
+			}]
+			title: "&6Ваш отзыв помогает :)"
+			x: -32.9d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"&6Комфорт&r— это мод, добавляющий в Minecraft спальные мешки и гамаки. Эти предметы можно использовать так же, как кровати, за исключением того, что они не устанавливают точку появления игрока при использовании, безопасно сохраняя точку появления игрока на его домашней базе."
+				""
+				"&2Гамаки&rподобны перевернутой кровати, превращающей день в ночь."
+			]
+			id: "6BF73E8BF5844527"
+			rewards: [{
+				id: "35AE171E2836FC71"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "29D80872F625649F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				type: "item"
+			}]
+			title: "Сделать спальный мешок"
+			x: -21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&6Фолиант&rрешает единственную проблему: управление всеми вашими путеводителями."
+				""
+				"Том позволяет объединять множество книг в один предмет и извлекать их при необходимости."
+				""
+				""
+				"&nЩелкните правой кнопкой мыши&rудерживая Томе, чтобы открыть экран выбора книги"
+				""
+				"&nShift + щелчок правой кнопкой мыши&rудерживая Tome, чтобы преобразовать в книгу блока, на который вы смотрите."
+				""
+				"&nЩелкните левой кнопкой мыши&rв эфире, чтобы вернуть книгу обратно в фолиант"
+				""
+				"&nШифт + Q&rудерживая конвертированный том, чтобы вытащить из него книгу"
+			]
+			id: "715415DD1D493D8E"
+			rewards: [{
+				id: "76ACB3A825340239"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CD4529B4670AF0A"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"В этом модпаке вы сможете&aзарабатывать валюту&rвыполняя определенные квесты, побеждая боссов и участвуя в испытаниях Черного рынка."
+				""
+				"&5Понимание валюты в игре:&r"
+				""
+				"• &6Шпора:&rСамая простая монета, похожая на цент."
+				"• &6Винтик:&rМонета более высокой стоимости, похожая на доллары. Один винтик стоит 64 шпоры."
+				""
+				"Разные монеты стоят разное количество шпор и шестеренок. Вы можете увидеть точную стоимость, наведя курсор на каждую монету в вашем инвентаре."
+			]
+			icon: "numismatics:cog"
+			id: "567ED608748850A8"
+			rewards: [{
+				count: 10
+				id: "2892B66CBC8A26C7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65A099F8209103AE"
+				title: "Нажмите, чтобы подтвердить"
+				type: "checkmark"
+			}]
+			title: "&6Освоение валюты"
+			x: -32.9d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0D05759E84652BAA"]
+			description: ["Destroy blocks (excluding tile entities) on the side facing you. The maximum number of blocks destroyed depends on the wand tier. Restrictions work just like with the Construction core. Destroyed blocks disappear into the void, but you can use the undo feature if you've made a mistake."]
+			id: "234E978A14BA9630"
+			rewards: [{
+				count: 100
+				id: "61F85BD409F02AEA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C649008D8F2D571"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0D05759E84652BAA"]
+			description: ["Place a block on the opposite side of the block (or row of blocks) you are facing. The maximum distance depends on the wand tier. Right-click empty space to place a block in midair, similar to angel blocks (hence the name). To do this, you'll need to have the block you want to place in your offhand. You can't place a block in midair if you've fallen more than 10 blocks deep."]
+			id: "5B402687731540B8"
+			rewards: [{
+				count: 100
+				id: "0BF101044E02CCE4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000B9092087FFFF"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Using your brush, you can brush away the dirt to find the fossils hidden underneath. "]
+			id: "2A6FF2B5860DA901"
+			rewards: [{
+				count: 2
+				id: "539773C01850F296"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1744774CD4C3B85D"
+				item: "betterarcheology:fossiliferous_dirt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Using your brush, you can brush away the loose sand to find the fossils hidden underneath. "]
+			id: "28774B25CD320D9A"
+			rewards: [{
+				count: 2
+				id: "33DE88AABDF846E0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "35496C9EA7213E5A"
+				item: "betterarcheology:suspicious_red_sand"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1FF26858DB8E88F8"]
+			description: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+			id: "3D93780758BA7194"
+			rewards: [{
+				id: "5C068927E5D6A95C"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			subtitle: "Найдите осколок артефакта."
+			tasks: [{
+				advancement: "betterarcheology:artifact_shards"
+				criterion: ""
+				id: "363673AB8FDB53A7"
+				type: "advancement"
+			}]
+			title: "&8Разбитый&rЗнание"
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: ["Craft an Unidentified Artifact from Shards. Now the identifying begins!"]
+			id: "3570097E250F33B0"
+			rewards: [{
+				count: 2
+				id: "0A387743D6AD3654"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "betterarcheology:unidentified_artifact"
+				criterion: ""
+				id: "63314573E77F41FE"
+				type: "advancement"
+			}]
+			title: "Все собирается вместе"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: ["Obtain loot by breaking a vase."]
+			id: "1FF26858DB8E88F8"
+			rewards: [{
+				id: "2BBC5A13DD6DD333"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Кто разбил мою вазу?"
+			tasks: [{
+				advancement: "betterarcheology:loot_vase_broken"
+				criterion: ""
+				id: "0C2CD08A3CAF07C5"
+				type: "advancement"
+			}]
+			title: "сокрушительный"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"В пчелиных гнездах живут дикие пчелы! Их нельзя перемещать, но они производят&cСоты&r, который можно использовать для создания&eУлей.&r"
+				""
+				"Чтобы безопасно срезать полный улей или гнездо, зажгите внизу костер. В противном случае пчелы разозлятся."
+				""
+				"Ковер можно положить поверх костра, чтобы предотвратить ущерб от пожара."
+			]
+			id: "1B78054E61C50110"
+			rewards: [
+				{
+					count: 3
+					id: "2FC00B278A03AEEF"
+					item: "minecraft:moss_carpet"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12EA56E85E32FFB9"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "64C20035917B78DF"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A862F494285F4E0"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Найдите пчелиное гнездо"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:bee_nest"
+				id: "5DAB369E1B4C4E83"
+				observe_type: 0
+				timer: 0L
+				title: "Найдите пчелиное гнездо"
+				to_observe: "minecraft:bee_nest"
+				type: "observation"
+			}]
+			title: "Пчелиные гнезда"
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"&bДревние города&rполны враждебных существ, чувствительных к вибрации, и редкой добычи."
+				""
+				"&9Датчики скалька&rобнаруживать вибрации, в том числе при ходьбе и взаимодействии с блоками и предметами."
+				""
+				"Они вызывают&3Скулк-крикуны&r, которые порождают&2Стражи.&r"
+				""
+				"&2Стражи&r— большие, почти неубиваемые монстры, которые могут ослеплять игроков и наносить большой урон."
+				""
+				"Однако их видение основано на вибрациях –&bСнежки&rи другие предметы можно использовать, чтобы отвлечь их."
+			]
+			id: "33D47E0078148427"
+			rewards: [{
+				count: 64
+				id: "03FA42DF39D621C4"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			subtitle: "Найдите древний город"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:reinforced_deepslate"
+				id: "10EBD8BB15C49D0D"
+				structure: "minecraft:ancient_city"
+				title: "Найдите древний город"
+				type: "structure"
+			}]
+			title: "Забытые глубины"
+			x: -15.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&dАметист&rрастет в больших жеодах, выложенных под землей базальтом и кальцитом."
+				""
+				"Получить&5Аметистовые осколки&r, ищите блоки расцветающего аметиста, которые невозможно удалить."
+				""
+				"Вместо этого сосредоточьтесь на кластерах аметиста, которые растут на них. Только кластеры можно возобновлять, чтобы получить осколки аметиста."
+			]
+			id: "77CB99E12D41EFF3"
+			rewards: [{
+				id: "7CA27DA96BC38B17"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Найдите жеоду"
+			tasks: [{
+				id: "4300DC27A2F815BA"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Аметист"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: ["A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the needle to point towards it when in the same dimension."]
+			id: "114173896E5DF62C"
+			rewards: [{
+				id: "2BF51E7FD65FFB62"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			subtitle: "Найдите магнит"
+			tasks: [{
+				id: "6179986E2175103A"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"Знаете ли вы, что можете использовать&cПустота&rпутешествовать между двумя точками в&aВнешний мир&rна гораздо меньшем расстоянии?"
+				""
+				"Размещение двух порталов на расстоянии всего 10 блоков между ними в&cПустота&rдает вам расстояние в 80 блоков в&aВнешний мир&rмежду порталами."
+				""
+				"Это можно использовать для того, чтобы заставить поезда преодолевать огромные расстояния в&aВнешний мир&rпреодолев небольшое расстояние в&cПустота&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ad_astra:textures/gui/space_station_icon.png"
+				}
+			}
+			id: "7FF84508B3E0168F"
+			rewards: [{
+				id: "32470E18A82CE777"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "06EBC1F5F45B31C1"
+				type: "advancement"
+			}]
+			title: "Подпространственный пузырь"
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["114173896E5DF62C"]
+			description: [
+				"Созданный якорь возрождения не имеет (нулевого) заряда и его нельзя использовать, пока он не будет заряжен. Использование на нем блока светящегося камня (а не светящейся пыли) добавляет заряд. Якорь принимает до 4 зарядов, а уровень заряда указывается циферблатом на боковой стороне блока."
+				""
+				"Первый заряд заставляет якорь возрождения светиться с уровнем освещенности 3. Каждый светящийся камень после первого увеличивает уровень освещенности на 4, максимум до 15."
+				""
+				""
+				"{@pagebreak}"
+				"&6Настройка респауна&r"
+				""
+				"Чтобы установить место появления игрока в качестве якоря возрождения, он должен использовать его, как и в случае с кроватью. Якорь должен иметь хотя бы один заряд и находиться в Пустоте. Подтверждение появится, когда будет установлено место возрождения игрока. Другие игроки также могут установить свою точку возрождения на тот же якорь возрождения."
+				""
+				"Каждое возрождение расходует один заряд, даже если его использует другой игрок."
+				""
+				"Использование заряженного якоря имеет приоритет над любым другим местом появления игрока, например, с кроватью. Якорь возрождения не служит резервной точкой появления отсутствующего или заблокированного слоя."
+				""
+				""
+				"{@pagebreak}"
+				"&6Возрождается после смерти игрока&r"
+				""
+				"После смерти игрок возрождается рядом с якорем и теряет один заряд."
+				""
+				"Если якорь возрождения игрока уничтожен, если его заряды исчерпаны или если область вокруг него стала непригодной для возрождения, появляется сообщение: «У вас нет домашней кровати или заряженного якоря возрождения, или он был заблокирован», и игрок возрождается в точке мирового возрождения. Возвращение через конечный портал не засчитывается как возрождение в соответствии с обвинениями."
+				""
+				""
+				"{@pagebreak}"
+				"&6Взрывающийся&r"
+				""
+				"Если игрок пытается установить свое возрождение на заряженном якоре возрождения в Верхнем мире, Крае или пользовательских измерениях, в которых они отключены, блок взрывается (и уничтожается), аналогично тому, как когда кровать используется в Пустоте или Крае. Взрыв имеет мощность 5 и поджигает окружающие блоки."
+				""
+				""
+				"{@pagebreak}"
+				"&6Редстоун компонент&r"
+				""
+				"При зарядке компаратор из красного камня подает сигнал в зависимости от количества зарядов: 3 на один заряд, 7 на два заряда, 11 на три заряда, 15 на четыре заряда. Пустой якорь дает сигнал 0."
+				""
+				"Якорь возрождения также можно зарядить с помощью дозатора."
+				""
+				"Якорь возрождения не может быть сдвинут поршнем."
+				""
+				""
+				"{@pagebreak}"
+				"&6Мобы&r"
+				""
+				"Хоглины убегают от якорей возрождения."
+				""
+				"&6Блоки заметок&r"
+				""
+				"Якоря возрождения можно разместить под блоками нот, чтобы воспроизвести звук «большого барабана»."
+			]
+			id: "1FBE9C78798263F3"
+			rewards: [{
+				id: "082BDDF42689CB40"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Зарядите якорь возрождения до максимума"
+			tasks: [{
+				id: "24BD1A343E915535"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Не совсем «девять» жизней"
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["4E256AAA75ECF41E"]
+			id: "6EA946616415042F"
+			rewards: [{
+				count: 10
+				id: "23C9930EB8B231C6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Вы можете перенаправить луч маяка с помощью кластеров корунда. Убедитесь, что последняя часть перенаправляет луч в небо, иначе это не сработает."
+			tasks: [{
+				id: "76D3FB5ACCBAC28F"
+				item: "quark:red_corundum_cluster"
+				type: "item"
+			}]
+			title: "Перенаправление"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"После глухоты&0Увядать&rиспользовать свой&eЗвезда Пустоты&r, построить&cмаяк&rи поместите его."
+				""
+				"Нажмите здесь, чтобы получить информацию о боссе-иссушителе."
+				""
+				"{ \\\\\\\"text\\\\\\\": \\\\\\\"☞ Нажмите здесь, чтобы получить информацию о боссе-иссушителе.\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"1D335FA02D1F86DD\\\\\\\" } }"
+				""
+				""
+				"CP — означает «Текущий платеж»."
+				""
+				"Т.П. означает «Третичная сила»."
+				""
+				"Платежные элементы, используемые для активации маяка, также помогают увеличить его дальность действия.&3Медь – самая слабая&r, и&6незерит самый сильный&r. Они вносят вклад в дальность действия маяка по умолчанию."
+				""
+				""
+				"{image:kubejs:textures/pay-items-range1.png width:220 height:124 align:1}"
+			]
+			id: "4E256AAA75ECF41E"
+			rewards: [{
+				count: 10
+				id: "4D045AD5FB8F5ECD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "3B9FA9DF75499BC5"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"Преобразите свой мир Minecraft с помощью элегантного и стильного декора. От современной мебели до классических предметов — добавьте изысканности своим постройкам."
+				""
+				"Украшайте стильно и сделайте свои творения Minecraft по-настоящему выдающимися."
+			]
+			id: "5BAE6CD47D4ABF2D"
+			optional: true
+			rewards: [{
+				count: 20
+				id: "5A2F84E8CB0D474D"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			subtitle: "Создавай со стилем"
+			tasks: [{
+				id: "1ECFA87D412A2FBB"
+				title: "Я хочу узнать больше о вариантах строительства."
+				type: "checkmark"
+			}]
+			title: "Варианты отделки и строительства."
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"&6Сколы&rпредлагает огромную коллекцию резных блоков Vanilla, будь то декоративное стекло, стеганая шерсть для красивого дизайна ковров или даже зловещий точеный позолоченный черный камень.&6Сколы&rтебя прикрыло."
+				""
+				"Для начала постройте одну из доступных станций резьбы, которая работает аналогично ванильному камнерезу."
+				""
+				"Поместите в него соответствующий блок и выберите другой выход, соответствующий потребностям вашего здания."
+			]
+			id: "1CA36734A9127D0C"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "472D0F49F2E5F2DE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Другой способ внести разнообразие в игру"
+			tasks: [{
+				id: "6F633B57EC73E2E7"
+				title: "Сколотые верстаки"
+				type: "checkmark"
+			}]
+			title: "Сколы"
+			x: 10.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "3C49C49214135DF2"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "27DBC4554F993C00"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Стол алхимиков."
+			tasks: [{
+				id: "2F668FDBD21E3121"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "3740167E8E0BB8C7"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "20BEBC1C1E24508B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Стол каменщика"
+			tasks: [{
+				id: "67978F1AA703074F"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "7D44C4326BFFE20B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "431F2FD3C3188860"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Стол для светлых работников"
+			tasks: [{
+				id: "24FDD52AE839616E"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "50E5698F4E778BE4"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "34312D3D1BFA7B8B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Рабочий стол на природе"
+			tasks: [{
+				id: "083D68DBD23C007A"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "2F532BBDD35CEC3B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "674EE41409557FC6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Стол для обработки шерсти"
+			tasks: [{
+				id: "1ED7B44020D3C81D"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "07D54D510008D1C0"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1B40BD609BCB1D25"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Стол стекольщика"
+			tasks: [{
+				id: "5DD85C5A77B2BE4F"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1CA36734A9127D0C"]
+			id: "365ED1EB369126E0"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "4877048899627A1C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Стол для столяров"
+			tasks: [{
+				id: "36B6655CC961CFFA"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Испытайте&6Восстановленная мебель MrCrayfish's&rМод и&aснабжать&rсвой дом сотнями новых и оригинальных декоративных и функциональных блоков."
+				""
+				"Окунитесь в новую игровую механику с собственной системой электроснабжения для электроприборов и электроники, включая генераторы, выключатели света, освещение и многое другое!"
+				""
+				"Наслаждайтесь работающей системой доставки почты, которая позволяет отправлять и получать сообщения в свой почтовый ящик."
+				""
+				"Он также совместим с Farmer's Delight: кастрюлю и сковороду можно использовать на плите."
+				""
+				"&e@отремонтированный&r"
+			]
+			icon: "refurbished_furniture:pink_kitchen_sink"
+			id: "0CAD67E9B2DC3B59"
+			rewards: [{
+				id: "5695E0B24E93746C"
+				item: "refurbished_furniture:wrench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73C3D3A6CE522B19"
+				item: "refurbished_furniture:workbench"
+				type: "item"
+			}]
+			title: "&6Восстановленный ресторан MrCrayfish's"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: ["A selection of blocks for making small foot bridges and rail bridges."]
+			icon: "mcwbridges:oak_log_bridge_middle"
+			id: "28A783AC1938C7E7"
+			rewards: [{
+				id: "29DCC2BB22F77249"
+				item: "mcwbridges:pliers"
+				type: "item"
+			}]
+			subtitle: "Постройте мост и переберитесь через него."
+			tasks: [{
+				id: "4451ACF27A1CE6AA"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "mcwbridges"
+					}
+				}
+				title: "Мосты Ара"
+				type: "item"
+			}]
+			title: "Мосты"
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Этот мод добавляет много новых источников света. Все 8 типов, 2 типа огня, более 200 вариаций."
+				""
+				"Вы можете использовать палочку души, чтобы превратить обычный огонь в огонь души с помощью любой горящей жаровни из этого мода."
+			]
+			icon: "additional_lights:fire_pit_l_mossy_cobblestone"
+			id: "4DAA0A4DF5A7A575"
+			rewards: [{
+				id: "69826B07EDE1C0E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D81C1AF2999D792"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "additional_lights"
+					}
+				}
+				type: "item"
+			}]
+			title: "Дополнительные огни"
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Вы строите завод для своего шумного оборудования? Ваша электростанция подвергается воздействию бродячих диких животных и враждебных мобов? Хотели бы вы поставить цепной забор, чтобы не дать назойливым злоумышленникам помешать вам? Ну тогда..."
+				""
+				"&6'Промышленный декор&rтебя прикрыли. Этот мод предлагает широкий выбор декоративных блоков в индустриальной тематике, идеально подходящих для улучшения ваших построек."
+			]
+			icon: "dustrial_decor:sheet_metal_treading"
+			id: "6C045C3939683CF3"
+			rewards: [
+				{
+					id: "63720D95CF590D9F"
+					item: {
+						Count: 1
+						id: "dustrial_decor:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "79E7B010E4948141"
+					item: "dustrial_decor:cardboard"
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "66DA076A2FDE4CC3"
+					item: "dustrial_decor:sheet_metal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "41430E0F05A63650"
+					item: "dustrial_decor:cardboard"
+					type: "item"
+				}
+			]
+			title: "'Промышленный декор"
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"&dБронированные статуи&rраскрывает весь потенциал стоек для брони."
+				""
+				"Настраивайте все: разблокируйте руки, вращайте каждую часть тела, выбирайте встроенные позы и настраивайте различные параметры стиля."
+				""
+				"Он также включает в себя отличные инструменты для позиционирования подставки для доспехов, которые даже делают саму подставку невидимой для беспрепятственного отображения предметов."
+				""
+				"Чтобы настроить,&2сдвиг правой кнопкой мыши&rс пустой рукой и изучите широкий спектр вариантов."
+			]
+			icon: "minecraft:armor_stand"
+			id: "0475AEB443175059"
+			rewards: [{
+				id: "5C6F9FC875BF35D3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Косметическое чудо"
+			tasks: [{
+				id: "62B3EA9874AC3078"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			title: "Косметические статуи брони"
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: ["&6Straw&r is an item which is made by either cutting plants with a &6knife&r on a Cutting Board, or harvesting plants with a &6knife&r."]
+			id: "32E0EEC3834F9846"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "40ABEE66F5FEA7CF"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					id: "4F3C687538ADDBED"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D7D89789E3B2159"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "Приобретение новых материалов."
+			x: -11.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["327AE18669E4B9F0"]
+			description: [""]
+			id: "1045FB828F50B457"
+			optional: true
+			rewards: [{
+				id: "4648E0B8058E5B94"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			subtitle: "Что можно сделать с помощью этих инструментов?"
+			tasks: [
+				{
+					id: "3F1E515013E2F66F"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "78011274B9D7ABC3"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55FC7CED7B0B992A"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Давайте приступим к приготовлению"
+			x: -13.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["77CB99E12D41EFF3"]
+			description: ["A &6spyglass&r can be equipped in your Curios slot. The default key to access it is&2 \"C\".&r"]
+			id: "15B432E69AB118B5"
+			rewards: [{
+				id: "3EEB1885770AC283"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1261039E3BF59801"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Can be placed on top of sticks to create a flagpole. Right-click a flagpole to raise the flag, hold sneak to lower it."]
+			id: "5765323110DD632F"
+			rewards: [{
+				id: "7C8374711E5258BB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52D6F7A5432713D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "Флаги"
+			x: 24.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["An invisible item frame for showing your items!"]
+			id: "64E12747F656787A"
+			rewards: [{
+				id: "02F58C2FB8EF51C0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "141BBBA896063F4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:glass_item_frame"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Cranks are used to give the exact redstone signal you want"]
+			id: "77E5B65E24EA675F"
+			rewards: [{
+				id: "3D5AAE146EF75666"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "672BD1639FB8E04A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "Кранконатор"
+			x: 17.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Used to find slime chunks; the areas where slimes can spawn in"]
+			id: "73F6A4A4CC3AB4BF"
+			rewards: [{
+				id: "31B796CB633AC73C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46705CE12F1C1534"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:slime_in_a_bucket"
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Can only be activated by players."]
+			id: "284B2CFDEB526D1E"
+			rewards: [{
+				id: "52FB3E4A8228C3D4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57FA63FF482BB1DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:obsidian_pressure_plate"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Place an animal's food in it and it will automatically breed animals for you"]
+			id: "4C2C8C0BD19535EF"
+			rewards: [{
+				id: "0D3FF898A7BFC16E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03B958E2A868EDD4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Emits a redstone signal when looked at."]
+			id: "10A7EB03094F600D"
+			rewards: [{
+				id: "3CA86581E09FF41F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02C34921D8A0C220"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:ender_watcher"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Emits light based on its redstone signal."]
+			id: "7E7F70D285CCACB6"
+			rewards: [{
+				id: "54E39FC332A4448F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44B4F75ACCFAB1EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["The Wrench is used to rotate blocks already placed in the world."]
+			id: "40B15BEB0A7D4755"
+			rewards: [{
+				id: "4094DED0A7D25213"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A2A2EB9CC44079"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
+			id: "27E86BC510D04D45"
+			rewards: [{
+				id: "629CC1527C066D93"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60406362BFD153F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Captures small mobs like chickens"]
+			id: "4A4514326874FFB4"
+			rewards: [{
+				id: "1E25145D1A512CF8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "381335BCCDCA8258"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["You can set it to speak a message or show it in chat."]
+			id: "14CC69CF9016CD4F"
+			rewards: [{
+				id: "1CEAED4C506E7CFF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CF0997FCEABD745"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Rotates blocks and mobs standing on it"]
+			id: "474856183F5F8BE8"
+			rewards: [{
+				id: "193F6DCD4263D471"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DE813AA926CABD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "Как ситуация изменилась..."
+			x: 21.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["used to unlock lock blocks. You can put it in any curios slot."]
+			id: "597BBC9933D7BC9E"
+			rewards: [{
+				id: "2F6962AE209D8BD4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09413737B1B5E790"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["These doors can be opened with hand but NOT redstone signals."]
+			id: "1912B53794E7EB02"
+			rewards: [{
+				id: "4F2ACB496918B643"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2910843651741D19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "1D68BE1B7C6875AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["597BBC9933D7BC9E"]
+			description: ["These strong doors can be locked with a key and can be opened with your hand."]
+			id: "6AF206A5A98471F4"
+			rewards: [{
+				id: "7F5906AB6822B6C5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5758486AAEF4DF68"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "0027CDFB1C59ED1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["597BBC9933D7BC9E"]
+			description: ["Emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
+			id: "5D3B237C312006E2"
+			rewards: [{
+				id: "742C5A04E62F7C18"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10CF2D062FCCE0F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: [
+				"Небольшой шалкеровый ящик для ранней игры, вмещающий только 5 предметов."
+				""
+				"Носите слишком много в своем инвентаре, и вы получите&4замедлился.&r"
+			]
+			id: "645D4EA80D808371"
+			rewards: [{
+				id: "07CF4F6125850CBE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B92CED524964812"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["597BBC9933D7BC9E"]
+			description: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
+			id: "7C8FD4693FE20947"
+			rewards: [{
+				id: "1B3C4F9B882BC942"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48BCE0833C7C8C90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"Добро пожаловать на поиски более здоровой и полноценной жизни в Minecraft!&6Пряность жизни: издание «Морковь»&r"
+				""
+				"&bКнига о еде&rотслеживает количество уникальных продуктов, которые вы потребляете."
+				""
+				"По мере того, как вы достигаете определенных этапов потребления различных продуктов, вы навсегда получаете дополнительные сердца, вплоть до&c5 дополнительных сердечек.&r "
+				""
+				"Это побуждает вас исследовать и создавать широкий спектр экзотических блюд, делая ваши кулинарные приключения увлекательными и полезными."
+			]
+			id: "6613D41573B7F0B9"
+			rewards: [{
+				count: 5
+				id: "23E65EA8228BF22C"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B5D861C94C5BE56"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			title: "Пряность жизни: издание «Морковь»"
+			x: -13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: [
+				"В мешочках для семян можно хранить большое количество семян или культур одного вида, что упрощает их размещение."
+				""
+				"Перетащите семена в свой инвентарь и щелкните правой кнопкой мыши в мешочке с семенами."
+				""
+				"Щелкните правой кнопкой мыши блок с мешочком, чтобы поместить семя, или щелкните правой кнопкой мыши, удерживая клавишу Shift, чтобы посадить квадрат 3х3."
+			]
+			id: "77346AF832BB0811"
+			rewards: [{
+				id: "501BD1C129DB39A9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "341A64A2CF6CDD83"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			title: "Действительно захудалое место"
+			x: 21.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Tree Fertilizer can grow Saplings instantly regardless of their spacing conditions. "]
+			id: "44CFD2F48C7AA908"
+			rewards: [{
+				id: "4134047A35A11311"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F6D32C48F04968D"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			title: "Спасение деревьев"
+			x: 23.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["23A4406529BEF918"]
+			description: ["&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"]
+			id: "51E19ACD3F0994BE"
+			rewards: [{
+				count: 5
+				id: "077F2720892CF9E1"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4C731200FFD5E3F8"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["32E0EEC3834F9846"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eОрганический компост&rможно поместить на солнечный свет, чтобы разложить его на&3Богатая почва&r. "
+				""
+				"Наличие поблизости воды или разлагающих агентов, таких как грибы, может ускорить процесс разложения."
+			]
+			id: "23A4406529BEF918"
+			rewards: [{
+				count: 5
+				id: "30619AD6DE912BCD"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CA5202F0A0C4D8A"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"&eРучная работа&rМод добавляет детализированную мебель и декор в ваш мир Minecraft."
+				""
+				"Создавайте и размещайте стильные стулья, столы, места для хранения вещей и многое другое."
+				""
+				"Персонализируйте свои постройки с помощью различных предметов, чтобы создавать уютные гостиные, элегантные обеденные зоны и уникальные пространства."
+			]
+			id: "3E5AC888381F061B"
+			rewards: [{
+				id: "7AD01FD10DC4B649"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2FB87E98ED4647AA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "itemfilters:mod"
+							tag: {
+								value: "handcrafted"
+							}
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Мод ручной работы"
+			x: 11.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["70068CFDA790A856"]
+			description: [
+				"&eКолокол Тайн&rпозволяет узнать, есть ли в комнате сундук или бочка. Таким образом, вы можете быть уверены, что полностью зачистили подземелье."
+				""
+				"{ \\\\\\\"text\\\\\\\": \\\\\\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"437795B131AF223B\\\\\\\" } }"
+			]
+			id: "65704FFF9C380E29"
+			rewards: [{
+				id: "157D4506D95666D3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3024956BE85095F0"
+				item: "dimdungeons:item_secret_bell"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"Если вы хотите выжить, вам нужно защитить себя набором&7железная броня&r."
+				""
+				"Существует множество различных наборов, из которых вы можете выбирать из различных модов.&cЭпический самурай&rпредлагает действительно классную броню. Попробуйте проверить это!"
+			]
+			id: "3D1AC201E82A3A87"
+			rewards: [
+				{
+					count: 3
+					id: "55CF1DF84CE5F91F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "67736F8662139C7A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2351EC302CBFBB56"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2435372B522CF46F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "154A0ECC4AFFF14E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3886554BDF8FDD41"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69387BD95CD55286"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Железный Костюм"
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			id: "535A8A11EFC7DB00"
+			rewards: [{
+				count: 5
+				id: "41E31550C1E0364D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Думаю, что-то полезное?"
+			tasks: [{
+				id: "280744313571F573"
+				type: "checkmark"
+			}]
+			title: "Другие вещи"
+			x: 14.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: ["Notice boards are a block which can be used to display the contents of books (with a space limit). Right-click the block to open the GUI and place a book and quill containing text into the slot."]
+			id: "374C6E5D8EE3E51B"
+			rewards: [{
+				id: "269458D370C274E4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "523878E78A56FFD3"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["535A8A11EFC7DB00"]
+			description: [
+				"Можно написать, чтобы создать интересный черно-белый узор."
+				""
+				"Также можно редактировать напрямую без графического интерфейса, удерживая элемент красителя."
+				""
+				"Можно очистить влажной губкой или мылом."
+				""
+				"Можно натирать воском, чтобы предотвратить взаимодействие"
+				""
+				"Можно принимать светящиеся чернила"
+			]
+			id: "07AC6598017865A8"
+			rewards: [{
+				id: "6817C5A56A1901AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0385C0D06F7DE9BA"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [""]
+			id: "33641B098AD37A6D"
+			rewards: [{
+				count: 10
+				id: "40F07D2FD86F5359"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Создавайте предметы с помощью автоматизации."
+			tasks: [{
+				id: "0E2182751975D45F"
+				item: "quark:crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			description: [
+				"Улучшите свой опыт Minecraft с&cИммерсивные Картины&r. "
+				""
+				"Этот мод предлагает огромное количество высококачественных картин, стилизованных под Minecraft."
+				""
+				"Попрощайтесь с ограниченными и пикселизированными ванильными картинами. С помощью этого мода вы сможете создавать свои собственные картины, используя URL-адрес или скриншот, легко добавляя их в свою игру."
+			]
+			id: "7D68F339A30C3A78"
+			rewards: [{
+				id: "5600E50C67FE59F0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "21FF9C0C9DAFE3A0"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"&cБлоки в рамке&rДобавляет универсальные блоки различной формы, которые могут имитировать практически любой другой блок в игре."
+				""
+				"Настройте эти блоки, щелкнув правой кнопкой мыши по сплошным блокам или светящейся пыли для освещения."
+				""
+				"Используйте&6Рамочный молоток&rдля удаления камуфляжа или переключения смещения текстуры по углам призмы."
+				""
+				"Вращайте блоки с помощью&6Ключ в рамке&rили циклически переключаться между состояниями с помощью&eОтвертка в рамке&r. Копируйте блоки с помощью&3План в рамке&r."
+			]
+			id: "68D7F888BF6332F3"
+			rewards: [{
+				id: "59D451F7754DD0B4"
+				item: "framedblocks:framed_wrench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9F375956085552"
+				item: "framedblocks:framed_cube"
+				type: "item"
+			}]
+			title: "Рамочные блоки"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: [
+				"Новая деревенская цивилизация была обнаружена в&6Болота&r. Мы дали им имена&aРиббиты&rпоскольку жители этой новой деревни — лягушки."
+				""
+				"Чтобы выяснить их происхождение, необходимы дальнейшие исследования, но некоторые исследователи полагают, что ведьма могла по ошибке уронить немного слизи в воду, превратив лягушек в&aРиббиты&r. "
+				""
+				"&aРиббиты&rимеют удовольствие от музыки, их можно найти играющими на различных инструментах самостоятельно или в группах, например, в группе Frog, что заставляет меня задуматься, играют ли они в хоре Frog? По крайней мере, луна не падает уже 3 дня, ха-ха."
+				""
+				"Исследователи обнаружили, что если вы играете в маракасы,&aРиббиты&rприсоединятся к вам и поиграют на своих инструментах."
+				""
+				"{@pagebreak}"
+				"&eВакансии:&rУдивительно&aРиббиты&rесть развитые рабочие места. Вот некоторые из них:"
+				""
+				"&b-> Ведьмы:&rИногда они могут давать вам случайные эффекты зелий."
+				""
+				"&b->Фишер:&rИх можно найти на рыбалке возле озерных болот, с ними можно торговать и, как ни странно, они раздают&cкрасочный корунд&r. Как они это получают? Исследователи все еще изучают этот вопрос."
+				""
+				"&b-> Фермеры:&rОни ускоряют рост урожая. У них есть формула: вода, которую они наливают, похожа на костную муку! Очаровательный!"
+				""
+				"&b->Торговцы:&rОни торговцы, вы можете заметить их по рюкзаку, и они торгуют с вами. Удивительно, но они&cторговать корундом различных цветов&rи&dМаракас&r. Мы не знаем, откуда они берут корунд, но цвета корунда, которые они имеют для торговли, меняются от Торговца к Торговцу.&l&o&nЭто хорошо, поскольку вы знаете, что позже вам понадобятся корунды всех цветов!"
+			]
+			id: "1278600075A14600"
+			rewards: [{
+				id: "7FA853760C14AB69"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ribbits:swamp_daisy"
+				id: "3F7B2CF420C184B0"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			title: "&2Найдите деревню Риббита"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0C49795E134A27E0"]
+			description: ["&6🔓 Unlocks Sophisticated Storage chapter&r"]
+			id: "261651FB7B600587"
+			rewards: [{
+				count: 4
+				id: "64DBDCF395159258"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Создать сундук"
+			tasks: [{
+				id: "0A4067255335AACF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				type: "item"
+			}]
+			title: "Создать сундук"
+			x: -26.250000000000004d
+			y: 18.0d
+		}
+		{
+			dependencies: ["478DE12D3EF8C22A"]
+			description: ["When placed, the &9Dread Lamp&r prevents all passive mobs from naturally spawning in a &d96 block radius&r."]
+			id: "256C0855A1AD720B"
+			rewards: [{
+				count: 5
+				id: "1B0A6375471607B5"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A80939497557BD4"
+				item: "torchmaster:dreadlamp"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0CAD67E9B2DC3B59"]
+			description: [
+				"&cЭлектрическая система в этом моде предназначена исключительно для собственных компонентов и не может использоваться с другими модами.&r"
+				""
+				"Для начала вам понадобится&aгенератор&r. Проще говоря&aтопливо&rв нем, и он начнет генерировать&cвласть&r."
+				""
+				"Некоторые машины требуют&cвласть&rдля работы, поэтому вам нужно использовать&3гаечный ключ&rдля подключения линии от генератора к машине, которую вы хотите запитать."
+				""
+				"Имейте в виду, что это работает как схемы."
+				""
+				"Например, вы можете создать строку типа: Генератор > Световой выключатель > подключиться к другим компонентам."
+				""
+				"Так что включите свой&6верстак&rи начните создавать удивительную мебель, которая украсит ваш дом!"
+			]
+			id: "0ADF7E30D7F5B61E"
+			rewards: [{
+				id: "62B451B57B6D95A2"
+				item: "refurbished_furniture:oak_mail_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AC6A6DB3DEB7E3D"
+				item: "refurbished_furniture:light_electricity_generator"
+				type: "item"
+			}]
+			title: "ВКЛЮЧАЙТЕ МОЩНОСТЬ!!!"
+			x: 10.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["1278600075A14600"]
+			description: [
+				"&cC&6o&er&au&bn&9d&du&5m&rбудет использоваться позже! Вы можете найти его под землей или обменять у некоторых&aРиббиты&r!"
+				""
+				"Вам не нужно будет использовать его до тех пор, пока&bГлава IX&rхотя. Итак, у вас есть немного времени"
+			]
+			id: "1F2F6591E18F3023"
+			rewards: [{
+				count: 3
+				id: "2E76D28D719A5D37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Это понадобится вам позже"
+			tasks: [
+				{
+					id: "6B3DEB7111D8477D"
+					item: "quark:black_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "59B9E0934A77BC4A"
+					item: "quark:white_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "2F269F6BFCB8A5AE"
+					item: "quark:red_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "3BAB9AEFE32E0D31"
+					item: "quark:orange_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "395214F830AA463D"
+					item: "quark:yellow_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "1A7B2AE9A8C1321E"
+					item: "quark:green_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "673BA2E314D6ACE1"
+					item: "quark:blue_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "6DCB938D1936667A"
+					item: "quark:indigo_corundum_cluster"
+					type: "item"
+				}
+				{
+					id: "4F3BE76D14308060"
+					item: "quark:violet_corundum_cluster"
+					type: "item"
+				}
+			]
+			title: "&8Весь&r&l&o&n&cR&6a&ei&an&bb&9o&dw"
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: ["\"Stock up on &8andesite&r cuz you need it for &8andesite alloy&r!\""]
+			icon: "minecraft:lantern"
+			id: "7D6CA452A433EBD7"
+			tasks: [{
+				id: "110A241E6410CDC0"
+				type: "checkmark"
+			}]
+			title: "От&eНеприметная_лампа"
+			x: -32.9d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5525E70F7FBDBD92"]
+			description: [
+				"Следующие квесты от выдающихся людей в&9Раздор&r!"
+				""
+				"Они полностью&bнеобязательный&r, но может помочь позже!"
+				""
+				"Я спросил каждого человека: \"&o&aЧто бы вы хотели знать с самого начала вашего первого прохождения?&r\\\""
+				"Следующие квесты были их ответами."
+				""
+				""
+				"&eПочетные упоминания:&r"
+				""
+				"-> Реактивный ранец + грейферный венчик довольно интересен в использовании&d&o- Л Б&r&r"
+				""
+				"-> Крылья ангела с реактивным ранцем козлиные."
+				"Кроме того, магия Земли Айронса довольно сильна.&d&o- от АксоФит&r"
+				""
+				"-> Гораздо проще начать автоматизацию, взяв латунные воронки из наград за квест «Латунный уровень» в главе 2. Они позволяют перевозить стопки или различное количество предметов, а не только один предмет на ремнях.&d&o- от Broken_Statstick&r"
+			]
+			id: "4F9B4B7F2D747375"
+			tasks: [{
+				id: "554F2A68817444F8"
+				title: "README.md"
+				type: "checkmark"
+			}]
+			x: -32.9d
+			y: 14.4d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"\\\"Наверное, тот факт, что&5Арс Нуво&rбыл довольно подавлен, лол."
+				""
+				"&5Арс Нуво&rчрезвычайно полезен практически на каждом этапе работы с модпаком, включая раннюю игру, поскольку дает вам хороший источник&aполет&rв начале и даже сочетание&cКомплект брони I уровня&rи&cкнига&rделает вас хорошо экипированным на ранних этапах игры."
+				""
+				"Не только это, но вы также получаете доступ к&6Ритуалы&rкоторые полезны сами по себе (&6Ритуал&rиз&bПолет&rдает тебе&aтворческий полет&rв заданном радиусе) и&8варп-порталы&r, которые, честно говоря, служат лишь альтернативными ориентирами, но гораздо дешевле и доступнее»."
+			]
+			icon: "alexsmobs:farseer_arm"
+			id: "12B9DBB08E1A760D"
+			tasks: [{
+				id: "3959EA9AF3798912"
+				title: "От CraftxTD"
+				type: "checkmark"
+			}]
+			title: "От&eКрафтхТД"
+			x: -33.9d
+			y: 13.3d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"\\\"&5Арс Нуво&6полет&rбыло просто ПОТРЯСАЮЩЕ, благодаря этому строить было проще простого (привет&1@Демодрако&r). А также тот факт, что вы можете сделать&aзаклинания&rэто могло бы добыть&b6x6&rили&bеще большие площади&rизменил правила игры."
+				""
+				"Что касается предмета, я бы сказал, что это&bЗдание&aГаджет&rЯ использовал его много раз и мне нравится думать о себе как о маленьком удобном приятеле по строительству :)»"
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "44B6029E40E5AFE4"
+			tasks: [{
+				id: "5FC14712A8CB8147"
+				title: "Из РеалДапи"
+				type: "checkmark"
+			}]
+			title: "От&eРеалДапи"
+			x: -34.2d
+			y: 14.3d
+		}
+		{
+			dependencies: ["0ADF7E30D7F5B61E"]
+			description: ["You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"]
+			id: "31DB2CD7ECC30BF9"
+			tasks: [{
+				id: "1EF67D0C964E0ABF"
+				item: "cfm_circuit_breaker:circuit_breaker"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.4d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: [
+				"-> Создание&dЯгодная ферма&rс&bТабличка полета&rдля раннего творческого полета вокруг вашей базы."
+				""
+				"-> &aАрс Порталы&rможет использоваться как альтернатива поездам для перевозки предметов."
+				""
+				"-> Вы можете использовать&cСложная система хранения данных для создания подсетей&rдля вашей базы, что избавит вас от множества проблем при создании элементов TSS для вашей сети."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:warp_scroll"
+				tag: { }
+			}
+			id: "600B5CE699E3DE1D"
+			tasks: [{
+				id: "2B2C58EC9086DE24"
+				type: "checkmark"
+			}]
+			title: "От&eНича"
+			x: -31.8d
+			y: 13.2d
+		}
+		{
+			dependencies: ["4F9B4B7F2D747375"]
+			description: ["You can easily find &cMimics&r and farm &eArtifacts&r by keeping the &aSpectral Eye Amulet&r in your inventory (you don't even need to equip it) and going underground. They appear with a blue outline."]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "0A95DD8CC46A30B5"
+			tasks: [{
+				id: "1B9E935A0CC30B89"
+				type: "checkmark"
+			}]
+			title: "От&eвыход"
+			x: -31.4d
+			y: 14.1d
+		}
+	]
+	title: "&6&nНачиная!"
+}

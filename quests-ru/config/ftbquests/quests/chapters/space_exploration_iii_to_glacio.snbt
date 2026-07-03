@@ -1,0 +1,393 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration_iii_to_glacio"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "ad_astra:glacio_globe"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "0D777D1DC30F6C2F"
+	images: [
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/glacio.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "ftblibrary:icons/heart"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 12.0d
+		}
+	]
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70E4055A00E54568"]
+			icon: "ad_astra:calorite_ingot"
+			id: "06ACC1F7C8FA8282"
+			rewards: [{
+				count: 4
+				id: "6A1A4D76D43F55F3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Калоритовая руда была удалена из мирового производства."
+			tasks: [{
+				id: "326F5D87A6C8114F"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60D4B65B545C9248"]
+			description: [
+				"&bРеактивный костюм&rпредставляет собой обновленную версию&cНезеритовый космический скафандр&r, предлагая большую защиту, дополнительное хранение кислорода и&eполет&r. Его изготовление дорогое, но оно обеспечивает высокую скорость полета, что делает путешествие легким."
+				""
+				"Имеет два режима полета: восходящий (&aКосмос&r) и усиленный (&aПробел + Влево&r). "
+				""
+				"Восхождение заставляет владельца лететь вверх, а усиление похоже на надкрылья, постоянно приводимые в движение фейерверками."
+				""
+				"&bРеактивный костюм&rпитается от энергии и должен быть заряжен, чтобы летать."
+			]
+			id: "15B89C8C50319904"
+			rewards: [{
+				count: 4
+				id: "1DD947C46073ECC5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06FC3BF5759286B2"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34E88135135FB6DB"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501239814C783E04"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0145B1CF544F81DF"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Создайте&4Реактивный костюм"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["15B89C8C50319904"]
+			id: "6E3A87DE859101FE"
+			rewards: [{
+				count: 4
+				id: "7E0EACD45BE0EF68"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "0F930E22FAE0EFC0"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Создайте&5Уровень 4&dРакета"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6E3A87DE859101FE"]
+			description: [
+				"Это самое большее, на что способны наши нынешние технологии.&bГласио&rЭто холодная планета, но на ней есть кислород, которым мы можем дышать!"
+				""
+				"Информация о Гласио:"
+				"Гравитация: 3,721 м/с."
+				"Кислород: Да"
+				"Температура: -20,0 °С"
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "6103E3BB9E716F56"
+			rewards: [{
+				count: 4
+				id: "5A4DE388818033BC"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				advancement: "ad_astra:interstellar"
+				criterion: ""
+				id: "40068C63D3C7311E"
+				type: "advancement"
+			}]
+			title: "к&bГласио"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6103E3BB9E716F56"]
+			description: [
+				"Вы выполнили все, что может предложить пакет, построили сумасшедшие фабрики с помощью Create и сделали невозможное возможным."
+				""
+				"Это был проект свободного времени, которому я посвятил много времени. Я знаю, что некоторые вещи могли бы быть лучше, но всему когда-нибудь приходит конец, это было для меня путешествием."
+				""
+				"&eПоздравляем и благодарим за игру в пакете&r &c❤.&rНадеюсь, вам понравилось приключение с Create."
+				""
+				"&7&o- Родриго Борба, с Азорских островов, Португалия.&r&r"
+			]
+			id: "28D0EEACC8402E6C"
+			rewards: [
+				{
+					id: "0C736B8FD3C2C168"
+					item: "kubejs:engineer_badge"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3D796706944FA60C"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "3FCD23A2F91BFA72"
+				title: "&aУвидимся в следующем приключении!"
+				type: "checkmark"
+			}]
+			title: "&l&4КОНЕЦ!!!!&r&r"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4CC4587F308B6B37"]
+			description: [
+				"На&6Венера&r, ты найдешь&9Молниеносные драконы&r. Чтобы прогрессировать, вам нужно убить&5дракон 4-5 уровня&r, что может быть только&nнайден в пещерах.&rЭти драконы бросят&9Яйцо Молниеносного Дракона.&r"
+				""
+				"&dЯйца молниеносного дракона&rнеобходимо поместить под дождь, чтобы начать процесс вылупления."
+				""
+				"Как только яйцо начнет двигаться, вылупление займет несколько минут."
+				""
+				"Дождь должен продолжаться до тех пор, пока из яйца не вылупится яйцо. Когда яйцо вылупится, в него ударит молния, и дракон сгорит. Лучше всего быть начеку и иметь под рукой воду."
+				""
+				"&eДетские драконы&rочень малы, не длиннее одного блока. Занимает&n25 дней для перехода дракона от одного этапа к другому.&r, и 125 дней для достижения максимального размера."
+				""
+				"Их рост можно ускорить с помощью&cДраконья еда&r, что прибавляет к их возрасту один день, или вообще прекращается вместе с&aБолезненная еда дракона&r. "
+				""
+				"Каждый кусок Драконьей муки увеличивает дракона на один день. У самцов пятна на крыльях появляются на 10-й день 1-й стадии."
+				""
+				"После того, как они полностью вырастут, они все еще стареют и могут есть Драконью еду, но не увеличиваются в размерах и здоровье."
+			]
+			hide_until_deps_complete: true
+			icon: "iceandfire:dragonegg_amythest"
+			id: "6FFEF416B3BD6877"
+			rewards: [{
+				count: 4
+				id: "1D3FF63ACC2840A0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Время высиживать яйцо."
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:dragonegg_amythest"
+				id: "6ED23A618F54CC1F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6FFEF416B3BD6877"]
+			description: [
+				"A &6Командный штаб дракона&rможно использовать, чтобы приказать дракону оставаться, бродить или сопровождать своего владельца сверху."
+				""
+				"&6Рога Дракона&rможно использовать для вызова и отмены призыва дракона с помощью предмета."
+				""
+				"A &6Флейта из драконьей кости&rможно использовать, чтобы призвать летающего дракона на землю."
+				""
+				"A &6Кристалл призыва дракона&rможет привязать дракона к себе, чтобы владелец мог телепортировать дракона, если он уйдет вдаль."
+			]
+			id: "295EC99EB13A4C20"
+			rewards: [{
+				count: 4
+				id: "353E0200A72DD103"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B2A1A78FE350CB9"
+					item: "iceandfire:dragon_stick"
+					type: "item"
+				}
+				{
+					id: "396E17C430C05F48"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "010063DECD90AB21"
+					item: "iceandfire:dragon_flute"
+					type: "item"
+				}
+				{
+					id: "7C5C593CB4DB20F5"
+					item: "iceandfire:summoning_crystal_lightning"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["295EC99EB13A4C20"]
+			description: [
+				"Пришло время построить Кузницу Молниеносного Дракона.&6Пожалуйста, посетите ваш бестиарий&rузнать, как построить кузницу дракона."
+				""
+				"Драконы 2-го уровня и выше будут дышать молниями при активном&6Молния Драконьего Горна&rесли рядом с ним, питание многоблочной конструкции позволяет ей превращать железные слитки в&4Слитки молниеносной драконьей стали.&r"
+			]
+			id: "1F756EE99ADC8A1E"
+			rewards: [{
+				count: 4
+				id: "4DE2E009F9AB1AA4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DB8B14F5728CBA5"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "174EDE45D471A92A"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "432C333E92531932"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+				{
+					id: "782A387FF4ECFF74"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+			]
+			title: "Постройте Драконью Горн"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"42EC4A0DF273348D"
+				"1F756EE99ADC8A1E"
+			]
+			id: "70E4055A00E54568"
+			rewards: [{
+				count: 4
+				id: "19ECFC9361E9405A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23D1630E29397224"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CC4587F308B6B37"]
+			hide_until_deps_complete: true
+			id: "42EC4A0DF273348D"
+			rewards: [{
+				count: 4
+				id: "1081BFD44DC6A2AF"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Можно фармить с помощью HNN"
+			tasks: [{
+				id: "498C631785A8095D"
+				item: "iceandfire:lightning_dragon_blood"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06ACC1F7C8FA8282"]
+			id: "60D4B65B545C9248"
+			tasks: [{
+				id: "1C28B47380FDC3A4"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Исследование космоса III: К Гласио"
+}

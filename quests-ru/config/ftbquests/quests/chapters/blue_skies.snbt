@@ -1,0 +1,1436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_skies"
+	group: "13742BAAC673A80E"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "blue_skies:item/misc/portal_mix"
+		}
+	}
+	id: "7739373308A83503"
+	images: [
+		{
+			height: 2.0d
+			image: "blue_skies:item/misc/portal_mix"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.0d
+			y: 0.75d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everbright_portal_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:textures/particle/everdawn_portal_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["123D70CA4959F172"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Где-то в Верхнем мире вы найдете два простых дома."
+				""
+				"&aпривратник&rживет здесь и предложит вам несколько предметов, чтобы вы могли начать работу с модом."
+				""
+				"Привратник знает все о размерах Голубого Неба. По мере прохождения мода ваш&9Синий журнал&rбудет расширяться, чтобы помочь вам."
+				""
+				"По мере вашего продвижения по измерениям он также будет обменивать больше предметов, так что следите!"
+				""
+				"Приобретите&9Синий журнал&r. В следующем квесте вам также понадобится зажигалка Zeal."
+			]
+			hide_until_deps_complete: true
+			icon: "blue_skies:blue_journal"
+			id: "198EB5AE0E18E6C3"
+			rewards: [
+				{
+					id: "3E34B92B094794C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "604E5DE65953F845"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Жить простой жизнью...."
+			tasks: [{
+				id: "0C6C12DEFB35A5C8"
+				item: "blue_skies:blue_journal"
+				type: "item"
+			}]
+			title: "В поисках привратника"
+			x: -7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["198EB5AE0E18E6C3"]
+			description: [
+				"В меньшем доме Привратника вы можете наткнуться на нечто похожее на сломанный портал."
+				""
+				"Приобретите&6Рвение Зажигалка&rи используйте его, чтобы осветить портал."
+				""
+			]
+			icon: {
+				Count: 1
+				id: "blue_skies:zeal_lighter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "13BB7347D271D29C"
+			rewards: [
+				{
+					id: "6663443B86E83DA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4282DCA84CB18FA7"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5971D3F2F9D07D81"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["13BB7347D271D29C"]
+			description: [
+				"Кажется, вы попали в мир&9Эвербрайт&r."
+				""
+				"Это царство вечного дня и холода. Вы встретите несколько крупных зверей, эфирных мобов и даже нескольких боссов."
+			]
+			id: "765EBF99FFF4061F"
+			rewards: [
+				{
+					id: "1A987500928B1EFB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "210129086F9A9753"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "blue_skies:everbright/enter"
+				criterion: ""
+				id: "083086610639994F"
+				title: "К&9Эвербрайт&r!"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13BB7347D271D29C"]
+			description: [
+				"Добро пожаловать в мир&6Эвердон&r, мир, где вечно восходит солнце."
+				""
+				"Это теплый и влажный мир, где процветают насекомые и рептилии."
+				""
+				"Готовы ли вы к яду и огню?"
+			]
+			hide_until_deps_complete: false
+			id: "20ECBCF42E1B0660"
+			rewards: [
+				{
+					id: "3025D554420EEC24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38BFC75AB4100356"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "blue_skies:everdawn/enter"
+				criterion: ""
+				id: "10AA43B1500FAAAA"
+				title: "К&6Эвердон&r!"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"765EBF99FFF4061F"
+				"20ECBCF42E1B0660"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Ваши мирские инструменты здесь бессильны."
+				""
+				"Если вы хотите добраться куда-нибудь в Blue Skies, вам нужно будет быстро сделать новую кирку из леса вокруг вас."
+			]
+			id: "4365BCF6B7A91D24"
+			rewards: [
+				{
+					id: "4DB22344AB2182BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "530DA15F48BD1B9D"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7DF6923885A8D2B9"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1E8B8C302718AFB5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "blue_skies:tools/wooden_pickaxes"
+					}
+				}
+				title: "Любая деревянная кирка Blue Skies"
+				type: "item"
+			}]
+			title: "Что-то не так....."
+			x: 0.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E1A86A6D2155B53"]
+			description: [
+				"Если вы хотите овладеть землями Голубого Неба, вам нужно будет создать новое оружие —&6Копье&r."
+				""
+				"Для их изготовления нам понадобится немного лунного камня. Отправляйтесь в пещеры и найдите немного руды!"
+			]
+			id: "6E177CA79B7ABD7C"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2108CDF8C7E8404D"
+					item: "blue_skies:moonstone_shard"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3890CA60834A6296"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71AD0A3A386EAE44"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "И здесь довольно темно."
+			tasks: [{
+				count: 2L
+				id: "49A5A92F58DB0859"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			title: "Новое горное приключение"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4365BCF6B7A91D24"]
+			description: [
+				"Как и в обычном мире, деревянные инструменты далеко не помогут."
+				""
+				"Спуститесь под землю и возьмите камень. Ты захочешь сделать себе новую кирку, и тогда мы сможем заняться новыми рудами."
+			]
+			id: "3E1A86A6D2155B53"
+			rewards: [
+				{
+					count: 2
+					id: "2B58BCB68D2D162B"
+					item: "blue_skies:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "7823D0435F1F5BB1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2019049A37C6E375"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Сначала Вуд, потом Камень... потом... что?"
+			tasks: [{
+				id: "18DBE4B1BAAA5CC8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:lunar_stone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:turquoise_stone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Каменная кирка синего неба"
+				type: "item"
+			}]
+			title: "Получение обновления"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E177CA79B7ABD7C"]
+			description: ["The &6Spear&r is the favored weapon in Blue Skies. It can be enchanted, and works as a nice ranged weapon for the enemies you'll face."]
+			id: "5ED6634F52CAC058"
+			optional: true
+			rewards: [
+				{
+					id: "36D8782E87E34C17"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+				{
+					id: "049FF8CD36F10293"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F81ABD0231274D0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Спартанский стиль"
+			tasks: [{
+				id: "0A3B8E7765432D22"
+				item: {
+					Count: 1
+					id: "blue_skies:frostbright_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создание нового оружия"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E177CA79B7ABD7C"]
+			description: [
+				"Пироп означает Скорость на языке Голубого Неба."
+				""
+				"Эти инструменты слабые, но быстрые."
+			]
+			icon: "blue_skies:pyrope_gem"
+			id: "01E1A7BCDAE8EB9F"
+			rewards: [
+				{
+					count: 2
+					id: "5F8E399B85FEDD35"
+					item: "blue_skies:pyrope_gem"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "36B50FD9EAABEB48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "14F6BB3D3EC31E9A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 3L
+				id: "11A420F02EC037AF"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			title: "Красный означает быстрый"
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01E1A7BCDAE8EB9F"]
+			description: [
+				"Продвигаясь дальше по пещерам Голубого Неба, мы встретим&9Аквитская руда&r."
+				""
+				"Добудьте достаточно, чтобы сделать вам несколько стартовых инструментов. Они понадобятся вам для добычи более прочных руд Голубого неба."
+				""
+				"Отсюда рекомендуется найти лучшие материалы для изготовления оружия и доспехов."
+			]
+			id: "158F48B73171BDE1"
+			rewards: [
+				{
+					count: 3
+					id: "346B685A9F2FB23C"
+					item: "blue_skies:raw_aquite"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3CF4CB86489BFA42"
+					item: "blue_skies:cooked_horizofin_tunid"
+					type: "item"
+				}
+				{
+					id: "50F8815837BC8025"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C9A483502D80F84"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 3L
+				id: "78CAF1897A5DE4F1"
+				item: "blue_skies:aquite"
+				type: "item"
+			}]
+			title: "Металлические инструменты"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["158F48B73171BDE1"]
+			description: ["The green gemstone &eDiopside&r is a very tough metal that packs a punch, but is on the slower side. This is great for weapons!"]
+			id: "128C5B7A82FF802E"
+			rewards: [
+				{
+					count: 3
+					id: "4F49AA2B32B815A7"
+					item: "blue_skies:diopside_gem"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "205E9F5A470FE23E"
+					item: "blue_skies:cooked_carabeef"
+					type: "item"
+				}
+				{
+					id: "0EB720A8B06A2B4C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "348BF84A229EA079"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "290B4D50053FDD52"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			title: "Диопсид"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E1A86A6D2155B53"]
+			description: [
+				"Вентиум — красный металл, встречающийся в большинстве негорных биомов Эвербрайта."
+				""
+				"По сути, это железо, но из него можно делать только ножницы, ведра и прочее.&6Ящик для инструментов&r."
+			]
+			id: "229455730219F7B1"
+			rewards: [
+				{
+					count: 2
+					id: "6484F144DBD5D526"
+					item: "blue_skies:ventium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4EBE9E3E514BC83D"
+					item: "blue_skies:brewberry"
+					type: "item"
+				}
+				{
+					id: "5CA275C6FBF1B66C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7121DC3B913A0686"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Красное железо"
+			tasks: [{
+				id: "6A4963E01802CAD5"
+				item: "blue_skies:ventium_ingot"
+				type: "item"
+			}]
+			title: "&cВентиум"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E1A86A6D2155B53"]
+			description: [
+				"Фальзитовую руду можно найти в негорных биомах Эвербрайта."
+				""
+				"Этот слиток используется для повышения долговечности практически любого инструмента с помощью ящика для инструментов."
+			]
+			id: "23CC5B8D9AAD4E12"
+			rewards: [
+				{
+					count: 2
+					id: "2C4262BD556B1C00"
+					item: "blue_skies:falsite_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DF0422AC1172ACF"
+					item: "blue_skies:black_brewberry"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4D900291B8CD2A48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6109A722AEBB8705"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "05F5918E96F08D87"
+				item: "blue_skies:falsite_ingot"
+				type: "item"
+			}]
+			title: "&9Фальсайт"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["158F48B73171BDE1"]
+			description: [
+				"Это Алмаз голубого неба."
+				""
+				"В то время как диопсид более прочен и бьет сильнее, чароит быстрее и в целом легче. Инструменты, сделанные из чароита, могут добывать что угодно в Blue Skies."
+			]
+			id: "27E3C4E4790F8FF3"
+			rewards: [
+				{
+					count: 2
+					id: "1B4867AB14B95E52"
+					item: "blue_skies:charoite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "24339FEBEFB2C4B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67E1C8FE35CAEE46"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4082CD21223CF655"
+				item: "blue_skies:raw_charoite"
+				type: "item"
+			}]
+			title: "Чароит"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E1A86A6D2155B53"]
+			description: [
+				"Встречается только в Кристальных дюнах."
+				""
+				"Инструменты, изготовленные из этого слитка, будут иметь&6Авто-плавка&r."
+				""
+				"Это также можно использовать для создания&6Горизонитовая кузница&r."
+			]
+			hide_text_until_complete: false
+			id: "14B4E6B2FC3F6B36"
+			rewards: [
+				{
+					count: 2
+					id: "28205BCCFAFEFF65"
+					item: "blue_skies:raw_horizonite"
+					type: "item"
+				}
+				{
+					id: "12C9D39F4F927BB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10470B31484104AC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57A208055A02E13B"
+				item: "blue_skies:horizonite_ingot"
+				type: "item"
+			}]
+			title: "&6Горизонит"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["229455730219F7B1"]
+			description: [
+				"Используется для обновления и улучшения инструментов Blue Skies."
+				""
+				"Вы можете использовать Falsite, чтобы увеличить долговечность инструмента, или использовать любую палку из мода, чтобы заменить инструмент. Да, разные породы древесины имеют разное применение."
+			]
+			id: "3179DCF0B4458ECC"
+			rewards: [
+				{
+					id: "7BAC26014DE24759"
+					item: "blue_skies:starlit_stick"
+					type: "item"
+				}
+				{
+					id: "697278285B58C98A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "05CCC51682503123"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2623E831C6AD4877"
+				item: "blue_skies:tool_box"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14B4E6B2FC3F6B36"]
+			description: [
+				"Вам когда-нибудь хотелось иметь кузницу, которая плавит вещи без топлива?"
+				""
+				"Я тоже. Технически, для этого само по себе необходимо «топливо». У него есть заряд, и его можно перезарядить с помощью солнечного камня или чего-нибудь, сделанного из горизонтита."
+				""
+				"Для перезарядки кузница должна быть пуста."
+			]
+			id: "6783F21811D0F149"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7B1766782987997E"
+					item: "blue_skies:sunstone_crystal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C4523BD43C63FAD"
+					item: "blue_skies:cooked_charscale_moki"
+					type: "item"
+				}
+				{
+					id: "49F6C2BD53009856"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3DEB33AD540C3022"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "14EAC9ED937D3A27"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23CC5B8D9AAD4E12"]
+			description: ["This is a lantern that prevents hostile spawns within a large radius. "]
+			id: "3857D8DF87108DAB"
+			optional: true
+			rewards: [{
+				id: "7B4F21667565C5E8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6FDADB2CDD542CF7"
+				item: "blue_skies:warding_pearl"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["229455730219F7B1"]
+			description: [
+				"Вентиум можно использовать для изготовления ножниц и ведра."
+				""
+				"Ведро может собирать подводных мобов в Blue Skies."
+			]
+			id: "47EFF4429010E26C"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4A2BC8D63B8E46A3"
+					item: "blue_skies:cooked_municipal_monkfish"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6F204AEED5F47462"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "478FC2716EF3CA93"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "74DE5965F75B8736"
+					item: {
+						Count: 1
+						id: "blue_skies:ventium_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FC6B8A661DFB9AA"
+					item: "blue_skies:ventium_bucket"
+					type: "item"
+				}
+			]
+			title: "Инструменты Вентиум"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["158F48B73171BDE1"]
+			description: [
+				"Независимо от того, начали ли вы в Everbright или Everdawn, вам понадобится найти башню. Изображения для них есть в следующих квестах. Здесь вы встретите своего первого босса."
+				""
+				"В меньших частях башни вы будете сражаться за добычу и приобретать некоторые&6Ослепляющие ключи от подземелий&r. Глубоко внутри подземелья будет дверь с замком. Используйте 4 ослепляющих ключа от подземелья, чтобы разблокировать битву с боссом."
+				""
+				"Примечание: после победы над боссом выпадет дуга. Их можно экипировать на специальной вкладке в вашем инвентаре. Всего существует 4 Арки."
+			]
+			id: "1F82DBE75059C139"
+			rewards: [
+				{
+					count: 2
+					id: "620F4C05A26A73F6"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+				{
+					id: "7A0F8E3B2C3C5FA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2FA00D8545BA1416"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "5749D038B3245D00"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			title: "&9Стартовые подземелья"
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["158F48B73171BDE1"]
+			description: [
+				"В Blue Skies вам предстоит победить четырех боссов и исследовать несколько подземелий."
+				""
+				"Вы можете найти случайные «туннели», ведущие в комнаты подземелий. Они будут появляться в Бронированных духах льда, чтобы их можно было убить. Соберите несколько таких для Душ!"
+				""
+			]
+			id: "001C4388146BD377"
+			rewards: [
+				{
+					count: 2
+					id: "3283AF344E12196F"
+					item: "blue_skies:soul_fragment"
+					type: "item"
+				}
+				{
+					id: "1307942F62236FD8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47D1DB485CA53860"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 5L
+				id: "1F25F2E80A98D691"
+				item: "blue_skies:soul_fragment"
+				type: "item"
+			}]
+			title: "Структуры и подземелья"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F82DBE75059C139"]
+			description: [
+				"Глубоко внутри Башни Вечного Света вы найдете Призывателя."
+				""
+				"Призыватель сражается с помощью молний, ​​энергетических атак и своих големов-охранников. Обязательно следите за своей спиной, поскольку эти големы могут быстро сокрушить вас, если за ними не ухаживать должным образом. Победа над ним позволит вам получить доступ к Природному Подземелью."
+			]
+			icon: "blue_skies:summoner_spawn_egg"
+			id: "3C1212AA4663C39B"
+			rewards: [
+				{
+					count: 2
+					id: "1F4A260D67396ADE"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+				{
+					id: "00B1CB7571BE55BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34CB7578A5553F53"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "71345A7EA7EAE216"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Страж Башни Вечного Света"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: "blue_skies:summoner_spawn_egg"
+				id: "1CBF0C7F2044EA9A"
+				title: "&5Призыватель"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F82DBE75059C139"]
+			description: [
+				"В Башне Вечного Рассвета вас ждет битва с боссом Алхимиком. Соберите несколько ослепляющих ключей от подземелий, чтобы разблокировать бой!"
+				""
+				"Алхимик использует для боя зелья и физические конструкции. Многие из его атак можно предсказать, обращая внимание на визуальные очереди, но пропуск этих очередей может привести к серьезному повреждению. После победы вы получите доступ к Ядовитому подземелью."
+			]
+			icon: "blue_skies:alchemist_spawn_egg"
+			id: "6832C9E6D2E2949E"
+			rewards: [
+				{
+					count: 2
+					id: "64DFFAE6EDFBB774"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+				{
+					id: "602A2A65D001D6C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "430F45A9AF05FB07"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "1936EAE2A8ECA652"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Страж Башни Вечного Рассвета"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: "blue_skies:alchemist_spawn_egg"
+				id: "19DF62F00979AEA2"
+				title: "&5Алхимик"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C1212AA4663C39B"]
+			description: [
+				"Вы найдете Подземелье Природы в Эвербрайте. Вы не сможете его пропустить, он огромен."
+				""
+				"Соберите несколько ключей от природных подземелий в лабиринте строения, чтобы разблокировать битву с боссом, и РАЗРУШИТЕ его!"
+				""
+				"Примечание. Если вы не можете найти все ключи, вы можете торговать с Привратником, но только после того, как щелкнете правой кнопкой мыши по воротам для битвы с боссом."
+				""
+				"Starlit Crusher не может много двигаться, но компенсирует это, врываясь в землю, чтобы производить атаки по обширной площади снизу, и обладает достаточной жестокостью, чтобы заставить землю трястись. Поскольку это все еще дерево, топоры наносят ему гораздо больший урон и необходимы для обхода его защиты. Ищите возможности оглушить его копьем, чтобы получить возможность атаковать."
+			]
+			id: "1F944EEA0F397B95"
+			rewards: [
+				{
+					id: "6ADAEDC20BA5F4B4"
+					item: "blue_skies:nature_key"
+					type: "item"
+				}
+				{
+					id: "5BCDC7A808E16774"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 60
+					id: "65E648237E3499A6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "52595BCE87A14045"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Босс природного подземелья"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: "blue_skies:starlit_crusher_spawn_egg"
+				id: "6F7A953BDE02EF55"
+				title: "&5Звездная дробилка"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6832C9E6D2E2949E"]
+			description: [
+				"Примечание: если вы арахнофоб, возможно, эта битва не для вас."
+				""
+				"В Эвердоне будет гигантское мертвое дерево, покрытое паутиной."
+				""
+				"Соберите внутри несколько ключей от ядовитых подземелий, чтобы разблокировать финальную битву с боссом!"
+				""
+				"Арахнарх бросается на цель и распыляет яд с потолка. Будучи королевой этого гнезда, ожидайте, что подкрепление выползет из стен. Используя такой агрессивный метод атаки, вы сможете оглушить ее, когда она сделает выпад, заблокировав ее щитом."
+			]
+			id: "0DB1A5763EDD6A7F"
+			rewards: [
+				{
+					id: "0A97CD80345C9AC7"
+					item: "blue_skies:poison_key"
+					type: "item"
+				}
+				{
+					id: "3766A2897E77840E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 60
+					id: "24788D025163C517"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "1C41A6425C916141"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Босс Ядовитого подземелья"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: "blue_skies:arachnarch_spawn_egg"
+				id: "1F70E547B959D9A0"
+				title: "&5Арахнарх"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C1212AA4663C39B"]
+			description: ["Increases movement speed."]
+			id: "7E124E6EFC7E8ADD"
+			rewards: [
+				{
+					count: 2
+					id: "565D492DD66AE567"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+				{
+					id: "7A50234374DBF487"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3847606A241F1E5B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "704B58ED7B39E7BE"
+				item: {
+					Count: 1
+					id: "blue_skies:ethereal_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6832C9E6D2E2949E"]
+			description: ["Grants invisibility when sneaking."]
+			id: "0515422E36E4E9A3"
+			rewards: [
+				{
+					count: 2
+					id: "5539BC246DE7C49A"
+					item: "blue_skies:blinding_key"
+					type: "item"
+				}
+				{
+					id: "6E825B74488C385A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "40C140C28A0F4AA0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6450012E3F4FD5C2"
+				item: {
+					Count: 1
+					id: "blue_skies:dusk_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F944EEA0F397B95"]
+			id: "42228FEECEAA2241"
+			optional: true
+			rewards: [
+				{
+					id: "672DCB4C384FBEE3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7F21BC1935A61170"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "53F4933A5992B54C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Выпадает из сумки с добычей Звездного Крушителя."
+			tasks: [{
+				id: "5977FC8CB2A6A46D"
+				item: {
+					Count: 1
+					id: "blue_skies:crushing_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DB1A5763EDD6A7F"]
+			description: ["Increases damage done when poisoned."]
+			id: "08DA36DAD1422B0A"
+			rewards: [
+				{
+					id: "0AF4AC6D51F379CB"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1807810890BD4B61"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Выпадает из сумки с добычей Арахнарха."
+			tasks: [{
+				id: "05294380E82BC3FE"
+				item: {
+					Count: 1
+					id: "blue_skies:poison_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DB1A5763EDD6A7F"]
+			id: "02089D95AA679502"
+			optional: true
+			rewards: [
+				{
+					id: "617E21F0834DFD65"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "045480F2F29CE29D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Выпадает из сумки с добычей Арахнарха."
+			tasks: [{
+				id: "7EF8FD8790E83FD4"
+				item: {
+					Count: 1
+					id: "blue_skies:venom_sac"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DB1A5763EDD6A7F"]
+			id: "68C79649BB060EFA"
+			optional: true
+			rewards: [
+				{
+					id: "5F2826B2B406F6A5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7F100302934F788C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1CAFD2E69B0F2C2E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Выпадает из сумки с добычей Арахнарха."
+			tasks: [{
+				id: "0E4B7B4DF6E4B7AA"
+				item: {
+					Count: 1
+					id: "blue_skies:different_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F944EEA0F397B95"]
+			description: ["Increases max hearts."]
+			id: "37CBBAB88E2E49AC"
+			rewards: [
+				{
+					id: "08D2CB95417634F7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1FEC148472B209D0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Выпадает из сумки с добычей Звездного Крушителя."
+			tasks: [{
+				id: "29405FD946DEC4F1"
+				item: {
+					Count: 1
+					id: "blue_skies:nature_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E124E6EFC7E8ADD"]
+			id: "2F08F444586722F7"
+			optional: true
+			rewards: [
+				{
+					id: "5A12BFE4AB3B7A62"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69E1594AA6B9D620"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E1D8A917D2C81A4"
+				item: {
+					Count: 1
+					id: "blue_skies:soulbound_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E124E6EFC7E8ADD"]
+			id: "582FCFC9A5062978"
+			optional: true
+			rewards: [
+				{
+					id: "4EF3FB07E782AD38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "519296F35F15FD87"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6351A3DAD00BAE5E"
+				item: "blue_skies:summoning_table"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0515422E36E4E9A3"]
+			id: "439EA0E50E369340"
+			optional: true
+			rewards: [
+				{
+					id: "2DB9A48CA66E968F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56A6EE06BE135939"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53573EE98943693F"
+				item: {
+					Count: 1
+					id: "blue_skies:spike_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E1A86A6D2155B53"]
+			description: ["With this creation, I was able to harness the Snowcap Mushroom’s heating and cooling power. By sapping the heat out of warm objects, it can cook whatever you put inside, occasionally leaving the frozen byproduct of the fuel behind. It even allows for things such as water to be used as a fuel source, albeit not a very good one."]
+			id: "76A6385DA264F372"
+			rewards: [
+				{
+					count: 3
+					id: "0939CA5C8F5C3287"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "127DBFEECB4C6CDC"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Он готовится холодным?"
+			tasks: [{
+				id: "7656671BB6D48106"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+	]
+	title: "&bСиний&cНебеса"
+}

@@ -1,0 +1,1381 @@
+{
+	autofocus_id: "6F2EA0844769A10A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii_the_brass_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "kubejs:brass_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "3E77E18FC0D1193E"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: -5.5d
+		y: 10.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"671ABB3F4DDF8A89"
+				"1C5DFA2AD6DEE1B2"
+				"201291E8B8D4FE73"
+				"05836C34CD66A56F"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"У вас есть Вода, есть Сахар, есть Песок, есть Кварц, пора все это смешать!"
+				""
+				"Используйте&6Механический миксер&rи&6Бассейн&r, смешать все ингредиенты, чтобы получить&bМаленький бутон Certus Quartz!&rБоже, это громкое имя."
+			]
+			id: "7D6E6EFCB2DD19A0"
+			rewards: [
+				{
+					count: 5
+					id: "30FA72BAF0EA3275"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "466D705C8DFE163C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "770EC6F492C38791"
+				item: "ae2:small_quartz_bud"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7D6E6EFCB2DD19A0"]
+			description: ["With the small version, you pour water on it using a &6Spout&r. You have to pour water 3 times on the &bSmall Certus Quartz Bud.&r"]
+			id: "72C989B765AD2A4B"
+			rewards: [
+				{
+					count: 5
+					id: "4BC17306251EB648"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "31F2785928AF609E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F60E93DA063643B"
+				item: "ae2:medium_quartz_bud"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["72C989B765AD2A4B"]
+			description: ["With the medium version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bMedium Certus Quartz.&r"]
+			id: "0101855DF75D6C40"
+			rewards: [
+				{
+					count: 5
+					id: "45627898A6F728F9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5D4B056714BB3B7C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60A42BA3D7D465F9"
+				item: "ae2:large_quartz_bud"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0101855DF75D6C40"]
+			description: ["With the large version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bLarge Certus Quartz.&r"]
+			id: "5BFA4F90901AC7B2"
+			rewards: [
+				{
+					count: 5
+					id: "192AA6AEE91BCE4D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "3941B6A3D78F9C31"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45BC74F0D21F89E3"
+				item: "ae2:quartz_cluster"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5BFA4F90901AC7B2"]
+			description: ["With the Certus Quartz Cluster, you don’t pour water on it, this time you crush it either using the &6Crushing Wheels&r or the &6Millstone.&r"]
+			id: "49E754928BF234F3"
+			rewards: [
+				{
+					count: 5
+					id: "60E939D6F4975586"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "45B69CC282DBDF58"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F9DB8D59AEF9247"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"49E754928BF234F3"
+				"2EBE018FE570EF16"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Pour Destabilized Redstone with a Spout onto a Certus Quartz Crystal 3 times to turn it into a Rose Quartz."]
+			id: "340B69A08A8A7CF3"
+			rewards: [
+				{
+					count: 5
+					id: "269133ADB1795D10"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3B4B5AD2E461D733"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "16AA68CDC08269AC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A4A8C8AC00ECBD3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"5167DEF3903D6CFD"
+				"64A476C01D1C4742"
+			]
+			dependency_requirement: "one_completed"
+			description: ["With the Redstone Dust and Nether Wart you’ve collected. Put them inside a basing on top of a Blaze Burner and mix them up with a Mechanical Mixer."]
+			id: "2EBE018FE570EF16"
+			rewards: [
+				{
+					count: 5
+					id: "03C52E89033512FB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4D2F65A7E4A061B2"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40AC3CAADB942375"
+				item: "kubejs:destabilized_redstone_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Вы можете найти&4Редстоун&rпутем добычи полезных ископаемых глубоко в земле."
+				""
+				"Существуют рецепты, позволяющие автоматизировать процесс получения&4Редстоун Пыль&r. Промывая измельченное сырое железо."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "64A476C01D1C4742"
+			rewards: [
+				{
+					count: 5
+					id: "2A5547B65BF113F8"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1C86676759461E59"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "216750237C1CED9A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Вот вам мелочь для начала!"
+				""
+				"Сахар может спасти вашу жизнь! При попадании на рану сахарные гранулы впитывают влагу, что позволяет бактериям размножаться."
+				""
+				"Без бактерий рана заживает лучше. В некоторых частях мира эта процедура может спасти жизни людей, которые не могут позволить себе антибиотики."
+				""
+				"Теперь факты об игре: вы можете получить&6сахар&rкультивируя&aСахарный тростник&rили немного меда от пчел."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1C5DFA2AD6DEE1B2"
+			rewards: [
+				{
+					count: 5
+					id: "57D8CC9B67EA0360"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0166710BAE045D1A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14FB44DA4AE233C3"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			dependency_requirement: "one_started"
+			description: [
+				"Знаменитый&bВедро с водой!&rЭто может спасти вашу жизнь!"
+				""
+				"Всегда носите с собой&bВедро с водой&rс вами, поэтому, когда вы прыгаете с высокого места, если вы хорошо рассчитаете время, вы можете поместить воду, чтобы смягчить ваше падение."
+				""
+				"Это ваш профессиональный совет на сегодня!"
+				""
+				"&aПримечание:&r &oВы, вероятно, уже знаете, как получить ведро с водой.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "05836C34CD66A56F"
+			rewards: [
+				{
+					count: 5
+					id: "5C9617FF2C3C911B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "4FAA1CA1DBBEA9EA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "646DC6DDBF1F97D5"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["You probably already know how to get some Sand by now."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "671ABB3F4DDF8A89"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "3D5E1AA9D2CD4DD0"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "6612FB790A6FEB6B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "640776C3CFE97667"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5924E1675FE1A9D0"
+				"588F642CD467FC64"
+			]
+			description: ["Time to assemble! You have two ways to do this, you can either use a Deployer holding a &6Polished Quartz Rose&r and place it into an Iron Sheet or you can use Mechanical Crafts for something more fancy looking."]
+			id: "1BAF2EB40FE08B25"
+			rewards: [
+				{
+					count: 5
+					id: "5AC1026E5B0E0C41"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4EAB68AC539692"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "10B76840ACD9457B"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "087022B81F40CA19"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71C9FE5F39A5B431"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2BBB5E496BBD52C5"]
+			dependency_requirement: "one_started"
+			description: [
+				"Имея в руках Песок Души, вы теперь можете смыть с него грехи, используя&6Закрытый вентилятор&rи Вода, дующая на Песок Души, и вы получите&cПустоты Кварц&rвзамен также есть шанс получить Золотой Самородок."
+				""
+				"Вы также можете майнить&cПустоты Кварц&rв Пустоте."
+			]
+			id: "201291E8B8D4FE73"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "4A0F7AA8C848BA3F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "687D36C5DE9A08DF"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A67FE794B73D10B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["340B69A08A8A7CF3"]
+			description: [
+				"Время отполировать&cРозовый кварц.&rДля этого вам нужно использовать&6Наждачная бумага&r, вы можете сделать это вручную или с помощью Deployer автоматически."
+				""
+				"Существуют различные типы&6Наждачная бумага&rс разной прочностью."
+				""
+				""
+				"&6&lКончик:&r&r &oВы можете использовать Seething Sail в качестве постоянного решения для автоматизации полировки.&r"
+			]
+			id: "5924E1675FE1A9D0"
+			rewards: [
+				{
+					count: 5
+					id: "33D29EF4A1775CBE"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D32BB412E23B4B"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "0846A30DE1E43581"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "3B6C175AEB249DD4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A34C8BAA9CFC455"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"555CE8F6001EF8E7"
+				"14ADA913C53709AE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["To get Brass Ingots you have to mix both&6 Zinc Ingots&r and &6Copper Ingots&r. To do so you need a Basin on top of a Blaze Burner and a Mechanical Mixer."]
+			id: "5E59C8255183FF3E"
+			rewards: [
+				{
+					count: 5
+					id: "095EB4DA657710CB"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F8F356C43B1165"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					id: "4DE2DA6DB9EE06C9"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "543534EF6C25D984"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["You probably already know how to get some&d copper ingots&r by now."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "555CE8F6001EF8E7"
+			rewards: [
+				{
+					count: 5
+					id: "3E16256C3273B9B6"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "136C392AF236B77D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5813632ADCCD6073"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Вы можете получить&9Сырой цинк&rот добычи полезных ископаемых, и чтобы превратить его в слиток, вам придется его выплавить."
+				""
+				"Вы можете использовать Закрытый веер и лаву для автоматического процесса или использовать Бурлящий парус с Заключенным веером."
+				""
+				"пожалуйста, проверьте&nГлава «Возобновляемые руды»&rдля получения информации о том, как получить возобновляемый источник&9Сырой цинк&r."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "14ADA913C53709AE"
+			rewards: [
+				{
+					count: 5
+					id: "5530A5D11FE879F2"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "24CA59890FB943D5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E1B0C8BEDA1BE1A"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5E59C8255183FF3E"]
+			description: ["Grab your Brass Ingots, place it under a Mechanical Press and start flat lining them to make some Brass Sheets."]
+			id: "701883FE5E3CF381"
+			rewards: [
+				{
+					count: 5
+					id: "39819254B55E4511"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "680F614A30C9B2A8"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+				{
+					id: "354ED7A2B787914C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AFC52965847BD86"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["The &cNether Wart&r can be found in the Nether or you can farm like you farm wheat. Instead of dirt you need to plant the &cNether Wart&r in &6Soul Sand&r and the &rNether Wart&r doesn’t need light to grow."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5167DEF3903D6CFD"
+			rewards: [
+				{
+					count: 5
+					id: "2D3EF842CF6D9CC7"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7CEFC09E09FB28B8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BBE8417B8A3BE92"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"61B5DE7788ED3D6D"
+				"70FE285006F6632F"
+				"7A50893172D43878"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Используя только что приготовленный Бездушный песок, возьмите с полки Душу и поместите ее в Бездушный песок!"
+				""
+				"Чтобы создать&6Душевой песок&rвы должны использовать&cРазвертыватель&rпоставить&3Душа Бусина&rили&3Эфирный дух&rв Бездушный песок, превратив его в Песок душ."
+			]
+			id: "2BBB5E496BBD52C5"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "365AB32A38550F1C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "0EB6AB22AF8CB9BB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "254618B5A7F95447"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Бусина души выпадает из Призраков. Призраков можно найти бродящими по Пустоте в Долинах Песка Душ."
+				""
+				"&l&2Примечание:&r&r &oВ следующей главе вы узнаете, как автоматизировать выпадение монстров.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "70FE285006F6632F"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "35F597263E5955BC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "36B9604DEF912D76"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E812FD4E5FCC138"
+				item: "quark:soul_bead"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["671ABB3F4DDF8A89"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Чтобы получить Бездушный песок, вам придется проклясть песок, но не устно, а использовать&bпризрачное пламя&r. "
+				""
+				"Вы можете использовать костер душ или поджечь песок душ с помощью кремня и камня или использовать призрачный парус с закрытым вентилятором, обдувающим блок песка воздухом, который превратит его в бездушный песок."
+			]
+			id: "61B5DE7788ED3D6D"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "7217A03BCC48B79B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "61EF950CD8D0B0EB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Песок без души, поэтому возникает вопрос: содержит ли песок душу? Внимание, спойлер! Так и есть, в Пустоте."
+			tasks: [{
+				id: "3385925890E92473"
+				item: "forbidden_arcanus:soulless_sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Эфирный дух выпадает из множества монстров, которые прячутся ночью и появляются случайным образом по всему миру или постройкам."
+				""
+				"&l&2Примечание:&r&r &oВ следующей главе вы узнаете, как автоматизировать выпадение монстров.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7A50893172D43878"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "515488EEC9B8E6A1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "11DDE0DF7EB14DA8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A78C95C3292BE29"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"7F75BF2B511A2B14"
+				"701883FE5E3CF381"
+				"1BAF2EB40FE08B25"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Сердце всего&6Латунные машины!&r "
+				""
+				"Вы можете создать&aПрецизионный механизм&rс помощью развертывателей, механического пресса и клапанного механизма."
+				""
+				"Первый развертыватель собирает латунные листы в клапанный механизм, затем второй развертыватель собирает электронную трубку, затем последний развертыватель собирает зубчатое колесо и, наконец, механический пресс делает последний штрих, и вы сделали&6Точный механизм!&r"
+				""
+				"&aПримечание:&r &oВероятность успеха составляет 85%, а вероятность получения случайного предмета — 15%."
+				"&r"
+			]
+			id: "6F2EA0844769A10A"
+			rewards: [
+				{
+					count: 30
+					id: "45AA5A07B71C35F0"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "4C82B78D51BE4A73"
+					item: "quark:soul_bead"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5944A534E69E28B4"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "458C7234B5814A99"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79BDEFBD13CE8B52"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					count: 20
+					id: "733FA80C44010DCD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1F589362BB838A23"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -0.9499999999999993d
+			y: 18.75d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Помните, как вы расплющили медные слитки? Мы сделаем то же самое для Железа."
+				""
+				"Используйте&6Механический пресс&rчтобы превратить железные слитки в железные листы."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "588F642CD467FC64"
+			rewards: [
+				{
+					count: 5
+					id: "72F58A3FDEBEB1F1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "7036D41C6C28B77A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F040CE86620F08A"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"Объединив все свои знания и упорный труд, вы достигли конечной цели –&cГлава 3!&rСоздание&aТочная машина!&r"
+				""
+				"Это выведет ваши автоматизированные фермы на совершенно новый уровень автоматизации и точности! Тебе следует похлопать себя по спине, ты этого заслуживаешь."
+				""
+				"Поздравляем с тем, что вы зашли так далеко, вы освоили основы Create и теперь знаете, как использовать функцию JEI.&9ты сам по себе!&r"
+				""
+				"Испытания, которые ждут вас на&lГлава 4 и последующие сложнее.&rчем то, что вам пришлось сделать до сих пор, но не теряйте надежды! Я знаю, что ты сможешь осилить все главы, верь в меня (писателя), как я верю в тебя!"
+				""
+				"Я знаю, что ты будешь скучать по мне, но не волнуйся! Я по-прежнему буду здесь, чтобы помочь вам с некоторыми механиками в следующих главах, но в основном вы будете предоставлены сами себе. Удачи!"
+				""
+				"&6&lКончик:&r&r &oЕсли вы чувствуете, что у вас заканчиваются определенные материалы, обязательно проверьте главу «Возобновляемые руды».&r"
+			]
+			hide_until_deps_complete: true
+			id: "637D976589937434"
+			rewards: [
+				{
+					count: 2
+					id: "0938031FB8C4E56E"
+					item: "kubejs:brass_machine"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "52DFCA0C258F50ED"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1C65FDE6CB31F343"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5E0AFFADD4CFB831"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "595859079B6F0687"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B7A78C1FBE14BB"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					count: 20
+					id: "4A1566AA979782BC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1EF9D4CC4F5F39A9"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["637D976589937434"]
+			description: [
+				"У вас есть миллионы сундуков, и вы не знаете, в какой сундук положить предмет, который вам нужен для следующей сборки? Тогда тебе это понравится&6Простое хранилище Тома&r, поскольку это значительно упрощает хранение и поиск ваших вещей!"
+				""
+				"&nКак это работает:&r"
+				""
+				"&2Шаг 1:&rСначала вы помещаете блок под названием&6Соединитель инвентаря&r. Это как будто мозг лучше твоего. Он знает, где все хранится. Затем вы либо размещаете&6Складской терминал&rили&6Крафтовый терминал&rна&6Соединитель инвентаря&rчтобы получить доступ к содержимому сундуков. При этом обязательно используйте Shift."
+				"&c&nПримечание. Это также работает с хранилищами предметов.&r&r"
+				""
+				"&2Шаг 2:&rВы можете разместить сундук по обе стороны от&6Соединитель инвентаря&rи он прочитает его содержимое. Вы даже можете складывать сундуки друг на друга, и соединитель инвентаря будет по-прежнему считывать их содержимое, пока один сундук касается соединителя инвентаря."
+				""
+				""
+				"&2Шаг 3:&rЕсли у вас есть сундуки, находящиеся в другом месте, вы можете использовать предмет&6называется разъемом инвентарного кабеля&rпротив сундука, обязательно используйте для этого Shift, а затем используйте другой предмет под названием&6Инвентарный кабель&rустановить соединение с&6Кабельный разъем&rк я&6Разъем инвентаря&rпрочитать содержимое сундука, даже если он находится дальше."
+				""
+				"Это только основы работы этого мода. У него есть еще много возможностей, которые вы сможете открыть для себя!"
+			]
+			hide_until_deps_complete: true
+			id: "738E4BA03DA3D655"
+			rewards: [
+				{
+					count: 5
+					id: "68C96B15A8ECB312"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2617DA918A6075F4"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "44E8C65FC73DF7B5"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "432DD80996DEB84B"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "364F6AA8B4F6ED3E"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "&6Простое хранилище Тома"
+			x: -1.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: ["You know how to craft one… Fine… For consistency's sake… Grab a Shaft, grab a Wood Plank and either use a Deployer to place the Wood Plank on a Shaft, or a Mechanical Mixer with a Basin to mix both or use the trusty Crafting Table to make the Cog Wheel. "]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7F75BF2B511A2B14"
+			rewards: [
+				{
+					count: 5
+					id: "4C7E8BF932F2FD39"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1AEC766B131424CE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22D8338B1C8A2FB8"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"&cСтроительные гаджеты&rМод позволяет вам создавать крутые гаджеты, которые помогут вам строить большие базы или зачищать большие территории с помощью&dГаджет разрушения.&r"
+				""
+				""
+				"&6&lПримечание:&r&r &oЧтобы зарядить этот гаджет, вы должны использовать катушку Тесла и иметь электричество.&r"
+			]
+			hide_until_deps_complete: true
+			id: "62E69747ECE312C3"
+			rewards: [
+				{
+					count: 5
+					id: "7F6E12133C631447"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "79EB1CD96A5A997A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52EBF9F28358429D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.75d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			description: [
+				"Беспроводной терминал позволяет получить беспроводной доступ к системным терминалам."
+				""
+				"Для этого вам необходимо просмотреть терминал, к которому вы хотите получить доступ, и его диапазон составляет всего 16 блоков."
+			]
+			id: "77BBCB5B0ED47F06"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1AC9DFB9976FC800"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "10F2D8797ABEE6F9"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["77BBCB5B0ED47F06"]
+			description: ["Framed storage items can be painted with a Paint Kit to disguise them as any full block while maintaining functionality."]
+			id: "07E522F440A317AA"
+			rewards: [{
+				id: "0D8EFAE620D1FF15"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "229F1D341BDC9216"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "4CC9B1F5F66C483F"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+			]
+			title: "Кабели для инвентаря в рамке"
+			x: 2.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["07E522F440A317AA"]
+			description: [
+				"Используйте набор красок, чтобы замаскировать блоки для хранения в рамах."
+				""
+				"Удерживая клавишу Shift, щелкните правой кнопкой мыши любой полный блок, чтобы выбрать его, а затем щелкните правой кнопкой мыши блок хранения в рамке, чтобы замаскировать его."
+			]
+			id: "3C5651A758797922"
+			rewards: [{
+				id: "1F142E3420718EBE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4812D002D387A0"
+				item: {
+					Count: 1
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			description: [
+				"Беспроводной терминал позволяет получить беспроводной доступ к системным терминалам."
+				""
+				"Для этого вам нужно просмотреть терминал, к которому вы хотите получить доступ, и он имеет диапазон всего 32 блока."
+			]
+			id: "078236AFE937C60D"
+			rewards: [{
+				id: "4C3407301FF30F37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4724BF6D9BC02EB8"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "0B177BE0E648B743"
+			rewards: [{
+				id: "251E50566266FCD1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Бункер с фильтрами"
+			tasks: [{
+				id: "7B0C645CD0806C68"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "7F8C4AC998EA00CF"
+			rewards: [{
+				id: "28DC90A314E0A18F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31ADF72D76B71816"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["738E4BA03DA3D655"]
+			id: "71A6E188F736F35E"
+			rewards: [{
+				id: "3DC80616496AD193"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B0F3BD56E98F22E"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["62E69747ECE312C3"]
+			description: [
+				"&6&lПримечание:&r&r &oЧтобы зарядить этот гаджет, вы должны использовать катушку Тесла и иметь электричество.&r"
+				""
+				"&3Построй для меня:&rПостройте блок и грани блока, на которые вы смотрите, до текущей позиции игрока. Это единственный режим, в котором не используется модификатор Range, поскольку он всегда строится по текущей позиции игрока."
+				""
+				"&3Вертикальный столбец:&rПостройте вертикальный столбец из блоков высотой, равной модификатору диапазона.  Если вы посмотрите на верхнюю часть грани блока, она строится вверх, на нижнюю часть грани блока, которая строится вниз, а на боковую часть грани блока строится половина блоков выше и половина блоков ниже."
+				""
+				"&3Горизонтальная колонна:&rИначе известный как ряд. Строится горизонтально вдали от блока, на который вы смотрите.  Если вы посмотрите на верх/низ блока, он будет построен в том направлении, в котором смотрит ваш игрок."
+				""
+				"&3Вертикальная стена:&rСтроит стену размером Диапазон x Диапазон (Пример:&63x3&r, &65x5&r, и т. д). Как и в случае с вертикальным столбцом, если смотреть на верхнюю часть блока, она строится вверх, на нижнюю часть блока — вниз, а на середину блока — вокруг нее."
+				""
+				"&3Горизонтальная стена&r: строит стену из блоков по направлению к игроку за пределами блока, на который смотрит игрок. Если посмотреть на верх/низ блока, он строится вокруг этого блока."
+				""
+				"&3Лестница&r: Построю лестницу. Если блок, на который вы смотрите, находится над вами, лестница будет построена вниз и к игроку. Если блок, на который вы смотрите, находится под вами, он построен вверх от игрока."
+				""
+				"&3шахматная доска&r: иначе известный как режим «Факел». В этом режиме создается клетчатый узор, позволяющий размещать&2[]&r-&2[]&r-&2[]&r-&2[]&r[]: блоки и -: воздух."
+			]
+			id: "147ED68A6F29842F"
+			rewards: [{
+				count: 2
+				id: "54AEB651A5F41895"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Строительный гаджет позволяет строить конструкции, используя набор различных режимов строительства."
+			tasks: [{
+				id: "74D0FD27B92E59B4"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 18.75d
+		}
+		{
+			dependencies: ["147ED68A6F29842F"]
+			description: [
+				"Некоторые функции гаджета Copy Paste перечислены ниже."
+				""
+				"◘ Возможность копирования больших участков блоков"
+				""
+				"◘ Визуальный предварительный просмотр"
+				""
+				"◘ Визуальный выбор"
+				""
+				"◘ Возможность смещения шаблонов от просматриваемого блока."
+				""
+				"◘ Возможность вращать шаблоны"
+				""
+				"◘ Возможность копировать шаблоны других пользователей с помощью&6&l &nМенеджер шаблонов.&r&r&r"
+				""
+				"◘ Возможность отменить последнюю сборку"
+			]
+			id: "700F1EEA44663AF4"
+			rewards: [{
+				count: 2
+				id: "5A3FB5392B3E560A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Гаджет «Копировать и вставить» позволяет выбрать большой радиус для копирования и вставки в другое место."
+			tasks: [{
+				id: "1D1ADBD79BEDAD05"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["147ED68A6F29842F"]
+			description: [
+				"&3Стена&r- Обмены в диапазоне x диапазона (пример: 3x3 или 5x5) вокруг блока, на который вы смотрите. Он будет обмениваться только блоками, которые соответствуют блоку, который вы просматриваете."
+				""
+				"&3Горизонтальная колонна&r- Горизонтально по отношению к игрокам выглядят векторно. Обычно это будет прямая линия слева и справа от блока, на который вы смотрите."
+				""
+				"&3Вертикальная колонна&r- Вертикаль по отношению к игрокам выглядит векторной. Обычно это будет прямая линия вверх и вниз по блоку, на который вы смотрите."
+				""
+				"&3шахматная доска&r- в этом режиме будет построен клетчатый узор, что позволит вам разместить в узоре&2[]&r-&2[]&r-&2[]&r-&2[]&r[]: блоки и -: воздух."
+			]
+			id: "35436126527BB3F7"
+			rewards: [{
+				count: 2
+				id: "221542A2EAE2986E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Гаджет обмена предоставляет базовые возможности обмена с использованием набора различных режимов обмена."
+			tasks: [{
+				id: "09C13AF160A31BB0"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["700F1EEA44663AF4"]
+			description: [
+				"Менеджер шаблонов — это блок, который позволяет вам сохранять копии навсегда. Поместите Менеджер шаблонов и щелкните его правой кнопкой мыши."
+				""
+				"В левый слот поместите гаджет Copy-Paste, содержащий скопированную сборку. Поместите лист ванильной бумаги в правый слот."
+				""
+				"Вы можете ввести имя шаблона, который собираетесь создать, на черной полосе в верхней части графического интерфейса. Теперь нажмите «Сохранить». Ваш лист бумаги превратится в шаблон."
+				""
+				"Шаблон сохранит имя, которое вы ему дали, и скопированную сборку, которая была в гаджете Copy-Paste. Теперь вы можете загрузить любой шаблон в свой гаджет Copy-Paste, поместив гаджет в левый слот, поместив шаблон в правый слот и нажав «Загрузить»."
+				""
+				"Предварительный просмотр того, что в данный момент загружено в гаджет Copy-Paste, можно увидеть в левой части графического интерфейса."
+				""
+				"Если вы нажмете «Копировать», в буфер обмена будет скопирован текст, соответствующий созданию шаблона для того, что сохраняется в гаджете «Копировать-Вставить»."
+				""
+				"Вы можете отправить этот текст кому угодно в мире, и другие люди также смогут его скопировать. Скопировав этот текст, вы или любой другой человек, у которого есть скопированный текст, можете нажать «Вставить», чтобы создать шаблон, который точно такой же, как если бы вы следовали описанному выше процессу."
+			]
+			id: "471D399F03EDCF9C"
+			tasks: [{
+				id: "6FB8C24917C94CE0"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"Просто прикрепите трубу подходящего типа —&eпредметы&r, &bжидкости&r, или&cэнергия&r— к блокам, которые вы хотите соединить."
+				""
+				"На данный момент у вас есть доступ только к&eпредмет трубы&r."
+				""
+				"Используйте&aТрубный ключ&r(совместим с другими ключами) для легкой настройки сторон: установите их на&dтянуть&r, &dтолкать&r, или&dотключиться&rполностью."
+				""
+				"Это упрощенная логистика!"
+			]
+			id: "33981F0231E2187E"
+			rewards: [{
+				count: 20
+				id: "1BE30227F867AF1B"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26929F4B85C13B0B"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "2686D7B3A51A70BF"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "Пипез"
+			x: -2.7d
+			y: 18.7d
+		}
+		{
+			dependencies: ["33981F0231E2187E"]
+			description: [
+				"Каждое обновление повышает скорость передачи&aПипез&rи открывает дополнительные функции трубы:"
+				""
+				"&6Базовое обновление&r: позволяет управлять трубами с помощью сигналов Redstone."
+				""
+				"&6Улучшенное обновление&r: предоставляет возможности индивидуального распределения элементов."
+				""
+				"&6Расширенное обновление&r: позволяет применять фильтры, чтобы точно указать, что именно передается."
+				""
+				"&6Окончательное обновление&r: максимизирует скорость передачи, но не добавляет новых функций."
+				""
+				"Они будут разблокированы на более поздних этапах."
+			]
+			id: "0BCC513F995DF314"
+			rewards: [{
+				id: "2DDD7266E6C3D956"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F3FDEB8637340E0"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 18.7d
+		}
+	]
+	title: "Глава III: Точная машина"
+}

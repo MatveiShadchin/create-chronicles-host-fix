@@ -1,0 +1,591 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_vii_building_a_rocket"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "1DBBA282D8932456"
+	images: [
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 4.0d
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 11.0d
+		}
+	]
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F8B17F4A8CF47C7"]
+			description: ["Let's get the basic parts ready to head to space."]
+			id: "59753336427A57A6"
+			rewards: [{
+				id: "63A8D8C6D85E85F4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Создайте носовой обтекатель ракеты."
+			tasks: [{
+				id: "3C9E552FF109985E"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52BB4427D9F5163D\" } }"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5F8B17F4A8CF47C7"
+			rewards: [{
+				id: "721DC53FF2796F54"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "075E1F8A5CAED24C"
+				item: "forbidden_arcanus:whirlwind_prism"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2F520B59F10123D2"
+			rewards: [{
+				id: "7B21D24982D37EAD"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "313DDCE3C70B036C"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "778AEC1710A4E237"
+			rewards: [{
+				id: "07FE8BE80975ABF7"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3052E3B7BCD06CBF"
+				item: "tfmg:turbine_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "08ED76082CFF1D16"
+			rewards: [{
+				id: "25E4ADA9A8433B4D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7DF1B8FCABA555F8"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "797DCA89A0B3FBB8"
+			rewards: [{
+				id: "10CE28573E2AAE93"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DBEA7A9720638BE"
+				item: "create:black_seat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0D1A3BE5396104F7"
+			rewards: [{
+				id: "06D96115AF487ADD"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 11L
+				id: "15E300DC84EC9BB3"
+				item: "kubejs:tier_1_plating"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"59753336427A57A6"
+				"797DCA89A0B3FBB8"
+				"2F520B59F10123D2"
+				"4EE82272D412DB9C"
+				"778AEC1710A4E237"
+				"08ED76082CFF1D16"
+				"2CCB9C223585FA23"
+				"0D1A3BE5396104F7"
+				"6CE8C3410296E977"
+				"086223FF8861479F"
+				"75BD9E93A6143DC7"
+				"72EC381A9B79EF64"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Вы должны принести несколько полных&6кислородные баллоны&r, много еды, факелов души или светящегося камня, оружия и инструментов. Я бы порекомендовал получить&nпутеводный камень&rтак что вам не понадобится дополнительная ракета, чтобы вернуться на Землю. Как только они у вас появятся, вы готовы к запуску! Войдите в ракету и нажмите пробел!"
+				""
+				"Присядьте и щелкните правой кнопкой мыши, чтобы открыть пользовательский интерфейс. Оттуда вы можете внести депозит&9Астральное топливо&r. В нем можно хранить до трех ведер, поэтому разумно оставить немного запасных. Быть в затруднительном положении — худшее, что может с вами случиться."
+				""
+				"Щелкните правой кнопкой мыши, чтобы войти в ракету. Удерживая некоторое время пробел, вы запустите систему выбора планет и получите доступ к ней."
+				""
+				"Выбрав локацию, вы спуститесь на планету на посадочном модуле. Нажмите пробел, чтобы замедлиться. Убедитесь, что вы не приземлились слишком быстро, иначе посадочный модуль взорвется, оставив вас в затруднительном положении.&aF5 может помочь с процессом приземления.&r"
+			]
+			id: "7148FF0A0F2F9890"
+			rewards: [{
+				count: 20
+				id: "62981A2CE861546B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Космические инженеры"
+			tasks: [{
+				id: "76C26ADF57608504"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Мы отправляемся на Луну!!!"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7148FF0A0F2F9890"]
+			id: "47A6ACAA667AD14A"
+			rewards: [{
+				id: "20BE567DCE029C47"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "18E4F1919AF13979"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2CCB9C223585FA23"
+			rewards: [{
+				id: "11F1F5B4C046DB71"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4A4A70072E9777"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4EE82272D412DB9C"
+			rewards: [{
+				id: "2561488F73A82985"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "22A6EB743446800A"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			description: [
+				"Ракете нужно что-то для запуска, поэтому нам нужно сделать&aСтартовая площадка&r."
+				""
+				"Чтобы использовать его, поместите его туда, откуда вы хотите запустить, чтобы было видно небо. Если у вас есть ракета, вы можете разместить ее посередине стартовой площадки."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "75BD9E93A6143DC7"
+			rewards: [{
+				id: "1D84CCC85A0ACFE5"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "420BD0F655854B7A"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "72EC381A9B79EF64"
+			rewards: [{
+				id: "04857F1FAB3823E6"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37B838D2ABF21CC5"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			description: [
+				"Если вы планируете отправиться в космос, вам понадобится новый комплект снаряжения для путешествия."
+				""
+				"Для вашей первой поездки в&3Луна&r, вам нужно будет сделать полную&n&aКосмический костюм.&r&r&3Луна&rхолодно и не хватает кислорода, поэтому без костюма долго не протянешь."
+				""
+				"Создавать&n&cполимерные пластины&r&r, материалы можно найти в&aТоксичные пещеры&rиз Пещер Алекса."
+				""
+				"{ \\\\\\\"text\\\\\\\": \\\\\\\"☞ Нажмите здесь, чтобы узнать больше.\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"52034A3AD5A347C8\\\\\\\" } }"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "086223FF8861479F"
+			rewards: [
+				{
+					id: "45882951E2B3695C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C58ACEABB4D77F1"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1645E38B9254D660"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CCE98B05AA6111E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7059377306B67AE6"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7EFFD09E4B0DB5"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aКостюм&r"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			description: [
+				"На Луне невозможно дышать без&3Кислород&r. На самом деле, без него невозможно дышать.&3Кислород&r. Угадайте, что&9Луна&rне имеет?"
+				""
+				"Итак, давайте сделаем немного. Начните с создания&dКислородный загрузчик&rи давая ему воду и энергию. Это превратит воду в&3Кислород&rчтобы мы могли использовать."
+				""
+				"Чтобы собрать его, поместите&3Кислородный баллон&r, пустое ведро или&6Космический костюм&rвнутри."
+				""
+				"&6Кончик:&r &7&oВсегда полезно иметь под рукой дополнительный кислород... на всякий случай.&r&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "ad_astra:oxygen_loader"
+			id: "6CE8C3410296E977"
+			min_width: 300
+			rewards: [
+				{
+					id: "62FF6DA8DA2C53C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AC9900B81E930A6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D926F7974EA410B"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "6DA3662083D3873D"
+					item: {
+						Count: 1
+						id: "ad_astra:oxygen_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&aПодготовка некоторых&r &bКислород&r"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"После того, как вы исследуете Луну и соберете достаточно Деш, вы сможете создавать&dКосмические станции&rвокруг планет!"
+				""
+				"Это готовые конструкции, служащие мини-базой в галактике. Дом вдали от дома - это что-то вроде."
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:space_painting"
+			id: "509BB6BF39848F5B"
+			optional: true
+			rewards: [{
+				id: "4CC6058B3C286B6F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "2EF04DC642F0A0AA"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Космические станции"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"509BB6BF39848F5B"
+				"29A64A556C101D83"
+				"37D437BA68D6864C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Если вы хотите построить базу за пределами Земли, вам понадобится&4Кислород.&r&l"
+				""
+				"&6Распределитель кислорода&rпредставляет собой машину, которая распределяет кислород в герметичном помещении. Когда ему дают воду и электроэнергию, он автоматически распределяет кислород."
+				""
+				"&bВодяной насос&rперекачивает воду из бесконечного источника воды под ним в распределитель."
+			]
+			id: "01B1F88F57961B10"
+			optional: true
+			rewards: [{
+				id: "0E405A04A64B1B7D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "469F37921FE70F08"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			title: "Кислород для ваших баз!"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["509BB6BF39848F5B"]
+			description: [
+				"Выработка электроэнергии зависит от удаленности планеты от Солнца и тумана."
+				""
+				"Солнечные панели более эффективны, если их разместить ближе к солнцу."
+				""
+				"Они также производят больше энергии на орбите, потому что нет атмосферы, блокирующей свет."
+			]
+			id: "37D437BA68D6864C"
+			rewards: [
+				{
+					id: "56C2799476D03572"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6A8372695BBBA7E3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "64F2521F16C07397"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			title: "Создайте&2Солнечная панель"
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["509BB6BF39848F5B"]
+			description: [
+				"&bВодяной насос&rимеет важное значение для сохранения&aРаспределитель кислорода&rработает бесконечно."
+				""
+				"Чтобы использовать его, поместите внизу бесконечный источник воды, затем поместите&bВодяной насос&rнад одним из водоблоков, а&aРаспределитель кислорода&rрядом с ним."
+				""
+				"Обязательно укажите оба&bВодяной насос&rи&aРаспределитель кислорода&rс достаточной мощностью."
+			]
+			id: "29A64A556C101D83"
+			rewards: [
+				{
+					id: "496CCA723B67B909"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6EFD3AFA6C1F5E46"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "554F69A27BBC5A76"
+				item: "ad_astra:water_pump"
+				title: "Создайте&bВодяной насос"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			dependency_requirement: "one_completed"
+			description: ["&6The Rover&r is a land vehicle that can drive on rough terrain of moons and planets. It's very fast, has an inventory for&9 eight items&r, and has two seats for multiple riders. To use it, fill it with fuel by shift-clicking and placing &aastral fuel buckets&r in the left input slot."]
+			hide_until_deps_complete: true
+			id: "694646586C18C609"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "465BA134DD240761"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "37679D84DC025A58"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "451EC360A3F38231"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Создайте&cРовер"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+	]
+	title: "Глава VIII: Создание ракеты"
+}

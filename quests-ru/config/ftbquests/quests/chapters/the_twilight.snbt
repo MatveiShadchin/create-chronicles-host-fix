@@ -1,0 +1,1740 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight"
+	group: "13742BAAC673A80E"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "7DA89DB49AC553E1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: [
+				"&2Сумеречный лес&r— это мод, действие которого сосредоточено в другом измерении, называемом Сумеречный лес. У него есть собственная система развития, и она начинается с посещения измерения сумеречного леса!"
+				""
+				"Вы можете сделать&6портал&rк&2Сумеречный лес&rпроделав в земле ямку 2x2, наполнив ее водой и окружив цветами. Как только это будет сделано. Брось сингл&l&6сосуд света&r&rв воду, и в нее ударит молния, открыв портал в Сумеречный лес."
+				""
+				"&7Глава Fallow ars novoau, в которой вы узнаете, как создать Кувшин света.&r"
+				""
+				"{ \\\\\\\"text\\\\\\\": \\\\\\\"🔗 Нажмите здесь, чтобы получить дополнительную информацию.\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"6DAA82B5F94AF9F8\\\\\\\" } }"
+			]
+			hide_until_deps_complete: true
+			id: "2F0F635C06E8D307"
+			rewards: [
+				{
+					id: "5492E3E7C1F5AE23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1F91E8BA56BD1E92"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Сумеречная зона, бросьте Банку Света, чтобы открыть портал."
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "7A472AD44FFA4EA7"
+				title: "Войдите в Сумеречный лес"
+				type: "dimension"
+			}]
+			title: "Входить&2Сумеречный лес"
+			x: -7.0d
+			y: -0.65d
+		}
+		{
+			dependencies: ["2F0F635C06E8D307"]
+			description: [
+				"В Сумеречном лесу легко заблудиться. Во время своих путешествий вы встретите обсидиановые столбы с&cвороны&rрядом."
+				""
+				"Убейте этих воронов, чтобы получить их&aперья&r, который вы можете использовать для создания карты Сумеречного леса."
+				""
+				"&6Пустая магическая карта&rФункционирует как обычная карта, но в Сумеречном лесу показывает все близлежащие биомы и цели внутри этих биомов. Это очень полезно для поиска пути."
+			]
+			id: "51EC1DBEAFF575D7"
+			rewards: [
+				{
+					id: "2C00EFF4D95465A8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4E1C77210823A93B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Полезное руководство"
+			tasks: [{
+				id: "3FED0422AC07EF0B"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			title: "Карта леса"
+			x: -2.6d
+			y: -0.65d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: ["Your first target is the Naga, which lives in&a the courtyard of the forest.&r"]
+			id: "043A32CFAF07245A"
+			rewards: [
+				{
+					id: "48129AD4ABD679B4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 32
+					id: "2726CF36932480DC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Встречается в лесах. Открывает Башню Личей."
+			tasks: [{
+				id: "6C2D37E9E4AF0360"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Победите&aНага"
+			x: 1.3d
+			y: -0.65d
+		}
+		{
+			dependencies: ["043A32CFAF07245A"]
+			description: ["Atop the &egrand tower&r is the &cLich&r. While shielded &ehe is unable to be damaged&r, however his &bown attacks may be lethal to him&r."]
+			id: "65E6F43E380A343B"
+			rewards: [
+				{
+					id: "0105941E62BE1CA6"
+					item: {
+						Count: 1
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "164D54883E2CB856"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Встречается в лесах. Открывает лабиринты и логова йети."
+			tasks: [{
+				id: "211FC2F8F944CA50"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "Победите&eСумеречный Лич"
+			x: 3.9000000000000004d
+			y: -0.65d
+		}
+		{
+			dependencies: ["1125F566DAEFC4A5"]
+			description: [
+				"С&aМиф Строганов&rзащищая тебя от&cнагревать&rпринадлежащий&4Огненное болото&r, пришло время рискнуть и убить следующего зверя на вашем пути:&bГидра&r."
+				""
+				"&bГидра&rочень живуч и может нанести большой урон, поэтому лучше быть&eочень готов к этому бою&r. Возможно&dзащита во рту ниже, чем у остального тела&r?"
+			]
+			id: "249A0EC5DB167A5A"
+			rewards: [
+				{
+					count: 8
+					id: "6AA21A70291C56B5"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "13305A8AECBAE800"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+				{
+					id: "3EEB8AED442F6C86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47BE539B2F759871"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Встречается в Холлоу-Хиллз на болотах. Открывает Темный лес."
+			tasks: [{
+				id: "3A00D577D5E891A7"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Победите&2Гидра"
+			x: 9.100000000000001d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["08864DB101FED90C"]
+			description: [
+				"Поднимитесь на величественную башню, чтобы противостоять&cУр-Гаст&r. Чтобы победить его, используйте&eПризрачные ловушки&rвытащить&cУр-Гаст&rс неба, позволяя вам сделать&eмного повреждений на нем&r. "
+				""
+				"Следите за&cУр-Гаст&rслезы, как они сделают&dзначительный ущерб для вас&r!"
+			]
+			id: "546A5B881F8F6A29"
+			rewards: [
+				{
+					id: "3173D23B515E0009"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					id: "763634AD2A1F1CD8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D312ADC61F028FF"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Находится в Темных Башнях Темного Леса."
+			tasks: [{
+				id: "25D5DA05EB9567EF"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Победите&fУр-Гаст"
+			x: 9.100000000000001d
+			y: -0.65d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: ["Deep in the &bSnowy Forest&r you will find the &aLair of the Yeti&r. &aYetis&r can pick you up and throw you to deal significant damage, but the &eFur of the Alpha Yeti&r will be required to advanced into the &3glacial area&r of the &bSnowy Forest&r."]
+			id: "2471021B93EE125D"
+			rewards: [{
+				count: 32
+				id: "6DC84096BC6A36B6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Находится в логове йети в заснеженном лесу. Открывает доступ к Снежной Королеве."
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "4F4B40F3E1AB8663"
+				title: "Победить Альфа Йети"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Победите&f&lАльфа Йети"
+			x: 6.500000000000001d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["2471021B93EE125D"]
+			description: [
+				"Поднимитесь на&bЛедниковые вершины&rнайти&aАврора Палас&rлогово&eСнежная королева&r. Она ждет вас в&2самая высокая точка&r."
+				""
+				"Как только ты ее найдешь, она&eсильно защищенный&rпо&bлед ее трона&r. Вам нужно будет подождать, пока она опустится на расстояние атаки, чтобы победить ее."
+			]
+			id: "2C964425741DFA07"
+			rewards: [
+				{
+					count: 10
+					id: "1D44958D215809FB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "549F30A250309E05"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2F7033D363C1F7D3"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Встречается в ледниках."
+			tasks: [{
+				id: "160743408E4C463A"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "Победите&f&lСнежная королева"
+			x: 9.100000000000001d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: [
+				"В&aболото&rвы найдете насыпь, которая приведет вас в&bлабиринт&r. Пройди по этим темным коридорам и&cубить&rтот&eМиношрум&rза твою награду."
+				""
+				"Вы хотите заполучить что-нибудь&dМиф Строганафф&r. Потребление этого позволит вам проникнуть глубже в более горячую часть болота и сразиться с&6Гидра&r!"
+			]
+			id: "1125F566DAEFC4A5"
+			rewards: [
+				{
+					id: "38F20D5365F9DD50"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 10
+					id: "69A423C4DA3CED56"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Можно получить за убийство Минотавра, найденного в болотных Лабиринтах. Открывает Пустые холмы."
+			tasks: [{
+				id: "0B13F1C59D4C60A6"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "Победить Миношрума"
+			x: 6.500000000000001d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: [
+				"&cКарминтин&rизобретения&eБашня Ур-Гаст&rне будет подчиняться тебе. Вы должны&aзаработай возможность контролировать их&r. Путешествие в&2Темный лес&rи найдите подземелье, слегка выступающее над землей. Поместите&3Трофей&rпобежденного босса на пьедестале для входа."
+				""
+				"Глубоко внутри вы найдете&dРыцарь-фантом&r. Победа над ним предоставит вам доступ к управлению&cКарминтин&rприспособления."
+			]
+			id: "08864DB101FED90C"
+			rewards: [
+				{
+					id: "2B9F8C58FA8E4648"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0A94451C0444E7BB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Находится в Крепости Рыцарей-гоблинов в Темном лесу."
+			tasks: [{
+				id: "26CF924E1688280A"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Победить рыцаря-фантома"
+			x: 6.500000000000001d
+			y: -0.65d
+		}
+		{
+			dependencies: [
+				"249A0EC5DB167A5A"
+				"546A5B881F8F6A29"
+				"2C964425741DFA07"
+			]
+			description: [
+				"Как только вы успешно убили&bГидра&r, &cУр-Гаст&r, и&aСнежная королева&r,&eкислотные дожди&rпринадлежащий&dХайлендс&rпрекратится, позволяя вам наконец войти."
+				""
+				"Ваша первая цель — найти&2пещера полная троллей&r. &3Тролли&rпрячут свои самые ценные вещи в тайниках, сделанных из&dобсидиан&r. Большой тайник, в который вы сможете попасть позже, но запомните его местоположение, так как скоро вернетесь. В небольших тайниках вы можете найти&aВолшебные бобы&r. Эту фасоль можно сажать&dУберозная почва&rна поверхности, чтобы вырастить&aбольшой бобовый стебель&rв небеса."
+			]
+			id: "254CFFAAF052399C"
+			rewards: [
+				{
+					id: "02162698D2E1046C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BCDEC918BE047DC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "7732BB4C69F3B042"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 11.700000000000001d
+			y: -0.65d
+		}
+		{
+			dependencies: ["254CFFAAF052399C"]
+			description: [
+				"Используя&aбобовый стебель&rчтобы подняться на небеса, вы обнаружите облако, населенное&bГиганты&r. Убейте этих&bГиганты&rза свои негабаритные инструменты, в частности&eКирка Гиганта&r."
+				""
+				"Как только у вас появится&eКирка Гиганта&rв руке, опуститесь обратно в&2Пещера троллей&rк&3ворваться в гиганта&dОбсидиан&3сейф&r."
+			]
+			id: "1BFB221E98E6B727"
+			rewards: [
+				{
+					id: "614E47B26F05E9FF"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "64E8C1E9B258ED23"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [
+				{
+					id: "31EFE17BE7FD947E"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049CDA4E97FDEA20"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты Гиганта"
+			x: 13.200000000000001d
+			y: -0.65d
+		}
+		{
+			dependencies: ["1BFB221E98E6B727"]
+			description: [
+				"Внутри&2Гигант&r's &dОбсидиан&rхранилище, которое ты найдешь&eЛампа из пепла&r, который способен сжечь надоедливых&cшипы&rв&dХайлендс&r."
+				""
+				"Используйте его, чтобы подняться на&5Последний замок&r. Вы можете удерживать щелчок правой кнопкой мыши, чтобы распространить пламя по площади вокруг себя, или применить непосредственно к&cшипы&rс помощью щелчка правой кнопкой мыши."
+			]
+			id: "6186282EA9E837D8"
+			rewards: [
+				{
+					id: "5A18BD24A1F4B566"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "764324D6A5BA750A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "281C6A9BEC1301F2"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.700000000000001d
+			y: -0.65d
+		}
+		{
+			dependencies: ["6186282EA9E837D8"]
+			description: ["And that's it! Sorry to disappoint, but this &emarks the end&r of progression in &dThe Twilight Forest&r at least for now. "]
+			id: "7CA4CDBFAA14FA9F"
+			rewards: [
+				{
+					id: "1E18D0AD656581CA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1218CB3BFC5A3648"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "344ABE2EAC937877"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "365031F35C0AD287"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "407342A7335D03B1"
+				type: "advancement"
+			}]
+			title: "Конец?"
+			x: 16.200000000000003d
+			y: -0.65d
+		}
+		{
+			dependencies: ["043A32CFAF07245A"]
+			description: ["From the scales of the Naga, you can craft some armor. Not super strong, but looks nice."]
+			id: "0938415ECE0664EC"
+			rewards: [
+				{
+					id: "3EB639A4152C0FA0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "2CA82741D8952664"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C628A8A0605B50E"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40664898EBB62FD2"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Доспехи из чешуи наги"
+			x: 1.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1125F566DAEFC4A5"]
+			description: ["This is a drop from the Minoshroom. It deals more damage when sprinting."]
+			id: "7A44612694194919"
+			rewards: [{
+				id: "47FA588D37DD9CA6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69C2C888B534A64E"
+				item: {
+					Count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			id: "191E2BE490983099"
+			optional: true
+			rewards: [{
+				id: "2B03B7B81A88F018"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C650082CEBE48C2"
+				item: "twilightforest:ore_map"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: ["This item will prevent you from losing the items in your main and off-hand, as well as your armor when you die."]
+			id: "65719A526AE9588E"
+			rewards: [{
+				id: "3A5AE7FF91269DF7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E6E588B8D845DC3"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65719A526AE9588E"]
+			description: ["This item will let you keep your armor and hotbar when you die."]
+			id: "01DB3000FBBAB496"
+			rewards: [{
+				id: "47046358B5481CAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41FE32C98680B2AA"
+				item: "twilightforest:charm_of_keeping_2"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01DB3000FBBAB496"]
+			description: ["This item will let you keep all of your items in your inventory when you die."]
+			id: "619ED52038647A5A"
+			rewards: [{
+				id: "55C60AB1C968965A"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "386FD65631560AC7"
+				item: "twilightforest:charm_of_keeping_3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Квестовый баран — очень редкий и особенный моб, который появляется в Квестовой роще. Он выглядит как большой баран со светящимися полосами на теле."
+				""
+				"Квестовые бараны очень ценны, потому что, когда их кормят шерстью каждого из 16 цветов, они вознаграждают игрока ценными сокровищами."
+				""
+				"Они появляются только в Квестовых рощах, которые можно найти исключительно в Зачарованном лесу. Сам Зачарованный Лес редок, и Квестовые Рощи могут появиться только внутри него."
+				""
+				"Если вы нашли Квестовую Рощу, но не нашли Квестового Барана, терпеливо ждите в этом районе, и в конечном итоге он появится."
+			]
+			id: "50D1B38C1572A901"
+			rewards: [{
+				id: "41AD6126DD4BCA94"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4A37A871C015DE69"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: [
+				"Особая кирка, редко встречающаяся в Лабиринтах."
+				""
+				"Этот выбор получит 1 урон при разрушении стен Лабиринта вместо 16 урона для всех остальных вариантов!"
+			]
+			id: "1C8C21F69F8AF6E8"
+			rewards: [{
+				id: "7CB85CB7C7897163"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Камера-ловушка, не входите?"
+			tasks: [{
+				id: "3091E3C9B8F3D987"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["249A0EC5DB167A5A"]
+			description: [
+				"Используя Огненную Кровь Гидры, можно изготовить несколько инструментов."
+				""
+				"Огненный меч при изготовлении имеет аспект огня II."
+				""
+				"Огненная кирка оснащена автоматической плавкой."
+			]
+			id: "7692A6C8E123BEB6"
+			rewards: [
+				{
+					count: 2
+					id: "3CCAD0CD298BC8C9"
+					item: "twilightforest:fiery_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3B2D5DAECB650E92"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7AD90B5A1F10F6EA"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FA3473EF381CEE0"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["249A0EC5DB167A5A"]
+			description: [
+				"С Гирды падает Огненная Кровь, которую можно использовать для создания Огненной брони."
+				""
+				"При ношении полного комплекта атакующие вас враги будут подожжены на 10 секунд."
+			]
+			id: "5E9C29281165D517"
+			rewards: [
+				{
+					id: "002773E10F441877"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "17BA43E1B82544D7"
+					item: "twilightforest:fiery_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "147F6CF34F6A7DA7"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1810702C50A9DA53"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30D2E92D0A180609"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3809B24AE5F07A4A"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Огненная броня"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08864DB101FED90C"]
+			id: "723E6DA6E711FE8A"
+			rewards: [
+				{
+					count: 4
+					id: "1031DF099C7433B4"
+					item: "twilightforest:knightmetal_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "359F8E3BE7DF1169"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4CFA0C3E7C1CC069"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E3D51BCAE7A86B5"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32C904C79CE3F502"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "018C19CA575DCFD2"
+					item: {
+						Count: 1
+						id: "twilightforest:block_and_chain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A3173913113F816"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Рыцарьметаллические инструменты"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08864DB101FED90C"]
+			description: ["Chance of being found in Phantom Knight chests."]
+			id: "7CAD7CE1BCA369A3"
+			rewards: [{
+				id: "0A1D6ED1DE96700A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5E3EBDD65D4ACFBC"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04EB8D3FEC4AB8D8"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08864DB101FED90C"]
+			description: ["Crafted or found in the Phantom Knight's chests."]
+			id: "71E8DAB10669FADA"
+			rewards: [{
+				id: "1D995C8B0F47E6F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "01978A8959E4071C"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "052312A0E0FBDC1D"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "105FEC00EA207E64"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77EF5232A38F3945"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "РыцарьМеталлическая Броня"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2471021B93EE125D"]
+			description: ["Crafted from Alpha Yeti Fur."]
+			id: "5D2BE6E37AC8D896"
+			rewards: [
+				{
+					id: "498E16FC735E723E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "6605C308EC9F9B70"
+					item: "twilightforest:alpha_yeti_fur"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33330F7DD334718B"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D050F50BF9E4C68"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2613916D5E725EFB"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B44A235A48EEF17"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Йети Броня"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2471021B93EE125D"]
+			description: ["Small Yetis and Winter Wolves drop fur to make this armor."]
+			id: "4FA382E4AE085E48"
+			rewards: [{
+				id: "53907844BB2ECADF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Дабле!"
+			tasks: [
+				{
+					id: "796F7D8402388A59"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4946B3BA2B5CB76C"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65FC6CE2B08041A6"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5203A89130C0367F"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Арктическая броня"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C964425741DFA07"]
+			description: ["Dropped from the Snow Queen, this bow shoots 3 arrows at the same time, while only using 1."]
+			id: "0D307B465646C366"
+			rewards: [{
+				id: "7BE065DF481F310B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "470D33CBE91D4F66"
+				item: {
+					Count: 1
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C964425741DFA07"]
+			description: ["Dropped from the Snow Queen, this bow will shoot arrows that home in on your targets. No more missing!"]
+			id: "7283D021B45550CC"
+			rewards: [{
+				id: "0013A225DCAC6DC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0121C53EED16029B"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C964425741DFA07"]
+			description: [
+				"Этот лук редко можно найти во дворце Авроры."
+				""
+				"При попадании по врагу из этого лука вы поменяетесь с ним местами. Будьте осторожны, стреляя в предметы с неба!"
+			]
+			id: "78FD5B1A2C8C048A"
+			rewards: [{
+				id: "78790B6C3C8901C3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DCFC55986334FD9"
+				item: {
+					Count: 1
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C964425741DFA07"]
+			description: ["Found randomly in loot chests, this bow will inflict Slowness III for 10 seconds on hit."]
+			id: "428F3A8F379F4A85"
+			rewards: [{
+				id: "1DB297E1903943D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1739B341D8F4CFB4"
+				item: {
+					Count: 1
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Она немного прочнее, чем броня Наги, и полностью зачарована."
+				""
+				"Вы можете сделать это, найдя&6Стилиф&rв Сумеречном лесу."
+			]
+			id: "500F0BB576E89780"
+			rewards: [
+				{
+					id: "63266F1752F99261"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "709220599E7FC5A7"
+					item: "twilightforest:steeleaf_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "379E4D4870B1E529"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FB4270078C5BB75"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "143C5F1E95B2B165"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A33045282FC9379"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня Стального Листа"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Эту броню можно изготовить с помощью&9Айронвуд&r."
+				""
+				"Эта броня также автоматически зачаровывается."
+			]
+			id: "689FDA2441253F73"
+			rewards: [
+				{
+					id: "532B29FF38FE8629"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "0BA3AAC8B48680B8"
+					item: "twilightforest:raw_ironwood"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "79A8ED6FAAF2173B"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39BCBDF5215C9897"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "778FE76F8FE9A357"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CD5427EA4915572"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Железная броня"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Хотите, чтобы внешний мир больше напоминал Сумеречный лес?"
+				""
+				"Вы можете использовать этот порошок на животных из Верхнего мира, чтобы превратить их в варианты Сумеречного леса."
+				""
+				"Вы можете найти это в сундуках подземелий Сумеречного леса."
+			]
+			id: "4C3D83E90EBD8C3D"
+			rewards: [{
+				id: "580FABB44F875793"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "19F6B20C6573C64E"
+				item: "twilightforest:transformation_powder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Этот предмет похож на факел. Он запускает&6Лунные черви&rв целевой блок, которые освещают блок, как факел."
+				""
+				"Вы можете найти это в некоторых сундуках с сокровищами Холлоу-Хилла и Башни Лича."
+			]
+			id: "6749C7C13B2DB0AE"
+			rewards: [{
+				id: "6BD7DC37EC1C3800"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7030A87D96947AC9"
+				item: {
+					Count: 1
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Из Сумеречного леса можно приготовить много разных блюд!"
+				""
+				"Попробуйте их все!"
+			]
+			icon: "minecraft:bowl"
+			id: "06A17005B91DCC85"
+			rewards: [{
+				id: "13D5CB420B21949D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "153A491E8F596BD0"
+					item: "twilightforest:raw_venison"
+					type: "item"
+				}
+				{
+					id: "674B237A11268E35"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "5AE1D133BC6CA42D"
+					item: "twilightforest:maze_wafer"
+					type: "item"
+				}
+				{
+					id: "776E2B6BECFDEF4B"
+					item: "twilightforest:cooked_meef"
+					type: "item"
+				}
+				{
+					id: "703272C650982F10"
+					item: "twilightforest:experiment_115"
+					type: "item"
+				}
+				{
+					id: "30AE27EB6D55A8B6"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					advancement: "twilightforest:twilight_dinner"
+					criterion: ""
+					id: "6F0DD3467BA90E33"
+					type: "advancement"
+				}
+				{
+					id: "6143F57A42A9251A"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+			]
+			title: "Необычные номера"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			id: "6A27EFA039D9E06B"
+			rewards: [{
+				id: "221E88A991B01622"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Прославленный листодув"
+			tasks: [{
+				id: "0774B940B2FFB5AA"
+				item: {
+					Count: 1
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: [
+				"Магнит, который может притянуть что угодно, в названии которого есть «Руда», кроме угля."
+				""
+				"Его можно найти в сундуках Холлоу-Хилл."
+			]
+			id: "13349B0DB7ABDB82"
+			rewards: [{
+				id: "7C4F0091577A963E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0150DF964D4281B6"
+				item: {
+					Count: 1
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["546A5B881F8F6A29"]
+			description: [
+				"&9Повторно появляющиеся блоки&rпохожи на действительно крутые двери. После щелчка правой кнопкой мыши они исчезнут на короткое время."
+				""
+				"&6Исчезающие блоки&rисчезнут при щелчке правой кнопкой мыши, но не вернутся."
+			]
+			id: "2CB0638C2E87D128"
+			rewards: [
+				{
+					count: 4
+					id: "32A1EE249E3E4DE5"
+					item: "twilightforest:reappearing_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1E1CF1A95669BE41"
+					item: "twilightforest:vanishing_block"
+					type: "item"
+				}
+				{
+					id: "7930F8A58C6C2538"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7D3615BDC15570C6"
+					item: "twilightforest:reappearing_block"
+					type: "item"
+				}
+				{
+					id: "08FB2C7FBAE6DFCC"
+					item: "twilightforest:vanishing_block"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["546A5B881F8F6A29"]
+			description: [
+				"&9Карминитовый строитель&r, при питании от сигнала красного камня, будет генерировать временные блоки в том направлении, откуда пришел сигнал."
+				""
+				"&6Карминитовый реактор&rпревратит близлежащие Обсидиан и Пусторак в Ложное Золото и Ложный Алмаз. Через короткий промежуток времени он поглотит близлежащие блоки и взорвется, создав вокруг себя карминитовых гастлингов."
+			]
+			id: "3B8AE843B2700A38"
+			rewards: [
+				{
+					count: 2
+					id: "57B4B74049710CC5"
+					item: "twilightforest:carminite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "740DC3B237919832"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "114C1381DC3FB755"
+					item: "twilightforest:carminite_builder"
+					type: "item"
+				}
+				{
+					id: "553DD83D7CE945F1"
+					item: "twilightforest:carminite_reactor"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EEF1E5F9EA109F6"]
+			description: ["A Snowy Cloud makes it snow wherever it drifts, covering the ground in a soft layer of snow."]
+			id: "644902A7AC16ABD9"
+			rewards: [{
+				id: "19CA207AA548F4CA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C1CC5443A4F765A"
+				item: "twilightforest:snowy_cloud"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EEF1E5F9EA109F6"]
+			description: ["A Rainy Cloud makes it rain wherever it drifts, soaking the ground with a steady downpour."]
+			id: "4B0C98FB634E8A9B"
+			rewards: [{
+				id: "3DD2097301456D16"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "275BD28366E3B916"
+				item: "twilightforest:rainy_cloud"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			id: "6EEF1E5F9EA109F6"
+			rewards: [{
+				id: "6665D18ECD15185F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05213933FDFB1546"
+				item: "twilightforest:fluffy_cloud"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+	]
+	title: "&2Сумеречный лес"
+}

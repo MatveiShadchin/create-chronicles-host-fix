@@ -1,0 +1,4458 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: ""
+	icon: {
+		Count: 1
+		id: "sophisticatedstorage:barrel"
+		tag: {
+			Enchantments: [{ }]
+			woodType: "spruce"
+		}
+	}
+	id: "734C4C2CDBC52F6C"
+	images: [
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.2999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.2d
+			y: 4.8d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["41329FF8F96017A9"]
+			description: [
+				"&dСложная система хранения&rмодернизирует ваши сундуки и бочки, увеличивая их вместимость и добавляя такие функции, как магниты, встроенные функции плавки, уплотнения и многое другое."
+				""
+				"Этот мод представляет несколько уровней бочек, сундуков и шалкеровых ящиков, каждый из которых можно настроить с использованием различных цветовых комбинаций и сортов дерева."
+				""
+				"Это также добавляет&a&lОграниченные бочки&r&rкоторые работают как ящики и вмещают большое количество места для хранения."
+				""
+				"Усовершенствуйте свои решения для хранения данных с помощью ряда обновлений, расширяющих их функциональность."
+			]
+			id: "7226FB66C2B28ACB"
+			rewards: [{
+				id: "48FA46DAC9678503"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "240D7C33B64FFE69"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:base_tier_wooden_storage"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Добро пожаловать в «Сложное хранилище»!"
+			x: 1.2000000000000002d
+			y: -1.2000000000000002d
+		}
+		{
+			dependencies: ["53084CB2BEA9253E"]
+			description: [
+				"&6Контроллер хранилища&rпозволяет управлять несколькими хранилищами, как если бы они были одним большим мультиблоком хранилища. Несмотря на отсутствие пользовательского интерфейса, это важнейший инструмент для вашего&aСложная система хранения&r, что позволяет автоматически помещать предметы в любой подключенный контейнер хранения в его сети."
+				""
+				"Контейнеры, расположенные рядом друг с другом, образуют эту «сеть хранения». Просто щелкните правой кнопкой мыши по значку.&6Контроллер хранилища&rс элементом, и он будет эффективно отсортирован в соответствующий контейнер в сети."
+				""
+				"Кроме того,&6Контроллер хранилища&rможет подключаться к любой ссылке на хранилище внутри&n&cдиапазон 15 блоков.&r&r"
+			]
+			id: "3BFAF2034D6C99BC"
+			rewards: [{
+				count: 3
+				id: "461F3AE77A8EBF94"
+				item: "numismatics:spur"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BC457A4075451A"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 4.7d
+			y: -1.2000000000000002d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"Storage Tool — это важный основной инструмент мода Sophisticated Storage, предназначенный для оптимизации управления хранилищем."
+				""
+				"&nИнструкции:&r"
+				""
+				"&6Сдвиг прокрутки:&rИзменить режим."
+				""
+				""
+				"&nРежимы:&r"
+				""
+				"&aСвязывание:&rЩелкните правой кнопкой мыши контроллер, чтобы начать связывание, затем щелкните правой кнопкой мыши хранилища или ссылки на хранилища, чтобы соединить их. Чтобы отключить соединение, щелкните правой кнопкой мыши в воздухе, чтобы войти в режим отключения, затем выберите зеленое соединение, которое хотите удалить."
+				""
+				"&aБлокировка:&rЩелкните правой кнопкой мыши хранилище или контроллер, чтобы заблокировать/разблокировать одно хранилище или все подключенные хранилища."
+				""
+				"&aПереключение видимости:&rЩелкните правой кнопкой мыши хранилище или контроллер, чтобы переключить видимость замков и количества предметов."
+			]
+			id: "53084CB2BEA9253E"
+			rewards: [{
+				id: "1F87B84E39A4B0C7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7393E98A653B68F5"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: 3.2d
+			y: -1.2000000000000002d
+		}
+		{
+			dependencies: ["1FCC2D01626EF71E"]
+			description: [
+				"&6!!&r&cВам нужно будет закончить главу 3, чтобы создать терминал хранения.&r&6!!&r"
+				""
+				"Наличие централизованной системы хранения — это здорово, но легкий доступ к вашим вещам имеет решающее значение."
+				""
+				"Введите&6Складской терминал&r, ваше решение для быстрого и легкого поиска."
+				""
+				"Просто прикрепите это удобное устройство непосредственно к вашему&cКонтроллер хранилища&rи мгновенно получите доступ ко всем хранящимся у вас предметам с возможностью поиска, как если бы они находились в одном гигантском волшебном сундуке."
+			]
+			id: "24CCCB9E1A91695D"
+			rewards: [{
+				id: "515627BA47E811F6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B0FFE26A5148577"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -1.2000000000000002d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"&6Обновление базы&rявляется основополагающим компонентом для создания всех различных обновлений для сложного хранилища."
+				""
+				"Он служит важной отправной точкой для расширения функциональности и емкости вашего хранилища."
+				""
+				"Чтобы просмотреть все доступные обновления, используйте JEI и введите `&dОбновление @sophisticatedstorage&r`."
+			]
+			id: "08838CFB8BF290E5"
+			rewards: [{
+				id: "40D4CB083D17E5D1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62F6C7C390184B4E"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 3.2d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"08838CFB8BF290E5"
+				"48802E2C9058AF11"
+			]
+			description: ["This &6Stack Upgrade&r allows each slot in your Sophisticated Storage to hold &6double&r its normal capacity, accommodating &62 stacks&r of items per slot."]
+			id: "761D029F52BA267B"
+			rewards: [{
+				id: "00AA466E54F18783"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x2"
+			tasks: [{
+				id: "3F59C1AC3DC09B6F"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 4.7d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"761D029F52BA267B"
+				"48802E2C9058AF11"
+			]
+			id: "4FE2B38F21E965E8"
+			rewards: [{
+				id: "20DF97DE4EA1FACC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x3"
+			tasks: [{
+				id: "1DFFAD49CC9A7BDF"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: 5.7d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"4FE2B38F21E965E8"
+				"48802E2C9058AF11"
+			]
+			id: "3F565733F3E8BEBD"
+			rewards: [{
+				id: "6DCE89B8DA074129"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x4"
+			tasks: [{
+				id: "09B7DBB49F8D3982"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 6.7d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"3F565733F3E8BEBD"
+				"48802E2C9058AF11"
+			]
+			id: "3F7E6AE9B71BCE7E"
+			rewards: [{
+				count: 3
+				id: "6EDE7F4DCE01314E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x8"
+			tasks: [{
+				id: "3A7312D844E648BD"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 7.7d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"3F7E6AE9B71BCE7E"
+				"48802E2C9058AF11"
+			]
+			id: "2F957F552CB5A245"
+			rewards: [{
+				count: 8
+				id: "3C92AEA61D82DCBC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x16"
+			tasks: [{
+				id: "7AFBC309253698D4"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 8.7d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"2F957F552CB5A245"
+				"48802E2C9058AF11"
+			]
+			id: "79D7109441F5540F"
+			rewards: [{
+				count: 20
+				id: "7F468EFDAF9829B1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x32"
+			tasks: [{
+				id: "740F362FBB2DE650"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: 9.7d
+			y: 1.8d
+		}
+		{
+			dependencies: ["261651FB7B600587"]
+			description: [
+				"&eБазовое обновление уровня&rэто обновление начального уровня для&6Сложная система хранения&r. "
+				""
+				"&aОн позволяет вам превратить все ваши ванильные сундуки, бочки и шалкеровые коробки в версии «Усовершенствованного хранилища».&r"
+				""
+				"Обновите стандартное хранилище, чтобы разблокировать расширенные функции и преимущества Sophisticated Storage."
+			]
+			hide_until_deps_complete: true
+			id: "41329FF8F96017A9"
+			rewards: [{
+				id: "1FEA4241E27F19CE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78DBC9F0420B7F42"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: 1.2d
+			y: 1.8d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"&eОграниченные бочки&rбывают разных форматов: I, II, III и IV."
+				""
+				"Эти форматы представляют количество отдельных предметов, которые может содержать каждая бочка."
+				""
+				"В ограниченных бочках можно хранить большое количество предметов, и они функционируют аналогично ящикам, обеспечивая эффективные и организованные решения для хранения вашего инвентаря."
+				""
+				"&n&bИнструкция по взаимодействию:&r&r"
+				""
+				"&aОдиночный щелчок правой кнопкой мыши:&rСдайте свои вещи на хранение."
+				""
+				"&aДвойной щелчок правой кнопкой мыши:&rПоместите все предметы в свой инвентарь."
+				""
+				"&aЛевый клик:&rПолучите один предмет."
+				""
+				"&aСдвиг левой кнопки мыши:&rПолучите одну стопку предметов."
+				""
+				"Вы можете использовать лимитированные бочки в качестве фильтров! Чтобы использовать Limited Barrel в качестве фильтра,&6инструмент для хранения&rк&7Блокировка/Разблокировка&rрежим, затем щелкните правой кнопкой мыши по стволу, чтобы применить блокировку. На бочке появится значок замка. Затем поместите внутрь какой-нибудь предмет, например, железный самородок. В бочку можно будет принимать только железные самородки, даже если она пуста или в качестве входных данных используется андезитовая воронка. Таким образом, ограниченная бочка действует как фильтр, в котором также хранятся предметы."
+				""
+				"Другой вариант — использовать настройки ствола. Перейдите к настройкам ствола, перейдите к настройкам памяти слота и нажмите, чтобы запомнить этот слот. Обратите внимание, что для включения функции памяти внутри должен быть хотя бы один элемент."
+				""
+				"Оба метода гарантируют, что ограниченная бочка функционирует как фильтр, который также хранит внутри себя предметы."
+			]
+			id: "4BC707D6FBE8FF09"
+			rewards: [{
+				id: "0C9B8592D6A64FAA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "&6Ваши новые ящики!"
+			tasks: [{
+				id: "424D99F03A59C58B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									accentColor: 1908001
+									mainColor: 1908001
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 8439583
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_1"
+											tag: {
+												woodType: "warped"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любой ограниченный ствол I"
+				type: "item"
+			}]
+			title: "Ограниченный ствол I"
+			x: 1.2000000000000002d
+			y: -4.2d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: [
+				"Если вам необходимо интегрировать хранилище из разных областей в вашу основную систему,&6Ссылка на хранилище&rэто ваше решение."
+				""
+				"Поместите его в любой мультиблок сложного хранилища, затем используйте&bИнструмент хранения&rчтобы установить соединение с вашим&dКонтроллер хранилища&r. "
+				""
+				"Щелкнув правой кнопкой мыши&dКонтроллер&rс&bИнструмент&rа затем с помощью Link вы легко соединяете отдельные устройства хранения данных в одну сплоченную сеть."
+			]
+			id: "1FCC2D01626EF71E"
+			rewards: [{
+				id: "6ED5B824F25CA8AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "446E469A9B245043"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			x: 6.2d
+			y: -1.2000000000000002d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			id: "59E937483DE3A78D"
+			rewards: [{
+				id: "14F99D4DF95E5DB8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Повышает базовое хранилище до уровня «железо»."
+			tasks: [{
+				id: "6D640E5FBF05D025"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.2d
+			y: 0.2999999999999998d
+		}
+		{
+			dependencies: ["59E937483DE3A78D"]
+			id: "396DA8B3E8A23C6D"
+			rewards: [{
+				count: 3
+				id: "29EB7963249C5DED"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Повышает уровень железа до золотого уровня."
+			tasks: [{
+				id: "5508DF4601BDFF7E"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 4.7d
+			y: 0.2999999999999998d
+		}
+		{
+			dependencies: ["396DA8B3E8A23C6D"]
+			id: "5CDB898FBFF026F2"
+			rewards: [{
+				count: 8
+				id: "54E95D479FDDB5BE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Повышает уровень Gold до уровня Diamond."
+			tasks: [{
+				id: "0559C017004C3679"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 6.2d
+			y: 0.2999999999999998d
+		}
+		{
+			dependencies: ["5CDB898FBFF026F2"]
+			id: "4980B1E559CB90C6"
+			rewards: [{
+				count: 20
+				id: "0C3CF1611D111585"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Повышает уровень алмаза до уровня незерита."
+			tasks: [{
+				id: "14F92DED563FB547"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.7d
+			y: 0.2999999999999998d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2B4E5F59E5625ADF"
+			rewards: [{
+				id: "2AE5588FBF0A375D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип железного шалкерового ящика."
+			tasks: [{
+				id: "449F51AEA5780849"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 4673362
+									mainColor: 4673362
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 3949738
+									mainColor: 3949738
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 8606770
+									mainColor: 8606770
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 6192150
+									mainColor: 6192150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 11546150
+									mainColor: 11546150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 1908001
+									mainColor: 1908001
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 8991416
+									mainColor: 8991416
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 1481884
+									mainColor: 1481884
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 10329495
+									mainColor: 10329495
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 16351261
+									mainColor: 16351261
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 16383998
+									mainColor: 16383998
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 13061821
+									mainColor: 13061821
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 3847130
+									mainColor: 3847130
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 16701501
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 8439583
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_shulker_box"
+								tag: {
+									accentColor: 15961002
+									mainColor: 15961002
+								}
+							}
+						]
+					}
+				}
+				title: "Любой железный шалкер"
+				type: "item"
+			}]
+			title: "Железный Шалкер"
+			x: -1.6999999999999993d
+			y: 0.49999999999999956d
+		}
+		{
+			dependencies: ["2B4E5F59E5625ADF"]
+			id: "3E7413B4D1A55B58"
+			rewards: [{
+				count: 3
+				id: "27A9EEBE99E671BF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип золотой шалкеровой коробки."
+			tasks: [{
+				id: "454A853637CF98C1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 16351261
+									mainColor: 16351261
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 8991416
+									mainColor: 8991416
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 1481884
+									mainColor: 1481884
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 10329495
+									mainColor: 10329495
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 4673362
+									mainColor: 4673362
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 15961002
+									mainColor: 15961002
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 8439583
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 16701501
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 3847130
+									mainColor: 3847130
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 13061821
+									mainColor: 13061821
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 16383998
+									mainColor: 16383998
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 3949738
+									mainColor: 3949738
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 8606770
+									mainColor: 8606770
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 6192150
+									mainColor: 6192150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 11546150
+									mainColor: 11546150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 1908001
+									mainColor: 1908001
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+						]
+					}
+				}
+				title: "Любой золотой шалкер"
+				type: "item"
+			}]
+			x: -3.0999999999999996d
+			y: 0.49999999999999956d
+		}
+		{
+			dependencies: ["3E7413B4D1A55B58"]
+			id: "2AA436F021EDDC48"
+			rewards: [{
+				count: 8
+				id: "38F746332AD1FCCD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип алмазного шалкера."
+			tasks: [{
+				id: "5A5866CB04A8504A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 16351261
+									mainColor: 16351261
+									uuid: [I;
+										-833603602
+										79581123
+										-1627635269
+										1192521084
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 8991416
+									mainColor: 8991416
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 10329495
+									mainColor: 10329495
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 1481884
+									mainColor: 1481884
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 4673362
+									mainColor: 4673362
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 15961002
+									mainColor: 15961002
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 8439583
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 16701501
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 3847130
+									mainColor: 3847130
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 13061821
+									mainColor: 13061821
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 16383998
+									mainColor: 16383998
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 3949738
+									mainColor: 3949738
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 8606770
+									mainColor: 8606770
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 6192150
+									mainColor: 6192150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 11546150
+									mainColor: 11546150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 1908001
+									mainColor: 1908001
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+						]
+					}
+				}
+				title: "Любой Алмазный Шалкер"
+				type: "item"
+			}]
+			title: "Даймонд Шалкер"
+			x: -4.5d
+			y: 0.49999999999999956d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "32F8B69C66723910"
+			rewards: [{
+				id: "6B2B11C1445D8ACA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип железной бочки."
+			tasks: [{
+				id: "496A2B205D37C1C3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_barrel"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_barrel"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любая железная бочка"
+				type: "item"
+			}]
+			title: "Железная бочка"
+			x: -1.6999999999999993d
+			y: -0.5000000000000004d
+		}
+		{
+			dependencies: ["32F8B69C66723910"]
+			id: "7F5DCDCFFD24ABE7"
+			rewards: [{
+				count: 3
+				id: "7AD2D9AC9F87C11E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип золотой бочки."
+			tasks: [{
+				id: "7C71CBAA4AB84508"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_barrel"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_barrel"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любая золотая бочка"
+				type: "item"
+			}]
+			title: "Золотая бочка"
+			x: -3.0999999999999996d
+			y: -0.5000000000000004d
+		}
+		{
+			dependencies: ["2AA436F021EDDC48"]
+			id: "41E439ED3FAAAA94"
+			rewards: [{
+				count: 20
+				id: "3BAC743C41E0AFA4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип незеритовой шалкеровой коробки."
+			tasks: [{
+				id: "67E0664834469D43"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 16351261
+									mainColor: 16351261
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 8991416
+									mainColor: 8991416
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 1481884
+									mainColor: 1481884
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 10329495
+									mainColor: 10329495
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 4673362
+									mainColor: 4673362
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 15961002
+									mainColor: 15961002
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 8439583
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 16701501
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 3847130
+									mainColor: 3847130
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 13061821
+									mainColor: 13061821
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 16383998
+									mainColor: 16383998
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 3949738
+									mainColor: 3949738
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 8606770
+									mainColor: 8606770
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 6192150
+									mainColor: 6192150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 11546150
+									mainColor: 11546150
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 1908001
+									mainColor: 1908001
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_shulker_box"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+						]
+					}
+				}
+				title: "Любой незеритовый шалкер"
+				type: "item"
+			}]
+			title: "Незеритовый шалкер"
+			x: -5.9d
+			y: 0.49999999999999956d
+		}
+		{
+			dependencies: ["7F5DCDCFFD24ABE7"]
+			id: "52092833009BDC49"
+			rewards: [{
+				count: 8
+				id: "7045666DDF822607"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип алмазной бочки."
+			tasks: [{
+				id: "76DCE8177B31E521"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedstorage:diamond_barrel"
+							tag: {
+								accentColor: 1481884
+								mainColor: 1481884
+							}
+						}]
+					}
+				}
+				title: "Любая алмазная бочка"
+				type: "item"
+			}]
+			title: "Алмазная бочка"
+			x: -4.5d
+			y: -0.5000000000000004d
+		}
+		{
+			dependencies: ["52092833009BDC49"]
+			id: "4E22392BDC9FF135"
+			rewards: [{
+				count: 20
+				id: "33C3789F88376C3B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип незеритовой бочки."
+			tasks: [{
+				id: "0CBCDFBDCFCAE91B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedstorage:netherite_barrel"
+							tag: {
+								woodType: "acacia"
+							}
+						}]
+					}
+				}
+				title: "Любая незеритовая бочка"
+				type: "item"
+			}]
+			title: "Незеритовая бочка"
+			x: -5.9d
+			y: -0.5000000000000004d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "34174F45D62D0D6E"
+			rewards: [{
+				id: "4B932A2997953C71"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип железного сундука."
+			tasks: [{
+				id: "1233B1890EF136B9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_chest"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:iron_chest"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любой железный сундук"
+				type: "item"
+			}]
+			title: "Железный сундук"
+			x: -1.6999999999999993d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34174F45D62D0D6E"]
+			id: "1A2605092B8B7F37"
+			rewards: [{
+				count: 3
+				id: "552332FB2BE96D72"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип Золотого сундука."
+			tasks: [{
+				id: "567305840156175A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_chest"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:gold_chest"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любой золотой сундук"
+				type: "item"
+			}]
+			title: "Золотой сундук"
+			x: -3.0999999999999996d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A2605092B8B7F37"]
+			id: "0562F21AA82B2961"
+			rewards: [{
+				count: 8
+				id: "74CFE937AA9E0320"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип алмазного сундука."
+			tasks: [{
+				id: "1518DABB4F5AE230"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_chest"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:diamond_chest"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Любой алмазный сундук"
+				type: "item"
+			}]
+			title: "Алмазный сундук"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0562F21AA82B2961"]
+			id: "3488B3847D0D01DC"
+			rewards: [{
+				count: 20
+				id: "368BDC919FFB6225"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Создайте любой тип незеритового сундука."
+			tasks: [{
+				id: "003F8C1134A5269A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:netherite_chest"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:netherite_chest"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+						]
+					}
+				}
+				title: "Любой незеритовый сундук"
+				type: "item"
+			}]
+			title: "Незеритовый сундук"
+			x: -5.9d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7226FB66C2B28ACB"
+				"4BC707D6FBE8FF09"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7A36AA33AB12EE37"
+			rewards: [{
+				id: "0763D5B4B4BC86D5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "034851ECAE1838AD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedstorage:limited_iron_barrel_1"
+							tag: {
+								woodType: "acacia"
+							}
+						}]
+					}
+				}
+				title: "Любая ограниченная I железная бочка"
+				type: "item"
+			}]
+			title: "Ограниченная I Железная Бочка"
+			x: -1.7000000000000002d
+			y: -2.6d
+		}
+		{
+			dependencies: ["7A36AA33AB12EE37"]
+			id: "703D0E0BD4F9DC4F"
+			rewards: [{
+				count: 3
+				id: "6E19AA159B184F02"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13B65FB9178D5556"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedstorage:limited_gold_barrel_1"
+							tag: {
+								woodType: "acacia"
+							}
+						}]
+					}
+				}
+				title: "Любая ограниченная I золотая бочка"
+				type: "item"
+			}]
+			title: "Лимитед I Золотая бочка"
+			x: -3.1d
+			y: -2.6d
+		}
+		{
+			dependencies: ["703D0E0BD4F9DC4F"]
+			id: "51ECBE8030E9D801"
+			rewards: [{
+				count: 8
+				id: "3525DBF1089151FE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14A33E5B9275E04A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedstorage:limited_diamond_barrel_1"
+							tag: {
+								woodType: "acacia"
+							}
+						}]
+					}
+				}
+				title: "Любая ограниченная I алмазная бочка"
+				type: "item"
+			}]
+			title: "Лимитированная I Алмазная Бочка"
+			x: -4.5d
+			y: -2.6d
+		}
+		{
+			dependencies: ["51ECBE8030E9D801"]
+			id: "46BFA878FE03C07E"
+			rewards: [{
+				count: 20
+				id: "33DFC2AA347F2CAC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7081BC1B65C5FB4F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "sophisticatedstorage:limited_netherite_barrel_1"
+							tag: {
+								woodType: "acacia"
+							}
+						}]
+					}
+				}
+				title: "Любая ограниченная незеритовая бочка I"
+				type: "item"
+			}]
+			title: "Ограниченная I незеритовая бочка"
+			x: -5.9d
+			y: -2.6d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			id: "57ADB28DF447C621"
+			rewards: [{
+				id: "34C0EBF69D404C0F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Половинки"
+			tasks: [{
+				id: "36ABC2494C0AE99C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_2"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_2"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Ограниченная бочка II"
+				type: "item"
+			}]
+			x: 0.20000000000000018d
+			y: -5.7d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			id: "341CBC06BAA8D3DF"
+			rewards: [{
+				id: "7D8016DD066D21FA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Третьи"
+			tasks: [{
+				id: "301865DCEDB452DD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_3"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_3"
+											tag: {
+												accentColor: 8439583
+												mainColor: 16701501
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Ограниченный ствол III"
+				type: "item"
+			}]
+			x: 1.2000000000000002d
+			y: -5.7d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			id: "53F91F18C2045A1A"
+			rewards: [{
+				id: "799DEF3AABF0A54D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "кварталы"
+			tasks: [{
+				id: "39E0074ACF3D6F30"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_4"
+								tag: {
+									accentColor: 8439583
+									mainColor: 16701501
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 1908001
+												mainColor: 1908001
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 11546150
+												mainColor: 11546150
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 13061821
+												mainColor: 13061821
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 3847130
+												mainColor: 3847130
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 16701501
+												mainColor: 16701501
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 8439583
+												mainColor: 8439583
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 10329495
+												mainColor: 10329495
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 1481884
+												mainColor: 1481884
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 8991416
+												mainColor: 8991416
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 3949738
+												mainColor: 3949738
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 8606770
+												mainColor: 8606770
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "bamboo"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 16383998
+												mainColor: 16383998
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "cherry"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "mangrove"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 16351261
+												mainColor: 16351261
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "acacia"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "birch"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "crimson"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "dark_oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "jungle"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "oak"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "spruce"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												woodType: "warped"
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 15961002
+												mainColor: 15961002
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 4673362
+												mainColor: 4673362
+											}
+										}
+										{
+											Count: 1b
+											id: "sophisticatedstorage:limited_barrel_4"
+											tag: {
+												accentColor: 6192150
+												mainColor: 6192150
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Ограниченный ствол IV"
+				type: "item"
+			}]
+			x: 2.2d
+			y: -5.7d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: [
+				"&6Ввод хранилища&rпозволяет хранить элементы в сети, размещая их рядом с сетью или связывая их с сетью в радиусе 15 блоков."
+				""
+				"Обратите внимание, что элементы нельзя вводить вручную; для перемещения предметов в систему хранения необходимо использовать воронки или бункеры."
+			]
+			id: "7A8D89E446B6FBE8"
+			rewards: [{
+				id: "40A260D42D7FDFB1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE8A29D14566138"
+				item: "sophisticatedstorage:storage_input"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -2.2d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: [
+				"&6Выход хранилища&rпозволяет извлекать элементы из сети, размещая блок вывода хранилища рядом с сетью или связывая его с сетью в пределах 15 блоков."
+				""
+				"Для извлечения предметов вам нужно использовать воронки, бункеры или желоба."
+			]
+			id: "574BACFBD270FD8F"
+			rewards: [{
+				id: "5EC13C506A0D5AE5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E42B7D44854C32D"
+				item: "sophisticatedstorage:storage_output"
+				type: "item"
+			}]
+			x: 5.2d
+			y: -2.2d
+		}
+		{
+			dependencies: ["3BFAF2034D6C99BC"]
+			description: ["&6Storage I/O&r combines the functionalities of both Storage Input and Storage Output into a single block. This allows items to be both inserted into and extracted from the network seamlessly."]
+			id: "0E2DD647FACCEE2A"
+			rewards: [{
+				id: "717CFC7387D5907E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "642D8A1A60E93C16"
+				item: "sophisticatedstorage:storage_io"
+				type: "item"
+			}]
+			x: 4.7d
+			y: -3.2d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: [
+				"Вы можете выставлять предметы за пределами сундуков, чтобы лучше организовать свое хранилище. Например, на продуктовом ящике может быть изображена морковка, указывающая на его содержимое."
+				""
+				"Для этого зайдите в настройки сундука и перейдите в «Настройки отображения предметов». Щелкните левой кнопкой мыши по предмету внутри сундука, чтобы отобразить его. Выбранный элемент будет отмечен рамочным квадратом. Чтобы убрать отображение, щелкните правой кнопкой мыши по квадрату."
+			]
+			id: "0BD070E54EF86FDA"
+			rewards: [{
+				id: "27BF0F87FC1D43DC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3271FA975F0D1EB5"
+				title: "Отображать метки"
+				type: "checkmark"
+			}]
+			x: 0.20000000000000018d
+			y: -2.7d
+		}
+		{
+			dependencies: ["08838CFB8BF290E5"]
+			hide_dependency_lines: true
+			id: "48802E2C9058AF11"
+			subtitle: "Вы можете иметь 2 улучшения стека в одном сундуке!"
+			tasks: [{
+				id: "1B18660AB669E39E"
+				title: "Дружеский совет!"
+				type: "checkmark"
+			}]
+			x: 7.2d
+			y: 2.6000000000000005d
+		}
+		{
+			dependencies: ["7261FED43BDDEFA8"]
+			description: ["The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1DDD74A012CDE699"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7A4861821BD8BD90"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0E19C3B23372DDE3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Больше места для хранения в пути"
+			tasks: [{
+				consume_items: false
+				id: "130C92A47DB62AE9"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -1.7000000000000002d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DDD74A012CDE699"]
+			description: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
+			id: "5A52E77204B42646"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0C794234AE18DE04"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "773667476D698A0A"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Еще больше места для хранения в пути"
+			tasks: [{
+				id: "4098258C289F8988"
+				item: "sophisticatedbackpacks:gold_backpack"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.0999999999999996d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A52E77204B42646"]
+			description: ["The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"]
+			id: "0C28D365031DFBB9"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7C8113E9BCA529CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "14BF8C46FBB8503F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Огромное хранилище в пути"
+			tasks: [{
+				id: "675716D8D49F9E79"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C28D365031DFBB9"]
+			description: ["The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"]
+			id: "0E10A137480D309E"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6D639DB5C178E21B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "611B12280CBAC9A2"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Безумное хранилище в пути"
+			tasks: [{
+				id: "2DE5EFAC7AA9FF4F"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.9d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7261FED43BDDEFA8"]
+			description: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
+			id: "33628061006314AB"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0A2AAF7CDC6E921F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4DF8DD43EA31523F"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			subtitle: "Получите максимум от вашего рюкзака"
+			tasks: [{
+				id: "6AF91F57CF082BC7"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 3.2d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: ["261651FB7B600587"]
+			description: [
+				"&6Изысканные рюкзаки&rдобавьте в Minecraft несколько самых полезных рюкзаков!"
+				""
+				"Чтобы оборудовать&9рюкзак&r, щелкните значок «Снарядить» в&9рюкзак&rменю."
+				""
+				"Раз в&9рюкзак&rоборудован, вы можете открыть его, нажав&bB&r"
+				""
+				"&9Рюкзаки&rможно улучшить на несколько уровней."
+				""
+				"Чтобы увидеть все&9рюкзак&rварианты, поиск&d@сложный&rв&eДЖЭИ&rпанель поиска."
+				""
+				"Вы можете найти эту строку поиска в правом нижнем углу."
+				""
+				"Нажав на предметы в списке предметов справа от вашего инвентаря, вы увидите их рецепты и способы использования."
+				""
+				"Вы также можете нажать&bR&rи&bU&rпри наведении курсора на любой предмет, чтобы увидеть его рецепт и использование."
+			]
+			hide_until_deps_complete: true
+			id: "7261FED43BDDEFA8"
+			rewards: [{
+				id: "6936CD16F9688A12"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "28DECE967CE74AD2"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Портативный инвентарь"
+			x: 1.2d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			hide_dependency_lines: true
+			id: "56FEC306B75076CB"
+			subtitle: "Вы можете иметь 3 улучшения стека в одном рюкзаке!"
+			tasks: [{
+				id: "4280405CE9899D0A"
+				type: "checkmark"
+			}]
+			title: "Портативный дружелюбный совет!"
+			x: 7.2d
+			y: 3.899999999999999d
+		}
+		{
+			dependencies: [
+				"56FEC306B75076CB"
+				"33628061006314AB"
+			]
+			id: "7DE83E440B507868"
+			rewards: [{
+				id: "78659A692469BB1D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x1.5"
+			tasks: [{
+				id: "386F37C32E7F15B4"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: 5.7d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: [
+				"56FEC306B75076CB"
+				"7DE83E440B507868"
+			]
+			id: "2C9E13E2196DC6D7"
+			rewards: [{
+				id: "1A2F3ED62762F666"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x2"
+			tasks: [{
+				id: "7F00E0DAD385F572"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 6.7d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: [
+				"56FEC306B75076CB"
+				"2C9E13E2196DC6D7"
+			]
+			id: "7A516A80B0491E03"
+			rewards: [{
+				count: 3
+				id: "144A748CD1EDB6FC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x4"
+			tasks: [{
+				id: "7E8B3935EBFC749B"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 7.7d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: [
+				"56FEC306B75076CB"
+				"7A516A80B0491E03"
+			]
+			id: "746AE4CA7CE83847"
+			rewards: [{
+				count: 8
+				id: "2E3B40763DFAAA9E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x8"
+			tasks: [{
+				id: "6D6485EA0B0835E2"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 8.7d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: [
+				"56FEC306B75076CB"
+				"746AE4CA7CE83847"
+			]
+			id: "3CE1281049B4B14B"
+			rewards: [{
+				count: 20
+				id: "205F898E67677AE2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x16"
+			tasks: [{
+				id: "084840E3C345607A"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 9.7d
+			y: 4.799999999999999d
+		}
+		{
+			dependencies: ["4BC707D6FBE8FF09"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Compacting Drawers из нескольких других модов автоматически уплотняет самородки в слитки."
+				""
+				"Используя&cОбновление уплотнения&r, ты можешь сделать то же самое!"
+				""
+				"Для любого&b3x3&rрецептов (например, из самородков в слитки), вам нужны&aПередовой&r &cОбновление уплотнения&r."
+				"{@pagebreak}"
+				"После установки настройки появятся в правой части экрана, как и любое другое обновление."
+				""
+				"Вам следует включить \\\"&6Компактируйте что угодно&r\\\" и вот так вы уплотняете что угодно!"
+				""
+				"&4&l&oПримечание:&rЭто не точная замена. Например, вы не можете разкомпактировать вещи непосредственно внутри бочки. Он идет только ВВЕРХ."
+				"&aСамородки -> Слитки -> Блоки&r"
+				"Но не&dБлоки -> Слитки -> Самородки&r"
+				""
+				"&4&l&oПримечание 2:&rОн ничего не уплотнит, пока в него не войдут новые предметы!"
+				""
+				"&e&lУдачного уплотнения!"
+			]
+			id: "2946E1B9B068C2F3"
+			min_required_dependencies: 1
+			subtitle: "Сделайте свой собственный!"
+			tasks: [{
+				id: "16BEBF834840E366"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			title: "Вы скучаете по компактным ящикам?"
+			x: -0.4d
+			y: -4.2d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"Используя ЛИБО&6Магнитное обновление&rили&6Апгрейд пикапа&r, вы можете сделать так, чтобы любой предмет, который вы подберете, попадал прямо в ваш рюкзак!"
+				""
+				"Отлично подходит для сочетания с&6Обновления стека&r, &6Пустотные улучшения&r, и займемся добычей полезных ископаемых!"
+			]
+			id: "4CED308848726E28"
+			subtitle: "Заставьте рюкзак работать"
+			tasks: [{
+				id: "7AC1E4B7C223CFA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:magnet_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:pickup_upgrade"
+							}
+						]
+					}
+				}
+				title: "Подберите улучшения"
+				type: "item"
+			}]
+			title: "Подобрать"
+			x: 4.1d
+			y: 6.4d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"Когда&6Обновление еды&rнаходится в вашем рюкзаке, он автоматически накормит вас, когда вы начнете проголодаться!"
+				""
+				"Если вы сделаете&bпередовой&rверсию обновления, вы можете настроить ее так, чтобы она кормила вас так, чтобы вы не тратили НИКАКУЮ еду!"
+			]
+			id: "6659EBA759E55BD5"
+			subtitle: "Официант по требованию!"
+			tasks: [{
+				id: "7CB84A8A7C1E1147"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			title: "надоедливая еда"
+			x: 3.2d
+			y: 6.6d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"С&6повышение депозита&r, вы можете щелкнуть правой кнопкой мыши по любому хранилищу, и оно мгновенно разместит содержимое рюкзака!"
+				""
+				"Если вы используете&bпередовой&rобновление, вы можете фильтровать в соответствии с содержимым хранилища!"
+			]
+			id: "723F98AC017A4F8C"
+			subtitle: "Бросай и иди!"
+			tasks: [{
+				id: "428BA6F8008F97AD"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			title: "Депозит"
+			x: 2.3d
+			y: 6.4d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"&8Модернизация печи&r, &8Обновление для курящих&r, и&8Взрывное обновление&rпозволит вам понюхать вещи в рюкзаке!"
+				""
+				"&6Улучшение крафта&rдает вам верстак везде, где есть рюкзак."
+				"То же самое с&6наковальня&r, и&6улучшения камнереза&r!"
+				""
+				"Существует также&bЧипированный мод&rинтеграция таблиц! Вы можете сделать&bСколы&r &6Обновление&rвзять свой&bСтолы со сколами&rгде угодно!"
+			]
+			id: "5FA9D6B1B66399AC"
+			subtitle: "Творим... на ходу!"
+			tasks: [
+				{
+					id: "704199736D977632"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:blasting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:smoking_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:smelting_upgrade"
+								}
+							]
+						}
+					}
+					title: "Плавильные станции"
+					type: "item"
+				}
+				{
+					id: "6153C16C7E2100CD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:crafting_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:stonecutter_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:anvil_upgrade"
+								}
+							]
+						}
+					}
+					title: "Рабочие станции"
+					type: "item"
+				}
+				{
+					id: "776AA39D5A48176F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/carpenters_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/mason_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/botanist_workbench_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/tinkering_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/glassblower_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/alchemy_bench_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedbackpacks:chipped/loom_table_upgrade"
+								}
+							]
+						}
+					}
+					title: "Рабочие столы со сколами"
+					type: "item"
+				}
+			]
+			title: "Обновления рабочих станций"
+			x: 1.6999999999999997d
+			y: 5.699999999999999d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: [
+				"С&6Вечное обновление&r, ваш рюкзак ничто не испортит!"
+				""
+				"Это включает, но не ограничивается:"
+				"> &4Лава"
+				"> &8Пустота"
+				"> &2Криперс"
+				"> &bИсчезновение"
+				"> &6И многое другое!"
+			]
+			id: "7B2E2427787A55A7"
+			rewards: [{
+				count: 2
+				id: "6AFD052C5D6B7D48"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Никогда не оставляй меня"
+			tasks: [{
+				id: "4093FF181A482903"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 3.2d
+			y: 3.6d
+		}
+		{
+			dependencies: ["33628061006314AB"]
+			description: ["With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"]
+			id: "5BC526ACC0046B20"
+			subtitle: "Спина на спине на спине"
+			tasks: [{
+				id: "1FF82C9B0DACDF82"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 4.7d
+			y: 5.699999999999999d
+		}
+		{
+			dependencies: ["7226FB66C2B28ACB"]
+			description: ["&eDecoration Table&r allows you to customize the Chest with any block."]
+			id: "6A0982B3EC12BAF2"
+			rewards: [{
+				id: "2D1902E3619D2D0D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35FAD25B09AE6869"
+				item: "sophisticatedstorage:decoration_table"
+				type: "item"
+			}]
+			x: 2.2d
+			y: -2.6d
+		}
+		{
+			dependencies: ["6A0982B3EC12BAF2"]
+			description: ["Apply your custom decoration at the table by inserting a paintbrush. Once applied, you can use the paintbrush directly on a chest without breaking it, instantly transferring the chosen style."]
+			id: "065D5E33586CE44C"
+			rewards: [{
+				id: "49D0CF4C8C3D869C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "305BA44F654CCB65"
+				item: "sophisticatedstorage:paintbrush"
+				type: "item"
+			}]
+			x: 3.3d
+			y: -2.6d
+		}
+	]
+	title: "&d&lСложная система хранения"
+}

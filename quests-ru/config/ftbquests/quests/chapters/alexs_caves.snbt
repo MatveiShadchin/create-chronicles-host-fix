@@ -1,0 +1,1953 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_caves"
+	group: "13742BAAC673A80E"
+	icon: "alexscaves:cave_book"
+	id: "022F783110FE25B0"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.2d
+		x: -18.0d
+		y: 23.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["24416D60F9757C16"]
+			description: [
+				"Глубоко под пышными джунглями лежат&6Первозданные пещеры&r, изолированный в течение миллионов лет. Эти известняковые пещеры имеют уникальную геологию, а флора и фауна считаются вымершими."
+				""
+				"Динозавры доминируют в этом царстве, освещенном&eАмберсол&r, сияющая форма&eянтарь&r. Этот естественный свет делает пещеры такими же яркими, как днем, отбрасывая древние тени в этом доисторическом анклаве."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+			id: "5952AF93B95E494C"
+			rewards: [{
+				id: "03758069E07A3BC9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				id: "7E61FA3DE51F62FD"
+				type: "biome"
+			}]
+			title: "Посетите первобытную пещеру"
+			x: -19.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["24416D60F9757C16"]
+			description: [
+				"The &aТоксичные пещеры&r, обширные подземные пустоши, являются результатом неконтролируемых научных амбиций. Эта враждебная зона наполнена опасными существами и смертельными угрозами."
+				""
+				"Радиация заполняет территорию от&eЗалежи радрока, урановой руды и кислоты&r, с разбросанными вокруг руинами старых промышленных объектов."
+				""
+				"В&aТоксичные пещеры&r, вы рискуете получить&cОблученный&rэффект, который останавливает естественное исцеление и наносит непрерывный урон на более высоких уровнях, подчеркивая смертоносную природу этого места."
+			]
+			id: "52034A3AD5A347C8"
+			rewards: [{
+				id: "3B1D85DD7A963E14"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				id: "4F2577E08520A4D9"
+				type: "biome"
+			}]
+			title: "Посетите токсичную пещеру"
+			x: -19.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["24416D60F9757C16"]
+			description: ["The &6Magnetic Caves&r are distinguished by towering &6Neodymium&r crystals set against a backdrop of &6Galena&r, lending the cave its magnetic moniker. These crystals exist in &6Scarlet&r and &6Azure&r varieties, with the former &6attracting&r and the latter &6repelling&r metallic items. To navigate safely, it's wise to use non-metallic gear."]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+			id: "073F2FEC3D06AC0E"
+			rewards: [{
+				id: "2CE48CE5B2B5AF71"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				id: "0B39CDF045054E4F"
+				type: "biome"
+			}]
+			title: "Посетите Магнитную пещеру"
+			x: -15.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["24416D60F9757C16"]
+			description: [
+				"The&2Заброшенные лощины&rпредставляет собой сеть подземных пещер, окутанных тьмой. Свет редко проникает в это темное место."
+				""
+				"&nБудьте осторожны с источниками света, так как они могут привлечь нежелательных существ.&r"
+				""
+				"Жители г.&aЗаброшенные лощины&rбыли затронуты тьмой и могут вызывать зловещие силы из тени."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+			id: "724179DC4605ECC2"
+			rewards: [{
+				id: "786BAB17DE916D06"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				id: "3D5A5EFAB3166B8B"
+				type: "biome"
+			}]
+			title: "Посетите заброшенную пещеру"
+			x: -15.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["24416D60F9757C16"]
+			description: [
+				"Бездна. Эта гигантская пещера находится под водой, и там очень темно, поэтому вам нужен новый эффект под названием&6Глубокий взгляд.&r"
+				"Внешняя стена пещеры сделана из абиссмарина."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+			id: "5782F8A43B93FC7D"
+			rewards: [{
+				id: "425CD370CF7E2B69"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				id: "56B9DE98CE2C4DB4"
+				type: "biome"
+			}]
+			title: "Найдите Бездонную пропасть"
+			x: -17.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["2F7BB458FD5AFF19"]
+			description: [
+				"&cКарты пещерных биомов&rможет быть создан с использованием всего одного кодекса и может использоваться для поиска ближайшего биома типа кодекса."
+				""
+				"Поскольку все биомы, добавленные в пещерах Алекса, довольно редки, загрузка этих карт может занять некоторое время, и при этом на их текстуре будут отображаться эллипсы."
+				""
+				"Как только это будет сделано, они заполнятся и, если их удерживать, будут указывать вращение игрока относительно целевого биома."
+			]
+			hide_until_deps_complete: true
+			id: "24416D60F9757C16"
+			tasks: [{
+				id: "06AE88FECE363A9E"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["4CB998ED5BAAF25C"]
+			description: [
+				"Алтари Бездны интерактивны и могут содержать один предмет."
+				""
+				"Если Жемчужину положить на алтарь и кто-либо из представителей «расы Глубоководных» увидит ее, они подплывут к алтарю и подберут Жемчужину."
+				""
+				"Они осмотрят его, а затем взамен поместят предмет на алтарь, осветив трещины на Алтаре Бездны странными белыми линиями."
+				""
+				"Успешная сделка немного повысит вашу репутацию среди «расы Глубоководных»."
+				""
+				"Любой предмет можно разместить на Алтаре Бездны для обмена, но «Раса Глубоководных» принимает только Жемчуг."
+			]
+			id: "773A0ACF6CC25768"
+			rewards: [{
+				id: "6DABBF8471E604F5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60B744F3C912EF13"
+				item: "alexscaves:abyssal_altar"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			description: ["&2A Floater&r is a rideable entity primarily used to save yourself from drowning by rapidly ascending yourself above the surface of water."]
+			id: "10DA24F96BA7A28E"
+			rewards: [{
+				id: "6A6056EF6329BFE6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FD0A178724F98C8"
+				item: "alexscaves:floater"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			description: [""]
+			id: "641682361C82AC65"
+			rewards: [{
+				id: "2E774194484BB219"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Невозможно создать."
+			tasks: [
+				{
+					id: "5F450817ACC04AA9"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26D73FBBD9675252"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24CC0FA0AC71E906"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "042D9010FEA5BF56"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			description: [
+				"Подводная лодка — это транспортное средство, которое может двигаться под водой, позволяя водителю дышать под водой. Его можно найти естественным путем на Окисленной морской базе в Бездонных пропастях или создать, создав показанную ниже формацию, для этого вам понадобится&3Загадочный двигатель&rкапля из&bХаллбрейкер&r"
+				""
+				"Прожектор, активированный с помощью клавиши специальной способности (по умолчанию G), излучает свет, направленный на курсор гонщика, после чего Халлбрейкеры становятся агрессивными по отношению к машине. Клавиша прыжка поднимает подводную лодку, а левый контроль опускает ее."
+				""
+				"Медные слитки можно использовать на поврежденных подводных лодках для восстановления их здоровья. На потерю здоровья указывают трещины на Подводной лодке."
+				""
+				"Пока подводная лодка погружена в воду, она со временем окисляется, но это не влияет на ее характеристики или поведение. Использование сот на подводной лодке натирает ее воском, предотвращая дальнейшее окисление."
+				""
+				""
+				"{image:kubejs:textures/submarine1.png width:200 height:200 align:1}"
+				""
+				"{image:kubejs:textures/submarine2.png width:200 height:200 align:1}"
+				""
+				"{image:kubejs:textures/submarine3.png width:200 height:200 align:1}"
+			]
+			id: "727700F323905A1E"
+			rewards: [{
+				id: "4701CF3313DFD411"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "0F2115707119EE19"
+				type: "advancement"
+			}]
+			x: -15.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["773A0ACF6CC25768"]
+			description: [
+				"The &bМорской персонал&r— это уникальный предмет, который можно получить в обмен на Глубоководных. Это черный посох с крабовыми клешнями наверху и двумя драгоценными камнями, одним у основания и одним на головке."
+				""
+				"При использовании расходуется одна единица прочности и создается водяная стрела. Эти болты имеют тяжелое падение, которому не препятствует вода. Прицеливание не очень хорошее, болты могут попасть куда угодно вокруг цели. Однако, когда болт попадает в блок или цель, он выплескивается и наносит некоторый урон по области. Водяные стрелы проходят сквозь Глубоководных."
+			]
+			id: "78A9DD332ACE9BFD"
+			rewards: [{
+				id: "6F206E65F74D075B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "66DB7685FB947531"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["773A0ACF6CC25768"]
+			description: ["Unique melee weapon obtained through trading with Deep One Knights. It is similar to a trident, in that it is a melee weapon with a right click ability."]
+			id: "6BB561AF24722175"
+			rewards: [{
+				id: "24D98F891D4035BA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "36074C4ADEFE1E34"
+				item: {
+					Count: 1
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["773A0ACF6CC25768"]
+			description: ["The Magic Conch is an extremely magical weapon capable of summoning loyal Deep Ones to aid you in battle."]
+			id: "54D9E80AD12E1F7D"
+			rewards: [{
+				id: "4CB0772BD7A42F37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "50F3F5814620781F"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			description: [
+				"По стенам и камням Deepstone разбросаны группы до 5 мидий. Их можно добыть киркой и выбросить либо из себя, либо из&dПерл.&r"
+				""
+				"Каждый раз, когда вы добываете группу мидий, из нее выпадает одна, а количество мидий в группе уменьшается на одну."
+				""
+				"Их можно размещать на полу и на стенах. Их также можно готовить и есть."
+			]
+			id: "7B9B86D4F1133C89"
+			rewards: [{
+				id: "61F96DDAA2C16384"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "237FE5CDFFE47F5B"
+				item: "alexscaves:mussel"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7B9B86D4F1133C89"]
+			id: "4CB998ED5BAAF25C"
+			rewards: [{
+				id: "257B892E2EA3EAC5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "179DD7CE479927B6"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			description: [
+				"В темных царствах Бездны, куда не проникает солнечный свет, дно океана и его существа остаются окутанными тьмой."
+				""
+				"Этих светящихся существ можно использовать для приготовления пива.&6Зелья глубочайшего видения&r, предоставляя вам специальный положительный эффект, который рассеивает водяной туман и ясно освещает ваши подводные исследования."
+			]
+			id: "663B00FD79A7D188"
+			rewards: [{
+				id: "2FCA9D2EEE9494B8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A82CE52C35E80C7"
+					item: "alexscaves:lanternfish"
+					type: "item"
+				}
+				{
+					id: "466CA9203F9C3107"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexscaves:deepsight"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			id: "1D2D3BDA65537C43"
+			rewards: [{
+				id: "2F9043723456ADE9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "подводные факелы"
+			tasks: [{
+				id: "2D226023032FEDE7"
+				item: "alexscaves:bioluminescent_torch"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5782F8A43B93FC7D"]
+			description: [
+				"Сливные блоки можно найти на окисленных морских базах и при крафте. Они состоят из двух глубинных бомб, шести ведер и одной красной каменной пыли."
+				""
+				"Дренажи — это проводящие блоки красного камня, которые при активации осушают область воды на один слой блока в секунду. Если его разместить на полу комнаты, окруженной водой и наполненной водой, при включении он будет сливать воду из комнаты, в которой находится. Если его поместить на потолок комнаты, окруженной водой, но не наполненной водой, он наполнит комнату водой, забрав ее из воды над ней. Это не сработает, если верхняя часть блока не подвергается воздействию воды или если нижняя часть блока не подвергается воздействию воздуха или воды."
+			]
+			id: "535A7CBC4E22C265"
+			rewards: [{
+				id: "2287508E8542BA3A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "514B2988F4EE1C48"
+				item: "alexscaves:drain"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["773A0ACF6CC25768"]
+			description: [
+				"Созерцательная жемчужина — загадочный и редкий предмет, который постоянно показывает вашу репутацию среди Глубоководных."
+				""
+				"Смотрящую Жемчужину можно получить в обмене с обычным Глубоководным, который с вероятностью 4,02% поместит ее на Алтарь Бездны в обмен на Жемчужину."
+				""
+				"&c&nРепутация&r&r"
+				"Взгляд Жемчужины изменит свой цвет и загадочное сообщение, отображаемое во всплывающей подсказке к предмету, в зависимости от репутации между Глубоководными и игроком, у которого есть жемчужина. Если игрок никогда раньше не держал в руках «Взглядную жемчужину», она будет постоянно меняться и переливаться цветами радуги."
+				""
+				"Ниже приведены цвета и сообщения, которые будет отображать «Взглядная жемчужина» в зависимости от репутации игрока среди Глубоководных:"
+				""
+				"&nПреследование&r"
+				"Цвет Gazing Pearl будет меняться от лазурно-синего до ярко-бирюзового. На дисплее появится сообщение: «Блеск жемчужины осторожно тускнеет...»"
+				""
+				""
+				"&nАгрессия&r"
+				"Смотрящая Жемчужина будет переливаться разными цветами в зависимости от того, сколько исцеления нужно сделать для вашей репутации, чтобы Глубоководные были осторожны с вами. Сообщение, которое он отобразит: «Жемчужина сияет злобой...»."
+				""
+				"Если жемчужина блестит от лазурно-синего до насыщенно-темного синего цвета, вашей репутации не нужно многого лечить."
+				""
+				"Если жемчужина блестит от холодного фиолетового до пурпурного, значит, вашей репутации нужно что-то исцелить."
+				""
+				"Если жемчужина переливается от неоново-розового до ярко-красного, значит, вашей репутации нужно многое исправить."
+				""
+				""
+				"&nНейтралитет&r"
+				"Gazing Pearl будет отражать оттенки от ярко-бирюзового до изумрудно-зеленого. Сообщение, которое будет отображаться: «Жемчужина отражает нейтральный свет...»."
+				""
+				""
+				"&nПолезность&r"
+				"Смотрящая Жемчужина будет переливаться разными цветами в зависимости от того, насколько высоко о вас думают Глубоководные. На дисплее появится сообщение: «Жемчужина сияет радостным светом...»."
+				""
+				"Если цвет жемчуга варьируется от изумрудно-зеленого до зеленовато-желтого, вам будет легко понизить свою репутацию среди Глубоководных."
+				""
+				"Если жемчужина меняет цвет от зеленовато-желтого до теплого оранжевого, вам придется приложить некоторые усилия, чтобы снова понизить свою репутацию среди Глубоководных."
+				""
+				"Если жемчужина светится от теплого оранжевого до ярко-красного, вам придется приложить немало усилий, чтобы снова понизить свою репутацию среди Глубоководных."
+			]
+			id: "68FA6D8701E7FD0E"
+			rewards: [{
+				id: "77B3C8CE41D766BD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "654EB5D8D8BAC444"
+				item: "alexscaves:gazing_pearl"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["073F2FEC3D06AC0E"]
+			description: [
+				"The &6Нотор&r, своеобразная и пассивная сущность, плавает в Магнитных пещерах. Неспособные атаковать, ноторы по-прежнему доставляют неудобства, сканируя близлежащих существ."
+				""
+				"Они используют эти сканирования для создания голограмм, предупреждая других монстров в биоме о потенциальных злоумышленниках."
+			]
+			id: "67497B2F16C53C69"
+			rewards: [{
+				id: "453D21B05C513B6B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Гаджет-проектор"
+			tasks: [{
+				id: "34607CA6312313D7"
+				item: "alexscaves:notor_gizmo"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["073F2FEC3D06AC0E"]
+			id: "5D5AF7240033CD4A"
+			rewards: [{
+				id: "14A29F4A4DC574AD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Спроецируйте своего любимого моба с помощью голокодера."
+			tasks: [
+				{
+					id: "288F72E6544D682B"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+				{
+					id: "19D44207CD105BB6"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["073F2FEC3D06AC0E"]
+			description: [
+				"Ты стареешь&7железные металлы&rвозражает против&cСкарлетс&rблоки будут тянуть вас к нему, пока&1Лазурный&rоттолкнет вас от этого."
+				""
+				"Если вы носите железные сапоги, вы можете подняться&cСкарлет&rблоки"
+			]
+			id: "16EEB94284FA163B"
+			rewards: [{
+				id: "246F5813C15F779D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "346CCBA66126177F"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "4DB60ACAD8CD0BC0"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			title: "Неодимовые слитки"
+			x: -13.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["16EEB94284FA163B"]
+			description: ["Obtain the Heart of Iron by killing the Magnetron."]
+			id: "0D5BFDD982438E57"
+			rewards: [{
+				id: "0BD3F303EA5F3348"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Тяните и толкайте своих врагов."
+			tasks: [{
+				id: "43CB00DF38862751"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["16EEB94284FA163B"]
+			id: "03FF34CE5EAD0556"
+			rewards: [{
+				id: "592ECAF400FB8BD2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Wi-Fi активация"
+			tasks: [{
+				id: "1FB154DB66104764"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["16EEB94284FA163B"]
+			description: ["Obtain the Hearth of Iron by killing the &aMagnetron.&r"]
+			id: "618DBBF502E14043"
+			rewards: [{
+				id: "30E17AEEE31E5633"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Автоматизированная система майнинга."
+			tasks: [
+				{
+					id: "64630CCD303FF238"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					id: "47A69B8D90F48124"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "024BCEFBB1DC1B75"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+			]
+			title: "Карьер"
+			x: -11.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["16EEB94284FA163B"]
+			description: [""]
+			id: "1997A43692ABDAFB"
+			rewards: [{
+				id: "2F2C06F306BDDA43"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "018B735F2EE8FFE0"
+				item: "alexscaves:magnetic_levitation_rail"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["16EEB94284FA163B"]
+			id: "5CEE9A9A313448AE"
+			rewards: [{
+				id: "56FA3408CB0628B2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD541D3B505C50F"
+				item: "alexscaves:magnetic_activator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["5CEE9A9A313448AE"]
+			description: [
+				"&6Скарлет&rи&6Лазурные магниты&r, созданные из соответствующих неодимовых блоков, становятся динамичными при подаче питания&6Редстоун&r. В активированном состоянии они воплощают уникальные свойства неодимового типа: притягивают или отталкивают.&6металлические блоки&rв определенном направлении на фиксированном расстоянии. Расширьте свой диапазон, применив&6Неодимовые слитки&rнепосредственно к ним."
+				""
+				"С возможностью переключения до&627 соседних металлических блоков&r, эти магниты открывают массу возможностей для создания движущихся платформ и изобретательных приспособлений, добавляя вашим конструкциям уровень творчества и функциональности."
+			]
+			id: "3883F54E2F6B06C4"
+			rewards: [{
+				id: "10ACEDB84869EF49"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7EC58C1C66FD4823"
+					item: "alexscaves:azure_magnet"
+					type: "item"
+				}
+				{
+					id: "79FED170091387BE"
+					item: "alexscaves:scarlet_magnet"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["677A980276088747"]
+			id: "2932C738EE60499A"
+			rewards: [{
+				id: "58DB36249DCC222C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60215D76BDD1EF46"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["677A980276088747"]
+			description: [
+				"The &6Оккультный драгоценный камень&r, редкий дроп после победы над&6наблюдатель&r, пульсирует зловещей магией."
+				""
+				"Этот драгоценный камень служит краеугольным камнем для создания мощных&6ритуальные тотемы&r."
+			]
+			id: "5B47F475817876A4"
+			rewards: [{
+				id: "54FC797098AF185F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "почему он смотрит на меня?!"
+			tasks: [{
+				id: "3A0DD6E8B5020ADD"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5B47F475817876A4"]
+			description: [
+				"The &6Тотем владения&r, пропитанный темной магией, позволяет связывать и контролировать любое существо, которого вы ударите им."
+				""
+				"Удерживая тотем и направляя взгляд, вы можете&6управлять движениями&rсвязанного объекта."
+			]
+			id: "3A2A00DC172F8F4F"
+			rewards: [{
+				id: "5767ED7BF771484A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "обладать толпой"
+			tasks: [{
+				id: "5601D3097A7BCEF0"
+				item: {
+					Count: 1
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2932C738EE60499A"]
+			id: "4839CC6DD5B80AA4"
+			rewards: [{
+				id: "1A7AC30109DF75C1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Нажмите G, когда ваш счетчик заполнится в полной темноте."
+			tasks: [
+				{
+					id: "566E297379D75B06"
+					item: {
+						Count: 1
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78C90F112C032D59"
+					item: {
+						Count: 1
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2932C738EE60499A"]
+			id: "57162294623F2AC4"
+			rewards: [{
+				id: "5911F06D4F51C134"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E91E2079C568262"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["724179DC4605ECC2"]
+			description: ["Moth balls can be used to repel mobs."]
+			id: "2D0FAC539F548968"
+			rewards: [{
+				id: "6B4AB0921E519CC8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1170CBDFF0E40AAB"
+				item: "alexscaves:moth_ball"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["724179DC4605ECC2"]
+			description: [""]
+			id: "0A8B482AE8010C48"
+			rewards: [{
+				id: "20F78D5925523538"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "x2 атаки за удар"
+			tasks: [{
+				id: "2DEA2A4A834A7FBE"
+				item: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5B47F475817876A4"]
+			description: [
+				"The &6смотрящий&rдействует как тайная система наблюдения."
+				""
+				"Установите тотем там, где хотите контролировать, а затем свяжите его с помощью&6Оккультный драгоценный камень&rчерез правый клик. Активация драгоценного камня в другом месте позволит вам взглянуть глазами смотрящего, предлагая уникальную точку обзора."
+			]
+			id: "2F0CC4EB0F9262C8"
+			rewards: [{
+				id: "03C3DCA67E66E5C1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "телепортируется"
+			tasks: [{
+				id: "1A9A6CD24C9D07FB"
+				item: "alexscaves:beholder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["724179DC4605ECC2"]
+			description: [
+				"&6Недоверчивые фанатики&r, похожие на кротов-культистов, бродят по Заброшенным Лощинам со своим ограниченным зрением, питая отвращение к свету и старательно уничтожая любые источники света, с которыми сталкиваются. Их самое тревожное поведение связано с проведением зловещих&6групповые ритуалы&r."
+				""
+				"Столкнувшись с&6Мрачный мотыль&r, особенно тех, кого привлекает факел, они стараются схватить его. Смогут ли они добиться успеха и если&6соберутся как минимум трое Недоверчивых&r, начинается ритуал, призывающий зловещее, потустороннее присутствие. Ритуал завершается принесением в жертву Мрачного, превращая его в нового,&6чудовищный&rсущность..."
+			]
+			id: "677A980276088747"
+			rewards: [{
+				id: "25F439DA853743AA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				id: "57BFBFB76BB0417A"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4839CC6DD5B80AA4"]
+			id: "038D9645C681523D"
+			rewards: [{
+				id: "73CD14B3F2907C2F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "продлить продолжительность"
+			tasks: [{
+				id: "6AAED4EB26925119"
+				item: "alexscaves:darkened_apple"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6B2047D7A9D2E35E"]
+			description: [
+				"Через несколько минут появляется моб."
+				""
+				"Вы также можете использовать для изменения кожи всех динозавров в пещерах."
+			]
+			id: "3E8A748C1116277D"
+			rewards: [{
+				id: "4D290FDCF459D621"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Обеспечить выживание вида."
+			tasks: [{
+				id: "2E10B6B3FA51A611"
+				item: "alexscaves:amber_monolith"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5952AF93B95E494C"]
+			id: "65CC2F06272495DB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "0164D87540B2C9A8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "054B89268AF3526D"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["65CC2F06272495DB"]
+			id: "0CFA5E7959BB11C3"
+			rewards: [{
+				id: "333AE8AF00F7EC98"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Идеален против большого динозавра."
+			tasks: [{
+				id: "07B1B821FC3519CD"
+				item: {
+					Count: 1
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["65CC2F06272495DB"]
+			id: "6BFF6EBA40A86EB1"
+			rewards: [{
+				id: "57AE3A1C036DFA33"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05B0E28CF1FFBC4A"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C8F13F9281C7FE0"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26E6B19B698EF7C5"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -26.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6B2047D7A9D2E35E"
+				"65CC2F06272495DB"
+			]
+			description: ["Used to summon &cLuxtructosauros&r"]
+			id: "0AB7F0D505BA018B"
+			rewards: [{
+				id: "699514F052E70146"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29B04C519E55589C"
+				item: "alexscaves:ominous_catalyst"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"6B2047D7A9D2E35E"
+				"65CC2F06272495DB"
+			]
+			id: "6D4D367E160FA5FE"
+			rewards: [{
+				id: "06AF674E00C4C8A1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "призовите доисторическую фауну сражаться вместе с вами!"
+			tasks: [{
+				id: "2141931FD59CD279"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["5952AF93B95E494C"]
+			id: "5F97E930E7B908AB"
+			rewards: [{
+				id: "479D7EB411E8470E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "203CB0886EAE8EFB"
+				item: "alexscaves:limestone_spear"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5952AF93B95E494C"]
+			description: ["Upon mining Amber, there is a chance that &6Amber Curiosity&r will drop."]
+			id: "3E1E7BDF07F26798"
+			rewards: [{
+				id: "704922CD66DED068"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35F18AFCEFF57CF6"
+				item: "alexscaves:amber"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["3E1E7BDF07F26798"]
+			id: "6B2047D7A9D2E35E"
+			rewards: [{
+				id: "1C3C820F16A3E13B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F80847D296D5A12"
+				item: "alexscaves:amber_curiosity"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0CFA5E7959BB11C3"]
+			description: [
+				"The &6Треморзавр&r, самый могучий динозавр в Первозданных пещерах, заставляет землю трястись при каждом шаге."
+				""
+				"Хоть он и грозен, его можно приручить, оглушив его&6Примитивный клуб&rи быстро кормлю его&6Безмятежный салат&r. Этот процесс, повторяемый достаточное количество раз, в конечном итоге приручает существо."
+				""
+				"Прирученный треморзавр позволяет ездить верхом и размножаться. Кормление их&6Отбивные из динозавров&rв результате получается яйцо, для которого требуется \\\"&6Шелковое прикосновение&r\\\"собрать без повреждений."
+			]
+			id: "68BCDC5045F09E16"
+			rewards: [{
+				id: "30B2BE7AEA278A5E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B047987B04AD080"
+				item: "alexscaves:tremorsaurus_egg"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"39CA1FF1D5F74761"
+				"3D2650CB3F913539"
+			]
+			description: [
+				"Чтобы построить&6Ядерная печь&r, сложите 8 компонентов в куб. В отличие от традиционных печей, сжигающих уголь, в этой усовершенствованной модели используется&6Урановые стержни&rдля топлива, производя&6Неочищенные отходы&rкак побочный продукт. Чтобы печь не достигла критичности и не взорвалась, вставьте&6Металлические бочки&rв печь, которая будет превращена в&6Мусорные барабаны&rнаполнен побочным продуктом."
+				""
+				"Утилизация этих бочек для мусора является сложной задачей из-за их потенциального взрыва и загрязнения территории радиацией. Возможно, было бы безопаснее&6надежно хранить их на неопределенный срок&r, избегая рисков, связанных с их разрушением."
+			]
+			id: "345E35BCF0E07FE7"
+			rewards: [{
+				id: "08F895AA28E599AF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "66BA084B8FD8A7C9"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["38325B285FDE9576"]
+			description: ["Hazmat Armor uses many layers to reduce damage from Acid and the Irradiated effect."]
+			id: "5DF0DC8F642AA126"
+			rewards: [{
+				id: "6FA6029D4797B98B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "350AFB1EF0E99E8A"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01305FA43524C198"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67777786F3210299"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67296CEA61D9CF3D"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Защитный костюм"
+			x: -23.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["52034A3AD5A347C8"]
+			id: "39CA1FF1D5F74761"
+			rewards: [{
+				id: "393B069D4647E41C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C6CB9DC4CE7211E"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["39CA1FF1D5F74761"]
+			id: "1D7887F2DD464E2C"
+			rewards: [{
+				id: "535DCCA3ECBF4C3B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Большой взрыв с крутой анимацией."
+			tasks: [{
+				id: "4CCAB928236CD6F9"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["1D7887F2DD464E2C"]
+			id: "60F134732D603EDE"
+			rewards: [{
+				id: "2B1FF23AAB9949A5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "быстрый урон, в качестве топлива используется урановый стержень"
+			tasks: [{
+				id: "32E7188CD54F93CB"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["52034A3AD5A347C8"]
+			description: ["&6Radon Gas&r, collectable by using a &6glass bottle&r on the fumes from &6Geothermal Vents&r, serves a dual purpose. "]
+			id: "38325B285FDE9576"
+			rewards: [{
+				id: "034C4203E47B2431"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D9AD64A66E3E8AA"
+				item: "alexscaves:radon_bottle"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["52034A3AD5A347C8"]
+			description: ["The &6Brainiac&r, a formidable mutant born from zombies and other cryptic creatures, is known for its speed, aggression, and strength. Its long tongue allows it to lash out at targets from afar. Notably, Brainiacs carry &6Waste Drums&r on their backs, using them both for self-healing and as projectiles in attacks. Defeating a Brainiac may yield a &6Charred Remnant&r."]
+			id: "3D2650CB3F913539"
+			rewards: [{
+				id: "4E9DC4B2D6F17EED"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27451E43348027CA"
+				item: "alexscaves:charred_remnant"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3D2650CB3F913539"]
+			description: ["&6The nuclear siren&r will emit a loud sound if any imminent nuclear explosion is going to happen. The siren will make a sound within a range of 128 blocks."]
+			id: "14A5FF0F3BCF9C41"
+			rewards: [{
+				id: "3CD22CD86CB0BF9E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55442F20DA7F96C7"
+				item: "alexscaves:nuclear_siren"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["1D7887F2DD464E2C"]
+			description: ["The remote detonator allows you to detonate any type of TNT from a certain distance."]
+			id: "73F56AA993211D9E"
+			rewards: [{
+				id: "6FA59B744705F7CE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2650BD2D77B434BF"
+				item: "alexscaves:remote_detonator"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["24416D60F9757C16"]
+			description: [
+				"Странный биом, полный всевозможных&dсладкие угощения&rи пикантные виды — детская мечта! Также имеет могущественных противников, таких как могущественные&5Ликоведьмы&r. "
+				""
+				"&9Конфетная полость&rхранит множество тайн и странных вещей, например, ключ к изменению самой природы самого Верхнего мира."
+				""
+				"Хотя эта пещера может показаться&eсамый сладкий&rвкуса и убежища, в этом месте живут и другие существа. Однако, если у кого-то когда-либо будет мало здоровья или он будет голоден,&bбольшинство блоков и предметов в биоме являются съедобными и очень эффективными источниками пищи.&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:candy_cavity"
+				}
+			}
+			id: "4BAF03239FBEA642"
+			rewards: [
+				{
+					id: "585D2FB507EB9EC6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7667BA1E2F755A6A"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "65C8872A8D5C720C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:candy_cavity"
+					}
+				}
+				id: "0EC1769B3DA0F505"
+				type: "biome"
+			}]
+			title: "Посетите конфетную пещеру"
+			x: -17.0d
+			y: 18.8d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"&dМешок насыщения&rнеобходимо кормить, щелкнув в него съедобные предметы правой кнопкой мыши, аналогично хранению предметов в связке. Когда его кормят, он необратимо сохраняет в себе голодную ценность предметов. Если вы кормите еду, содержащуюся в мисках или бутылках, Мешок сытости вернет миску или бутылку."
+				""
+				"Когда игрок проголодается, Мешок насыщения будет пассивно кормить его, восполняя 1 (🍗) голод каждые 5 секунд (100 тиков). Этот эффект будет суммироваться, если в инвентаре игрока есть несколько мешков насыщения."
+			]
+			id: "2B078C0B08C5FF1E"
+			rewards: [
+				{
+					count: 5
+					id: "54456909E0DAC995"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D2F594A0B1DF322"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Позволяет хранить бесконечное количество еды, которая затем автоматически накормит вас."
+			tasks: [{
+				id: "2C612D055145CD86"
+				item: "alexscaves:sack_of_sating"
+				type: "item"
+			}]
+			x: -18.099999999999998d
+			y: 16.6d
+		}
+		{
+			dependencies: ["5E96F5006CC7E8EF"]
+			description: [
+				"Если игрок перехватывает&aЖевательный червь&rс&cКрючок для конфетной трости&r, они будут немедленно притянуты к нему, установив его при контакте."
+				""
+				"Сначала&aЖевательный червь&rбудет способен двигаться только по прямой линии вдоль поверхности, однако, если игрок зацепит его вторым крючком-конфеткой (в слоте для левой руки), он сможет им управлять."
+				""
+				"Для управления им можно использовать клавиши A и D, а левый Shift — для того, чтобы спешиться. В дополнение к этому, клавиша пробела заставляет его подпрыгивать, и ее можно удерживать, чтобы зарядить специальную полосу, которая при отпускании позволяет совершить прыжок выше, относительно того, насколько заполнена полоска - во время прыжка ею нельзя управлять, и она нанесет урон любым игрокам или мобам в радиусе 3 блоков. Двигаясь по земле, он может подняться на 5 полных блоков без необходимости прыгать."
+			]
+			id: "703BC828E983E165"
+			rewards: [
+				{
+					count: 5
+					id: "4CAB891C65F68D18"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "21082319CDDEC020"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "119038DD9DB8B564"
+				item: {
+					Count: 1
+					id: "alexscaves:candy_cane_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.4d
+			y: 15.2d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: ["Allows you to avoid fall damage and it makes you bounce. It also leaves a rainbow trail as you fall."]
+			id: "54C71D964F389BF2"
+			rewards: [
+				{
+					count: 5
+					id: "7A139B13DEC567F3"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "462F18E4486246F9"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F104B7D91DB9447"
+				item: {
+					Count: 1
+					id: "alexscaves:rainbounce_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.2d
+			y: 16.6d
+		}
+		{
+			dependencies: ["6D42FFB26774833A"]
+			description: ["It allows the player to recreate some of the Licowitch's attacks. "]
+			id: "6A9047497BE80DE8"
+			rewards: [
+				{
+					count: 5
+					id: "60628BC7D2F143D4"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "253E3F9585B5D16D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "298F0BC2DF4EA61F"
+				item: {
+					Count: 1
+					id: "alexscaves:sugar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.4d
+			y: 15.3d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"&aСахарная лихорадка&r— это эффект, который также можно получить, употребляя в пищу определенные продукты."
+				""
+				"Из-за этого все вокруг вас движется медленно, а вы идете быстро."
+				""
+				"Также заставляет вас выглядеть&cка&r&5вайи&r &9и&r &dидти&r &3би&r&eЯ сумасшедший."
+			]
+			id: "6FD97B8AC6824AC6"
+			rewards: [
+				{
+					count: 5
+					id: "43526056D538AAAF"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6626CFE31A352D1A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FBC37A357FA59A0"
+				item: "alexscaves:purple_soda_bottle"
+				type: "item"
+			}]
+			x: -16.299999999999997d
+			y: 16.6d
+		}
+		{
+			dependencies: ["5338A94A05A528F4"]
+			description: [
+				"Чтобы получить&6Конверсионный тигель&r, игрок должен убить&dЛикович&rчтобы получить свои&2Сияющая сущность,&rи соберите огромное количество золота, чтобы создать 7 блоков."
+				""
+				"&6Конверсионные тигли&rимеют 100% шанс сгенерировать в течение&bЛиковичские башни&r. Только 1&6Конверсионный тигель&rбудет появляться в каждом&bЛиковичская башня.&r"
+				""
+				"The &6Конверсионный тигель&rобладает магической способностью изменять биом вокруг себя, если в него добавить правильные ингредиенты."
+				""
+				"Для начала игрок должен съесть&c&lБиомное удовольствие&r&rв биоме, который они хотят, пока голодают, привязывая угощение биома к этому биому."
+				""
+				"Затем они должны собрать несколько блоков из этого биома и бросить их в Горнило."
+				""
+				"The &6тигель&rВсего требуется девять предметов: восемь блоков из данного биома и редкий предмет из этого биома. Для большинства биомов потребуется Алмаз, хотя для некоторых потребуются другие предметы (например, Сладкоежка). После того, как все предметы будут помещены в&6тигель&r,&6тигель&rбудет пузыриться и быстро трястись, прежде чем превратить окружающую территорию в нужный биом размером 12x12."
+				""
+				"&l&bСписок конверсий:&r&r"
+				"&aБиом&r/&dНеобходимы блоки&r/&bНужен редкий предмет&r"
+				"_____"
+				"Глубокая тьма -> Блок грязи/травы->Алмаз"
+				""
+				"Капельные пещеры-> Камень-> Алмаз"
+				""
+				"Пышные пещеры -> Блок грязи/травы -> Алмаз"
+				""
+				"Горные биомы мира -> Камень -> Алмаз"
+				""
+				"Поверхностные биомы мира -> Блок грязи/травы -> Алмаз"
+				""
+				"Базальтовые дельты -> Базальт -> Незеритовый слиток"
+				""
+				"Багровый лес -> Багровый нилий -> Незеритовый слиток"
+				""
+				"Пустоши Пустоты -> Пустота -> Незеритовый слиток"
+				""
+				"Долина песка душ -> Почва души -> Слиток незерита"
+				""
+				"Искаженный лес -> Искаженный нилий -> Слиток незерита"
+				""
+				"Все биомы Края -> Камень Края -> Дыхание Дракона"
+				""
+				"Магнитные пещеры -> Галена -> Железное сердце"
+				""
+				"Первобытные пещеры -> Блок грязи/травы -> Тектонический осколок"
+				""
+				"Токсичные пещеры -> Радрок -> Ядерная бомба"
+				""
+				"Бездонная пропасть -> Камень -> Загадочный двигатель"
+				""
+				"Заброшенные лощины -> Уплотненная грязь-> Чистая тьма"
+				""
+				"Конфетная полость ->Блок шоколада /"
+				"Блок глазированного шоколада -> Сладкоежки"
+			]
+			id: "23F764FC98353921"
+			rewards: [
+				{
+					count: 5
+					id: "787E752EEFF626D2"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "164EA2BB0466B9A6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The &6Конверсионный тигель&rобладает магической способностью изменять биом вокруг себя, если в него добавить правильные ингредиенты."
+			tasks: [{
+				id: "1F3AF08C1A74F49F"
+				item: "alexscaves:conversion_crucible"
+				type: "item"
+			}]
+			x: -19.4d
+			y: 13.8d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: ["Drinking this will remove the insomnia effect from the player, which is the effect that makes Phantom spawn."]
+			id: "096FD8208453176D"
+			rewards: [
+				{
+					count: 5
+					id: "78E20399F5460858"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7068F0D0F15336DC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68F5A74EDDBFFE11"
+				item: "alexscaves:hot_chocolate_bottle"
+				type: "item"
+			}]
+			x: -15.3d
+			y: 16.6d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: ["A weapon to shoot your enemies with &cGumball Pile&r!"]
+			id: "6E910871CDD12D0D"
+			rewards: [
+				{
+					count: 5
+					id: "515DDEEBF2090E3A"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01205B7854F8BE8D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "639A032D9B71A35D"
+				item: "alexscaves:shot_gum"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 16.6d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"Выпадает из&dЛикович&rв&6Ликовичские башни&r. "
+				""
+				"В Башне Ликоведей одновременно можно найти только 3-х Ликоведьм."
+			]
+			id: "6D42FFB26774833A"
+			rewards: [
+				{
+					count: 5
+					id: "6B5464F7FCBDAD06"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "230BD2B1DEB19A88"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3414AE0BF090FF13"
+				item: "alexscaves:radiant_essence"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 16.6d
+		}
+		{
+			dependencies: ["6D42FFB26774833A"]
+			id: "5338A94A05A528F4"
+			rewards: [
+				{
+					count: 5
+					id: "75678C0CDB72A9D1"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67DD144F826AC3A1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Используется в конверсионном тигле"
+			tasks: [{
+				id: "150FC3D22D76231A"
+				item: "alexscaves:biome_treat"
+				type: "item"
+			}]
+			x: -19.4d
+			y: 15.3d
+		}
+		{
+			dependencies: ["6D42FFB26774833A"]
+			description: [
+				"Кондитерская печь обладает волшебным свойством: она может бесконечно&6вызвать пряничных человечков&rесли предоставлен правильный сигнал красного камня."
+				""
+				"Если положить под духовку Rock Candy любого цвета,&6Пряничные человечки&rПризванный объект примет цвет установленной каменной конфеты. Вызванный&6Пряничные человечки&rбудет атаковать любого моба, который не того же цвета, что и он (включая игрока, поставившего печь)."
+			]
+			id: "39EF8D27E2FE6C42"
+			rewards: [
+				{
+					count: 5
+					id: "15676B302B8B1E48"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "30DAD38A9365F379"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35591AC6AFB8C058"
+				item: "alexscaves:confection_oven"
+				type: "item"
+			}]
+			x: -21.4d
+			y: 15.3d
+		}
+		{
+			dependencies: ["4BAF03239FBEA642"]
+			description: [
+				"&eЖевательные черви&rЭто обычные большие нейтральные мобы. Они быстро прорываются сквозь блоки, и их можно оседлать, запустив в них двуручные карамельные крючки."
+				""
+				"&6Жевательные черви&rбуду искать любой&l&cгромилы&r&rв радиусе 200 блоков — как только они окажутся в пределах 8 блоков от&cГобхампер&r, они откроют рот, прежде чем съесть их и выпрыгнуть из земли, продолжая подниматься в течение 2 секунд, прежде чем начать спускаться после этого. Если рядом с Gobthumper нет резиновых червей, новый появится в 200 блоках от него и в 30 блоках ниже поверхности и немедленно начнет копать в его направлении."
+			]
+			id: "5E96F5006CC7E8EF"
+			rewards: [
+				{
+					count: 5
+					id: "6283A3F741E5C847"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0AE3E72142808BB4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F22DC671A6CBCF6"
+				item: "alexscaves:gobthumper"
+				type: "item"
+			}]
+			x: -14.4d
+			y: 16.6d
+		}
+		{
+			dependencies: ["54C71D964F389BF2"]
+			description: [" It has no durability and instead must be replenished or retrieved when thrown."]
+			id: "7F079B7ADC0C38C8"
+			rewards: [
+				{
+					count: 5
+					id: "385ECCC30598C435"
+					item: "alexscaves:gumball_pile"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4558D0BC82AB9A26"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3936F2615B41917A"
+				item: "alexscaves:frostmint_spear"
+				type: "item"
+			}]
+			x: -17.2d
+			y: 15.2d
+		}
+	]
+	title: "&l&cПещеры Алекса"
+}

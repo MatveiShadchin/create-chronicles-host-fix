@@ -50,23 +50,15 @@ config/ftbquests/quests/chapters/ИМЯ_ФАЙЛА.snbt
 - Глава I уже переведена — используй как образец: chapter_i_the_andesite_machine.snbt
 ```
 
-## Список глав для перевода
-
 | Файл | Статус |
 |------|--------|
-| chapter_i_the_andesite_machine.snbt | ✅ Готово |
-| chapter_ii_the_brass_machine.snbt | ❌ |
-| chapter_iii_the_cooper_machine.snbt | ❌ |
-| chapter_iv_the_locomotive_machine.snbt | ❌ |
-| chapter_v_steel_mechanism.snbt | ❌ |
-| chapter_vi_rocket_fuel.snbt | ❌ |
-| chapter_vii_building_a_rocket.snbt | ❌ |
-| chapter_vii_infernal_mechanism.snbt | ❌ |
-| chapter_ix_calculation_mechanism.snbt | ❌ |
-| chapter_x_applied_energetics.snbt | ❌ |
-| basics.snbt | ❌ |
-| create101.snbt | ❌ |
-| the_black_market.snbt | ❌ |
-| + ещё ~18 глав | ❌ |
+| Все 31 глава + data.snbt + chapter_groups | ✅ Переведено (авто-перевод, июль 2026) |
+| Резервная копия EN | `config/ftbquests/quests_backup_en/` |
 
-Скажи в чате Cursor: «переведи главу II» — и укажи файл.
+## Применить все переводы
+
+Скопируй папку `quests-ru/config/ftbquests/quests/` целиком в `.minecraft/config/ftbquests/quests/` (замени файлы).
+
+В игре: `/ftbquests reload` или перезапуск мира.
+
+## Как перевести ВСЕ квесты (если нужно обновить)

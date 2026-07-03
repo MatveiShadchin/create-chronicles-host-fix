@@ -1,0 +1,411 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iii_the_cooper_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "kubejs:copper_machine"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "6BD4C23A62382692"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: -1.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5012AE3E688F40D7"]
+			description: [
+				"&6сок&r— это важный компонент, необходимый для вашей автоматизации!"
+				""
+				"Собрать&6сок&rвам нужно использовать Слив предметов, сделанный из Железного забора и Клапанной машины, чтобы извлечь&6сок&rиз деревянных бревен. Чтобы поставить&6сок&rв ведро вам нужно использовать носик и пустое ведро."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6C54D9FC570E8C23"
+			rewards: [
+				{
+					count: 5
+					id: "1B7A6BA5FB6CE58F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3217A75AB184F68E"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29DD83CD6B4FC717"
+				item: "create_dd:sap_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C54D9FC570E8C23"]
+			description: [
+				"Со всем тем соком, который вы собрали, пришло время смешать его с помощью механического миксера и тазика, чтобы создать необработанную резину!"
+				""
+				"&d&oОбщая информация:&r&r &oРаньше шины были белыми, потому что натуральный каучук белый. Натуральный каучук не подходил для изготовления шин, их обогащали оксидом цинка, еще одним белым материалом. Позже они заменили оксид цинка более совершенным материалом под названием Carbon Black, придавшим шинам черный цвет. Вот почему Michelin Man имеет белый цвет, олицетворяющий самые первые шины.&r"
+			]
+			id: "300DD17E607B3081"
+			rewards: [
+				{
+					count: 5
+					id: "54BC81CDDDE9BA0C"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C4E661DF729D1F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "311C7E2AF95B47F9"
+				item: "create_dd:raw_rubber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["300DD17E607B3081"]
+			description: ["Now it’s time to strengthen your Rubber and no, you don’t need to use Carbon Black to do so. In this case, you just have to heat it up! "]
+			id: "2E72CEB626FD6EBE"
+			rewards: [
+				{
+					count: 5
+					id: "49CFFADA3638AE17"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05472F8D52088E78"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E457F9D0A4477C5"
+				item: "create_dd:rubber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E72CEB626FD6EBE"]
+			description: [
+				"Пришло время превратить вашу резинку в один из самых полезных предметов в Create.&6Механический ремень!&r "
+				""
+				"&6Механический пояс&rимеет множество применений, например, перемещение предметов из точки А в точку Б или использование его для вращения машин. Его можно использовать даже в эстетических целях."
+				""
+				""
+				"&6&lКончик:&r&r &oВы можете использовать красители в своем механическом поясе, чтобы добавить цвета, или использовать андезитовый блок, чтобы добавить к нему несколько рамок.&r"
+			]
+			id: "269E461376CE2456"
+			rewards: [
+				{
+					count: 10
+					id: "70A141BAF8CF776A"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "6C481379FEDB9CE9"
+					item: "moped:copper_moped_item"
+					type: "item"
+				}
+				{
+					id: "7142CF6B3E1295F1"
+					item: "moped:moped_key"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70BA69E3F2734888"
+					table_id: 6388897065031649624L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7A340C67ECB502E3"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Ремни"
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"Медная руда — ключ к этой главе. Возьмите кирку и добудьте немного меди, а затем превратите ее в медные слитки."
+				""
+				"Для получения бесконечного источника меди, пожалуйста, проверьте&aГлава «Возобновляемые руды»&r."
+				""
+				"&o&dОбщая информация:&r&r &oПочти 80 процентов добытой на сегодняшний день меди все еще используется.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "469BCDA1AD3D80FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24C7ADB58CC56445"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C05ADED165FCA5B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Медная руда"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["469BCDA1AD3D80FA"]
+			description: [
+				"Когда у вас в руках все эти медные слитки, пришло время все исправить!"
+				""
+				"Чтобы превратить медные слитки в листы, вам нужно создать&6Механический пресс.&r"
+			]
+			id: "68CD9910A1658762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A2C5221D5902969"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AEC9B3402B31C37"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"У вас еще остались медные слитки? Нет? Возьми еще немного и создай Уинри! Под этим я имею в виду Гаечный ключ."
+				""
+				"&o&dПримечание:&r&r &oЕсли вы узнаете имя Уинри, значит, вы круты, как колокол!&r"
+				""
+				"{@pagebreak}"
+				"&cКлюч&rсам по себе может использоваться для вращения блоков и для того, чтобы развертыватель использовал гаечный ключ,&n&l&o&4вам нужно использовать бункер/желоб с сундуком сверху и поместить гаечный ключ внутрь сундука, чтобы он попал в развертыватель.&r"
+				""
+				"{image:kubejs:textures/chute_hopper_exp.png width:150 height:194 align:1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "48413A6A0A9BFFA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D66733C78182A4B"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B3D3E600A72681E"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15777779AE0400E3"]
+			description: [
+				"Итак, если вы еще не создали себе&eПесок&rЗамок еще… используй это&eПесок&rи превратить его в&aСтекло&rпутем нагревания его."
+				""
+				"&d&oОбщая информация:&r&r &oСтекло подлежит 100% вторичной переработке!  Поэтому, если вы разобьете свой стакан, обязательно сдайте его на переработку!&r"
+			]
+			id: "26B8E592AED8E995"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51DFB7706D978901"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F98A97AA4B3D83D"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"Возьмите лопату или возьмите руки и идите копать.&eпесок&rкак пират, чтобы сделать Стекло!"
+				""
+				"&o&dОбщая информация:&r&r &oПустыни — это не самые большие песочницы в мире, а Майнкрафт! Нет, серьезно, пустыни не самые большие, крупнейшие в мире залежи песка на самом деле находятся на дне океана.&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "15777779AE0400E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E6C98064F67E2B2"
+				table_id: 1302780656980067940L
+				type: "random"
+			}]
+			tasks: [{
+				id: "126E49041133AFF7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smelts_to_glass"
+					}
+				}
+				type: "item"
+			}]
+			title: "Песок"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["646C119DC7AC80AB"]
+			description: [
+				"Объединив все свои знания и упорный труд, вы достигли конечной цели –&cГлава 2!&rСоздание&2Клапанная машина!&r"
+				""
+				"Тебе следует похлопать себя по спине, ты этого заслуживаешь."
+				""
+				"&6Теперь в главу 3!&rТам вас ждут новые испытания!"
+			]
+			hide_until_deps_complete: true
+			id: "5012AE3E688F40D7"
+			rewards: [
+				{
+					id: "5205F130C56DB1B5"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0968A28FFA719131"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "187CE4BC728BED81"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "230A1C394453E79C"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1758421E8B8225FD"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "43EECDA07CEB3A84"
+					item: "kubejs:copper_machine"
+					type: "item"
+				}
+				{
+					id: "2AF57F6D4F2A4597"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "124E7250075963B5"
+				item: "kubejs:copper_machine"
+				type: "item"
+			}]
+			x: -0.9d
+			y: 9.75d
+		}
+		{
+			dependencies: [
+				"26B8E592AED8E995"
+				"48413A6A0A9BFFA7"
+				"68CD9910A1658762"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Сердце всех медных машин! Вы можете создать&6Клапанный механизм&rс помощью развертывателей, механического пресса и вращательного механизма."
+				""
+				"Первый развертыватель собирает медные листы во вращающийся механизм, затем второй развертыватель собирает стекло, затем последний развертыватель использует гаечный ключ, чтобы убедиться, что все затянуто, и, наконец, механический пресс делает последний штрих, и вы сделали&6Клапанный механизм!&r"
+			]
+			id: "646C119DC7AC80AB"
+			rewards: [
+				{
+					count: 8
+					id: "42E36A74EEE55EF0"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75FE1FEE6577E8C1"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CD417F9CCDEFFAB"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "602E2DA87724F157"
+					table_id: 6388897065031649624L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1837A98319870BC6"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			x: -0.9d
+			y: 6.75d
+		}
+	]
+	title: "Глава II: Клапанная машина"
+}

@@ -1,0 +1,3215 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "bosses_and_skill_points"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: "kubejs:skill_add_point"
+	id: "16389783F38DFDED"
+	images: [
+		{
+			height: 2.0d
+			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -24.8d
+			y: 4.8d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -16.2d
+			y: 4.7d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -8.0d
+			y: 4.7d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.7d
+			y: 4.7d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.7d
+			y: 4.6d
+		}
+		{
+			height: 0.98d
+			image: "kubejs:textures/tier_1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -20.0d
+			y: 3.4d
+		}
+		{
+			height: 0.9d
+			image: "kubejs:textures/tier_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.4d
+			y: 3.4d
+		}
+		{
+			height: 0.82d
+			image: "kubejs:textures/tier_3.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.4d
+			y: 3.4d
+		}
+		{
+			height: 0.8d
+			image: "kubejs:textures/tier_4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 3.4d
+		}
+		{
+			height: 0.88d
+			image: "kubejs:textures/tier_5.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.4d
+			y: 3.4d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать глаз пустыни, чтобы найти структуру."
+				""
+				"В глубинах Майнкрафта дремлет Остаток, последний из древних динозавров. Разбуженное игроками, это колоссальное существо бросает им вызов в грандиозной битве, символизирующей потерянную эпоху. Его поражение знаменует собой конец доисторического наследия."
+				""
+				"Как только вы доберетесь до сути&6Проклятая пирамида&r, вы можете заметить, что&4Древний остаток&rне двигается."
+				""
+				"Это потому, что вам понадобится&eОжерелье пустыни&rвоскресить зверя. Чтобы его найти, вам придется смахнуть подозрительный песок в&6Проклятая пирамида.&r"
+				""
+				"После победы он может уронить череп и Песчаную бурю в бутылке."
+				""
+				""
+				"&6Песчаная буря в бутылке:&rThis item is worn for a special effect. Он вставляется в прорезь для ремня, и когда вы нажмете X, вы превратитесь в песчаную бурю."
+				""
+				"&6Остаток черепа:&rВы можете использовать его для создания Современного Ревенанта. Вы можете приручить его, скормив яйцо-нюхач, и он будет вести себя как собака."
+			]
+			icon: "cataclysm:desert_eye"
+			id: "07C2D6E01B241F73"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "50DF8030A3412975"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "0FCCD8AE586C9C71"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:desert_eye"
+				id: "312D9F500E45CDCC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Вымирание было ложью"
+			x: 1.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать глаз бездны, чтобы найти структуру."
+				""
+				"Левиафана можно найти в&3Затонувший город&r. Чтобы вызвать Левиафана и сразиться с ним, вам нужно найти&5Altar of the Abyssal&r."
+				""
+				"Поместите на алтарь следующие предметы:&l&6Бездонное жертвоприношение.&r&r"
+				""
+				"Если вы победите Левиафана, вам будет предоставлен&9Приливный коготь&rи&9Яйцо Бездны&r."
+				""
+				""
+				"&6Яйцо Бездны:&rПоложите яйцо и подождите немного, и у вас появится собственный малыш Левиафан. Как и его мать, он будет атаковать других морских существ, но не нападет на вас."
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "681E9EE350CD6791"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "03E940FAAD38134C"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "3A4BEFB0D1A615D1"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyss_eye"
+				id: "1C2969AF75334559"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Из бездны"
+			x: 1.0d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать глаз пустоты, чтобы найти структуру."
+				""
+				"В пустынном пространстве Края стоит&dГолем-хранитель Эндера&r, грозный страж, созданный людьми Края для защиты своего королевства. Наделенный таинственными силами, он яростно защищает тайны Конца от любого злоумышленника."
+				""
+				"После победы из него может выпасть&aРукавица стражи.&r"
+			]
+			icon: "cataclysm:void_eye"
+			id: "6AC1E375CA7DA676"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7CA935B0479A4539"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "55EC396C9E9F65EF"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_eye"
+				id: "35A1226A30729B1F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eКонец&f: Защитник конца"
+			x: -4.4d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать огненный глаз, чтобы найти структуру."
+				""
+				"Находится на последнем этаже&cПылающая арена&r. Использовать&8горящий пепел&rвыпадает из Ignited Revenant на Алтарь Огня"
+				""
+				"Невозможность быть оглушенным ни одним человеком"
+				""
+				"При поражении, если удастся его преодолеть, может выпасть Игнис.&6Игнитиум&r, который можно использовать для создания&3Оплот Пламени&rили&3Мусоросжигательный завод&r."
+			]
+			icon: "cataclysm:flame_eye"
+			id: "40DD304B90046084"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "637499C1EF6D799F"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "56123B076C1CF390"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31B104ADF8E7EFEE"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:flame_eye"
+				id: "20A6B8D66C22E1BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cПустота&f: Бессмертный"
+			x: 7.4d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать глаз незеритового чудовища, чтобы найти структуру."
+				""
+				"При поражении из него может выпасть&aАдская кузница&rи&aЧудовищный шлем&r."
+			]
+			id: "09D25A60964E517F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "42E586511F8FACBA"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "239A4701D7CDC24B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "52C683CAAB2FCA7C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cПустота&f: Чудовище лавы"
+			x: -3.4d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать глаз механизма, чтобы найти структуру."
+				""
+				"Найден в&cДревняя фабрика&rглубоко в загробном мире."
+				""
+				"Используйте звезду Пустоты, чтобы разбудить его."
+				""
+				"После победы вы можете получить немного&7Витеритовые слитки&r. С их помощью вы можете создавать различные предметы, такие как Лазерный гатлинг, Измельчитель мяса, Штурмовое наплечное оружие Увядание и, самое главное,&6Механическая наковальня.&r"
+				""
+				"&6Наковальня механического синтеза&rнеобходим для изготовления оружия Пустоты и Сплавленного оружия. Он устанавливается как обычная наковальня, но не обладает прочностью."
+			]
+			icon: "cataclysm:mech_eye"
+			id: "1A9BD3105BC4C13B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "574B0E49AD93B0FB"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "0082E376BBC5DE43"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mech_eye"
+				id: "0253F7F29DE5086C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Кому нужно его построить?"
+			x: -6.4d
+			y: 7.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Этого босса можно выманить из пустоты, бросив&eМистический червь&rв пустоту Конца."
+				""
+				"Это можно сделать только в том случае, если&5Эндер Дракон&rбыло побеждено."
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "7696990D3ED40A1B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "77C13FB102857BB9"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "324A7787DA164D44"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "69AE2E63F3A9982D"
+				type: "advancement"
+			}]
+			title: "&eКонец&f: Пустотный червь"
+			x: -11.7d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["When a Crimson Mosquito sucks blood of strange fungal create, especially one covered in Warped Fungus, it will begin to mutate into this beast."]
+			id: "150D9233D297B9DA"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6FC75D49789DE246"
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "16322CAE3E462A22"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:warped_muscle"
+				id: "5968A07BF617433F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cПустота&f: Искаженная Москва"
+			x: -19.9d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Обнаружив загадочную структуру босса, поместите Глаз Эндера на алтарь, чтобы пробудить грозное присутствие внутри."
+				""
+				"Этот живой монолит, повелитель таинственных сил пустоты, обитает на Арене Обсидилита."
+				""
+				"Это колоссальное парящее сооружение зловеще парит в бесконечной пустоте, ожидая, когда претенденты испытают свою храбрость против его древней силы."
+			]
+			id: "065A5A976F0D8FF9"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "084B87957DA020A9"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "6A547D7F1E59FB9B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "4866CA5F8D193556"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eКонец&f: Обсидилит"
+			x: -4.4d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&l&4--на данный момент прослушивается--&r&r"
+				"Вы можете использовать пустую лилию, чтобы отслеживать структуру босса."
+				"&l&4--на данный момент прослушивается--&r&r"
+			]
+			id: "342B9E3297CC4309"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "2A63F9AFE1D90235"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "75571B72EE22567B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "1F551A91288A58FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Цветение Пустоты"
+			x: -17.9d
+			y: 7.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Ночной Лич, зловещее существо, правит холодными биомами Верхнего мира из своей жуткой Башни Личей."
+				""
+				"Покрытый тьмой, он владеет древней призрачной магией, насылая долгие ночи и ужас на тех, кто осмелится приблизиться к его окутанным морозом владениям."
+				""
+				"Сражаться с ним желательно с помощью летающих способностей."
+			]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "2BA58FB09C99F20A"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "01C2773FBDC2293E"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "75E2AF7160B589B5"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "337D311B36FB706A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "4B489509AB71074B"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "&2Внешний мир&f: Ночной Лич"
+			x: -6.4d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["The Gauntlet is located in rare structures at the Nether."]
+			id: "35E095FC517735B1"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "07F3C40E1FE39405"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "4F4841FC1395F194"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "7B71BA96352D74BF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cПустота&f: Перчатка Пустоты"
+			x: -5.4d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&0Увядать&rего действительно сложно победить, потому что он может летать, быстро двигаться и много взрываться. Если вы понимаете, о чем я."
+				""
+				"Чтобы вызвать его, установите 4 блока Песка Души в форме буквы «Т». Затем поставьте&e3 черепа скелетов-иссушителей&rповерх буквы «Т», чтобы сделать&0Увядать&rпоявляться."
+				""
+				"Будьте осторожны, он сильно взрывается! Поэтому лучше не призывать его близко к своей базе."
+			]
+			icon: "minecraft:nether_star"
+			id: "1D335FA02D1F86DD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "262CB855D17DBC7E"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "3C2A4AFCDE01444E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "forbidden_arcanus:dark_nether_star"
+				id: "2D907589532D85C9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Увядать"
+			x: -12.7d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&2Смотритель&rслеп! Он сможет найти вас, только если услышит, так что либо летайте вокруг, либо крадитесь!"
+				""
+				"Не имеет значения, используете ли вы дальние или рукопашные атаки, потому что он найдет вас. Если вы зайдете слишком далеко, он закопается в землю и подплывет рядом с вами!"
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "079641D681493C48"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "69675DA31FC03D1F"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7401A162C85095B6"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0DCD8A33E321FA0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Смотритель"
+			x: -4.4d
+			y: 4.6d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: ["Be careful with the bite attack."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4B8AA887F0B4664E"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1EE4CE7588BA7EFB"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7549852B0F997D64"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "087E8458D72A533B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Убийца циклопов"
+			x: -13.7d
+			y: 6.6d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: ["Hydras can be found in dirt caves protruding from swamps. They're formiddible foes that use venom, and the only way to kill them without letting them heal is using fire."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:hydra_fang"
+			id: "23EF18C11A9B1FBD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4638C13CFDF8399A"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "6F7E16F692BF29DA"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_fang"
+				id: "456A25567235C6A9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Убийца гидры"
+			x: -14.7d
+			y: 7.6d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: ["Sea Serpents are formidable foes that can be found in oceans throughout the world. They have a deadly bite and a powerful water blast attack."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:seaserpent_skull"
+			id: "1AB94A49F0A4427D"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7ADAC30E2731B667"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "2FAE2271D7D512F9"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:seaserpent_skull"
+				id: "39A127619B88417C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Убийца морских змей"
+			x: -6.4d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Use Transmuting Elixer on an infernal Evil Pumpkin."]
+			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+			id: "03A47AAF2D751796"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "46598E458AAF4C7A"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "481D46EBCFEB7971"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+				id: "6F37C2762D88AFA2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Лорд Тыквоголовый"
+			x: -5.4d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["&9Lightning dragons&r can be found in space at &6Venus.&r This is the only dragon that can survive without oxygen in space and the most deadly one to."]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_lightning_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "496E8E6570D6FE17"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5D6B89B090FFEC34"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "1F160B67B40DAD06"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_amythest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "73E1E3F465E1915A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Космос-Венера&f: Молниеносный убийца драконов"
+			x: 2.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&bЛедяные драконы&rможно найти в верхнем мире или в холодных биомах."
+				""
+				"К этим зверям нельзя относиться легкомысленно, и вам нужно тщательно подготовиться, прежде чем пытаться сразиться с ними."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "485FA783FD36FB50"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "19F37DE102460CFA"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "0CFB472A487E479A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_blue_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1C57AF3602B65340"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Убийца Ледяных Драконов"
+			x: 1.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&4Огненные драконы&rможно найти в верхнем мире или в теплых биомах."
+				""
+				"К этим зверям нельзя относиться легкомысленно, и вам нужно тщательно подготовиться, прежде чем пытаться сразиться с ними."
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "608ECD63B1EAC46B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "704D2BDFDE77D350"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "01F849D80A1D7D0E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_red_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "00828F2360910CF8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Огненный убийца драконов"
+			x: 3.0d
+			y: 4.6d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "iceandfire:myrmex_desert_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "271202F67BEA0A20"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3D8295649714F002"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "1D1B0DFF8AB31A7C"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				icon: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68D8EC4BF1BBB2DD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Мирмекс Королева"
+			x: -18.9d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Порочный Чемпион — это погребенный остаток неизвестного героя, впавшего в порчу. Его сила исходит из его костяного посоха, который был изготовлен из костей невинных жертв. Благодаря своей силе лич может контролировать разум своих врагов и превращать мирных существ в мерзостей, сражающихся на его стороне. Но будьте осторожны. Даже если вам удастся искоренить коррупцию среди персонала, битва еще не окончена."
+				""
+				""
+				"&c-> Как вызвать Порочного Чемпиона:&r"
+				"-Соберите три части костяного посоха (Зловещий фрагмент костяного посоха) из руин. У каждой Руины есть уникальный фрагмент (фрагмент верхней, средней и нижней кости посоха)."
+				""
+				"- Получите костяной кинжал у Послушника или создайте его самостоятельно."
+				""
+				"-Держите стеклянную бутылку в левой руке и начинайте убивать деревенского жителя костяным кинжалом. Вы получите Фиал с кровью. Заполните флакон до предела."
+				""
+				"- Найдите сооружение Тюрьмы Личей, большой плавучий остров над океаном."
+				""
+				"- Подождите, пока наступит ночь, поместите части костяного посоха (сверху вниз) на темные испорченные блоки глубокого сланца перед алтарем (они должны хорошо выделяться)."
+				""
+				"-Вылейте Фиал с Кровью в алтарь."
+				""
+				"&bВуаля, вы выпустили в мир чистое зло, вероятно, ставшее причиной гибели тысяч невинных людей и, весьма вероятно, вашей собственной.&r"
+			]
+			icon: "graveyard:white_bone_staff"
+			id: "2EFEFB8A1B1A2E3F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "22668824FB494143"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "51CA780D04D096DE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "29606AA253921FB1"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:red_bone_staff"
+				id: "516289600229A0D9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Коррумпированный чемпион"
+			x: 8.5d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вызвать его можно, уничтожив специальную тыкву, окруженную свечами, которые можно встретить в мире."
+				""
+				"У босса есть 3 фазы."
+				""
+				"Чтобы квест сработал, вам нужно убить на последней фазе."
+			]
+			icon: "born_in_chaos_v1:fel_lamp"
+			id: "02E628FD58B3D4C7"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "00E081CC230B46DD"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "36BC606DB8CE3E5B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkinhead"
+				icon: "born_in_chaos_v1:fel_lamp"
+				id: "52E375BB9FB07AF5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Сэр Тыквоголовый"
+			x: -17.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["&6The Ender Golem&r is a miniboss guarding the &dEnder Guardian.&r"]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:ender_golem"
+					}
+				}
+			}
+			id: "376DD4B56039898B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6984CC523C61BCB1"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7B0AC077DF257249"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:ender_golem"
+						}
+					}
+				}
+				id: "3A353CC73BA204C3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eКонец&f: Эндер Голем"
+			x: -9.7d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["&6The Prowler&r is a miniboss guarding the &cAncient Factory.&r"]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:the_prowler"
+					}
+				}
+			}
+			id: "186D1014F748B001"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6322B9827A2BF329"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "65A6E1D67B2481CA"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:the_prowler"
+						}
+					}
+				}
+				id: "5058F5131FFDC6DE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Бродяга"
+			x: -14.7d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["The &6Amethyst Crab&r lives in the &2Lush Caves&r."]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:amethyst_crab"
+					}
+				}
+			}
+			id: "188968771B831DCE"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "32768E131EE7A65A"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "47D9DB544262865E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:amethyst_crab"
+						}
+					}
+				}
+				id: "7ACEBCB47E3AD999"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Аметистовый краб"
+			x: -11.7d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&6Отрекшийся&rэто босс, призванный в&cЗаброшенные лощины&rсозданный из&3Ритуал нижнего фанатика&rвыступал на&5Вечерня&r."
+				""
+				""
+				"Они используют захваты, кусания и звуковые атаки, прыгают и нападают.&aнизкое здоровье&r, в то время как при низком уровне освещенности они входят в&8темнота&rрежим, который позволяет им исцеляться."
+			]
+			icon: "alexscaves:forsaken_idol"
+			id: "11DB96D8FC52617B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7F6D245ED3B792DE"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7916C75646297103"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:forsaken_idol"
+				id: "7680DB76B6492D9D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Отрекшийся"
+			x: -13.7d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dХаллбрейкеры&r— редкий нейтральный водный босс, встречающийся в&9Бездонная пропасть.&r"
+				""
+				"Это массивные и мощные хищники, которые нападают&bсветящиеся мобы&rпомимо подводных лодок, имеющих свои&eпрожекторы&rна."
+			]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "alexscaves:hullbreaker"
+					}
+				}
+			}
+			id: "0346F78CE4B0F393"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "724FEB568BBCB2D5"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "3139BC56D3C88F02"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "alexscaves:hullbreaker"
+						}
+					}
+				}
+				id: "29A9EF820B958D7F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Халлбрейкер"
+			x: -13.7d
+			y: 7.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Создайте&6Треморзилла&rяйцо. Безопасно взорвать&6Ядерная бомба&rрядом с помещенным яйцом, чтобы высидеть его."
+				""
+				"Вы можете приручить Треморзиллу, накормив его бочкой с отходами."
+				"{image:alexscaves:блок/waste_drum width:20 height:20 align:1}"
+				""
+				"Повзрослев, Треморзилла становится мощной разрушительной силой, способной сокрушать препятствия под ногами или уничтожать их мощным энергетическим лучом."
+				""
+				"Теперь вам придется принести в жертву своего питомца, чтобы выполнить квест."
+			]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "138E94B1FC310502"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "48AE090E327ABC7F"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "3B39B6CEB895BAE3"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:tremorzilla"
+				icon: "alexscaves:tremorzilla_egg"
+				id: "6BD72F4850C2B8AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Треморзилла"
+			x: -2.4000000000000004d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Найден в домордиальных пещерах"
+				""
+				"Троу&cзловещий катализ&rв вулкан."
+			]
+			icon: "alexscaves:ominous_catalyst"
+			id: "5E8607FE394E659A"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "002FE13B8FD7B103"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "779808F5124B1BB3"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:ominous_catalyst"
+				id: "44A104FF6801AC8F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Люксруктозавры"
+			x: -2.4000000000000004d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&5Крайний дракон&rэто гигантский летающий враждебный моб-босс, которого можно найти при первом входе&5конец&r. Это самый крупный естественный моб в игре."
+				""
+				"Он охраняет доступ к конечным шлюзам, которые обеспечивают вход на внешние конечные острова, в дополнение к выходному порталу, который позволяет вернуться на&2Внешний мир&rа также доступ к финальным титрам Minecraft."
+				""
+				"Его атаки включают в себя атаку на игрока и уникальные атаки драконьей кислотой."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Игроки могут&bповторно вызывать&rдракона, поместив четыре концевых кристалла по краям выходного портала, по одному с каждой стороны."
+				""
+				"При повторном вызове четыре крайних кристалла указывают на вершины каждой колонны, вызывая серию взрывов, которые сбрасывают обсидиановые колонны, железные стержни и концевые кристаллы."
+			]
+			icon: "minecraft:dragon_head"
+			id: "4FCD7C734E04EC59"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "378815EDAB66FE96"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "069E97DB94C37F24"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "3E5D6E0A612102C0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eКонец&f: Эндер Дракон"
+			x: -5.4d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "deeperdarker:stalker_spawn_egg"
+			id: "66C5F17F1D24B252"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4A6EC55ED17B234E"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "4DF8E949B9892D88"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:stalker_spawn_egg"
+				id: "1AF6D6CD931AC4FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Другая сторона&f: Сталкер"
+			x: -17.9d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["found in infernal altar"]
+			icon: "create:blaze_burner"
+			id: "1447D924C3077D48"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "19507BFF9635CD09"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "4198B095B5D88615"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				id: "45F44F82B7A7A783"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						CustomModelData: 1450104
+						Damage: 0
+					}
+				}
+				match_nbt: true
+				title: "Получите лук первопроходца"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&cПустота&f: Парящий ад"
+			x: -3.4d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Мутант Крипер — настоящий кошмар, сеющий хаос, где бы он ни появился."
+				""
+				"Просто убедитесь, что держите его подальше от всего, что вам дорого! Но в конце концов он оставляет после себя загадочное яйцо."
+				""
+				"Он не вылупится еще долгое время, но когда это произойдет, вас, конечно, ждет настоящий сюрприз."
+			]
+			icon: "minecraft:creeper_head"
+			id: "5590F8A33E7C7EBA"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "11785BB87317FFD8"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "27B2E7DE2471AFAE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "minecraft:creeper_head"
+				id: "3AAF2A659E06F390"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Крипер-мутант"
+			x: -19.9d
+			y: 7.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Мутант Эндермен на сегодняшний день является самым могущественным мутантом."
+				""
+				"Он не будет просто сражаться честными методами, используя магию Края, местность и многое другое, возможно все."
+				""
+				"Что тогда для тебя это значит? Возможно, вам удастся отрезать ему одну руку, и способность мутанта использовать местность станет вашей."
+			]
+			icon: "supplementaries:enderman_head"
+			id: "0FA6D29FC55F9AEC"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3D7501C5BA1A2652"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "5BF83535330C64C7"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "supplementaries:enderman_head"
+				id: "5A3BED717D4E35DE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Мутант Эндермен"
+			x: -12.7d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Самый опытный лучник, с которым вы когда-либо сталкивались."
+				""
+				"Если вам удастся победить этого врага, вы сможете использовать части его скелета для собственной защиты..."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "12540DE2AD46BD25"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4F2074C87E8E3440"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "52BFB9FB197D88A8"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "7815976CA6879562"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Скелет-мутант"
+			x: -20.9d
+			y: 7.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Будьте осторожны с его сокрушительными атаками! И быстро сожгите труп, а то он снова проснется."
+				""
+				"Ваша победа будет вознаграждена мистическим молотом, раскрывающим уникальную силу при использовании на земле под вами..."
+			]
+			icon: "minecraft:zombie_head"
+			id: "466E95094802C572"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3F86E43B3F80D722"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "713DBE549076AA9A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "52948508C1427CED"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Зомби-мутант"
+			x: -18.9d
+			y: 7.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"043A32CFAF07245A\" } }"]
+			icon: "twilightforest:naga_trophy"
+			id: "1118D777AFDEABF1"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "261DD4AC3353A153"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "4CCBAA89DE18D707"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "32B1B5E2E70C9EFB"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "&2Сумеречный лес&f: Нага"
+			x: -19.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65E6F43E380A343B\" } }"]
+			icon: "twilightforest:lich_trophy"
+			id: "360D7D51B8827142"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "362C0272415F76D8"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "67A2640AEFFC99F5"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "52D7F31C08738E0E"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "&2Сумеречный лес&f: Сумеречный Лич"
+			x: -18.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"249A0EC5DB167A5A\" } }"]
+			id: "66CCB8E61772D9C5"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6DA4D456BA6CD79D"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7F8E097B21E02F09"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				id: "0E832BF18FE8B67D"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "&2Сумеречный лес&f: Гидра"
+			x: -11.7d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"546A5B881F8F6A29\" } }"]
+			id: "6C426E483987130D"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "18D5C48D92709FF7"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "2A021BF225DAA771"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				id: "69EBB0CA8881552E"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "&2Сумеречный лес&f: Ур-Гаст"
+			x: -10.7d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C964425741DFA07\" } }"]
+			id: "0561992D26000F6C"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "24D5883822C00526"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "5D62DF9BFD00702A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				id: "347585336B761168"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "&2Сумеречный лес&f: Снежная королева"
+			x: -9.7d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6832C9E6D2E2949E\" } }"]
+			icon: {
+				Count: 1
+				id: "blue_skies:alchemy_scroll"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AD9D7336F8E4D96"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0A5A2011633F2016"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "29CBE370CE1D5E57"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1
+					id: "blue_skies:alchemy_scroll"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BC48FB63912FA16"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Голубое небо&f: Алхимик"
+			x: -20.9d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3C1212AA4663C39B\" } }"]
+			icon: {
+				Count: 1
+				id: "blue_skies:summoner_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+			}
+			id: "45E828FAD2F4D3EC"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0CF524004E0E9088"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "2BDE193BE81CD1F8"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1
+					id: "blue_skies:summoner_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "35C492B05779FE17"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Голубое небо&f: Призыватель"
+			x: -21.9d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DB1A5763EDD6A7F\" } }"]
+			icon: {
+				Count: 1
+				id: "blue_skies:arachnarch_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+			}
+			id: "22230F5131F8FEFD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "34C86FF91B85C163"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "186572E2BB05C6BA"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "005029D367CE51E6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Голубое небо&f: Арахнарх"
+			x: -14.7d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F944EEA0F397B95\" } }"]
+			icon: "blue_skies:starlit_leaves"
+			id: "4473A6FB1DD04B33"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "586AEB753D3783EA"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "1F56CC6E53B2FA7D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: "blue_skies:starlit_leaves"
+				id: "31DD138C22CF79AB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&9Голубое небо&f: Звездная дробилка"
+			x: -13.7d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A143952EAB7643E\" } }"]
+			id: "1B579FA633476F4B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6F16667A95F0722F"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "22CF79A31715195F"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "1F63201CB11C5269"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			title: "&6Эфир&f: Бронзовый ключ!"
+			x: -18.9d
+			y: 6.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C32DED450405D92\" } }"]
+			id: "0990BE5505F823C2"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "52461B8E6869D388"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "507553CA46529B27"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "4136D61E6EE248C3"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			title: "&6Эфир&f: Серебряный Ключ!"
+			x: -19.9d
+			y: 6.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63B35ED12D525A4F\" } }"]
+			id: "70D8E200F5040BA9"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5B29D59699E791F8"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "15F0DC84D42E7A7B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				id: "0E462753AA02FAEA"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			title: "&6Эфир&f: Золотой Ключ!"
+			x: -17.9d
+			y: 6.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["&6The Conjurer&r is a magician inspired Illager miniboss. He owns a&c theater&r deep in the roofed forest biome. He has plenty of tricks up his sleve, so don’t take him lightly!"]
+			icon: {
+				Count: 1
+				id: "conjurer_illager:conjurer_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "468294C066683BE3"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "49B9533F17F164D3"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "25711466BF0091CB"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7442AF368E78EFA1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Фокусник"
+			x: -20.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C60FAFCB36ADD5D\" } }"]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "3316608227ABBD2E"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1AD1DA989CCF391E"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "70B7F8C034864711"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				id: "2B4BE55FF05CB23C"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "&2Внешний мир&f: Химера"
+			x: -6.4d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Can be found at &6the Catacombs&r. You can use &eWayward Compass&r to locate them. "]
+			icon: "irons_spellbooks:blood_staff"
+			id: "034ADBF4EC3738DD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4D43FCE63A4CAFF4"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "1A8CB76BC1BA8C80"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "78FF425190DBCD30"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Король Смерти"
+			x: -12.7d
+			y: 7.6d
+		}
+		{
+			dependencies: [
+				"6C426E483987130D"
+				"09D25A60964E517F"
+				"2BA58FB09C99F20A"
+				"23EF18C11A9B1FBD"
+				"45E828FAD2F4D3EC"
+				"0FA6D29FC55F9AEC"
+				"138E94B1FC310502"
+				"3316608227ABBD2E"
+				"40DD304B90046084"
+				"466E95094802C572"
+				"360D7D51B8827142"
+				"66CCB8E61772D9C5"
+				"0561992D26000F6C"
+				"681E9EE350CD6791"
+				"1AB94A49F0A4427D"
+				"11DB96D8FC52617B"
+				"5E8607FE394E659A"
+				"1447D924C3077D48"
+				"271202F67BEA0A20"
+				"186D1014F748B001"
+				"188968771B831DCE"
+				"065A5A976F0D8FF9"
+				"485FA783FD36FB50"
+				"6AC1E375CA7DA676"
+				"1118D777AFDEABF1"
+				"079641D681493C48"
+				"468294C066683BE3"
+				"496E8E6570D6FE17"
+				"66C5F17F1D24B252"
+				"1D335FA02D1F86DD"
+				"2EFEFB8A1B1A2E3F"
+				"7696990D3ED40A1B"
+				"034ADBF4EC3738DD"
+				"12540DE2AD46BD25"
+				"35E095FC517735B1"
+				"342B9E3297CC4309"
+				"4FCD7C734E04EC59"
+				"03A47AAF2D751796"
+				"0346F78CE4B0F393"
+				"376DD4B56039898B"
+				"4473A6FB1DD04B33"
+				"608ECD63B1EAC46B"
+				"02E628FD58B3D4C7"
+				"5AD9D7336F8E4D96"
+				"150D9233D297B9DA"
+				"1A9BD3105BC4C13B"
+				"70D8E200F5040BA9"
+				"5590F8A33E7C7EBA"
+				"07C2D6E01B241F73"
+				"22230F5131F8FEFD"
+				"4B8AA887F0B4664E"
+				"1B579FA633476F4B"
+				"0990BE5505F823C2"
+				"125E3B2F9B728E17"
+				"722A585C044A2097"
+				"38DE8D7E98D6AA48"
+				"4E0B638C20CF9FD7"
+				"7FEA004E872EF175"
+				"0BDFC9BF558C42FE"
+				"34D165EDB1371398"
+				"04454A60FDCA0BB2"
+				"15AFBC9FC568CD57"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "lootr:trophy"
+			id: "025314CC80D7286F"
+			rewards: [
+				{
+					id: "45D461EBEE406919"
+					item: "kubejs:slayer_badge"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7FB2074001EED448"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 200
+					id: "1C177252F0050B6E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Выполните все квесты в этой главе."
+			tasks: [{
+				id: "763C98900C9BC722"
+				title: "Завершитель"
+				type: "checkmark"
+			}]
+			x: -24.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Ан&3старший опекун&rявляется более сильным и крупным вариантом&7опекун&rи&oСамый большой водный моб в Minecraft по умолчанию&r. "
+				""
+				"Он атакует так же, как и обычный&7опекун&r, но также применимо&cГорная усталость&rигрокам в большом радиусе вокруг себя. Они встречаются только в&9памятники океана&r; три из них генерируют в каждом."
+				""
+				"&3Три&rСтаршие стражи появляются естественным образом во время создания каждого океанского памятника:&oодин в верхней комнате памятника&rи&oеще двое&rв каждой секции крыла&9памятник&r. "
+			]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "minecraft:elder_guardian"
+					}
+				}
+			}
+			id: "53359B066B0AC21D"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1F53B9CBF0EB0AF1"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7235339D2B3EDC3B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "minecraft:guardian"
+						}
+					}
+				}
+				id: "4E504A5927E2DFE0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Старший страж"
+			x: -11.7d
+			y: 7.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["&cThe Coralssus&r serves as both a guard and steed for the &3Sunken City.&r"]
+			icon: {
+				Count: 1
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:coralssus"
+					}
+				}
+			}
+			id: "4E0B638C20CF9FD7"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "20E3B4D45A460401"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "39804DE0D2B85E3C"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: {
+					Count: 1
+					id: "obtrophies:trophy"
+					tag: {
+						BlockEntityTag: {
+							VariantID: 0
+							entity: "cataclysm:coralssus"
+						}
+					}
+				}
+				id: "4575473642B942E6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Коралсс"
+			x: -14.7d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Can spawn in the ocean after defeating the &6Leviathan.&r"]
+			icon: "minecraft:fire_coral"
+			id: "125E3B2F9B728E17"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "04D4620DE0A8CABD"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "06A49743AD8B8895"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				icon: "cataclysm:coral_golem_spawn_egg"
+				id: "644534B34DE6ED2B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Коралловый голем"
+			x: -21.9d
+			y: 7.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["The Wadjet is a mini-boss guarding the &6Cursed Pyramid.&r"]
+			icon: "cataclysm:wadjet_spawn_egg"
+			id: "722A585C044A2097"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "60E322FC49B8BA1C"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "0FC6BEB1378879E1"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: "cataclysm:wadjet_spawn_egg"
+				id: "648869C44DD79B93"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Ваджет"
+			x: -10.7d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["The Kobolediator is a mini-boss guarding the &6Cursed Pyramid.&r"]
+			icon: "cataclysm:kobolediator_skull"
+			id: "7FEA004E872EF175"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3E41FB3E78E17E89"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "5C72A506FD278742"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: "cataclysm:kobolediator_skull"
+				id: "661A8B435FD5A845"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Коболедиатор"
+			x: -9.7d
+			y: 5.6d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Горгоны могут находиться глубоко в&6Лабиринт Змеи&r."
+				""
+				"Рекомендуется принести с собой много ведер молока на случай, если они отравятся ее приступами. Обратите внимание, что вы должны быть ослеплены, чтобы избежать окаменения; наличие чего-либо, противодействующего эффекту повязки, не защитит вас от взгляда Горгоны."
+				""
+				"Альтернативно, можно сразиться с горгоной без повязки на глазах, просто посмотрев вниз и ударив ее по хвосту."
+				""
+				"Важно отметить, что любой оборудованный&nброню нельзя получить, если владелец окаменел&r; предметы будут «застревать» внутри статуи, а не падать на землю."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6AE021028ABF4B31"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "64E8294554ED7DDA"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "7FD1CB5F4366365D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "596A70E8F9DD380A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Горгона"
+			x: -21.9d
+			y: 6.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Эти скрывающиеся в джунглях растительные монстры не хотят ничего, кроме как съесть все, что движется!"
+				""
+				"Они могут показаться обычными папоротниками, но если подойти поближе, они вылезут наружу."
+				""
+				"Вы не сможете подобраться достаточно близко, чтобы ударить их, поэтому найдите другой способ убить их! Они роняют семена листвы."
+				""
+				"Чтобы вырастить листву, возьмите семя и посадите его, щелкнув правой кнопкой мыши по траве или земле."
+				""
+				"Каждые полдня в течение двух дней кормите детеныша листвой, бросая ему мясной продукт. Затем он превратится в полностью взрослый лист. Будьте осторожны: взрослые листоносы не приручаются и все равно будут нападать на вас!"
+			]
+			icon: "mowziesmobs:foliaath_seed"
+			id: "34D165EDB1371398"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5481B822C2C73756"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "78BBD1DC65475561"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				icon: "mowziesmobs:foliaath_seed"
+				id: "1163129088914CCB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Фолиат"
+			x: -20.9d
+			y: 6.7d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Затерянные под землей много лет назад, эти рыцари в тяжелых доспехах не люди и не статуи. Они что-то охраняют?"
+				""
+				"Они забыли что. Они чего-то ждут? Они забыли когда."
+				""
+				"Они оплакивают кого-то? Они забыли кого. Все, что они умеют, — это убивать тех, кто приближается к их покоям. Есть только один способ повредить Железного Кованого Наута; вам предстоит обнаружить его слабость."
+				""
+				"Только самые смелые из искателей приключений осмелятся бросить вызов Железному Навту. После поражения Кованый Навт оставит победителю свой Кованый Шлем и Топор Тысячи Металлов."
+				""
+				"Щелчок правой кнопкой мыши, когда топор атакует по большой дуге, а щелчок правой кнопкой мыши, удерживая клавишу Shift, создаст ударную волну, которая приблизит цели к вам. Ни один инструмент не может сломаться."
+			]
+			icon: "mowziesmobs:wrought_helmet"
+			id: "0BDFC9BF558C42FE"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5A64090E5D610608"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "66AE924CEC4FD756"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "5AE1885CE6D3142B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Железный кузнец"
+			x: -10.7d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&bЛедяная пасть&rопасные звери, редко встречающиеся в&n&bГласио.&r &r"
+				""
+				"Их огромные размеры, впечатляющая скорость и мощное ледяное дыхание делают их практически невозможными противниками."
+				""
+				"Если во время вашего путешествия вы встретите на своем пути спящего человека, вероятно, лучше выбрать другой маршрут и оставить его лежать."
+				""
+				"Зверь охраняет драгоценный ледяной кристалл, который при использовании может высвободить чистую зимнюю энергию."
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04454A60FDCA0BB2"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5583003A20C5447B"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "54121C6E1BC34324"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐&7"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5C4B5A061267C2B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Космос-&bГласио&r&f: Ледяная пасть"
+			x: 9.600000000000001d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&4Умвути&rявляется создателем&eАбавутана&r, пребывающий на неподвижном месте на троне в&n&cМарс.&r&r"
+				""
+				"Он рисует свой&6энергия от солнца&r, вызывая солнечные удары, солнечные вспышки и массивные солнечные лучи."
+				""
+				"Он также может создавать последователей Уммутаны, в том числе целителей под названием Уммутана Журавли, из масок, чтобы защищать его во время боя."
+				""
+				"Таким образом, его дети в масках почитают его как бога. Неснаряженным путешественникам следует держаться подальше от его рощи, чтобы не поддаться его гелиомантии."
+				""
+				"Однако те, кто достаточно силен, чтобы встретиться с ним лицом к лицу и победить, будут вознаграждены его маской: Солнечным Ликом. Эта маска позволяет ее владельцам вдохнуть жизнь в маски и создать последователей Уммутаны. К сожалению, маска не наделяет своего носителя гелиомантией; эта сила изначально принадлежит Умвути и, таким образом, умирает вместе с ним. Возможно, есть другой способ...?"
+			]
+			icon: "mowziesmobs:sol_visage"
+			id: "15AFBC9FC568CD57"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "2FA24CF304E3C9A8"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "08E05366519B04C5"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐&6+&7"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "43705394BF2FD181"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Космос-Марс&f: Умвути"
+			x: -2.4000000000000004d
+			y: 6.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Появляется, начиная с&c&oтретий&rночь&rигры, чтобы у игрока было время&nподготовить&rна встречу с ним."
+				""
+				"Начало&8Сталкер&rнерест сопровождается характерным&oзвук&rи&oсообщение&rв чате."
+				""
+				"Кажется совершенно невидимым, и все, что вы можете видеть, это два&eсветящийся&rглаза. В то время как&8Сталкер&rнаходится в невидимости, он передвигается гораздо быстрее, а при получении урона теряет невидимость."
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38DE8D7E98D6AA48"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "79682C9F759C4216"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "48BFFF2BCBC5E75A"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "11F88FE1D7C2E4A6"
+				title: "Убей свои кошмары"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Внешний мир&f: Убей свои кошмары"
+			x: -21.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Все боссы имеют ряд рейтингов.&6желтые звезды&rс указанием уровня сложности от 1 до 5."
+				""
+				"Эта звездная система должна определить ваши ожидания, прежде чем встретиться с боссом, поскольку некоторые из&c4-5-звездочные боссы&rпредназначены для того, чтобы быть&4сложный финал игры&r."
+				""
+				"Обязательно подготовьтесь соответствующим образом. Вот некоторые&dобщие ожидания&rдля каждого звездного рейтинга:"
+				""
+				""
+				"&6⭐&7- Железный уровень или аналогичная броня с некоторыми зачарованиями.&r"
+				""
+				"&6⭐⭐&7- Бриллиантовый уровень или аналогичная броня с некоторыми зачарованиями.&r"
+				""
+				"&6⭐⭐⭐&7- Уровень Бриллиантовый или аналогичный с полной защитой IV и не ниже&c20 ❤&r"
+				""
+				"&6⭐⭐⭐⭐&7- Полная броня уровня Незерита или аналогичная с полной защитой V и не ниже&c30 ❤.&r &7Также рекомендуется еда с бонусами. Использовано не менее 30 очков навыков.&r"
+				""
+				"&6⭐⭐⭐⭐⭐&7- Полная броня уровня Darkmetal или аналогичная с полной защитой V и не ниже&c40 ❤.&r &7и все, что может поднять вам настроение ^_^. Использовано не менее 50 очков навыков.&r"
+			]
+			icon: "create:clipboard"
+			id: "50CDD784C02C35CE"
+			rewards: [{
+				id: "15A3B6F803572A9D"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "229AF62A0A0E0EDB"
+				title: "Я признаю это!"
+				type: "checkmark"
+			}]
+			title: "&l&6Рейтинговая система"
+			x: -24.72d
+			y: 6.359999999999999d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["You can craft an eye of curse to locate the structure."]
+			icon: "cataclysm:cursed_eye"
+			id: "17F953D448E7B6FD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "63716EEE09186573"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "21235CE6E886B8B0"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "01D93AE41131FBF9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Маледиктус"
+			x: 4.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["Can be found in &3Frosted Prison&r"]
+			icon: "cataclysm:aptrgangr_head"
+			id: "2A7455826CF9F976"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "136FF4D60C71C097"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "24405F1A35C16796"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: "cataclysm:aptrgangr_head"
+				id: "316AB4A77AC902CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Аптгангр"
+			x: -12.7d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dМагиспеллер&rявляются&n&aодин из 3 случайных боссов&r&rкоторый может появиться во время рейдового вторжения в деревню."
+				""
+				"Вы можете вызвать рейд, победив капитана-грабителя (того, у кого на голове знамя), чтобы получить эффект «Плохое предзнаменование», а затем войдя в деревню. Рейд начнется автоматически."
+			]
+			icon: "illageandspillage:totem_of_banishment"
+			id: "16BC123471572D6B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5A117015CEEC8568"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "76BF4B862A452531"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				advancement: "illageandspillage:kill_magi"
+				criterion: ""
+				id: "132DA665DDACCB91"
+				type: "advancement"
+			}]
+			title: "&2Внешний мир&f: Магиспеллер"
+			x: 4.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dФрикагер и Рагно&rявляются&n&aодин из 3 случайных боссов&r&rкоторый может появиться во время рейдового вторжения в деревню."
+				""
+				"Вы можете вызвать рейд, победив капитана-грабителя (того, у кого на голове знамя), чтобы получить эффект «Плохое предзнаменование», а затем войдя в деревню. Рейд начнется автоматически."
+			]
+			icon: "illageandspillage:bag_of_horrors"
+			id: "53B5ACF76227380F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "69BB18D6185AAB00"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "080C9C1F8E4133CC"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				advancement: "illageandspillage:kill_freaky"
+				criterion: ""
+				icon: "illageandspillage:bag_of_horrors"
+				id: "526FA87F0F744E7A"
+				type: "advancement"
+			}]
+			title: "&2Внешний мир&f: Фрикагер и Рагно"
+			x: 2.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&dпризыватель духов&rявляются&n&aодин из 3 случайных боссов&r&rкоторый может появиться во время рейдового вторжения в деревню."
+				""
+				"Вы можете вызвать рейд, победив капитана-грабителя (того, у кого на голове знамя), чтобы получить эффект «Плохое предзнаменование», а затем войдя в деревню. Рейд начнется автоматически."
+			]
+			icon: {
+				Count: 1
+				id: "illageandspillage:spellbound_book"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "252E06162AAF16B1"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0F35C865A591CA2F"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					count: 6
+					id: "1F00E7AD134DABD3"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				advancement: "illageandspillage:kill_spiri"
+				criterion: ""
+				id: "05A8D5A0DF8FD497"
+				type: "advancement"
+			}]
+			title: "&2Внешний мир&f: Призыватель духов"
+			x: 3.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"&6Тонгби Скульптор&rможно найти в&bМонастырь&r, большое храмовое сооружение, которое появляется в Ледяных Пиках."
+				""
+				"Найдя его, вы можете либо: сразиться с ним напрямую, либо предложить ему огненные жезлы, чтобы начать испытание Скульптора."
+				""
+				"Рекомендуется использовать Jump Boost для лучшей мобильности во время испытания!"
+				""
+				"Чтобы завершить квест,&eвы должны закончить пробную версию, чтобы получить&rтот&4Рукавицы Раскола Земли.&r"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31879F695EBA0301"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "06DFE3E8961FD635"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "1671D8A39495274D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				id: "1EC28E0CA5DC14AB"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2Внешний мир&f: Тонгби Скульптор"
+			x: -3.4d
+			y: 4.6d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"Вы можете создать&nглаз бури&rнайти структуру"
+				""
+				"&eСцилла&rможно найти в&bАкрополь&r— массивное сооружение, расположенное над океаном. Его усиленно охраняют клодианцы. Как только вы его найдете, найдите на земле большой якорь; щелкните его правой кнопкой мыши, чтобы вызвать босса."
+			]
+			icon: "cataclysm:storm_eye"
+			id: "345DFF20A4873D6F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7DFC7B598BDF9A56"
+					silent: true
+					title: "+1 очко навыков"
+					type: "command"
+				}
+				{
+					id: "51DC58F33F3C69EC"
+					item: "numismatics:cog"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:storm_eye"
+				id: "3466A0192BDC7FF7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Внешний мир&f: Сцилла"
+			x: -5.4d
+			y: 7.6d
+		}
+	]
+	title: "&9&lБоссы и очки навыков"
+}

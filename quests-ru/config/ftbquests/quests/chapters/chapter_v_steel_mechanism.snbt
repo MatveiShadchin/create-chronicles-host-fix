@@ -1,0 +1,1214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_v_steel_mechanism"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1
+		id: "tfmg:steel_mechanism"
+		tag: {
+			Enchantments: [{ }]
+		}
+	}
+	id: "38FE3E0C86FF237B"
+	images: [{
+		alpha: 200
+		color: 16672790
+		height: 1.2d
+		image: "chalk:block/mark/arrow"
+		rotation: 180.0d
+		width: 1.2d
+		x: 2.5d
+		y: -7.0d
+	}]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60A94E3337A26181"]
+			id: "44B711E1B5B7B00E"
+			rewards: [{
+				id: "67DC5F0576D69364"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DEF0DA1D162EA2E"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"23AAAAF53A58DE75"
+				"65C36850480E3CFB"
+				"214FA0AC03602688"
+				"39D793EF31699C8A"
+				"44B711E1B5B7B00E"
+			]
+			dependency_requirement: "one_completed"
+			id: "69D628450626D8D5"
+			rewards: [{
+				count: 15
+				id: "3C4CD26A2CF7E22D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "44B2D39FC1CB0678"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5FDD3AE28724E3DB"
+				"46E5565D623C0AC8"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Когда литейный желоб заполняет форму в литейной ванне, создание слитка/блока занимает несколько секунд."
+				""
+				""
+				"&l&cУстранение неполадок:&r&rЕсли это не работает, попробуйте сломать&n&cлитье на основе&r&rи слепите и поместите его снова."
+				""
+				"&o&7Существует также альтернативный рецепт с использованием сжатия, если у вас возникли проблемы с его правильной работой на сервере.&r&r"
+			]
+			id: "60A94E3337A26181"
+			rewards: [
+				{
+					id: "325E617AD5CEAEED"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "7AF10DD69B345714"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3F3D74AA8F3EE56A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2F257B912F3BB647"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+				{
+					id: "16F286980D9B8643"
+					item: "tfmg:casting_spout"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B77F16B06EA00EF"]
+			icon: "tfmg:aluminum_ingot"
+			id: "23AAAAF53A58DE75"
+			rewards: [{
+				id: "5FA364EA8CDFD30E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42C18F2CCBB19E67"
+					item: "tfmg:bauxite"
+					type: "item"
+				}
+				{
+					id: "2B17D8042CC988B5"
+					item: "tfmg:aluminum_ingot"
+					type: "item"
+				}
+			]
+			title: "Алюминий"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7195C5282BA6B067"
+				"41F2204F3859C40E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6Коксовая печь&rпредставляет собой многоблочную машину."
+				""
+				"Всего вам понадобится 9&eКоксовые блоки&rчтобы построить его. Обязательно используйте функцию указателя (нажимая W), чтобы увидеть, как строить."
+				""
+				"Когда вы разместите все 9 блоков, вам нужно щелкнуть правой кнопкой мыши гаечным ключом по ширине машины, чтобы собрать ее. Убедитесь, что вы нажимаете на правую сторону ширины машины. Вы узнаете, когда соберете его, поскольку текстура изменится."
+				""
+				"Для работы машины вам также понадобятся трубы, механические насосы, резервуары и выхлопная система."
+				""
+				"&7Уголь Кокс&rтребуется некоторое время, чтобы выйти из машины, он медленный и выходит автоматически."
+				""
+				"Не используйте воронку, чтобы попытаться извлечь его, это приведет только к удалению угля, питающего машину. Просто подождите, и Машина сама выплюнет угольный кокс."
+			]
+			id: "3786CEBDF1D138A3"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 32
+					id: "61CD476CA52EF93E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "614AAB689DC0DB6D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "2A266B65EE1395FE"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			title: "Коксовая печь"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61D53F99D72D0940"]
+			id: "66390863259FE74C"
+			optional: true
+			rewards: [{
+				id: "425F7E676458AA5D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07B7F0C605A4CA2E"
+				item: "tfmg:limesand"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"66390863259FE74C"
+				"6AD87BACD480D27B"
+			]
+			dependency_requirement: "one_completed"
+			id: "5429EC5DB7D8429C"
+			optional: true
+			rewards: [{
+				id: "2DB496EE7C31F923"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE14BF44D6AE9E2"
+				item: "tfmg:blasting_mixture"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			description: ["Check the Renewable Ores chapter to see a renewable way to have Crushed Raw Iron."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6AD87BACD480D27B"
+			optional: true
+			rewards: [{
+				id: "2B4AD85E927EC7FD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6515B66AB931E976"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0D2D729534CC797F"
+			rewards: [{
+				id: "3072BE1C255F3304"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "474A4F8B2096CDA0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E82E9591EDB4835"]
+			id: "41F2204F3859C40E"
+			rewards: [{
+				id: "59F8BD25C788CD09"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA6CA1CCA875A5D"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3786CEBDF1D138A3"]
+			dependency_requirement: "one_completed"
+			id: "5800110695DFDE0F"
+			rewards: [{
+				id: "3FA946BA9C7E384F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B9049EA47071647"
+				item: "tfmg:coal_coke"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3786CEBDF1D138A3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&nКоксовая печь производит много креозота.&r, больше, чем вам действительно может понадобиться."
+				""
+				"Для борьбы с этим можно использовать&cФакельная труба для сжигания излишков креозота.&rили вы можете использовать креозот для заправки&eНизкосортный топливный двигатель&rдля создания вращательной силы."
+				""
+				"Для запуска двигателя вам нужен сигнал красного камня. Вы можете использовать рычаг для запуска двигателя или использовать аналоговый рычаг для запуска и решить, насколько быстро/медленно будет увеличиваться мощность вращения."
+			]
+			id: "4529E314F97ED3FA"
+			rewards: [{
+				id: "70B4FE9276461339"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0298CA5AE64183C1"
+				item: "tfmg:creosote_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5800110695DFDE0F"]
+			id: "239718D740BF77C5"
+			rewards: [{
+				id: "3B1EF10B34E5D032"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49E6FCE45A679184"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4529E314F97ED3FA"]
+			dependency_requirement: "one_completed"
+			id: "0A1E595C80AA998B"
+			rewards: [{
+				id: "1087AEC91B0272AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC2DF714B2EBA01"
+				item: "tfmg:hardened_planks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A1E595C80AA998B"]
+			id: "1F78ED8F3E697791"
+			rewards: [{
+				id: "4E5AFD46E9BAC255"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D8BDEAF5AEC1AB"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5429EC5DB7D8429C"
+				"239718D740BF77C5"
+				"2E9E011F51858EF2"
+			]
+			description: [
+				"&6Доменная печь&rпредставляет собой многоблочную машину. Обязательно используйте функцию размышления (нажав W), чтобы узнать, как построить доменную печь."
+				""
+				"Если не помогло, попробуйте сломать выход доменной печи и поставить заново. Если это по-прежнему не работает, возможно, вы делаете что-то неправильно."
+				""
+				"&l&6Кончик:&r&rВы будете генерировать два типа жидкостей: расплавленный шлак и расплавленную сталь. Самый простой способ разделить их — использовать всего один смарт-канал и фильтр списка. Используя функцию поиска JEI (Just Enough Items), вы можете перетащить элемент, например, ковш из литой стали, в фильтр списка, а затем поместить фильтр списка в фильтр смарт-труб. Таким образом, вы можете разделить обе жидкости без необходимости их предварительного получения."
+				""
+				"&l&cУстранение неполадок:&r&rЭта многоблочная машина может стать вашим заклятым врагом. Если это не сработает после того, как вы построите, как подсказывает вам Раздумье (W). Не волнуйтесь, просто сломайте блок «Выход доменной печи» и поместите его снова. Если это по-прежнему не работает, попробуйте построить его в другом месте."
+				""
+				"&l&dСовет по автоматизации:&r&rЭту машину немного сложно автоматизировать. Вам следует использовать&9Пороговый переключатель&rпод выходом доменной печи и поместите взрывчатую смесь в прорезь фильтра. Затем точно настройте процент порогового значения следующим образом: 20 % вверху для включения сигнала и 5 % внизу для выключения сигнала (см. рисунок ниже). Если вы введете в доменную печь более 64 предметов, они будут потеряны."
+				""
+				"{image:kubejs:textures/blastfurnace.png width:100 height:100 align:center}"
+				""
+				"{image:kubejs:textures/blastfurnace_switch.png width:130 height:48 align:center}"
+			]
+			id: "0AB740B18E5FA805"
+			rewards: [{
+				id: "4A228E3C11E7B7CE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7FDB939CF73DB69E"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6D060A1C93359038"
+					item: "tfmg:fireproof_brick_reinforcement"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "03A608C6F6250588"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+			]
+			title: "Построить доменную печь"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AB740B18E5FA805"]
+			id: "43DA11DD7F5A2C79"
+			rewards: [{
+				id: "6BCFAF954ADF22BC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36A1A6B1770C02AC"
+				item: "tfmg:molten_slag_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AB740B18E5FA805"]
+			id: "5FDD3AE28724E3DB"
+			rewards: [{
+				id: "30D500185A528087"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1179319D080C8282"
+				item: "tfmg:molten_steel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "46E5565D623C0AC8"
+			rewards: [{
+				id: "169DC08818C80F38"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F038042E4DD56D8"
+					item: "tfmg:ingot_mold"
+					type: "item"
+				}
+				{
+					id: "42168E10C22BB30C"
+					item: "tfmg:block_mold"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3E42FEEFBC22F7D3"
+				"7682212B86FC5B85"
+			]
+			description: [
+				"Чтобы сделать боксит, вам нужно использовать&a5 мастеров-механиков&r. Это можно сделать разными способами, например, используя механическую руку, чтобы поместить предметы в правильные слоты."
+				""
+				"Или следуйте приведенным ниже инструкциям, чтобы обеспечить непрерывный автоматизированный процесс без необходимости использования одной или двух механических рук для размещения предметов."
+				""
+				""
+				"Используйте 9 механических ремесленников, создайте поделку с 9 слотами и поместите в каждый угол крышку слота ремесленника. См. рисунок ниже:"
+				""
+				"{image:kubejs:textures/crafter_fig_1.png width:100 height:100 align:1}"
+				""
+				"Теперь подойдите к задней части Механических Ремесленников с гаечным ключом в руке и щелкните правой кнопкой мыши по соприкасающимся краям Ремесленников, чтобы объединить их. Сделайте это, создав квадратную О-образную форму, оставив центральный крафтер отдельно. См. рисунок ниже:"
+				""
+				""
+				"{image:kubejs:textures/crafter_fig_2.png width:100 height:100 align:1}"
+				""
+				"Теперь, имея 2 андезитовые воронки, вы помещаете одну в среднего мастера-механика, а другую - в одного из других мастеров-механиков. Вы вводите красный песок в среднюю андезитовую воронку и шлаковую муку в другую андезитовую воронку, которая автоматически заполняет 4 слота. См. рисунок ниже:"
+				""
+				""
+				"{image:kubejs:textures/crafter_fig_3.png width:100 height:100 align:1}"
+			]
+			id: "3AB3B4308FA14C9E"
+			rewards: [{
+				id: "57A1B373D3E34F70"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ABF5E739971F4AD"
+				item: "tfmg:bauxite"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3AB3B4308FA14C9E"]
+			id: "3B77F16B06EA00EF"
+			rewards: [{
+				id: "36FA4B90E3C2CB19"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28204EE65135B7B7"
+				item: "create:crushed_raw_aluminum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44B711E1B5B7B00E"]
+			id: "214FA0AC03602688"
+			rewards: [{
+				id: "22C2C26B2F4A13A0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77E2E89F149F2644"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44B711E1B5B7B00E"]
+			id: "65C36850480E3CFB"
+			rewards: [{
+				id: "760AE9D1577F2CC3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "205B55524B405A20"
+				item: "tfmg:screw"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44B711E1B5B7B00E"]
+			id: "1D74F3D74105B835"
+			rewards: [{
+				id: "5749384243C6C18A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "320CB5665EB7C2DA"
+				item: "tfmg:rebar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"23AAAAF53A58DE75"
+				"1D74F3D74105B835"
+			]
+			id: "39D793EF31699C8A"
+			rewards: [{
+				id: "0ECF6548F0B20419"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "102F142498C5F88D"
+				item: {
+					Count: 1
+					id: "tfmg:screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["214FA0AC03602688"]
+			id: "50CDAAB5AECA6B27"
+			rewards: [{
+				id: "33A5B114C70B6E58"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "необязательный"
+			tasks: [{
+				id: "6C9ED2E054D9EFEE"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["409394CEF9087E88"]
+			dependency_requirement: "one_completed"
+			id: "7E82E9591EDB4835"
+			optional: true
+			rewards: [{
+				id: "55DE7D3F8224F459"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D462E5C990EC927"
+				item: "create_dd:coal_piece"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "409394CEF9087E88"
+			optional: true
+			progression_mode: "linear"
+			rewards: [{
+				id: "427A845A81663D8B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Пожалуйста, посетите главу о возобновляемых рудах, чтобы узнать, как это активировать."
+			tasks: [{
+				id: "1F112853E7AB803B"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 4.7d
+			y: -10.0d
+		}
+		{
+			dependencies: ["409394CEF9087E88"]
+			description: ["You can also automate this with &n&cnetherack&r&r if you prefer."]
+			id: "3E42FEEFBC22F7D3"
+			rewards: [{
+				id: "6C1DC825E5C0019A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18DF3371A3B988F5"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7682212B86FC5B85"
+			rewards: [{
+				id: "39F9903A2C348E03"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16513AA213DA6D0F"
+				item: "minecraft:red_sand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"184B9A5F983FA7A5"
+				"1DBA19EB422182AF"
+			]
+			dependency_requirement: "one_completed"
+			id: "61D53F99D72D0940"
+			optional: true
+			rewards: [{
+				id: "4527B8FE29A203DB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "327FDFAE9ECCD6C5"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1DBA19EB422182AF"
+			optional: true
+			rewards: [{
+				id: "461F5038E99F7EF9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A5F4FD57B1A774"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "184B9A5F983FA7A5"
+			optional: true
+			rewards: [{
+				id: "461C4B3C8BD29E23"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE64AE0721EA522"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41F2204F3859C40E"
+				"0D2D729534CC797F"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "7195C5282BA6B067"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7E87412957C08810"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01905FFF014AD138"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			title: "чугунный слиток"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			description: [
+				"&cШамотный шар&rпроисходит из блока под названием&cШамот&r. "
+				""
+				"Берите свою могучую кирку и отправляйтесь копать! Или создайте сверлильный станок, который тоже будет работать. Вы найдете шамотный блок в пещерах и других местах в обычном мире."
+			]
+			hide_until_deps_complete: true
+			id: "2E9E011F51858EF2"
+			tasks: [{
+				id: "0E8742FAA0118213"
+				item: "tfmg:fireclay_ball"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			description: [
+				"&6Оптический источник&rтрансформирует&cВращательная мощность&rв&6Световые лучи.&r"
+				""
+				"Вы можете использовать эти световые лучи для оптической передачи вращательной мощности или для оптической передачи сигнала красного камня."
+				""
+				"Существует 4 типа световых лучей в зависимости от скорости вращения, которую принимает оптический источник, причем виден только один из лучей."
+				""
+				"&n4 типа:&r"
+				"1–4 об/мин = радиоволны (диапазон 128 блоков) невидимы;"
+				"5–16 об/мин = Микроволновая печь (диапазон блоков 96) Невидимый;"
+				"17–64 об/мин = видимый свет (диапазон блоков 64) видимый;"
+				"65 + = Гамма-лучи (дальность блока 32). Невидим и наносит урон."
+				""
+				"Лучи света могут проходить через стеклянные блоки, но не могут проходить через тонированное стекло. Поместив цветное стекло перед видимым светом, луч превратится в цвет стекла."
+				""
+				"Кроме того, только гамма-лучи могут проходить через игрока и мобов, любой другой вид световых лучей будет заблокирован, если перед ним стоит игрок/моб."
+				""
+				"У вас также есть возможность изменить поляризацию светового луча. Суть в том, что изменение этого параметра повлияет на то, как световые лучи взаимодействуют с определенными блоками."
+			]
+			id: "078DF329C409A210"
+			rewards: [{
+				id: "7764E61BE272D4D3"
+				item: "create_optical:copper_coil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65AC19D0F36432C1"
+				item: "create_optical:optical_source"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6Оптический рецептор&rпреобразует&bСветовые лучи&rкоторый выводится из оптического источника обратно в&dВращательная мощность&r."
+				""
+				"Вам необходимо использовать&cОптическое устройство&rна&6Оптический рецептор&r &nщелкнув правой кнопкой мыши&rс&cОптическое устройство&rна оптическом рецепторе, чтобы он получил&bСветовые лучи.&r"
+			]
+			hide_until_deps_complete: true
+			id: "07FDCB535DE4C4BA"
+			rewards: [
+				{
+					count: 10
+					id: "7A020EC041D21875"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "25F359D6089B6F13"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "709095C73F42E099"
+				item: "create_optical:optical_receptor"
+				type: "item"
+			}]
+			x: -1.9d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6Оптический датчик&rпреобразует лучи света, получаемые от оптического источника, в сигнал RedStone, выводя сигнал Redstone со всех 4 сторон, а также излучая свет."
+				""
+				"Щелчок правой кнопкой мыши пустой рукой меняет режим оптического датчика между: Интенсивностью; Цифровой; Цвет."
+				""
+				"&eПримечание. Я рекомендую проверить меню «Обдумывание» для получения дополнительной информации о каждом режиме.&r"
+			]
+			hide_until_deps_complete: true
+			id: "26BEA55560AE0368"
+			rewards: [
+				{
+					count: 10
+					id: "26FFACBD6397F111"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "57B482CA2856A8A5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E2C090C3BF4ACAC"
+				item: "create_optical:optical_sensor"
+				type: "item"
+			}]
+			x: -0.3999999999999999d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6Закрытое зеркало&rпозволяет изменить направление светового луча."
+				""
+				"Вы можете вращать заключенное в корпус зеркало, чтобы выбрать направление, в котором вы хотите, чтобы луч света был перенаправлен."
+			]
+			hide_until_deps_complete: true
+			id: "0730951B2B34EA50"
+			rewards: [
+				{
+					count: 10
+					id: "17EF8E60D42D1C6E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "49AFD8428357DF8A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3475F30C2C1C02C1"
+				item: "create_optical:encased_mirror"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"Этот блок может разделить луч света на 2 разных поляризованных луча."
+				""
+				"Один Луч продолжит идти прямо, а другой разделится в одну из сторон."
+				""
+				"Изменение параметра «Поляризация» в&6Оптический источник&r, повлияет на то, как световой луч разделяется с помощью поляризационного светоделителя, поэтому я рекомендую вам поиграть с ним."
+			]
+			hide_until_deps_complete: true
+			id: "549427B0BBA24445"
+			rewards: [
+				{
+					count: 10
+					id: "2FC13AE25708E8CD"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2E9E0A0FA1B6729D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DEAFDFC73A5B378"
+				item: "create_optical:polarizing_beam_splitter_block"
+				type: "item"
+			}]
+			x: 2.6d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"Этот блок позволяет поляризовать&eСветовой луч&r &nуменьшая его интенсивность вдвое&r, что повлияет на&cСила сигнала красного камня&rиз&eСветовой луч&r. "
+				""
+				"Вы можете изменить&aполяризатор&rвведите с помощью&5гаечный ключ&rи вы можете сложить эти фильтры, чтобы еще больше снизить интенсивность."
+				""
+				"Изменение типа поляризации в оптическом источнике также может повлиять на то, как луч света взаимодействует с этим блоком, поэтому я советую вам поиграть с этим."
+			]
+			hide_until_deps_complete: true
+			id: "1DBB6264A5603E04"
+			rewards: [
+				{
+					count: 10
+					id: "6F38773C46936D3B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "50B35C1035948F06"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E18A9C3C8A0E4FB"
+				item: "create_optical:absorption_polarizing_filter"
+				type: "item"
+			}]
+			x: 4.9d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&cФокусировщик луча&rпозволяет обрабатывать определенные предметы, используя силу вращения и силу светового луча."
+				""
+				"Луч света должен проникать сверху (см. ссылку), а тип луча меняет тип процесса, который вы можете выполнять."
+				""
+				"Микроволновой луч позволяет готовить продукты, а видимый свет вместе с отверстием для фильтра на фокусере луча позволяет обрабатывать определенные продукты."
+				""
+				"Например: установка песчаного блока в прорезь фильтра и использование видимого луча света позволяет превратить розовый кварц в полированный розовый кварц, как если бы вы использовали наждачную бумагу."
+				""
+				"&o&eПримечание. Нажмите U на фокусере луча, чтобы увидеть все разрешенные рецепты.&r&r"
+			]
+			hide_until_deps_complete: true
+			id: "265960CE3104527E"
+			rewards: [{
+				count: 5
+				id: "4A2019042ACE7975"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1030C79A2EB3B32E"
+				item: "create_optical:beam_focuser"
+				type: "item"
+			}]
+			x: 7.9d
+			y: 13.5d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"Короче говоря, это позволяет объединить до 3 лучей света и выдать гораздо более быстрый луч. Чтобы преобразовать комбинированный луч во вращательную силу, вам понадобится Тяжелый оптический рецептор."
+				""
+				"&e&oПримечание. Я настоятельно рекомендую проверить Ponder на предмет всех нюансов, которые позволяет этот конденсатор луча в его конфигурациях с различными типами луча.&r&r"
+			]
+			hide_until_deps_complete: true
+			id: "70D34C00E2006C09"
+			rewards: [{
+				count: 5
+				id: "2C1ADBA1AF1683C3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "108AC256A3922B60"
+				item: "create_optical:beam_condenser"
+				type: "item"
+			}]
+			x: 6.4d
+			y: 13.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			description: [
+				"&6Создать: Фабрика должна расти&rМод добавляет в Minecraft новую механику энергии и напряжения! Это обновление все еще находится в разработке, поэтому, если у вас возникнут какие-либо проблемы, сообщите о них непосредственно в TFMG Discord."
+				""
+				"Ваша цель — построить большой генератор для эффективного производства электроэнергии. Вы можете использовать кабели и аккумуляторы от&cремесла и пристрастия&rили, если хотите, используйте предметы, предоставленные&6Создать: Фабрика должна расти&rдля вашей энергетической системы."
+				""
+				"Если ваш аккумулятор взрывается, это потому, что у вас слишком много энергии вращения."
+				""
+				"Ниже приведен пример того, как передать энергию Ремеслу и Пристрастиям."
+				"{image:kubejs:textures/electricity.png width:200 height:123 align:center}"
+				""
+				"Для получения дополнительной информации об электричестве TFMG посетите их официальный Discord:"
+				""
+				"&6https://discord.gg/Dm4B7UfhXd&r"
+			]
+			hide_until_deps_complete: true
+			id: "2CBF8CC3EB107804"
+			rewards: [
+				{
+					count: 2
+					id: "0EBE50541D09FAF6"
+					item: "tfmg:cable_connector"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "60983F267823F271"
+					item: "tfmg:copper_cable"
+					type: "item"
+				}
+				{
+					id: "1BEA10C631A511AB"
+					item: "tfmg:accumulator"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [
+				{
+					count: 8L
+					id: "1462670603157B89"
+					item: "tfmg:stator"
+					type: "item"
+				}
+				{
+					id: "2DF12354504191DE"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+			]
+			title: "&l&6Лучшее производство энергии"
+			x: 5.3999999999999995d
+			y: 10.0d
+		}
+		{
+			dependencies: ["07FDCB535DE4C4BA"]
+			description: ["This receptor works just like the Optical Receptor. It transforms the light rays into rotational power but allows for higher stress support and the speed will be one third of the speed of the light beam."]
+			id: "23D03CB4F4382DDA"
+			rewards: [{
+				count: 5
+				id: "50E59DB32CA8CC47"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE4DA6A70AB96C8"
+				item: "create_optical:heavy_optical_receptor"
+				type: "item"
+			}]
+			x: -1.9d
+			y: 15.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&eТепловой оптический источник&rдля функционирования требуется дополнительный источник, которым являются жидкости, такие как&bВода&rи&cЛава&rотправить&6Световые лучи&r. "
+				""
+				"Преимущество этого в том, что оно удваивает SU по сравнению с обычным. Вода дает двойную СУ, а Лава дает двойную Воду."
+			]
+			id: "3629B7D03A59F516"
+			rewards: [{
+				count: 2
+				id: "37D2AAD9E4AEDA16"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "489BC24E893B6276"
+				item: "create_optical:thermal_optical_source"
+				type: "item"
+			}]
+			x: 4.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["078DF329C409A210"]
+			description: [
+				"&6Источник голограммы&rпозволяет использовать видимый свет для отображения голограммы. Щелкните предметом в руке на источнике голограммы, чтобы отобразить этот предмет."
+				""
+				"Щелчок пустой рукой открывает окно управления для выбора ангела голограммы."
+			]
+			hide_until_deps_complete: true
+			id: "30513F4AD063919A"
+			rewards: [
+				{
+					count: 10
+					id: "789FEAB334414B3C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "24B7D092C6FEA000"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52442E822D7EBC1E"
+				item: "create_optical:hologram_source"
+				type: "item"
+			}]
+			x: 3.7d
+			y: 13.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			id: "0285493F505AE97E"
+			rewards: [
+				{
+					count: 2
+					id: "10AAB8C81462799E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6042AE9DDDCBB5B5"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76A8C90C026B44AD"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 9.5d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			id: "3837A48CE549F839"
+			rewards: [{
+				count: 2
+				id: "7BC34A78C3EBF8DB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67CCFFB0F9B77D47"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 1.1d
+			y: 10.6d
+		}
+	]
+	title: "Глава V: Стальной механизм"
+}

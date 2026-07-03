@@ -1,0 +1,759 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "rings_of_ascension"
+	group: "53374CFE946B8348"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: "ringsofascension:ring_slow_falling"
+	id: "1773A53BB0698605"
+	images: [{
+		color: 26367
+		height: 1.0d
+		image: "aether:slot/ring"
+		rotation: 0.0d
+		width: 1.0d
+		x: -9.0d
+		y: 4.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Night Vision potion effect while equipped."]
+			id: "000000000000032A"
+			rewards: [
+				{
+					id: "59F0A2478F033F31"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A5753D40BE45ADB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо ночного видения."
+			tasks: [{
+				id: "000000000000032B"
+				item: "ringsofascension:ring_night_vision"
+				type: "item"
+			}]
+			title: "Браво Шесть, Темнеет"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Regeneration potion effect when equipped."]
+			id: "00000000000003A3"
+			rewards: [
+				{
+					id: "50D2341A45E50AFF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4A1FE463A894487C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Регенерации."
+			tasks: [{
+				id: "00000000000003A4"
+				item: "ringsofascension:ring_regeneration"
+				type: "item"
+			}]
+			title: "Рука помощи"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants immunity to the poison effect when equipped."]
+			id: "00000000000003A5"
+			rewards: [
+				{
+					id: "64C3F5EAB53C0598"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "095FB372A10BC112"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо сопротивления яду."
+			tasks: [{
+				id: "00000000000003A6"
+				item: "ringsofascension:ring_poison_resistance"
+				type: "item"
+			}]
+			title: "Пещерные пауки? Пффф.."
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Strength potion effect when equipped."]
+			id: "00000000000003A9"
+			rewards: [
+				{
+					id: "06D60DEFE3FEF59D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2F6A640E4F483A69"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Силы."
+			tasks: [{
+				id: "00000000000003AA"
+				item: "ringsofascension:ring_strength"
+				type: "item"
+			}]
+			title: "Джонни Браво"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grows nearby crops faster when equipped."]
+			id: "0D7D9CF1F00A8963"
+			rewards: [
+				{
+					id: "26821BD139D0B7F3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "53B04D6F516DB443"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Роста."
+			tasks: [{
+				id: "2F4537A419E399B8"
+				item: "ringsofascension:ring_growth"
+				type: "item"
+			}]
+			title: "Заклинатель растений"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Invisibility potion effect when equipped."]
+			id: "00000000000003AF"
+			rewards: [
+				{
+					id: "5645A6D9FB673D78"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5C5D997B79D8103F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо невидимости."
+			tasks: [{
+				id: "00000000000003B0"
+				item: "ringsofascension:ring_invisibility"
+				type: "item"
+			}]
+			title: "Кольцо невидимости"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Water Breathing potion effect when equipped."]
+			id: "00000000000003B1"
+			rewards: [
+				{
+					id: "00721004C29D260E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4A2FE94710D113F6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Водного Дыхания."
+			tasks: [{
+				id: "651500C07A361B38"
+				item: "ringsofascension:ring_water_breathing"
+				type: "item"
+			}]
+			title: "Как будто дышу воздухом!"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants immunity to the Wither Potion effect when equipped."]
+			id: "00000000000003B5"
+			rewards: [
+				{
+					id: "19F16C0316ACC5FF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2C702DA2200D11A2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо-иссушитель."
+			tasks: [{
+				id: "30B6B90D962C0080"
+				item: "ringsofascension:ring_wither"
+				type: "item"
+			}]
+			title: "Долой болезнь"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Dolphins Grace potion effect when equipped."]
+			id: "00000000000003B8"
+			rewards: [
+				{
+					id: "05064E49AE423F96"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3476363AAAA2C654"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо дельфина."
+			tasks: [{
+				id: "00000000000003B9"
+				item: "ringsofascension:ring_dolphin"
+				type: "item"
+			}]
+			title: "Великие Умы"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants Knockback Immunity when equipped."]
+			id: "00000000000003BB"
+			rewards: [
+				{
+					id: "447CDA14655C706C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B799F766C71C222"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо сопротивления отбрасыванию."
+			tasks: [{
+				id: "00000000000003BC"
+				item: "ringsofascension:ring_knockback_resistance"
+				type: "item"
+			}]
+			title: "Отброс? Больше не надо!"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants Fire Resistance potion effect when equipped."]
+			id: "439298A36DF164C1"
+			rewards: [
+				{
+					id: "0020300BD9EF99B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "110CE4CDECC49EB3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо огнестойкости."
+			tasks: [{
+				id: "00000000000003BF"
+				item: "ringsofascension:ring_fire_resistance"
+				type: "item"
+			}]
+			title: "Потухший"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Pull nearby xp orbs when equipped."]
+			id: "61EC8066F1112546"
+			rewards: [
+				{
+					id: "105AA2A3A8E7FD25"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7F5668C01F5438EA"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Опыта."
+			tasks: [{
+				id: "35A530205B4C933C"
+				item: "ringsofascension:ring_experience"
+				type: "item"
+			}]
+			title: "Сладкий опыт"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Removes all nearby water blocks around the player when equipped."]
+			id: "2CA01FDC40580A8D"
+			rewards: [
+				{
+					id: "3161B782D5915B45"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7725487591CADBBD"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо губки."
+			tasks: [{
+				id: "60F0891CAF7F089D"
+				item: "ringsofascension:ring_sponge"
+				type: "item"
+			}]
+			title: "Вода ушла"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Haste potion effect when equipped."]
+			id: "204E9178AF8E4216"
+			rewards: [
+				{
+					id: "0BF341DD10476F47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20B1BCEAB7F7763B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Горное Кольцо."
+			tasks: [{
+				id: "00000000000003C8"
+				item: "ringsofascension:ring_mining"
+				type: "item"
+			}]
+			title: "Надо добывать быстро"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants five extra hearts when equipped."]
+			id: "355971C802A91482"
+			rewards: [
+				{
+					id: "56EA55F689ADA2F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "233A9C8C1D5EB813"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо здоровья."
+			tasks: [{
+				id: "00000000000003CB"
+				item: "ringsofascension:ring_health"
+				type: "item"
+			}]
+			title: "1-УП"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants immunity to the Slowness potion effect."]
+			id: "00000000000003CD"
+			rewards: [
+				{
+					id: "7ECAA07595672464"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "42F26BA0F12CF2DE"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо сопротивления замедлению."
+			tasks: [{
+				id: "46DEF1DFEF319CC7"
+				item: "ringsofascension:ring_slow_resistance"
+				type: "item"
+			}]
+			title: "Чувствуйте себя быстро"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Jump Boost potion effect when equipped."]
+			id: "2A04A6B7B6F75264"
+			rewards: [
+				{
+					id: "03F6A49BC06FF04D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0EF3043963F2F36B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо повышения прыжка."
+			tasks: [{
+				id: "00000000000003D1"
+				item: "ringsofascension:ring_jump_boost"
+				type: "item"
+			}]
+			title: "Кролик-хоппер"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Luck potion effect when equipped."]
+			id: "00000000000003D2"
+			rewards: [
+				{
+					id: "6D3C790A0FB92A82"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3933AC8DA4F83092"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Удачи."
+			tasks: [{
+				id: "2C5F7A95815D690A"
+				item: "ringsofascension:ring_luck"
+				type: "item"
+			}]
+			title: "Чувствуете себя удачливым?"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Speed potion effect when equipped."]
+			id: "7942E76F14C8FF79"
+			rewards: [
+				{
+					id: "4E6AA0F67D3B13DD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "587ACE420BB01B36"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Скорости."
+			tasks: [{
+				id: "5E9AA25959DC8321"
+				item: "ringsofascension:ring_speed"
+				type: "item"
+			}]
+			title: "Надо идти быстро"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Grants the Slow Fall potion effect when equipped."]
+			id: "00000000000003D9"
+			rewards: [
+				{
+					id: "5074AE73AA6C672F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7051EFE8ECE15A1C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите Кольцо Медленного Падения."
+			tasks: [{
+				id: "00000000000003DA"
+				item: "ringsofascension:ring_slow_falling"
+				type: "item"
+			}]
+			title: "Отличный вид!"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2CA01FDC40580A8D"
+				"2A04A6B7B6F75264"
+				"439298A36DF164C1"
+				"00000000000003A3"
+				"0D7D9CF1F00A8963"
+				"00000000000003A5"
+				"10FB619223F0AEBF"
+				"00000000000003A9"
+				"000000000000032A"
+				"00000000000003CD"
+				"64157A1BC3E09963"
+				"204E9178AF8E4216"
+				"00000000000003AF"
+				"7B8E7F4A2D5BB1F0"
+				"00000000000003B1"
+				"00000000000003D2"
+				"00000000000003B5"
+				"00000000000003B8"
+				"00000000000003D9"
+				"355971C802A91482"
+				"00000000000003BB"
+				"7942E76F14C8FF79"
+				"61EC8066F1112546"
+				"08913D75A611396B"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "lootr:trophy"
+			id: "67B117317EB077BA"
+			rewards: [
+				{
+					id: "64337688FD649BE8"
+					item: {
+						Count: 1
+						id: "simplyswords:dormant_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE1242F13C45E88"
+					item: "kubejs:ascendant_badge"
+					type: "item"
+				}
+				{
+					id: "42653208ADDF81FE"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Выполните все квесты в этой главе."
+			tasks: [{
+				id: "398E6380D04A8795"
+				title: "Завершитель"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			id: "08913D75A611396B"
+			rewards: [
+				{
+					id: "15869D5C3084D857"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5B1C228CE9CFA32F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Найдите Кольцо хождения по воде."
+			tasks: [{
+				id: "3C6522DEFC6EAD3C"
+				item: "ringsofascension:ring_water_walking"
+				type: "item"
+			}]
+			title: "Это как прогулка по парку"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			id: "7B8E7F4A2D5BB1F0"
+			rewards: [
+				{
+					id: "53B32688D804A7B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DDC4167230B0FA5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Найдите Кольцо Магнетизма."
+			tasks: [{
+				id: "37948693F35D0718"
+				item: "ringsofascension:ring_magnetism"
+				type: "item"
+			}]
+			title: "Почему мой инвентарь снова полон?"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "64157A1BC3E09963"
+			rewards: [
+				{
+					id: "7B46734FBCBF6692"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "175B6E0528E3B4E1"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо твёрдых шагов."
+			tasks: [{
+				id: "0D3F7751B579353F"
+				item: "ringsofascension:ring_steadfast_steps"
+				type: "item"
+			}]
+			title: "Шаг Ассистент"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["Removes all nearby lava blocks around the player when equipped."]
+			id: "10FB619223F0AEBF"
+			rewards: [
+				{
+					id: "77CE4AA6F82B2A07"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "48FAFCABED145C5F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Найдите кольцо лавы."
+			tasks: [{
+				id: "724A9A66A7D9F4EE"
+				item: "ringsofascension:ring_lava_sponge"
+				type: "item"
+			}]
+			title: "Лава ушла"
+			x: 2.5d
+			y: 6.0d
+		}
+	]
+	subtitle: ["Rings can be in chests found randomly around the world."]
+	title: "&3Кольца Вознесения"
+}
