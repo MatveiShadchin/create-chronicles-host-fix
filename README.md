@@ -47,10 +47,8 @@
 
 ```powershell
 cd %appdata%\.minecraft
-git clone https://github.com/USER/REPO.git temp-cc-fix
+git clone https://github.com/MatveiShadchin/create-chronicles-host-fix.git temp-cc-fix
 xcopy /E /I /Y temp-cc-fix\kubejs kubejs
 xcopy /E /I /Y temp-cc-fix\defaultconfigs defaultconfigs
 rmdir /S /Q temp-cc-fix
 ```
-
-Замени `USER/REPO` на ссылку из этого репозитория.
