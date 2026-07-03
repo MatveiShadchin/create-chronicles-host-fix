@@ -1,0 +1,20 @@
+# Default config file that will be copied to local\ftbchunks\client-config.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{ 
+  minimap: {
+    enabled: true
+    font_scale: 0.4d
+    scale: 1.0d
+		zoom: 1.0d
+    square: true
+    # Info hidden under minimap
+    # Default: ["ftbchunks:debug"]
+    info_hidden: [
+      "ftbchunks:debug"
+      "ftbchunks:game_time"
+      "ftbchunks:real_time"
+      "ftbchunks:fps"
+    ]
+  }
+}
