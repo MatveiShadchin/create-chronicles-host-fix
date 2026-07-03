@@ -209,7 +209,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Causes blocks to temporarily turn into air. Can be modified with Amplify for blocks of higher hardness, AOE, Duration Down, and Extend Time."]
+			description: ["Заставляет блоки временно превращаться в воздух. Может быть изменен с помощью Amplify для блоков более высокой твердости, AOE, уменьшения продолжительности и увеличения времени."]
 			id: "7ACE7A6A71D3F4D2"
 			rewards: [
 				{
@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Sets blocks and mobs on fire for a short time. Sensitive will summon Mage Fire, a shorter lived fire that will not spread or destroy blocks."]
+			description: ["Поджигает блоки и мобов на короткое время. Чувствительный вызов вызовет Магический огонь, более короткий огонь, который не будет распространять или разрушать блоки."]
 			id: "58EBEC3DDE47DAC7"
 			rewards: [
 				{
@@ -261,7 +261,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["When used on an entity or block that is on fire or afflicted with Blasting, Cinders will explode around the target, dealing damage and creating Mage Fire nearby. Mage Fire cannot spread to blocks and is short lived. Entities with Blasting will immediately explode for extra strength."]
+			description: ["При использовании на горящем объекте или блоке, находящемся под действием Взрыва, пепел взрывается вокруг цели, нанося урон и создавая поблизости магический огонь. Магический огонь не может распространяться на блоки и недолговечен. Сущности с Blasting немедленно взрываются, придавая им дополнительную силу."]
 			id: "79146466E43A2B99"
 			rewards: [
 				{
@@ -288,7 +288,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Opens the crafting menu."]
+			description: ["Открывает меню крафта."]
 			id: "07D6CC12D577643E"
 			rewards: [
 				{
@@ -313,7 +313,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Causes wet, slowed, or freezing entities to take a burst of damage and erupt into falling ice. Falling ice will slow and damage nearby entities. Can also be used to erupt a block of ice instead. Falling blocks of ice can be manipulated with the Focus of Block Shaping. Entities afflicted with Freezing will be set to the maximum freeze level immediately."]
+			description: ["Заставляет мокрые, замедленные или замерзшие существа получать взрывной урон и превращаться в падающий лед. Падающий лед замедлит и нанесет урон близлежащим объектам. Вместо этого его также можно использовать для извержения глыбы льда. Падающими глыбами льда можно манипулировать с помощью фокуса формирования блоков. Сущности, пораженные заморозкой, будут немедленно установлены на максимальный уровень заморозки."]
 			id: "05C2A6E54898C963"
 			rewards: [
 				{
@@ -340,7 +340,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops entities from moving and jumping. Extend Time will increase the duration of this effect. Snaring a block created from the Focus of Block Shaping will cause it to attempt to place itself immediately."]
+			description: ["Не дает сущностям двигаться и прыгать. Продление времени увеличит продолжительность этого эффекта. Захват блока, созданного из фокуса формирования блоков, приведет к тому, что он попытается немедленно разместить себя."]
 			id: "67A207CF6900F232"
 			rewards: [
 				{
@@ -365,7 +365,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Applies the Slow Fall buff."]
+			description: ["Применяет бафф «Медленное падение»."]
 			id: "295703FC5B92D0E6"
 			rewards: [
 				{
@@ -392,7 +392,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Freezes water or lava in a small area or slows a target for a short time. Freeze on Ice will turn it into Packed Ice, and Packed Ice into Blue Ice. Sensitive will turn water into Frosted Ice and will vanish after a short time."]
+			description: ["Замораживает воду или лаву на небольшой площади или ненадолго замедляет цель. Функция Freeze on Ice превратит его в упакованный лед, а упакованный лед — в синий лед. Sensitive превратит воду в матовый лед и исчезнет через короткое время."]
 			id: "5BB155110168DF92"
 			rewards: [
 				{
@@ -417,7 +417,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Causes multiple projectiles to be cast at once. Each projectile applies a set of effects."]
+			description: ["Вызывает одновременное применение нескольких снарядов. Каждый снаряд применяет набор эффектов."]
 			id: "00143D4FC12AEFD9"
 			rewards: [
 				{
@@ -444,7 +444,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Turns stone into gravel, and gravel into sand. Will also crush flowers into bonus dye. Need Sensitive to work on items. For full recipe support, see JEI. Will also harm entities and deals bonus damage to entities that are swimming."]
+			description: ["Превращает камень в гравий, а гравий в песок. Также измельчит цветы в бонусный краситель. Нужен чувствительный для работы с предметами. Для полной поддержки рецептов см. JEI. Также наносит вред объектам и наносит дополнительный урон плавающим объектам."]
 			id: "73D19C0C1836CD03"
 			rewards: [
 				{
@@ -471,7 +471,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Smelts blocks and items in the world. AOE will increase the number of items and radius of blocks that can be smelted at once, while Amplify will allow Smelt to work on blocks of higher hardness, Sensitive will make it only smelt items and not blocks."]
+			description: ["Переплавляет блоки и предметы в мире. AOE увеличит количество предметов и радиус блоков, которые можно плавить за один раз, в то время как Amplify позволит Smelt работать с блоками более высокой твердости, Sensitive позволит плавить только предметы, а не блоки."]
 			id: "18BC056B55C25EB5"
 			rewards: [
 				{
@@ -498,7 +498,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Increases the speed of projectile spells."]
+			description: ["Увеличивает скорость заклинаний снарядов."]
 			id: "5F75215CB5956290"
 			rewards: [
 				{
@@ -525,7 +525,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Summons three Vex allies that will attack nearby hostile enemies. These Vex will last a short time until they begin to take damage, but time may be extended with the Extend Time augment."]
+			description: ["Призывает трех союзников-вексов, которые будут атаковать ближайших враждебных врагов. Эти Вексы будут существовать некоторое время, пока не начнут получать урон, но время можно продлить с помощью улучшения «Продление времени»."]
 			id: "2714EE46B4DF620E"
 			rewards: [
 				{
@@ -552,7 +552,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Summons a lightning bolt at the location. Entities struck will be given the Shocked effect. Shocked causes all additional lightning damage to deal bonus damage, and increases the level of Shocked up to III. Lightning also deals bonus damage to entities that are wet or wearing RF powered items. Can be augmented with Amplify, Dampen, and Extend Time."]
+			description: ["Вызывает молнию в указанной локации. Пораженные сущности получают эффект шока. «Шок» заставляет весь дополнительный урон от молнии наносить дополнительный урон и повышает уровень «Шок» до III. Молния также наносит дополнительный урон сущностям, которые мокрые или носят предметы с радиочастотным питанием. Может быть дополнен функциями Amplify, Dampen и Extend Time."]
 			id: "0EC08C5BBFA83A51"
 			rewards: [
 				{
@@ -579,7 +579,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Causes plants to accelerate in growth as if they were bonemealed."]
+			description: ["Заставляет растения ускоряться в росте, как если бы они были костной мукой."]
 			id: "7F97805EE8DFC9F6"
 			rewards: [
 				{
@@ -606,7 +606,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Decreases the power of most spells."]
+			description: ["Уменьшает силу большинства заклинаний."]
 			id: "62A9FD6138446A17"
 			rewards: [
 				{
@@ -633,7 +633,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Causes the target to turn invisible for a short time."]
+			description: ["Делает цель невидимой на короткое время."]
 			id: "36183375DAA54408"
 			rewards: [
 				{
@@ -660,7 +660,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Applies a silk-touch effect to Break and causes Explosion to not destroy blocks that drop. Cannot be combined with Fortune."]
+			description: ["Применяет эффект шелковистого прикосновения к Break и заставляет Взрыв не разрушать падающие блоки. Невозможно совместить с Фортуной."]
 			id: "46469E3A8AF0CB80"
 			rewards: [
 				{
@@ -687,7 +687,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Delays the resolution of effects placed to the right of this spell for a few moments. The delay may be increased with the Extend Time augment, or decreased with Duration Down."]
+			description: ["Задерживает на несколько мгновений разрешение эффектов, размещенных справа от этого заклинания. Задержку можно увеличить с помощью дополнения «Увеличить время» или уменьшить с помощью «Уменьшения продолжительности»."]
 			id: "430CAC90C8B34A17"
 			rewards: [
 				{
@@ -712,7 +712,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["If cast on a block, a permanent light source is created. May be amplified up to Glowstone brightness, or Dampened for a lower light level. When cast on yourself, you will receive night vision. When cast on other entities, they will receive Night Vision and Glowing."]
+			description: ["При применении к блоку создается постоянный источник света. Может быть усилен до яркости Glowstone или ослаблен для более низкого уровня освещенности. При применении на себя вы получите ночное видение. При применении к другим объектам они получают «Ночное видение» и «Свечение»."]
 			id: "73C9BE065B1F094B"
 			rewards: [
 				{
@@ -737,7 +737,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Reduces the duration of spells like potion effects, delay, redstone signal, and others."]
+			description: ["Уменьшает продолжительность таких заклинаний, как эффекты зелий, задержка, сигнал красного камня и другие."]
 			id: "5F7A07D0F71044D2"
 			rewards: [
 				{
@@ -764,7 +764,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["When used on blocks, exchanges the blocks in the players hotbar for the blocks hit as if they were mined with silk touch. Can be augmented with AOE, and Amplify is required for swapping blocks of higher hardness. When used on entities, the locations of the caster and the entity hit are swapped."]
+			description: ["При использовании на блоках заменяет блоки на панели быстрого доступа игрока на ударенные блоки, как если бы они были добыты шелковым прикосновением. Может быть дополнен с помощью AOE, а Amplify требуется для замены блоков более высокой твердости. При использовании на сущностях местоположения заклинателя и объекта, по которому он попадает, меняются местами."]
 			id: "2CD1B2BCEDA0D473"
 			rewards: [
 				{
@@ -791,7 +791,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Places blocks from the casters inventory. If a player is casting this, this spell will place blocks from the hot bar first."]
+			description: ["Размещает блоки из инвентаря заклинателей. Если игрок применяет это заклинание, это заклинание сначала размещает блоки из панели быстрого доступа."]
 			id: "38E44223347DA798"
 			rewards: [
 				{
@@ -816,7 +816,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Places water at a location or extinguishes entities on fire."]
+			description: ["Помещает воду в определенное место или тушит горящие объекты."]
 			id: "0641F45BEA6C67E5"
 			rewards: [
 				{
@@ -843,7 +843,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Simulates using shears on entities and blocks, or damages non-shearable entities for a small amount. Amplify will simulate using an Axe instead of Shears. For simulating breaking with shears, see Break and Sensitive. Costs nothing."]
+			description: ["Имитирует использование сдвига на объектах и ​​блоках или наносит небольшой урон не поддающимся сдвигу объектам. Amplify будет имитировать использование топора вместо ножниц. Для имитации разрушения ножницами см. раздел «Разрушение и чувствительность». Ничего не стоит."]
 			id: "515001313775DCFC"
 			rewards: [
 				{
@@ -868,7 +868,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["A spell you start with. Damages a target. May be increased by Amplify, or applies the Poison debuff when using Extend Time. Note, multiple Harms without a delay will not apply due to invincibility on hit."]
+			description: ["Заклинание, с которого вы начинаете. Наносит урон цели. Может быть увеличено с помощью Amplify или накладывает дебафф Poison при использовании Extend Time. Обратите внимание, что несколько повреждений без задержки не будут применяться из-за неуязвимости при ударе."]
 			id: "00ABBF2CB07D573C"
 			rewards: [
 				{
@@ -893,7 +893,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Interacts with blocks or entities as it were a player. Useful for reaching levers, chests, or animals. Sensitive will use your off-hand item on the block or entity."]
+			description: ["Взаимодействует с блоками или сущностями как игрок. Полезно для достижения рычагов, сундуков или животных. Чувствительный будет использовать ваш предмет в левой руке на блоке или объекте."]
 			id: "2EB88ABC7017D5FE"
 			rewards: [
 				{
@@ -918,7 +918,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Teleports the caster to a location. If an entity is hit and the caster is holding a Warp Scroll in the offhand, the entity will be warped to the location on the Warp Scroll. When used on Self, the caster blinks forward. Spell Turrets and Runes can warp entities using Warp Scrolls from adjacent inventories without consuming the scroll."]
+			description: ["Телепортирует заклинателя в определенное место. Если по объекту нанесен удар, а заклинатель держит свиток деформации в левой руке, сущность переместится в место, указанное на свитке деформации. При использовании на себя заклинатель перемещается вперед. Заклинательные турели и руны могут искажать существ с помощью свитков деформации из соседних инвентарей, не потребляя при этом свиток."]
 			id: "7AAD3CE642A34A0C"
 			rewards: [
 				{
@@ -945,7 +945,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Additively increases the power of most spell effects. Can increase the harvest level of Break and increases the damage of spells."]
+			description: ["Аддитивно увеличивает силу большинства эффектов заклинаний. Может повысить уровень сбора Break и увеличивает урон от заклинаний."]
 			id: "073FD3884B2B11F7"
 			rewards: [
 				{
@@ -970,7 +970,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Creates a temporary block that will disappear after a short time. Amplify will cause the block to be permanent. Dispelling this block will destroy it instantly."]
+			description: ["Создает временный блок, который исчезнет через некоторое время. Amplify сделает блокировку постоянной. Рассеивание этого блока мгновенно уничтожит его."]
 			id: "329B7554AE16FFF7"
 			rewards: [
 				{
@@ -995,7 +995,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Harvests entire trees, mushrooms, cactus, and other vegetation. Can be amplified with Amplify to break materials of higher hardness. AOE will increase the number of blocks that may be broken at one time."]
+			description: ["Собирает целые деревья, грибы, кактусы и другую растительность. Может быть усилен с помощью Amplify для разрушения материалов более высокой твердости. AOE увеличит количество блоков, которые можно разбить за один раз."]
 			id: "4CAC87774C1B15C0"
 			rewards: [
 				{
@@ -1020,7 +1020,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Extends the time that spells last, including buffs, fangs, and summons"]
+			description: ["Увеличивает время действия заклинаний, включая баффы, клыки и призыв."]
 			id: "1038054E334AC792"
 			rewards: [
 				{
@@ -1047,7 +1047,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Heals a small amount of health and consumes hunger from the caster. When used on Undead, the spell will deal an equal amount of magic damage."]
+			description: ["Восстанавливает небольшое количество здоровья и поглощает голод у заклинателя. При использовании на нежити заклинание нанесет равное количество магического урона."]
 			id: "30B8E8169EAE1C01"
 			rewards: [
 				{
@@ -1074,7 +1074,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Launches the target in the direction they are looking. Amplification will increase the distance moved."]
+			description: ["Запускает цель в том направлении, в котором она смотрит. Усиление увеличит пройденное расстояние."]
 			id: "00D329407250AC7B"
 			rewards: [
 				{
@@ -1099,7 +1099,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Places a temporary block of redstone with configurable power and duration. Augment with Sensitive to set the target block as a power source for itself and surrounding blocks. Dampen and Amplify will adjust the power from the base value of 10."]
+			description: ["Размещает временный блок красного камня с настраиваемой мощностью и длительностью. Дополните «Чувствительность», чтобы сделать целевой блок источником энергии для себя и окружающих блоков. Dampen и Amplify отрегулируют мощность от базового значения 10."]
 			id: "495990C8C95A955B"
 			rewards: [
 				{
@@ -1124,7 +1124,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["When applied to the Projectile spell, projectiles may continue through their path an additional time after hitting a mob or block. Causes certain effects to also target the block behind them, like Break. Combines with AOE to provide depth."]
+			description: ["При применении к заклинанию «Снаряд» снаряды могут продолжить свой путь еще один раз после попадания в моба или блок. Заставляет определенные эффекты также нацеливаться на блок позади них, например, Break. В сочетании с AOE обеспечивает глубину."]
 			id: "290F943A1FF52070"
 			rewards: [
 				{
@@ -1151,7 +1151,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["When used on grown crops, this spell will obtain the fully grown product without destroying the plant."]
+			description: ["При использовании на выращенных культурах это заклинание позволит получить полностью выращенный продукт, не уничтожая растение."]
 			id: "496639EC3DC0165C"
 			rewards: [
 				{
@@ -1176,7 +1176,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Increases the drop chance from mobs killed by Damage and blocks that are destroyed by Break. Cannot be combined with Extract."]
+			description: ["Увеличивает шанс выпадения из мобов, убитых уроном, и блоков, уничтоженных разрывом. Невозможно комбинировать с экстрактом."]
 			id: "66D63DC37FCDD268"
 			rewards: [
 				{
@@ -1203,7 +1203,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["A spell you start with. Breaks blocks of an average hardness. Can be amplified to increase the harvest level. Sensitive will simulate breaking blocks with Shears instead of a pickaxe."]
+			description: ["Заклинание, с которого вы начинаете. Разбивает блоки средней твердости. Можно усилить, чтобы повысить уровень урожая. Sensitive будет имитировать разрушение блоков ножницами вместо кирки."]
 			id: "1EAE42D3A2162339"
 			rewards: [
 				{
@@ -1228,7 +1228,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Picks up nearby items in a medium radius where this spell is activated. The range may be expanded with AOE."]
+			description: ["Подбирает ближайшие предметы в среднем радиусе, где активируется это заклинание. Диапазон может быть расширен за счет AOE."]
 			id: "1EEC5622F2A9A163"
 			rewards: [
 				{
@@ -1253,7 +1253,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Launches an entity or block into the air. Can be used for large jumps, yeeting mobs in the sky or for scaling mountains! Sensitive will stop this spell from launching blocks."]
+			description: ["Запускает объект или блок в воздух. Может использоваться для больших прыжков, рыкающих мобов в небе или для восхождения на горы! Чувствительность не позволит этому заклинанию запускать блоки."]
 			id: "7862778F8424419B"
 			rewards: [
 				{
@@ -1278,7 +1278,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Removes any potion effects on the target. When used on a witch at half health, the witch will vanish in return for a Wixie shard. Will also dispel tamed summons back into their charm."]
+			description: ["Снимает с цели любые эффекты зелий. При использовании на ведьме с половиной здоровья ведьма исчезнет в обмен на осколок Викси. Также вернет очарование прирученным призывам."]
 			id: "0671915D3BDDD07D"
 			rewards: [
 				{
@@ -1303,7 +1303,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Opens your personal ender chest inventory from anywhere."]
+			description: ["Открывает ваш личный инвентарь сундука Эндера из любого места."]
 			id: "3A44DCF5B7D5024C"
 			rewards: [
 				{
@@ -1330,7 +1330,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Pulls the target closer to the caster. When used on blocks, they become falling blocks with motion towards the side of the block that was hit. Sensitive will stop this spell from pulling blocks."]
+			description: ["Притягивает цель ближе к заклинателю. При использовании на блоках они становятся падающими блоками, движущимися в сторону ударенного блока. Чувствительность не позволит этому заклинанию тянуть блоки."]
 			id: "392869A1DEB7EE20"
 			rewards: [
 				{
@@ -1355,7 +1355,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Causes an explosion at the location. Amplify increases the damage and size by a small amount, while AOE will increase the size of the explosion by a large amount, but not damage."]
+			description: ["Вызывает взрыв на локации. Amplify немного увеличивает урон и размер, тогда как AOE увеличивает размер взрыва на большую величину, но не урон."]
 			id: "5DE36D1C9F29F931"
 			rewards: [
 				{
@@ -1382,7 +1382,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Summons Evoker Fangs in the direction where the spell was targeted. Using fangs on your self will spawn them in an area around you."]
+			description: ["Призывает Evoker Fangs в том направлении, куда было направлено заклинание. Использование клыков на себе приведет к их появлению в области вокруг вас."]
 			id: "16C47409C0A411EF"
 			rewards: [
 				{
@@ -1410,7 +1410,7 @@
 		{
 			dependencies: ["781AEEC4BD04A33C"]
 			dependency_requirement: "one_started"
-			description: ["Spells will affect a larger area around a targeted block."]
+			description: ["Заклинания будут воздействовать на большую область вокруг целевого блока."]
 			id: "3801E818308438FF"
 			rewards: [
 				{
@@ -1437,7 +1437,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Causes blocks and entities to fall. When augmented with Extend Time, players will have their flight disabled and will obtain the Gravity effect. While afflicted with Gravity, entities will rapidly fall and take double falling damage."]
+			description: ["Вызывает падение блоков и объектов. При дополнении «Продлением времени» у игроков будет отключен полет, и они получат эффект гравитации. Под воздействием гравитации существа будут быстро падать и получать двойной урон от падения."]
 			id: "485EE9E6C6F59826"
 			rewards: [
 				{
@@ -1464,7 +1464,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Applies the Wither debuff."]
+			description: ["Применяет дебафф Увядание."]
 			id: "4F5FCEBB16B5B6F5"
 			rewards: [
 				{
@@ -1491,7 +1491,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Knocks a target or block away a short distance from the caster. Sensitive will stop this spell from launching blocks."]
+			description: ["Отбрасывает цель или блокирует ее на небольшом расстоянии от заклинателя. Чувствительность не позволит этому заклинанию запускать блоки."]
 			id: "3EAC7600113F9AAB"
 			rewards: [
 				{
@@ -1638,7 +1638,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Summons a saddled horse that will vanish after a few minutes. AOE will increase the amount summoned, while Extend Time will increase the duration of the summon. Applies Summoning Sickness to the caster, and cannot be cast while afflicted by this Sickness."]
+			description: ["Вызывает оседланную лошадь, которая исчезнет через несколько минут. AOE увеличит количество призываемых способностей, а Extend Time увеличит продолжительность призыва. Накладывает на заклинателя Summoning Sickness и не может быть использовано, пока он поражен этой болезнью."]
 			id: "1D3471FCA8B3BE36"
 			rewards: [
 				{
@@ -1663,7 +1663,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Summons two wolves that will fight with you. Extend Time will increase the amount of time on the summons. Applies Summoning Sickness to the caster, preventing other summoning magic."]
+			description: ["Призывает двух волков, которые будут сражаться вместе с вами. Продлить время увеличит время вызова. Накладывает на заклинателя Summoning Sickness, предотвращая использование другой магии призыва."]
 			id: "779C2162C69DAE8E"
 			rewards: [
 				{
@@ -1688,7 +1688,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Targets the spell on the block beneath the player."]
+			description: ["Нацеливает заклинание на блок под игроком."]
 			id: "69A04EB462756EED"
 			rewards: [
 				{
@@ -1713,7 +1713,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Summons a decoy of yourself. Upon summoning, the decoy will attract any nearby mobs to attack it."]
+			description: ["Вызывает приманку самого себя. При вызове приманка привлечет ближайших мобов и нападет на нее."]
 			id: "29E3DD9A3F85CE80"
 			rewards: [
 				{
@@ -1740,7 +1740,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Applies the Hex effect. Hex increases any damage taken by a small amount while the user is afflicted by poison, wither, fire, or when frozen. Additionally, Hex cuts the rate of Mana Regeneration and healing in half."]
+			description: ["Применяет эффект Hex. Сглаз на небольшое количество увеличивает любой получаемый урон, пока пользователь находится под действием яда, увядания, огня или заморозки. Кроме того, Hex вдвое снижает скорость регенерации маны и исцеления."]
 			id: "44D5ABE34271D7FE"
 			rewards: [
 				{
@@ -2259,7 +2259,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Summons three orbiting projectiles around the target that will cast a spell on any entities it may hit. Additional projectiles, their speed, radius, and duration may be augmented. Sensitive will cause Orbit to hit blocks."]
+			description: ["Вызывает три вращающихся вокруг цели снаряда, которые накладывают заклинание на любые объекты, по которым могут попасть. Дополнительные снаряды, их скорость, радиус и продолжительность могут быть увеличены. Чувствительность приведет к тому, что Орбита будет сталкиваться с блоками."]
 			id: "73C7A44F05AB6FAC"
 			rewards: [
 				{
@@ -2286,7 +2286,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Causes forms to target blocks they normally cannot target. Projectile and Orbit will target grass, and Touch will target fluids and air. Changes targeting rules of certain effects."]
+			description: ["Заставляет формы нацеливать блоки, на которые они обычно не могут нацеливаться. «Снаряд» и «Орбита» нацелены на траву, а «Прикосновение» — на жидкости и воздух. Изменяет правила нацеливания для некоторых эффектов."]
 			id: "2F5AECF5CDC8D8DB"
 			rewards: [
 				{
@@ -2311,7 +2311,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Decreases the speed of projectile spells."]
+			description: ["Уменьшает скорость заклинаний снарядов."]
 			id: "407AD700892ADBF1"
 			rewards: [
 				{
@@ -2408,7 +2408,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Grants the Glide effect, allowing the wearer to fly as if they were wearing an Elytra."]
+			description: ["Предоставляет эффект скольжения, позволяющий владельцу летать, как если бы он носил надкрылья."]
 			id: "4A41FCBFE985D81E"
 			rewards: [
 				{
@@ -2435,7 +2435,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Deals damage to targets in the air, with an increasing amount based on how high the target is off the ground, up to 10 blocks. Targets on the ground take no damage."]
+			description: ["Наносит урон целям в воздухе, величина которого увеличивается в зависимости от высоты цели над землей, вплоть до 10 блоков. Цели на земле не получают урона."]
 			id: "790C77898FED4E5D"
 			rewards: [
 				{
@@ -2462,7 +2462,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Summons a number of Skeleton allies that will attack nearby hostile enemies. These Skeletons will last a short time until they begin to take damage, but time may be extended with the Extend Time augment. Additionally, their summoned weapons are changed using augments, use Amplify to give it a better sword, or Pierce to give it a bow. Adding Split after the effect will add to the number of summoned skeletons."]
+			description: ["Призывает несколько союзников-скелетов, которые будут атаковать ближайших враждебных врагов. Эти скелеты просуществуют некоторое время, пока не начнут получать урон, но время можно продлить с помощью улучшения «Продление времени». Кроме того, их призванное оружие меняется с помощью дополнений: используйте Amplify, чтобы дать ему лучший меч, или Pierce, чтобы дать ему лук. Добавление Split после эффекта увеличит количество призванных скелетов."]
 			id: "7F3EB3F473DF8385"
 			rewards: [
 				{
@@ -2489,7 +2489,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Creates a lingering field that applies spells on nearby entities for a short time. Applying Sensitive will make this spell target blocks instead. AOE will expand the effective range, Accelerate will cast spells faster, Dampen will ignore gravity, and Extend Time will increase the duration."]
+			description: ["Создает продолжительное поле, которое на короткое время применяет заклинания к близлежащим объектам. Применение «Чувствительности» вместо этого заставит это заклинание целевыми блоками. AOE расширит эффективный диапазон, Accelerate позволит использовать заклинания быстрее, Dampen будет игнорировать гравитацию, а Extend Time увеличит продолжительность."]
 			id: "08B6FA532A136AF2"
 			rewards: [
 				{
@@ -2516,7 +2516,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Deletes fluids in an area. Can be expanded with AOE."]
+			description: ["Удаляет жидкости в определенной области. Может быть расширен с помощью AOE."]
 			id: "59BD06DB42E0219F"
 			rewards: [
 				{
@@ -2541,7 +2541,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Gives players the Bounce effect, causing them to bounce upwards upon falling. Amplification of Bounce will preserve additional forward facing motion per bounce."]
+			description: ["Дает игрокам эффект Bounce, заставляя их подпрыгивать вверх при падении. Усиление отскока сохранит дополнительное движение лицом вперед за каждый отскок."]
 			id: "12A70E00A63A7154"
 			rewards: [
 				{
@@ -2566,7 +2566,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Applies Magic Find to the target, causing magical mobs to glow within 75 blocks of them. Magic Find also reveals spells on Runes."]
+			description: ["Применяет Magic Find к цели, заставляя магических мобов светиться в радиусе 75 блоков от нее. Magic Find также обнаруживает заклинания на рунах."]
 			id: "11C2D56F3D382573"
 			rewards: [
 				{
@@ -2593,7 +2593,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Names an entity after the set Spell Name. Targeting a block will name nearby entities or name inventory blocks directly if possible. Targeting with Self will name the held offhand item. Can be overridden with a name tag in the hotbar."]
+			description: ["Называет объект после заданного имени заклинания. Нацеливание на блок будет давать названия близлежащим объектам или, если это возможно, называть блоки инвентаря напрямую. При выборе «Я» будет присвоено имя удерживаемому предмету. Можно переопределить с помощью тега имени на панели быстрого доступа."]
 			id: "3D00118E2760D129"
 			rewards: [
 				{
@@ -2620,7 +2620,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Creates a firework at the location or entity. Amplify will add Firework Stars, while Extend Time will add additional flight time. If a firework exists in the casters inventory, the created firework will mimic the held one. Spell Turrets with Touch will create fireworks as if they were dispensed."]
+			description: ["Создает фейерверк в локации или объекте. Amplify добавит Firework Stars, а Extend Time добавит дополнительное время полета. Если в инвентаре заклинателя существует фейерверк, созданный фейерверк будет имитировать удерживаемый. Заклинательные турели с касанием будут создавать фейерверки, как если бы их выпустили."]
 			id: "7F69A7CD6ACA97D7"
 			rewards: [
 				{
@@ -2647,7 +2647,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Causes the caster to place an item from their inventory to a location. If this glyph is used on an inventory, the item will attempt to be inserted into it."]
+			description: ["Заставляет заклинателя поместить предмет из своего инвентаря в определенное место. Если этот глиф используется в инвентаре, предмет попытается вставить в него."]
 			id: "29742AAF8DF419BF"
 			rewards: [
 				{
@@ -2704,7 +2704,7 @@
 		}
 		{
 			dependencies: ["5766C8B9E850C186"]
-			description: ["To create Source Gems, we'll need to put either Lapis or Amethyst Shards into the Imbuement Chamber. Over time, these will convert to Source Gems!"]
+			description: ["Чтобы создать Исходные драгоценные камни, нам нужно будет поместить осколки ляписа или аметиста в камеру наполнения. Со временем они превратятся в Исходные драгоценные камни!"]
 			id: "40BC67BDEE15D1DE"
 			rewards: [
 				{
@@ -2734,7 +2734,7 @@
 		}
 		{
 			dependencies: ["33682F4B44950123"]
-			description: ["A &6Dowsing Rod&r provides the user a short duration of Scrying for Budding Amethyst and Magic Find, which will cause magical creatures to glow within 75 blocks of you. The Dowsing Rod has a limited number of uses."]
+			description: ["A &6Лозоходство&rпредоставляет пользователю короткую продолжительность поиска расцветающего аметиста и магической находки, которая заставит волшебных существ светиться в пределах 75 блоков от вас. Лозоходная удочка имеет ограниченное количество применений."]
 			id: "3142A40E1EAEBAA3"
 			optional: true
 			rewards: [{
@@ -2759,7 +2759,7 @@
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
-			description: ["The &6Vitalic Sourcelink&r generates Source from Mob Deaths and Animal Breeding"]
+			description: ["The &6Виталий Исходная ссылка&rгенерирует источник от смертей мафии и разведения животных"]
 			id: "295C77EEC89000FC"
 			rewards: [
 				{
@@ -2875,7 +2875,7 @@
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
-			description: ["With Source Gems, you can get started crafting the various machines by creating &5Sourcestones&r."]
+			description: ["С помощью Source Gems вы можете начать создавать различные машины, создавая&5Исходные камни&r."]
 			id: "5C3FF43CF16BCF30"
 			rewards: [{
 				id: "7F5D2F36132692EC"
@@ -3153,7 +3153,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["The Ring of Discount provides a small bonus to max mana and mana regen. It also reduces the total cost to cast a spell."]
+			description: ["Кольцо скидки дает небольшой бонус к максимальному количеству маны и ее регенерации. Это также снижает общую стоимость произнесения заклинания."]
 			id: "0A1ABE9CF7740AAA"
 			rewards: [
 				{
@@ -3185,7 +3185,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["This belt will give random positive potion effects for a short duration. These will vary in strength. "]
+			description: ["Этот пояс будет давать случайные положительные эффекты зелий на короткое время. Они будут различаться по силе."]
 			id: "088FCB5267CB7A89"
 			rewards: [
 				{
@@ -3312,7 +3312,7 @@
 		}
 		{
 			dependencies: ["3D4D88B8BE881351"]
-			description: ["Tier 1 Glyphs require 3 levels of experience to be made."]
+			description: ["Для создания символов 1-го уровня требуется 3 уровня опыта."]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -3423,7 +3423,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["A spell you start with. Summons a projectile that applies spell effects when this projectile hits a target or block. Sensitive will allow Projectiles to break plants or other materials that do not block motion."]
+			description: ["Заклинание, с которого вы начинаете. Вызывает снаряд, который применяет эффекты заклинания, когда этот снаряд поражает цель или блок. Чувствительность позволит снарядам разбивать растения или другие материалы, которые не блокируют движение."]
 			id: "1EB5F9696E50C772"
 			rewards: [
 				{
@@ -3448,7 +3448,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Randomize the behavior of some glyphs. If used with spells like Place Block and Exchange, it will randomize the block that is placed between the blocks in your hotbar."]
+			description: ["Рандомизировать поведение некоторых глифов. При использовании с такими заклинаниями, как «Разместить блок» и «Обмен», блок будет случайным образом помещен между блоками на панели быстрого доступа."]
 			id: "7F74C1D986D8EAAD"
 			rewards: [
 				{
@@ -3473,7 +3473,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Rotates a block or an entity clockwise. If augmented with sensitive it will change the axis of the block (if possible) or force the entity to turn their look. Dampen will rotate counter-clockwise."]
+			description: ["Вращает блок или объект по часовой стрелке. Если он дополнен чувствительным, он изменит ось блока (если это возможно) или заставит объект изменить свой вид. Демпфер будет вращаться против часовой стрелки."]
 			id: "67CE499593C48823"
 			rewards: [
 				{
@@ -3498,7 +3498,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Places a rune on the ground that will cast the spell on targets that touch the rune. Unlike runes placed by Runic Chalk, these runes are temporary and cannot be recharged. When using Item Pickup, items are deposited into adjacent inventories. Sensitive will cause the rune to use the Owner's inventory for pickup and usage instead. Players with Magic Find will be able to read spells inscribed on runes."]
+			description: ["Размещает на земле руну, которая будет применять заклинание к целям, коснувшимся руны. В отличие от рун, размещенных руническим мелом, эти руны являются временными и не могут быть перезаряжены. При использовании «Подбора предметов» предметы помещаются в соседние инвентари. Чувствительность приведет к тому, что руна вместо этого будет использовать инвентарь Владельца для подбора и использования. Игроки с Magic Find смогут читать заклинания, написанные на рунах."]
 			id: "603AD07D6FDA09B7"
 			rewards: [
 				{
@@ -3523,7 +3523,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["A spell you start with. Applies spells on the caster."]
+			description: ["Заклинание, с которого вы начинаете. Применяет заклинания к заклинателю."]
 			id: "19F1BDFAF3697D0F"
 			rewards: [
 				{
@@ -3548,7 +3548,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Applies spells at the block or entity that is targeted."]
+			description: ["Применяет заклинания к выбранному блоку или объекту."]
 			id: "1427481EB0C9ACF1"
 			rewards: [
 				{
@@ -3573,7 +3573,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Resets the spell chain to the original target if it was changed by a previous effect. For example, Burst -> Place Block -> Reset -> Break will cause Burst to place blocks, but only Break will apply to the original location. As a result, using Reset will allow you to bypass combination and duplicate limits on glyphs."]
+			description: ["Сбрасывает цепочку заклинаний к исходной цели, если она была изменена предыдущим эффектом. Например, Burst -> Place Block -> Reset -> Break приведет к тому, что Burst разместит блоки, но к исходному местоположению будет применяться только Break. В результате использование Reset позволит вам обойти ограничения на комбинации и дублирование глифов."]
 			id: "1C3FB2BE438556DF"
 			rewards: [
 				{
@@ -3598,7 +3598,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Changes the color of an entity or compatible block to the color of the spell."]
+			description: ["Изменяет цвет сущности или совместимого блока на цвет заклинания."]
 			id: "219590D3F6A6765A"
 			rewards: [
 				{
@@ -3623,7 +3623,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Infuses a target with a potion or flask from your inventory. If augmented with AOE, a splash potion will spawn at the location. If augmented with Extend Time, a lingering potion will spawn at the location. Caster blocks may pull from adjacent Potion Jars to cast infuse."]
+			description: ["Наполняет цель зельем или колбой из вашего инвентаря. Если дополнено AOE, в этом месте появится брызговое зелье. Если дополнено Продлением времени, в этом месте появится задерживающееся зелье. Блоки заклинателя могут вытягиваться из соседних банок с зельями, чтобы наложить настой."]
 			id: "0DD52C890412E10F"
 			rewards: [
 				{
@@ -3650,7 +3650,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Creates a lingering wall that applies spells on nearby entities for a short time. Applying Sensitive will make this spell target blocks instead. AOE will expand the effective range, Accelerate will cast spells faster, Dampen will ignore gravity, and Extend Time will increase the duration."]
+			description: ["Создает продолжительную стену, которая на короткое время применяет заклинания к близлежащим объектам. Применение «Чувствительности» вместо этого заставит это заклинание целевыми блоками. AOE расширит эффективный диапазон, Accelerate позволит использовать заклинания быстрее, Dampen будет игнорировать гравитацию, а Extend Time увеличит продолжительность."]
 			id: "43236C7FB1FF35C7"
 			rewards: [
 				{
@@ -3717,7 +3717,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Summon a random variety of wild animals native to the biome it's in."]
+			description: ["Призовите случайных диких животных, обитающих в биоме, в котором он находится."]
 			id: "40AE49689F8F4781"
 			rewards: [
 				{
@@ -3832,7 +3832,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Digs four adjacent holes to bedrock, dropping any blocks."]
+			description: ["Выкапывает четыре смежные ямы в скале, сбрасывая все блоки."]
 			id: "459992565BCEB0AE"
 			rewards: [
 				{
@@ -4303,7 +4303,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Sets the time to night."]
+			description: ["Устанавливает время на ночь."]
 			id: "7213BC30CCE6E64B"
 			rewards: [
 				{
@@ -4478,7 +4478,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Sets the time to day."]
+			description: ["Устанавливает время дня."]
 			id: "5F7170FA0EAC24F7"
 			rewards: [
 				{
@@ -4509,7 +4509,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Warps all nearby entities to the location on a warp scroll. Before starting the ritual, you must first augment the ritual with an inscribed Warp Scroll."]
+			description: ["Перемещает все ближайшие объекты в точку, указанную на свитке деформации. Прежде чем начать ритуал, вы должны сначала дополнить его с помощью свитка деформации."]
 			id: "3764906DCB6D9FC1"
 			rewards: [
 				{
@@ -4612,7 +4612,7 @@
 		}
 		{
 			dependencies: ["280B898AD5495661"]
-			description: ["A Drygmy familiar will increase the damage of Earth spells by 2, and has a chance to increase the amount of looting when slaying enemies."]
+			description: ["Фамильяр-дригмей увеличит урон от заклинаний Земли на 2 и имеет шанс увеличить количество добычи при убийстве врагов."]
 			id: "0C0939A883F36562"
 			rewards: [
 				{
@@ -4643,7 +4643,7 @@
 		}
 		{
 			dependencies: ["280B898AD5495661"]
-			description: ["Whirlisprigs will reduce the cost of Elemental Earth glyphs by half, and grants bonus saturation when consuming food."]
+			description: ["Водовороты снизят стоимость символов элементаля земли вдвое и дадут бонус к насыщению при потреблении еды."]
 			id: "56E0A87C4389ABD6"
 			rewards: [
 				{
@@ -4810,7 +4810,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Greatly increases the amount of time you may breathe underwater by reducing the chance your air will decrease. If this perk is in slot 3 or higher, you will no longer lose air and your swim speed is greatly increased. Stacks with Respiration Enchantments."]
+			description: ["Значительно увеличивает время, в течение которого вы можете дышать под водой, уменьшая вероятность уменьшения количества воздуха. Если этот перк находится в слоте 3 или выше, вы больше не будете терять воздух, и ваша скорость плавания значительно увеличится. Складывается с чарами дыхания."]
 			id: "5930F3CF379C9B71"
 			rewards: [
 				{
@@ -4834,7 +4834,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Allows you to jump higher and increases how far you may fall before taking damage."]
+			description: ["Позволяет вам прыгать выше и увеличивает расстояние, на которое вы можете упасть, прежде чем получить урон."]
 			id: "37204AB2E5CE61DF"
 			rewards: [
 				{
@@ -4881,7 +4881,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Increases the saturation of consumed food by 30%% each level."]
+			description: ["Увеличивает насыщенность потребляемой еды на 30%% каждый уровень."]
 			id: "70ACC6D93320D578"
 			rewards: [
 				{
@@ -4905,7 +4905,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Grants an additional stack of looting."]
+			description: ["Предоставляет дополнительный набор грабежей."]
 			id: "19E3E79975C0D5BF"
 			rewards: [
 				{
@@ -4929,7 +4929,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Increases step height by one for each level."]
+			description: ["Увеличивает высоту ступеньки на единицу за каждый уровень."]
 			id: "7A0AF1D17C6DAC03"
 			rewards: [
 				{
@@ -4953,7 +4953,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Grants an increasing amount of Spell Damage each level."]
+			description: ["Предоставляет увеличивающееся количество урона от заклинаний с каждым уровнем."]
 			id: "024B7DB278EAA05C"
 			rewards: [
 				{
@@ -4977,7 +4977,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Dealing damage with spells heals you for 20%% per level of the damage dealt."]
+			description: ["Нанесение урона заклинаниями исцеляет вас на 20%% за уровень нанесенного урона."]
 			id: "562DF208B7A192A4"
 			rewards: [
 				{
@@ -5001,7 +5001,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Increases the speed of the player by 20%% each level."]
+			description: ["Увеличивает скорость игрока на 20%% каждый уровень."]
 			id: "1D52173021FE2719"
 			rewards: [
 				{
@@ -5025,7 +5025,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Damaging effects inflict Freezing on the target before the spell resolves. Freezing lasts for 10 seconds per level, and becomes Freezing 2 at a level 3 slot."]
+			description: ["Повреждающие эффекты вызывают замораживание цели до разрешения заклинания. Замораживание длится 10 секунд за уровень и становится замораживанием 2 на ячейке 3-го уровня."]
 			id: "4804FFC5F3E09F6C"
 			rewards: [
 				{
@@ -5049,7 +5049,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Once every time you sleep, you will nullify death a single time as if holding a Totem of the Undying. Requires a tier 3 slot."]
+			description: ["Каждый раз, когда вы спите, вы один раз аннулируете смерть, как будто держите Тотем Бессмертного. Требуется слот 3-го уровня."]
 			id: "51B3830FA2FA2272"
 			rewards: [
 				{
@@ -5073,7 +5073,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Decreases the amount of fall damage taken by a percentage. Stacks with Feather Enchantments."]
+			description: ["Уменьшает количество получаемого урона от падения на процент. Складывается с чарами перьев."]
 			id: "7F8BF74285B22315"
 			rewards: [
 				{
@@ -5097,7 +5097,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Reduces the amount of magic damage taken by a flat amount each level."]
+			description: ["Уменьшает количество получаемого магического урона на фиксированную величину каждый уровень."]
 			id: "52F533FDD8793D71"
 			rewards: [
 				{
@@ -5121,7 +5121,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Allows you to glide as if you are wearing an elytra. Must be equipped in a slot of at least level 3."]
+			description: ["Позволяет вам скользить, как будто вы носите надкрылья. Должен быть установлен в слоте не ниже 3-го уровня."]
 			id: "06A836DB4B2B5E2C"
 			rewards: [
 				{
@@ -5145,7 +5145,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["If the user is on fire or standing in fire, the fire will be extinguished when the user casts a spell and will be granted the Immolation potion effect. Fire spells will deal additional damage and last longer for each level of Immolation."]
+			description: ["Если пользователь горит или стоит в огне, огонь погаснет, когда пользователь наложит заклинание, и ему будет предоставлен эффект зелья жертвоприношения. Заклинания огня будут наносить дополнительный урон и действовать дольше с каждым уровнем «Жертвоприношения»."]
 			id: "358E0A44CA3A29B1"
 			rewards: [
 				{
@@ -5169,7 +5169,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Grants 15%% knockback resistance per level."]
+			description: ["Дает 15%% сопротивления отбрасыванию за уровень."]
 			id: "217B94AE20110A2F"
 			rewards: [
 				{
@@ -5193,7 +5193,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Increases the users maximum mana by 10%% per level."]
+			description: ["Увеличивает максимальный запас маны пользователя на 10%% за уровень."]
 			id: "2761668ABCE3923A"
 			rewards: [
 				{
@@ -5217,7 +5217,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Damaging effects cause the target to burn for a short duration before the effect resolves. Burn time is increased by 5 seconds per level."]
+			description: ["Повреждающие эффекты заставляют цель гореть на короткое время, прежде чем эффект исчезнет. Время горения увеличивается на 5 секунд за уровень."]
 			id: "0F51428B60BE6657"
 			rewards: [
 				{
@@ -5264,7 +5264,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Increases the duration of potions by 15%% each level."]
+			description: ["Увеличивает длительность действия зелий на 15%% за каждый уровень."]
 			id: "30967D7D9F46C2EC"
 			rewards: [
 				{
@@ -5288,7 +5288,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Allows the wearer to repair ANY magical armor or enchanters item by consuming Mana over time. Additional levels increase the speed at which the items repair. This perk applies to all relevant items, not only the item with this perk."]
+			description: ["Позволяет владельцу ремонтировать ЛЮБУЮ магическую броню или предмет зачарования, потребляя ману с течением времени. Дополнительные уровни увеличивают скорость ремонта предметов. Этот перк применяется ко всем соответствующим предметам, а не только к предмету с этим перком."]
 			id: "7797BA61D9852D24"
 			rewards: [
 				{
@@ -5439,7 +5439,7 @@
 		}
 		{
 			dependencies: ["1AC8F2CD30CA8DA9"]
-			description: ["Battlemage's set provides defence but much weaker slots."]
+			description: ["Набор боевого мага обеспечивает защиту, но гораздо более слабые слоты."]
 			id: "432E950FE93910F6"
 			rewards: [{
 				id: "7B803863A639FCEB"
@@ -5657,7 +5657,7 @@
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
-			description: ["Bookwyrm Charms can be used on a Storage Lectern to increase the number of accessible inventories. Augment a Ritual of Awakening with Book and Quills in order to obtain charms. Bookwyrms can be dyed using white, black, blue, green, red, or purple dye."]
+			description: ["Талисманы Книжного змея можно использовать на кафедре-хранилище, чтобы увеличить количество доступных инвентарей. Дополните Ритуал пробуждения Книгой и Перьями, чтобы получить амулеты. Книжных змей можно покрасить белым, черным, синим, зеленым, красным или фиолетовым красителем."]
 			id: "7D5075B4E1DF5015"
 			optional: true
 			rewards: [{
@@ -5727,7 +5727,7 @@
 		}
 		{
 			dependencies: ["48D5D9D9AD98409F"]
-			description: ["Generates rotational force for Create. Placing a gold block in front of the wheel will increase the RPM."]
+			description: ["Генерирует силу вращения для Create. Размещение золотого блока перед колесом увеличит скорость вращения."]
 			id: "00BAD60C7A4939F3"
 			rewards: [
 				{
@@ -5811,7 +5811,7 @@
 		}
 		{
 			dependencies: ["6FCF8186E5989B8A"]
-			description: ["A specialized relay which serves to distribute Source to all nearby jars without being linked to them. "]
+			description: ["Специализированный ретранслятор, который служит для распространения Источника по всем близлежащим банкам без привязки к ним."]
 			id: "556E0C87DF483B4E"
 			rewards: [{
 				count: 3
@@ -5829,7 +5829,7 @@
 		}
 		{
 			dependencies: ["6FCF8186E5989B8A"]
-			description: ["A more advanced Source Relay capable of pulling from and sending to multiple locations."]
+			description: ["Более продвинутый ретранслятор источника, способный получать и отправлять данные в несколько мест."]
 			id: "23288BEA36A9FD43"
 			rewards: [{
 				count: 3
@@ -5894,7 +5894,7 @@
 		}
 		{
 			dependencies: ["41A0BE357C8A74E1"]
-			description: ["Each Flask can hold up to eight doses of potion and may even be enchanted to increase the potency or duration of the potions within. "]
+			description: ["Каждая колба может содержать до восьми доз зелий и даже может быть зачарована, чтобы увеличить эффективность или продолжительность действия зелий внутри."]
 			id: "39D53CF87CE2BCB8"
 			rewards: [{
 				id: "028F5142110187C9"
@@ -6011,7 +6011,7 @@
 		}
 		{
 			dependencies: ["33682F4B44950123"]
-			description: ["When named, it will display the name as a tooltip, and preserve it when dropped as an item. Useful for creating named inventory tabs with the Storage Lectern."]
+			description: ["При присвоении имени оно будет отображаться в виде всплывающей подсказки и сохраняться при перетаскивании как элемент. Полезно для создания именованных вкладок инвентаря с помощью кафедры хранилища."]
 			id: "2748FC3E75B7A76D"
 			rewards: [{
 				id: "4F08CA252DE7D374"
@@ -6029,7 +6029,7 @@
 		}
 		{
 			dependencies: ["0E2AD156E5EF263A"]
-			description: ["A scroll that may be used a single time to teleport to a recorded location. However, teleporting across dimensions is not possible. Can be used to warp other entities if an inscribed scroll is held in the offhand and the holder casts Blink on an entity."]
+			description: ["Свиток, который можно использовать один раз для телепортации в записанное место. Однако телепортация между измерениями невозможна. Может использоваться для деформации других объектов, если свиток с надписью находится в левой руке и владелец использует Blink на объект."]
 			id: "478A98362BA5429B"
 			rewards: [
 				{
@@ -6233,7 +6233,7 @@
 		}
 		{
 			dependencies: ["0E2AD156E5EF263A"]
-			description: ["Give this scroll to a starbuncle, and it will help keep you further organized."]
+			description: ["Отдайте этот свиток звездному сгустку, и он поможет вам лучше организоваться."]
 			icon: "ars_nouveau:allow_scroll"
 			id: "0CC9276B60A4314D"
 			rewards: [
@@ -6276,7 +6276,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets an aerial creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на воздушное существо."]
 			id: "53C32126E23A39BD"
 			rewards: [
 				{
@@ -6301,7 +6301,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets a fire immune or fiery creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на невосприимчивое к огню или огненное существо."]
 			id: "09078AE7A11FBCEF"
 			rewards: [
 				{
@@ -6326,7 +6326,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets an aquatic creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на водное существо."]
 			id: "3CB580D4C3292A7A"
 			rewards: [
 				{
@@ -6380,7 +6380,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets a fire immune or fiery creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на невосприимчивое к огню или огненное существо."]
 			id: "5A699CF9A1A5DD4C"
 			rewards: [
 				{
@@ -6405,7 +6405,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets a fire immune or fiery creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на невосприимчивое к огню или огненное существо."]
 			id: "7DE69C19C35CE37E"
 			rewards: [
 				{
@@ -6430,7 +6430,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving if it targets an aquatic creature."]
+			description: ["Останавливает действие заклинания, если оно нацелено на водное существо."]
 			id: "30B3AA32B0F37834"
 			rewards: [
 				{
@@ -6455,7 +6455,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving if it targets a fire immune or fiery creature."]
+			description: ["Останавливает действие заклинания, если оно нацелено на невосприимчивое к огню или огненное существо."]
 			id: "63EE06AD2B054D76"
 			rewards: [
 				{
@@ -6480,7 +6480,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving if it targets a fire immune or fiery creature."]
+			description: ["Останавливает действие заклинания, если оно нацелено на невосприимчивое к огню или огненное существо."]
 			id: "7C33E6A8FE5F7437"
 			rewards: [
 				{
@@ -6505,7 +6505,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving if it targets a summoned creature."]
+			description: ["Останавливает действие заклинания, если оно нацелено на призванное существо."]
 			id: "0BF2C50019120A5E"
 			rewards: [
 				{
@@ -6530,7 +6530,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving if it targets an undead creature."]
+			description: ["Останавливает действие заклинания, если оно нацелено на существо-нежить."]
 			id: "49AC3575FF6FA39A"
 			rewards: [
 				{
@@ -6555,7 +6555,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving if it targets an undead creature."]
+			description: ["Останавливает действие заклинания, если оно нацелено на существо-нежить."]
 			id: "262B7BD1E6BBB1B2"
 			rewards: [
 				{
@@ -6580,7 +6580,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets a summoned creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на призванное существо."]
 			id: "4A8E7BF2F2C6B698"
 			rewards: [
 				{
@@ -6605,7 +6605,7 @@
 		}
 		{
 			dependencies: ["0AEFDABFF9DD4448"]
-			description: ["Stops the spell from resolving unless it targets an undead creature."]
+			description: ["Останавливает действие заклинания, если оно не нацелено на существо-нежить."]
 			id: "7FE4B0785D9CF4FC"
 			rewards: [
 				{
@@ -6630,7 +6630,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["This projectile is affected by gravity. Every Pierce applied will make it bounce one time when it hit the ground."]
+			description: ["На этот снаряд действует сила тяжести. Каждый примененный прокол заставит его отскочить один раз, когда он упадет на землю."]
 			id: "09430238E6C5ABF3"
 			rewards: [
 				{
@@ -6657,7 +6657,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Convert the remainder of the spell into an Homing Projectile and shoot it from where it lands."]
+			description: ["Превратите остаток заклинания в самонаводящийся снаряд и выстрелите им с места приземления."]
 			id: "09EF261022993482"
 			rewards: [
 				{
@@ -6684,7 +6684,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Creates a protective coating that consumes mana to reduce incoming damage. The shield might also prevent debuff to affect the entity and will dissipate if the mana exhausts while defending. The bubble will also shield from magic fire."]
+			description: ["Создает защитное покрытие, потребляющее ману для уменьшения входящего урона. Щит также может предотвратить воздействие на сущность дебаффа и рассеется, если мана истощается во время защиты. Пузырь также защитит от магического огня."]
 			id: "4A5D455739E64AF3"
 			rewards: [
 				{
@@ -6870,7 +6870,7 @@
 		}
 		{
 			dependencies: ["781AEEC4BD04A33C"]
-			description: ["Convert the remainder of the spell into an Arc Projectile and shoot it from where it lands."]
+			description: ["Преобразуйте оставшуюся часть заклинания в дуговой снаряд и выстрелите им с места приземления."]
 			id: "5133E224B4C56FC9"
 			rewards: [
 				{
@@ -6990,7 +6990,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["This projectile seek the nearest entity and follow it, will behave as a classic projectile while there are no valid targets. Players will only be targeted if augmented by Sensitive."]
+			description: ["Этот снаряд ищет ближайший объект и следует за ним. Он будет вести себя как классический снаряд, пока нет допустимых целей. Игроки будут атакованы только в том случае, если они усилены Чувствительным."]
 			id: "1C16C2462F7648BD"
 			rewards: [
 				{
@@ -7017,7 +7017,7 @@
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
-			description: ["This magic urn converts Source into water. Link a cauldron or an Apothecary to the urn using a dominion wand and it will be refilled for a cheap amount of source."]
+			description: ["Эта волшебная урна превращает Источник в воду. Привяжите котел или аптекаря к урне с помощью жезла владычества, и он будет пополнен за дешевое количество источника."]
 			id: "736421AE8DDAD167"
 			rewards: [
 				{
@@ -7042,7 +7042,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Make the brazier act as a magnet for entities in a 8 blocks radius. Won't work on players and bosses."]
+			description: ["Заставьте жаровню действовать как магнит для объектов в радиусе 8 блоков. Не действует на игроков и боссов."]
 			id: "0BF1A90877B872A8"
 			rewards: [
 				{
@@ -7073,7 +7073,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Makes all monsters in a 128 blocks radius glow for 10 minutes."]
+			description: ["Заставляет всех монстров в радиусе 128 блоков светиться в течение 10 минут."]
 			id: "2F6C171A0B2C1AD8"
 			rewards: [
 				{
@@ -7104,7 +7104,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Repel all mobs in a 15 block radius. Can be augmented with a bone to repel only undead mobs. Won't work on player and bosses."]
+			description: ["Отразите всех мобов в радиусе 15 блоков. Может быть дополнен костью, чтобы отпугивать только мобов-нежить. Не действует на игрока и боссов."]
 			id: "4BF4DA17CEE478B8"
 			rewards: [
 				{
@@ -7135,7 +7135,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Gives a long speed boost to Starbuncles in the area. Refresh buff every 30 seconds in a 15 cubes radius. Radius can be augmented to 30 with a gold block"]
+			description: ["Дает длительный прирост скорости Звездным пузырям в этом районе. Обновляйте бафф каждые 30 секунд в радиусе 15 кубов. Радиус можно увеличить до 30 с помощью золотого блока."]
 			id: "3704F4E2E2CA83D3"
 			rewards: [
 				{
@@ -7166,7 +7166,7 @@
 		}
 		{
 			dependencies: ["457DE8C154641437"]
-			description: ["Calls lightning on entities that approach the ritual area of effect. Will target players if augmented with Air Essence. [11x7x11 cube centered on the brazier]."]
+			description: ["Вызывает молнию на существ, приближающихся к зоне действия ритуала. Будет нацелен на игроков, если дополнен Эссенцией воздуха. [Куб 11x7x11 в центре жаровни]."]
 			id: "21ED8E09E115AEE4"
 			rewards: [
 				{
@@ -7197,7 +7197,7 @@
 		}
 		{
 			dependencies: ["280B898AD5495661"]
-			description: ["A Flarecannon Familiar increases the damage of Fire spells by 2 and reduce projectile-based spells cost by 20%%. You can feed it a Magma Cream to get a short Fire Resistance buff."]
+			description: ["Фамильяр из ракетницы увеличивает урон от заклинаний огня на 2 и снижает стоимость заклинаний, основанных на снарядах, на 20%. Вы можете накормить его магмовым кремом, чтобы получить кратковременный бафф сопротивления огню."]
 			id: "64115AB450146460"
 			rewards: [
 				{
@@ -7228,7 +7228,7 @@
 		}
 		{
 			dependencies: ["280B898AD5495661"]
-			description: ["A Siren Familiar will increase the damage of Water spells by 2. It will also give Dolphin Grace II to the summoner while in water."]
+			description: ["Сирена-фамильяр увеличит урон от заклинаний Воды на 2. Он также даст Призывателю Dolphin Grace II, пока он находится в воде."]
 			id: "19B18E606F69952D"
 			rewards: [
 				{
@@ -7259,7 +7259,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Damaging effects cause the target to be shocked for a short duration before the effect resolves. Inflicts Static Charged at tier 3."]
+			description: ["Наносящие урон эффекты вызывают у цели шок на короткое время, прежде чем эффект исчезнет. Накладывает статический заряд на уровне 3."]
 			id: "1F3A841993117965"
 			rewards: [
 				{
@@ -7283,7 +7283,7 @@
 		}
 		{
 			dependencies: ["0F5BBE3219E8FE10"]
-			description: ["Damaging effects cause the target to be poisoned or hungry for a short duration before the effect resolves."]
+			description: ["Наносящие урон эффекты заставляют цель быть отравленной или голодной на короткое время, прежде чем эффект исчезнет."]
 			id: "7CC4FF7C7EEDECD6"
 			rewards: [
 				{
@@ -7978,7 +7978,7 @@
 		}
 		{
 			dependencies: ["6FCF8186E5989B8A"]
-			description: ["Operates similar to the Source Relay, but will automatically take from jars it is not linked to within 5 blocks. See the instructions on the Source Relay for use."]
+			description: ["Работает аналогично ретранслятору источника, но автоматически берет из банок, с которыми он не связан, в пределах 5 блоков. См. инструкции по использованию реле источника."]
 			id: "52DE441E21177C53"
 			rewards: [{
 				count: 3
@@ -8047,7 +8047,7 @@
 		}
 		{
 			dependencies: ["0DCD6BD5B855666A"]
-			description: ["When a projectile spell hits this block, it is redirected the direction the block is facing. Spell Prisms will send a signal to nearby Observers if a spell is redirected."]
+			description: ["Когда заклинание-снаряд попадает в этот блок, оно перенаправляется в том направлении, в котором смотрит блок. Призмы заклинаний отправят сигнал ближайшим наблюдателям, если заклинание будет перенаправлено."]
 			id: "6FC9EC848BA329A0"
 			rewards: [{
 				count: 6
@@ -8146,7 +8146,7 @@
 		}
 		{
 			dependencies: ["6FC9EC848BA329A0"]
-			description: ["Destroys any spell projectiles that pass through it."]
+			description: ["Уничтожает любые снаряды заклинаний, проходящие через него."]
 			id: "114CC7D7BD2B3FE5"
 			rewards: [{
 				count: 6
@@ -8198,7 +8198,7 @@
 		}
 		{
 			dependencies: ["5A566D7CA9F2793E"]
-			description: ["Causes multiple projectiles to be cast at once. Each projectile applies a set of effects."]
+			description: ["Вызывает одновременное применение нескольких снарядов. Каждый снаряд применяет набор эффектов."]
 			id: "3E2EF1C744C498F0"
 			rewards: [
 				{

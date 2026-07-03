@@ -82,7 +82,7 @@
 	quests: [
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Can be used to slowfall and as a shield in a pinch"]
+			description: ["Может использоваться для замедления падения и в крайнем случае в качестве щита."]
 			id: "36FB336313E5E377"
 			rewards: [
 				{
@@ -106,7 +106,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Does not get consumed when eaten, meaning it's an infinite food source."]
+			description: ["Не потребляется при употреблении в пищу, а это означает, что это бесконечный источник пищи."]
 			id: "78DFD8815E2AE291"
 			rewards: [
 				{
@@ -130,7 +130,7 @@
 		}
 		{
 			dependencies: ["78DFD8815E2AE291"]
-			description: ["An infinite steak"]
+			description: ["Бесконечный стейк"]
 			hide_dependency_lines: false
 			hide_until_deps_complete: false
 			id: "1ADACCB1A8BB9E7E"
@@ -156,7 +156,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Allows you to drink items faster"]
+			description: ["Позволяет быстрее пить предметы"]
 			id: "14CB47511F2D0E01"
 			rewards: [
 				{
@@ -180,7 +180,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Allows you to drink items faster, but now with style!"]
+			description: ["Позволяет пить предметы быстрее, но теперь стильно!"]
 			id: "0E0532BA6E3FFEF9"
 			rewards: [
 				{
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Provides infinite air underwater, very useful for those pesky underwater caves"]
+			description: ["Обеспечивает бесконечный воздух под водой, что очень полезно для надоедливых подводных пещер."]
 			id: "78E34F3F9A19F275"
 			rewards: [
 				{
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Provides an infinite night vision effect"]
+			description: ["Обеспечивает бесконечный эффект ночного видения."]
 			id: "419A16655447AA92"
 			rewards: [
 				{
@@ -252,7 +252,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Allows you to trade with villagers for much cheaper"]
+			description: ["Позволяет торговать с сельскими жителями гораздо дешевле."]
 			id: "016C498DFB704536"
 			rewards: [
 				{
@@ -276,7 +276,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Adds a looting effect to killed mobs"]
+			description: ["Добавляет эффект грабежа убитым мобам"]
 			id: "7F1AB8E8DA7BFD77"
 			rewards: [
 				{
@@ -300,7 +300,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Applies fortune to mined blocks"]
+			description: ["Применяет удачу к добытым блокам"]
 			id: "5A2F0B2712D9C667"
 			rewards: [
 				{
@@ -324,7 +324,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Applies an infinite invisibility potion, making you less noticeable to mobs"]
+			description: ["Применяет бесконечное зелье невидимости, делающее вас менее заметным для мобов."]
 			id: "3F0D2D8C1CFD1F2A"
 			rewards: [
 				{
@@ -348,7 +348,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases the user's invulnerability frames after taking a hit"]
+			description: ["Увеличивает рамки неуязвимости пользователя после удара."]
 			id: "39AD4C222874D63F"
 			rewards: [
 				{
@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Gives a movement speed boost when taking damage"]
+			description: ["Увеличивает скорость передвижения при получении урона."]
 			id: "2B619746DAF80A5E"
 			rewards: [
 				{
@@ -396,7 +396,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Strikes your attackers with lightning (occasionally)"]
+			description: ["Поражает нападающих молнией (иногда)"]
 			id: "66A8B9C4C4AC291A"
 			rewards: [
 				{
@@ -420,7 +420,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Lights your attackers on fire"]
+			description: ["Поджигает нападающих"]
 			id: "042259C7B1BF773A"
 			rewards: [
 				{
@@ -444,7 +444,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Damages attackers similar to the Thorns enchantment"]
+			description: ["Наносит урон атакующим, аналогичный зачарованию Шипов."]
 			id: "4D38017F83D30E13"
 			rewards: [
 				{
@@ -496,7 +496,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Allows you to double jump, similar to the Terraria item"]
+			description: ["Позволяет совершать двойной прыжок, аналогично предмету Террарии."]
 			id: "3121D591D3807584"
 			rewards: [
 				{
@@ -520,7 +520,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants temporary fire resistance when touching lava/fire"]
+			description: ["Дает временное сопротивление огню при прикосновении к лаве/огню."]
 			id: "60B9F9AD8F49371D"
 			rewards: [
 				{
@@ -544,7 +544,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Reduces the time of debuffs"]
+			description: ["Уменьшает время действия дебаффов"]
 			id: "05A39ED901BC6569"
 			rewards: [
 				{
@@ -568,7 +568,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Attracts dropped items to the wearer"]
+			description: ["Притягивает выпавшие предметы к владельцу"]
 			id: "10CDACBCA03AEDF7"
 			rewards: [
 				{
@@ -592,7 +592,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants around 10 extra health (5 hearts)"]
+			description: ["Дает около 10 дополнительного здоровья (5 сердец)"]
 			id: "29491A4A65DEDCDC"
 			rewards: [
 				{
@@ -616,7 +616,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Press CTRL while airborne to perform a short and slow glide"]
+			description: ["Нажмите CTRL, находясь в воздухе, чтобы выполнить короткое и медленное планирование."]
 			id: "4CCAD1EBB977DF2E"
 			rewards: [
 				{
@@ -640,7 +640,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases the wearers mining speed and allows the wearer to break blocks like stone with their fist"]
+			description: ["Увеличивает скорость добычи полезных ископаемых и позволяет владельцу разбивать блоки, как камень, кулаком."]
 			id: "0424F3DCA7620F49"
 			rewards: [
 				{
@@ -664,7 +664,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases the wearer's attack speed"]
+			description: ["Увеличивает скорость атаки владельца."]
 			id: "7940D8A4ECBD6541"
 			rewards: [
 				{
@@ -688,7 +688,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases the damage dealt by the wearer"]
+			description: ["Увеличивает урон, наносимый владельцем"]
 			id: "72564111D0768098"
 			rewards: [
 				{
@@ -712,7 +712,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Causes the wearer's attacks to set the target on fire"]
+			description: ["Заставляет атаки владельца поджигать цель."]
 			id: "13449219998C54E1"
 			rewards: [
 				{
@@ -736,7 +736,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases knockback from attacks"]
+			description: ["Увеличивает отбрасывание от атак"]
 			id: "136F140D9A3ED036"
 			rewards: [
 				{
@@ -760,7 +760,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["The wearer slightly heals from attacks"]
+			description: ["Владелец слегка исцеляется от атак."]
 			id: "51A4E097156A6DC1"
 			rewards: [
 				{
@@ -784,7 +784,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases experience dropped by mobs"]
+			description: ["Увеличивает опыт, выпадающий из мобов."]
 			id: "4FDAFBD64AA710A1"
 			rewards: [
 				{
@@ -808,7 +808,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["The wearer can sprint on water"]
+			description: ["Владелец может бегать по воде."]
 			id: "5ABC7CE1A9B9FB7C"
 			rewards: [
 				{
@@ -832,7 +832,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases wearer's jump height and negates all fall damage"]
+			description: ["Увеличивает высоту прыжка владельца и сводит на нет весь урон от падения."]
 			id: "2ED49410115A9FDC"
 			rewards: [
 				{
@@ -856,7 +856,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Creepers will actively avoid the wearer"]
+			description: ["Криперы будут активно избегать владельца."]
 			id: "632F1D52317286A8"
 			rewards: [
 				{
@@ -880,7 +880,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Drastically increases the wearer's sprint speed and allows for auto-step"]
+			description: ["Значительно увеличивает скорость спринта владельца и позволяет выполнять автоматический шаг."]
 			id: "7362AE3D474FF6E1"
 			rewards: [
 				{
@@ -904,7 +904,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["The wearer cannot be knocked back"]
+			description: ["Владеющего нельзя отбросить назад."]
 			id: "17C488042DB187A3"
 			rewards: [
 				{
@@ -928,7 +928,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases the wearer's swim speed"]
+			description: ["Увеличивает скорость плавания владельца."]
 			id: "2F8EAC597AB7E760"
 			rewards: [
 				{
@@ -952,7 +952,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Infinite comedy"]
+			description: ["Бесконечная комедия"]
 			id: "250E32D632A506B2"
 			rewards: [
 				{
@@ -1061,7 +1061,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Allows walking on powdered snow and makes ice less slippery"]
+			description: ["Позволяет ходить по рыхлому снегу и делает лед менее скользким."]
 			id: "409E9857A7494319"
 			rewards: [
 				{
@@ -1085,7 +1085,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Slowly replenishes hunger while walking on grass"]
+			description: ["Медленно восполняет голод при ходьбе по траве."]
 			id: "37D5E493E9DB64D4"
 			rewards: [
 				{
@@ -1109,7 +1109,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Automatically smelts mined ores"]
+			description: ["Автоматически переплавляет добытую руду"]
 			id: "5590204A473913AC"
 			rewards: [
 				{
@@ -1133,7 +1133,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Applies a temporary haste effect after eating food"]
+			description: ["Применяет временный эффект ускорения после еды."]
 			id: "4F734FC470276106"
 			rewards: [
 				{
@@ -1157,7 +1157,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["A fatal hit teleports the player somewhere else instead"]
+			description: ["Вместо этого смертельный удар телепортирует игрока куда-то еще."]
 			id: "37D3986933A263DB"
 			rewards: [
 				{
@@ -1181,7 +1181,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: [" Increases Lure and Luck of the Sea by 1 level"]
+			description: ["Увеличивает Приманку и Морскую Удачу на 1 уровень."]
 			id: "681E258AB577FF73"
 			rewards: [
 				{
@@ -1205,7 +1205,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Increases the speed of ridden mounts"]
+			description: ["Увеличивает скорость верховых животных."]
 			id: "65663D9E051280F2"
 			rewards: [
 				{

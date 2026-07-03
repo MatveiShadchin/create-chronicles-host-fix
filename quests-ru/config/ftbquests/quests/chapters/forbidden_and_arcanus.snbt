@@ -45,7 +45,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "76E8B288C37363E6"
-				title: "Добро пожаловать в Forbidden \\\\\\\\&\\\\\\\\ Arcanus!"
+				title: "Добро пожаловать в Forbidden \\\\\\\\\\\\\\\\&\\\\\\\\\\\\\\\\Arcanus!"
 				type: "checkmark"
 			}]
 			title: "Добро пожаловать в&6Запретный \\\\&\\\\ Аркан!"
@@ -176,7 +176,7 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			description: ["This is the main resource in the mod. Go out and mine some!"]
+			description: ["Это основной ресурс в моде. Выйди и принеси мне немного!"]
 			id: "29164630E1BD76B5"
 			rewards: [
 				{
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			description: ["Breaking spawners will now drop &9Spawner Scraps&r."]
+			description: ["Разрушающие спавнеры теперь будут выпадать.&9Обрывки спавнера&r."]
 			id: "13E5783AD64E3BC2"
 			rewards: [
 				{
@@ -304,7 +304,7 @@
 		}
 		{
 			dependencies: ["13E5783AD64E3BC2"]
-			description: ["The &9Quantum Catcher&r is used to capture and transport mobs."]
+			description: ["The &9Квантовый ловец&rиспользуется для захвата и транспортировки мобов."]
 			id: "0F3BD102F9F93DDD"
 			rewards: [
 				{
@@ -331,7 +331,7 @@
 		}
 		{
 			dependencies: ["0B68E3C046C82860"]
-			description: ["This gives X-Ray vision for mobs, highlighting them from afar to make it easier to spot them."]
+			description: ["Это дает мобам рентгеновское зрение, выделяя их издалека, чтобы их было легче обнаружить."]
 			id: "44B1B147CDAC4E36"
 			optional: true
 			rewards: [{
@@ -410,7 +410,7 @@
 		}
 		{
 			dependencies: ["09CCC797BF15ADFC"]
-			description: ["Combining a Dragon Head with a Mystical Dagger will give you &9Dragon Scales&r."]
+			description: ["Сочетание головы дракона с мистическим кинжалом даст вам&9Чешуя Дракона&r."]
 			id: "20B495B4B8B95636"
 			rewards: [
 				{
@@ -985,7 +985,7 @@
 		}
 		{
 			dependencies: ["0C6719D81DE5A614"]
-			description: ["This goes in the right side of the forge."]
+			description: ["Это происходит в правой части кузницы."]
 			id: "5E45D2A2FDD67495"
 			rewards: [
 				{
@@ -1012,7 +1012,7 @@
 		}
 		{
 			dependencies: ["73349B993DE69954"]
-			description: ["The Forge requires 4 different items to be powered:&b Aureal&r, &6Souls&r, &cBlood&r, and &aExperience&r."]
+			description: ["Для работы Кузницы требуется 4 различных предмета:&bАуреал&r, &6Души&r, &cКровь&r, и&aОпыт&r."]
 			id: "0C6719D81DE5A614"
 			rewards: [{
 				id: "4361C7754AB234B0"
@@ -1153,7 +1153,7 @@
 		}
 		{
 			dependencies: ["20B495B4B8B95636"]
-			description: ["The Scepter shoots out energy orbs when charged up with Right-Click. If a mob is hit, it'll strike it with lightning."]
+			description: ["Скипетр стреляет энергетическими сферами, если его зарядить с помощью щелчка правой кнопкой мыши. Если моб поражен, он ударит его молнией."]
 			id: "3513D89C6FD2D852"
 			rewards: [
 				{
@@ -1443,7 +1443,7 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
-			description: ["&cMending&r and &cunbreakable&r are not compatible with eternal stella."]
+			description: ["&cПочинка&rи&cнерушимый&rнесовместимы с вечной стеллой."]
 			id: "685A56030D996A81"
 			rewards: [
 				{
@@ -1493,7 +1493,7 @@
 		}
 		{
 			dependencies: ["29164630E1BD76B5"]
-			description: ["Runic Stones can be found from the bottom of the world up to y level 2. When mined without Silk Touch they will drop a Rune. "]
+			description: ["Рунические камни можно найти на дне мира до 2-го уровня. При добыче без Шелкового прикосновения из них выпадет руна."]
 			id: "6DAF38A8CB994147"
 			rewards: [{
 				id: "2C1E5BAEE3FBE39F"
@@ -1558,7 +1558,7 @@
 		}
 		{
 			dependencies: ["6E3B9051503B938C"]
-			description: ["The &2Edelwood Ladder&r can be climbed twice as fast as a vanilla &6Ladder&r. "]
+			description: ["The &2Эдельвудская лестница&rможно подняться в два раза быстрее, чем на ваниль&6Лестница&r. "]
 			id: "0B4B4ECB8EC65ECD"
 			rewards: [{
 				id: "7A3DD7084F5F96FE"

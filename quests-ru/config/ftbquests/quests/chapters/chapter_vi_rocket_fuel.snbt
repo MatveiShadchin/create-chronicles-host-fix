@@ -164,7 +164,7 @@
 		}
 		{
 			dependencies: ["683EC98909A058CD"]
-			description: ["The next step is building the Distillation machine."]
+			description: ["Следующий шаг — создание дистилляционной машины."]
 			id: "615126E9C29AA0F1"
 			rewards: [
 				{
@@ -681,7 +681,7 @@
 		}
 		{
 			dependencies: ["615126E9C29AA0F1"]
-			description: ["&6The Flarestack&r is an item that burns the excess liquids produced by the&b Distillation&r or by the &cCoke Oven&r by pumping the liquids with a Mechanical Pump to the &6Flarestack&r."]
+			description: ["&6Факельная труба&rэто предмет, который сжигает лишнюю жидкость, вырабатываемую&bДистилляция&rили по&cКоксовая печь&rпутем перекачивания жидкости механическим насосом в&6Факельная труба&r."]
 			id: "2CE24FDF53DE273B"
 			rewards: [{
 				count: 2

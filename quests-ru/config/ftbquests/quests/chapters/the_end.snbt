@@ -167,7 +167,7 @@
 	quests: [
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["Pirates say it gave sight to the legendary Black Pearl"]
+			description: ["Пираты говорят, что это дало возможность увидеть легендарную Черную Жемчужину"]
 			id: "1E4B9F8A3401B4BF"
 			progression_mode: "flexible"
 			rewards: [
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"]
+			description: ["Один из последних артефактов, оставленных ледологами перед тем, как они все внезапно исчезли из мира."]
 			id: "37F39A63C0C2934F"
 			progression_mode: "flexible"
 			rewards: [
@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"]
+			description: ["Глаз жадного короля потух в одиночестве. Легенда гласит, что оно принесет своему владельцу бесконечное богатство."]
 			id: "02DE3FA28CBAE857"
 			progression_mode: "flexible"
 			rewards: [
@@ -263,7 +263,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["It is told that it was forged by the first blacksmiths of time"]
+			description: ["Говорят, что его выковали первые кузнецы того времени."]
 			id: "3BC1492D43F6B120"
 			progression_mode: "flexible"
 			rewards: [
@@ -295,7 +295,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["It was lost by a demon in the battle between the Aether and the Nether"]
+			description: ["Он был потерян демоном в битве между Эфиром и Пустотой."]
 			id: "1F4AE081014800B4"
 			progression_mode: "flexible"
 			rewards: [
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["Legends say this eye once belonged to one of the great Sandworms"]
+			description: ["Легенды гласят, что этот глаз когда-то принадлежал одному из великих песчаных червей."]
 			id: "22E0846B96BBD5DD"
 			progression_mode: "flexible"
 			rewards: [
@@ -360,7 +360,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
+			description: ["Считается, что этот глаз дал нашим предкам знания о Редстоуне."]
 			id: "50B4EEBAF5CF3122"
 			progression_mode: "flexible"
 			rewards: [
@@ -392,7 +392,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"]
+			description: ["Мощный, но разрушительный артефакт; Пиглины поклялись защищать его ценой своей жизни."]
 			id: "5EC521DA8FF06758"
 			progression_mode: "flexible"
 			rewards: [
@@ -424,7 +424,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["A holy talisman said to protect its owner from bad luck"]
+			description: ["Священный талисман, который, как говорят, защищает своего владельца от неудач."]
 			id: "0C61389C18B4A2B4"
 			progression_mode: "flexible"
 			rewards: [
@@ -456,7 +456,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["It has seen many warriors drown into the depths of the sea"]
+			description: ["Он видел, как многие воины тонули в морских глубинах."]
 			id: "763F1FB0C55F702F"
 			progression_mode: "flexible"
 			rewards: [
@@ -488,7 +488,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["Without this eye, the Evoker has no power"]
+			description: ["Без этого глаза у Эвокера нет силы."]
 			id: "0A6EBBE5CD80EF14"
 			progression_mode: "flexible"
 			rewards: [
@@ -520,7 +520,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["Has witnessed destruction. Maybe it also witnessed your stuff disappear"]
+			description: ["Был свидетелем разрушения. Возможно, он также стал свидетелем исчезновения твоих вещей."]
 			id: "33EF47DF16D412B5"
 			progression_mode: "flexible"
 			rewards: [
@@ -552,7 +552,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
+			description: ["Считается, что этот ученик видел древние рецепты пивоварения, затерянные во времени."]
 			id: "343AB719F81DFC63"
 			progression_mode: "flexible"
 			rewards: [
@@ -584,7 +584,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["Remembrance of the past lives of those who live in death"]
+			description: ["Память о прошлых жизнях тех, кто живет в смерти"]
 			id: "401C9B25D2B7B49F"
 			progression_mode: "flexible"
 			rewards: [
@@ -616,7 +616,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"]
+			description: ["Тех, кто следил за этим взглядом, больше никогда не видели; Ходят слухи, что они нашли великий город Атлантиду или заблудились, пытаясь"]
 			id: "63A35C0C01372EB6"
 			progression_mode: "flexible"
 			rewards: [
@@ -648,7 +648,7 @@
 		}
 		{
 			dependencies: ["5B9C1D10A217657D"]
-			description: ["No information about this eye"]
+			description: ["Нет информации об этом глазу"]
 			id: "1C89D285F0501472"
 			progression_mode: "flexible"
 			rewards: [
@@ -711,7 +711,7 @@
 		{
 			dependencies: ["5B9C1D10A217657D"]
 			description: [
-				"В&eКонец&r, вы найдете настоящего босса Vanilla Minecraft: The&5Эндер Дракон&r."
+				"В&eКонец&r, вы находите настоящего босса Vanilla Minecraft: The&5Эндер Дракон&r."
 				""
 				"На вершине каждой обсидиановой колонны вы найдете Кристалл Края, исцеляющий Дракона. Обязательно вытащите их в первую очередь! Они также наносят большой урон, поэтому обязательно соблюдайте некоторую дистанцию!"
 				""
@@ -807,7 +807,7 @@
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
-			description: ["Warm that new dragon egg by the fire."]
+			description: ["Согрейте новое драконье яйцо у огня."]
 			icon: "minecraft:dragon_egg"
 			id: "59B3E2C267D8B567"
 			rewards: [
@@ -951,7 +951,7 @@
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
-			description: ["Throw an ender pearl at the tip of a &5Myalite Crystal&r and travel through it. "]
+			description: ["Бросьте жемчужину Края на кончик&5Миалитовый кристалл&rи путешествовать по нему."]
 			id: "71482AB41A355486"
 			rewards: [
 				{

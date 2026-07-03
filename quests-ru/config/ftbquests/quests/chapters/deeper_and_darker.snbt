@@ -84,7 +84,7 @@
 		}
 		{
 			dependencies: ["44937B2D2EB38094"]
-			description: ["Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."]
+			description: ["Прежде чем осветить портал, необходимо сначала убрать все&3Черепные вены&rиз внутренней рамки. После того, как рамка будет очищена, вы можете щелкнуть по ней правой кнопкой мыши с помощью значка&bСердце глубин&rкоторый вы получили ранее, убив Стража."]
 			id: "704CCA2CEAB23B4D"
 			rewards: [
 				{
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
-			description: ["Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "]
+			description: ["Можно приручить зачарованным&cНезеритовые нагрудники&r. При приручении из них иногда выпадают зачарованные книги."]
 			icon: {
 				Count: 1
 				id: "minecraft:netherite_chestplate"

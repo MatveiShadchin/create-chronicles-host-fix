@@ -164,7 +164,7 @@
 		}
 		{
 			dependencies: ["3E6E9C53FBE836FB"]
-			description: ["Runestones are a more rare find in magical structures, and are always found as blank runestones. Using 8 focuses, you can craft a runestone to a specific school, and use your inscribed runestone to craft gear related to that school."]
+			description: ["Рунные камни — более редкая находка в магических сооружениях, и их всегда можно найти в виде пустых рунических камней. Используя 8 фокусов, вы можете создать рунный камень для конкретной школы и использовать свой рунический камень с надписью для создания снаряжения, связанного с этой школой."]
 			id: "704435187B4BD245"
 			rewards: [
 				{
@@ -2274,7 +2274,7 @@
 		}
 		{
 			dependencies: ["357E9B952643A99D"]
-			description: ["Use your newly aquired arcane dust to make yourself some Magicians armor using it and iron armor at a smithing table."]
+			description: ["Используйте недавно полученную чародейскую пыль, чтобы сделать себе доспехи магов, а также железные доспехи на кузнечном столе."]
 			id: "6AFEDCF1CF22972F"
 			rewards: [
 				{

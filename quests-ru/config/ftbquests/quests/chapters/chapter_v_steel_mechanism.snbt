@@ -223,7 +223,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			description: ["Check the Renewable Ores chapter to see a renewable way to have Crushed Raw Iron."]
+			description: ["Прочтите главу «Возобновляемые руды», чтобы узнать о возобновляемом способе получения дробленого сырого железа."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6AD87BACD480D27B"
@@ -659,7 +659,7 @@
 		}
 		{
 			dependencies: ["409394CEF9087E88"]
-			description: ["You can also automate this with &n&cnetherack&r&r if you prefer."]
+			description: ["Вы также можете автоматизировать это с помощью&n&cПустота&r&rесли вы предпочитаете."]
 			id: "3E42FEEFBC22F7D3"
 			rewards: [{
 				id: "6C1DC825E5C0019A"
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			description: ["Although it shows a Honey Bottle, you need to actually use a&n Honey Bucket with filling by spout.&r&c "]
+			description: ["Хотя на нем изображена бутылка с медом, на самом деле вам нужно использовать&nВедро для меда с наполнением через носик.&r&c "]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "184B9A5F983FA7A5"
@@ -1098,7 +1098,7 @@
 		}
 		{
 			dependencies: ["07FDCB535DE4C4BA"]
-			description: ["This receptor works just like the Optical Receptor. It transforms the light rays into rotational power but allows for higher stress support and the speed will be one third of the speed of the light beam."]
+			description: ["Этот рецептор работает так же, как оптический рецептор. Он преобразует световые лучи во вращательную силу, но обеспечивает более высокую нагрузку, а скорость будет составлять одну треть скорости светового луча."]
 			id: "23D03CB4F4382DDA"
 			rewards: [{
 				count: 5

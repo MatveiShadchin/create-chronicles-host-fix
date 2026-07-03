@@ -21,7 +21,7 @@
 	quests: [
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Night Vision potion effect while equipped."]
+			description: ["При экипировке дает эффект зелья ночного видения."]
 			id: "000000000000032A"
 			rewards: [
 				{
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Regeneration potion effect when equipped."]
+			description: ["При использовании дает эффект зелья регенерации."]
 			id: "00000000000003A3"
 			rewards: [
 				{
@@ -77,7 +77,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants immunity to the poison effect when equipped."]
+			description: ["При экипировке дает иммунитет к эффекту яда."]
 			id: "00000000000003A5"
 			rewards: [
 				{
@@ -105,7 +105,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Strength potion effect when equipped."]
+			description: ["При использовании дает эффект зелья силы."]
 			id: "00000000000003A9"
 			rewards: [
 				{
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grows nearby crops faster when equipped."]
+			description: ["При экипировке выращивает близлежащие культуры быстрее."]
 			id: "0D7D9CF1F00A8963"
 			rewards: [
 				{
@@ -161,7 +161,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Invisibility potion effect when equipped."]
+			description: ["При использовании дает эффект зелья невидимости."]
 			id: "00000000000003AF"
 			rewards: [
 				{
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Water Breathing potion effect when equipped."]
+			description: ["При использовании дает эффект зелья водного дыхания."]
 			id: "00000000000003B1"
 			rewards: [
 				{
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants immunity to the Wither Potion effect when equipped."]
+			description: ["При использовании дает иммунитет к эффекту зелья иссушения."]
 			id: "00000000000003B5"
 			rewards: [
 				{
@@ -245,7 +245,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Dolphins Grace potion effect when equipped."]
+			description: ["При использовании дает эффект зелья «Грация дельфинов»."]
 			id: "00000000000003B8"
 			rewards: [
 				{
@@ -273,7 +273,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants Knockback Immunity when equipped."]
+			description: ["При экипировке дает иммунитет к отбрасыванию."]
 			id: "00000000000003BB"
 			rewards: [
 				{
@@ -301,7 +301,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants Fire Resistance potion effect when equipped."]
+			description: ["При использовании дает эффект зелья сопротивления огню."]
 			id: "439298A36DF164C1"
 			rewards: [
 				{
@@ -329,7 +329,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Pull nearby xp orbs when equipped."]
+			description: ["Потяните ближайшие сферы опыта, если они экипированы."]
 			id: "61EC8066F1112546"
 			rewards: [
 				{
@@ -357,7 +357,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Removes all nearby water blocks around the player when equipped."]
+			description: ["Удаляет все близлежащие водные блоки вокруг игрока, если он экипирован."]
 			id: "2CA01FDC40580A8D"
 			rewards: [
 				{
@@ -385,7 +385,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Haste potion effect when equipped."]
+			description: ["При использовании дает эффект зелья ускорения."]
 			id: "204E9178AF8E4216"
 			rewards: [
 				{
@@ -413,7 +413,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants five extra hearts when equipped."]
+			description: ["При экипировке дает пять дополнительных сердец."]
 			id: "355971C802A91482"
 			rewards: [
 				{
@@ -441,7 +441,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants immunity to the Slowness potion effect."]
+			description: ["Дает иммунитет к эффекту зелья медлительности."]
 			id: "00000000000003CD"
 			rewards: [
 				{
@@ -469,7 +469,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Jump Boost potion effect when equipped."]
+			description: ["При использовании дает эффект зелья повышения прыжка."]
 			id: "2A04A6B7B6F75264"
 			rewards: [
 				{
@@ -497,7 +497,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Luck potion effect when equipped."]
+			description: ["При использовании дает эффект зелья удачи."]
 			id: "00000000000003D2"
 			rewards: [
 				{
@@ -525,7 +525,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Speed potion effect when equipped."]
+			description: ["При использовании дает эффект зелья скорости."]
 			id: "7942E76F14C8FF79"
 			rewards: [
 				{
@@ -553,7 +553,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Grants the Slow Fall potion effect when equipped."]
+			description: ["При использовании дает эффект зелья медленного падения."]
 			id: "00000000000003D9"
 			rewards: [
 				{
@@ -727,7 +727,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Removes all nearby lava blocks around the player when equipped."]
+			description: ["Удаляет все ближайшие блоки лавы вокруг игрока, если он экипирован."]
 			id: "10FB619223F0AEBF"
 			rewards: [
 				{

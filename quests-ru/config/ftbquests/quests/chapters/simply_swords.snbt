@@ -379,7 +379,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "7EF5B971BE033641"
 			rewards: [
 				{
@@ -410,7 +410,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "53603CD7E6CA3F0B"
 			rewards: [
 				{
@@ -700,7 +700,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "738B384E5DA0FE51"
 			rewards: [
 				{
@@ -880,7 +880,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "34BBF229D598EC32"
 			rewards: [
 				{
@@ -1321,7 +1321,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "020EF6BAC6E7BD52"
 			rewards: [
 				{
@@ -1393,7 +1393,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["- Warden"]
+			description: ["- Смотритель"]
 			id: "0793903EFDA666D9"
 			rewards: [
 				{
@@ -1524,7 +1524,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "1A4EF2745BD2163D"
 			rewards: [
 				{
@@ -1555,7 +1555,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "51E18D8B67394EC2"
 			rewards: [
 				{
@@ -1586,7 +1586,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "5F9DC6A4D253217D"
 			rewards: [
 				{
@@ -1617,7 +1617,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "624E99A4E08167EA"
 			rewards: [
 				{
@@ -1648,7 +1648,7 @@
 		}
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
-			description: ["Purchased from the black market."]
+			description: ["Куплена на черном рынке."]
 			id: "06C66D21CB3CB5C7"
 			rewards: [
 				{

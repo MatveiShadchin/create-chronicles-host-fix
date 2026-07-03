@@ -64,7 +64,7 @@
 		}
 		{
 			dependencies: ["54BDAB6C8F125B1E"]
-			description: ["The &6Umvuthi Sunbird&r can be found on this planet. You need to kill it to obtain its mask."]
+			description: ["The &6Умвути Солнечная птица&rможно найти на этой планете. Вам нужно убить его, чтобы получить маску."]
 			id: "2770889CDAABBD5C"
 			rewards: [{
 				count: 2
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["1634E09874D00AFF"]
-			description: ["Ostrum ore was been removed from world generation."]
+			description: ["Острумовая руда была удалена из мирового производства."]
 			id: "7C056525139CEE2D"
 			rewards: [{
 				count: 2
@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["75D3E9EA5C619D47"]
-			description: ["&6Oxygen Sensor&r is a machine that produces a &credstone signal&r when oxygen is detected."]
+			description: ["&6Датчик кислорода&rэто машина, производящая&cсигнал красного камня&rпри обнаружении кислорода."]
 			id: "08C3F9EFB6255BE6"
 			rewards: [{
 				id: "3289190F16DC9E7A"

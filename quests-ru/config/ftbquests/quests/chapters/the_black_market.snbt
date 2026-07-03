@@ -1345,7 +1345,7 @@
 		{
 			can_repeat: true
 			dependencies: ["21FB9D855FA9D2DF"]
-			description: ["So this thing is your portable mechanical saw, it only requires air pressure from backtank."]
+			description: ["Итак, это портативная механическая пила, для нее требуется только давление воздуха из заднего резервуара."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -4085,7 +4085,7 @@
 				"4D995A3D7DC968C7"
 				"5E60FF6098CB030B"
 			]
-			description: ["Here, I'll even give you a &6brass&r tier machine that I...&4found&r."]
+			description: ["Вот я тебе даже дам&6латунь&rмашина уровня, которую я...&4найденный&r."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "create:andesite_alloy"
@@ -4413,7 +4413,7 @@
 				"4D995A3D7DC968C7"
 				"7EEB0092E87627F1"
 			]
-			description: ["Also, sorry about the &bshipping fees&r, I'll try to reimburse you!"]
+			description: ["Также извините за&bстоимость доставки&r, я постараюсь вам возместить!"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "ad_astra:fuel_bucket"
@@ -4502,7 +4502,7 @@
 				"4D995A3D7DC968C7"
 				"1360D8CD2949E41B"
 			]
-			description: ["[ \"Also, I seriously recommend you use the \", { \"text\": \"Hostile Neural Networks Loot Fabricator\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1360D8CD2949E41B\" } }, \" to make everything!\"]"]
+			description: ["[ \\\"Кроме того, я серьёзно рекомендую вам использовать \\\", { \\\"text\\\": \\\"Hostile Neural Networks Loot Fabricator\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1360D8CD2949E41B\\\" } }, \\\" чтобы все сделать!\\\"]"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "minecraft:bread"

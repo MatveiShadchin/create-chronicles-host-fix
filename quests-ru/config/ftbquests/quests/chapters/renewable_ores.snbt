@@ -149,7 +149,7 @@
 				"018B793486C6832C"
 				"5198C559E16FE5F8"
 			]
-			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
+			description: ["Вам не нужно постоянно готовить жидкость. Если вы разместите его правильно, он бесконечен."]
 			id: "2FF8179BFB33AF6A"
 			subtitle: "смешать две жидкости"
 			tasks: [{
@@ -202,7 +202,7 @@
 				"5F205D0B5CFB0EA0"
 				"74C870915AD24CFA"
 			]
-			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
+			description: ["Вам не нужно постоянно готовить жидкость. Если вы разместите его правильно, он бесконечен."]
 			id: "336C8972DC395FF8"
 			subtitle: "смешать две жидкости"
 			tasks: [{
@@ -279,7 +279,7 @@
 				"46986B63A3F554C9"
 				"72B77FB74E6F9EE4"
 			]
-			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
+			description: ["Вам не нужно постоянно готовить жидкость. Если вы разместите его правильно, он бесконечен."]
 			id: "31E945A1E3AB77D3"
 			subtitle: "смешать две жидкости"
 			tasks: [{
@@ -320,7 +320,7 @@
 				"559F6C7AC2FFAF8B"
 				"5D4101FAF388E3C6"
 			]
-			description: ["You don't need to keep making liquid. If you place it correctly its infinite."]
+			description: ["Вам не нужно постоянно готовить жидкость. Если вы разместите его правильно, он бесконечен."]
 			id: "71D8883DC01C822C"
 			subtitle: "смешать две жидкости"
 			tasks: [{

@@ -171,7 +171,7 @@
 				"76CB692248EAF336"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&3Processors&r are essential crafting ingredients used to make the majority of ME-connected devices."]
+			description: ["&3Процессоры&rявляются важными ингредиентами для изготовления большинства устройств, подключенных к ME."]
 			id: "3026C7FFA3B230FA"
 			rewards: [{
 				id: "52E564CE18CB8C1D"
@@ -342,7 +342,7 @@
 		}
 		{
 			dependencies: ["25F281C3D8849819"]
-			description: ["The &bEnergy Card&r can be applied to most chargeable devices like Portable Cells and Wireless Terminals to increase their energy buffer."]
+			description: ["The &bЭнергетическая карта&rможет применяться к большинству заряжаемых устройств, таких как портативные сотовые телефоны и беспроводные терминалы, для увеличения их энергетического буфера."]
 			id: "738C5CDEA3283099"
 			rewards: [
 				{
@@ -411,7 +411,7 @@
 		}
 		{
 			dependencies: ["3026C7FFA3B230FA"]
-			description: ["Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network."]
+			description: ["Вероятно, самый важный ресурс, который вам понадобится в дальнейшем, — это&eФлюикс&f, используемый в подавляющем большинстве устройств AE2 и служащий основой для создания всех кабелей в сети ME."]
 			icon: "ae2:fluix_crystal"
 			id: "3F83272A3D958DAB"
 			rewards: [
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["52E7496E0A9118F6"]
-			description: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
+			description: ["The &bME Смарт-кабель&fи&bПлотный смарт-кабель&fфункционируют идентично закрытым кабелям с точки зрения распределения каналов, но также визуально отображают количество используемых ими каналов в виде цветных линий вдоль себя."]
 			id: "5BCF209E014D37E6"
 			rewards: [
 				{
@@ -795,7 +795,7 @@
 		}
 		{
 			dependencies: ["4256AD377F068FF4"]
-			description: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
+			description: ["The &bКарта уничтожения переполнения&f- это обновление ячейки, которое позволяет ячейкам хранения удалять (аннулировать) любые элементы того типа, которые уже содержатся в них, при попытке перемещения в ячейку, а ячейка уже заполнена."]
 			id: "3D470D57CC2E7A9E"
 			rewards: [
 				{
@@ -1350,7 +1350,7 @@
 		}
 		{
 			dependencies: ["3026C7FFA3B230FA"]
-			description: ["To enable wireless network access, create the &eME Wireless Access Point&r. It allows access to the network via a wireless terminal, with range determined by the number of &aWireless Boosters&r inserted."]
+			description: ["Чтобы включить доступ к беспроводной сети, создайте&eБеспроводная точка доступа ME&r. Он обеспечивает доступ к сети через беспроводной терминал, радиус действия которого определяется количеством&aБеспроводные усилители&rвставлен."]
 			hide_until_deps_complete: false
 			id: "630BDF564F7516D7"
 			rewards: [
@@ -1521,7 +1521,7 @@
 		}
 		{
 			dependencies: ["5D03D736B9E76E16"]
-			description: ["The &bSpatial Anchor&f is a companion device from the Spatial IO lineage that simply functions as a chunk loader. When connected to an ME network, the Anchor will force-load all the chunks occupied by the ME network across all cables and devices, excluding subnetworks, as long as the network remains powered."]
+			description: ["The &bПространственный якорь&f— это сопутствующее устройство из линейки Spatial IO, которое просто функционирует как загрузчик фрагментов. При подключении к сети ME Anchor будет принудительно загружать все фрагменты, занимаемые сетью ME, по всем кабелям и устройствам, исключая подсети, пока сеть остается под напряжением."]
 			id: "72426A0FB41CD542"
 			rewards: [
 				{
@@ -1734,7 +1734,7 @@
 		}
 		{
 			dependencies: ["109FBFA37FF99341"]
-			description: ["The &bME Export Bus&r periodically transfers items from its whitelist filter to external storage. Unlike the Import Bus, the Export Bus requires a filter to function."]
+			description: ["The &bЭкспортный автобус ME&rпериодически переносит элементы из своего фильтра белого списка во внешнее хранилище. В отличие от шины импорта, для работы шины экспорта требуется фильтр."]
 			id: "725685829EF53BA4"
 			rewards: [
 				{
@@ -1815,7 +1815,7 @@
 		}
 		{
 			dependencies: ["323963AAF0375942"]
-			description: ["The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter. Import and Export buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum nine-slot filter, while Storage buses will go from 18 slots to a maximum of 63."]
+			description: ["The &bКарта емкости&fпозволяет модернизировать автобус для установки фильтра большего размера. Шины импорта и экспорта, модернизированные с помощью карт емкости, могут поддерживать только один фильтруемый элемент каждая до максимального фильтра с девятью слотами, а шины хранения будут иметь число слотов с 18 до 63."]
 			id: "4ACC788E6E79B711"
 			rewards: [
 				{
@@ -1839,7 +1839,7 @@
 		}
 		{
 			dependencies: ["323963AAF0375942"]
-			description: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
+			description: ["The &bНечеткая карта&fпозволяет сопоставлять отфильтрованный элемент независимо от каких-либо метаданных (NBT), таких как урон или зачарование, в то время как&bИнверторная карта&fпереключает фильтр на таких шинах из белого списка в черный список."]
 			id: "4EA88BEBCCF09C54"
 			rewards: [
 				{
@@ -1871,7 +1871,7 @@
 		}
 		{
 			dependencies: ["109FBFA37FF99341"]
-			description: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
+			description: ["The &bИмпортный автобус ME&fпериодически всасывает элементы из любого внешнего хранилища, с которым сталкивается шина. При желании его можно отфильтровать, чтобы брать только определенные предметы из указанного инвентаря."]
 			id: "35FDE052B50EFAAF"
 			rewards: [
 				{

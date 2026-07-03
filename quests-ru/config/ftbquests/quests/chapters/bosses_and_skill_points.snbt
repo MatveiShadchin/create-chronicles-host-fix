@@ -402,7 +402,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["When a Crimson Mosquito sucks blood of strange fungal create, especially one covered in Warped Fungus, it will begin to mutate into this beast."]
+			description: ["Когда Багровый Комар выпьет кровь странного грибкового создания, особенно покрытого искривленным грибком, он начнет мутировать в этого зверя."]
 			id: "150D9233D297B9DA"
 			rewards: [
 				{
@@ -559,7 +559,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["The Gauntlet is located in rare structures at the Nether."]
+			description: ["Перчатка находится в редких сооружениях Пустоты."]
 			id: "35E095FC517735B1"
 			rewards: [
 				{
@@ -684,7 +684,7 @@
 		{
 			can_repeat: false
 			dependencies: ["072DA448D144179C"]
-			description: ["Be careful with the bite attack."]
+			description: ["Будьте осторожны с атакой укусом."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
@@ -727,7 +727,7 @@
 		{
 			can_repeat: false
 			dependencies: ["072DA448D144179C"]
-			description: ["Hydras can be found in dirt caves protruding from swamps. They're formiddible foes that use venom, and the only way to kill them without letting them heal is using fire."]
+			description: ["Гидр можно найти в грязных пещерах, выступающих из болот. Это грозные противники, использующие яд, и единственный способ убить их, не дав исцелиться, — это использовать огонь."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
@@ -765,7 +765,7 @@
 		{
 			can_repeat: false
 			dependencies: ["072DA448D144179C"]
-			description: ["Sea Serpents are formidable foes that can be found in oceans throughout the world. They have a deadly bite and a powerful water blast attack."]
+			description: ["Морские змеи — грозные враги, которых можно встретить в океанах по всему миру. Они обладают смертельным укусом и мощной атакой водной струей."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_details_until_startable: true
@@ -802,7 +802,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Use Transmuting Elixer on an infernal Evil Pumpkin."]
+			description: ["Используйте трансмутирующий эликсир на адской злой тыкве."]
 			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
 			id: "03A47AAF2D751796"
 			rewards: [
@@ -836,7 +836,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["&9Lightning dragons&r can be found in space at &6Venus.&r This is the only dragon that can survive without oxygen in space and the most deadly one to."]
+			description: ["&9Молниеносные драконы&rможно найти в космосе по адресу&6Венера.&rЭто единственный дракон, способный выжить без кислорода в космосе, и самый смертоносный."]
 			icon: {
 				Count: 1
 				id: "iceandfire:dragonsteel_lightning_helmet"
@@ -1131,7 +1131,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["&6The Ender Golem&r is a miniboss guarding the &dEnder Guardian.&r"]
+			description: ["&6Эндер-голем&rэто мини-босс, охраняющий&dЭндер Страж.&r"]
 			icon: {
 				Count: 1
 				id: "obtrophies:trophy"
@@ -1183,7 +1183,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["&6The Prowler&r is a miniboss guarding the &cAncient Factory.&r"]
+			description: ["&6Бродяга&rэто мини-босс, охраняющий&cДревний завод.&r"]
 			icon: {
 				Count: 1
 				id: "obtrophies:trophy"
@@ -1235,7 +1235,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["The &6Amethyst Crab&r lives in the &2Lush Caves&r."]
+			description: ["The &6Аметистовый краб&rживет в&2Пышные пещеры&r."]
 			icon: {
 				Count: 1
 				id: "obtrophies:trophy"
@@ -1544,7 +1544,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["found in infernal altar"]
+			description: ["найден в адском алтаре"]
 			icon: "create:blaze_burner"
 			id: "1447D924C3077D48"
 			rewards: [
@@ -1742,7 +1742,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"043A32CFAF07245A\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"043A32CFAF07245A\\\" } }"]
 			icon: "twilightforest:naga_trophy"
 			id: "1118D777AFDEABF1"
 			rewards: [
@@ -1774,7 +1774,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65E6F43E380A343B\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"65E6F43E380A343B\\\" } }"]
 			icon: "twilightforest:lich_trophy"
 			id: "360D7D51B8827142"
 			rewards: [
@@ -1806,7 +1806,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"249A0EC5DB167A5A\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"249A0EC5DB167A5A\\\" } }"]
 			id: "66CCB8E61772D9C5"
 			rewards: [
 				{
@@ -1837,7 +1837,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"546A5B881F8F6A29\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"546A5B881F8F6A29\\\" } }"]
 			id: "6C426E483987130D"
 			rewards: [
 				{
@@ -1868,7 +1868,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C964425741DFA07\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"2C964425741DFA07\\\" } }"]
 			id: "0561992D26000F6C"
 			rewards: [
 				{
@@ -1899,7 +1899,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6832C9E6D2E2949E\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6832C9E6D2E2949E\\\" } }"]
 			icon: {
 				Count: 1
 				id: "blue_skies:alchemy_scroll"
@@ -1945,7 +1945,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3C1212AA4663C39B\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3C1212AA4663C39B\\\" } }"]
 			icon: {
 				Count: 1
 				id: "blue_skies:summoner_trophy"
@@ -1995,7 +1995,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0DB1A5763EDD6A7F\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"0DB1A5763EDD6A7F\\\" } }"]
 			icon: {
 				Count: 1
 				id: "blue_skies:arachnarch_trophy"
@@ -2045,7 +2045,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F944EEA0F397B95\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1F944EEA0F397B95\\\" } }"]
 			icon: "blue_skies:starlit_leaves"
 			id: "4473A6FB1DD04B33"
 			rewards: [
@@ -2079,7 +2079,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A143952EAB7643E\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5A143952EAB7643E\\\" } }"]
 			id: "1B579FA633476F4B"
 			rewards: [
 				{
@@ -2110,7 +2110,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C32DED450405D92\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"7C32DED450405D92\\\" } }"]
 			id: "0990BE5505F823C2"
 			rewards: [
 				{
@@ -2141,7 +2141,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"63B35ED12D525A4F\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"63B35ED12D525A4F\\\" } }"]
 			id: "70D8E200F5040BA9"
 			rewards: [
 				{
@@ -2172,7 +2172,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["&6The Conjurer&r is a magician inspired Illager miniboss. He owns a&c theater&r deep in the roofed forest biome. He has plenty of tricks up his sleve, so don’t take him lightly!"]
+			description: ["&6Фокусник&r— мини-босс Иллагера, вдохновленный волшебником. Он владеет&cтеатр&rглубоко в крытом лесном биоме. У него в запасе масса трюков, так что не относитесь к нему легкомысленно!"]
 			icon: {
 				Count: 1
 				id: "conjurer_illager:conjurer_hat"
@@ -2218,7 +2218,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C60FAFCB36ADD5D\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6C60FAFCB36ADD5D\\\" } }"]
 			icon: "ars_nouveau:wilden_tribute"
 			id: "3316608227ABBD2E"
 			rewards: [
@@ -2250,7 +2250,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Can be found at &6the Catacombs&r. You can use &eWayward Compass&r to locate them. "]
+			description: ["Можно найти по адресу&6Катакомбы&r. Вы можете использовать&eСвоенравный компас&rчтобы найти их."]
 			icon: "irons_spellbooks:blood_staff"
 			id: "034ADBF4EC3738DD"
 			rewards: [
@@ -2442,7 +2442,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["&cThe Coralssus&r serves as both a guard and steed for the &3Sunken City.&r"]
+			description: ["&cКоралсс&rслужит одновременно охранником и скакуном для&3Затонувший город.&r"]
 			icon: {
 				Count: 1
 				id: "obtrophies:trophy"
@@ -2494,7 +2494,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Can spawn in the ocean after defeating the &6Leviathan.&r"]
+			description: ["Может появиться в океане после победы над&6Левиафан.&r"]
 			icon: "minecraft:fire_coral"
 			id: "125E3B2F9B728E17"
 			rewards: [
@@ -2528,7 +2528,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["The Wadjet is a mini-boss guarding the &6Cursed Pyramid.&r"]
+			description: ["Ваджет — мини-босс, охраняющий&6Проклятая пирамида.&r"]
 			icon: "cataclysm:wadjet_spawn_egg"
 			id: "722A585C044A2097"
 			rewards: [
@@ -2562,7 +2562,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["The Kobolediator is a mini-boss guarding the &6Cursed Pyramid.&r"]
+			description: ["Коболедиатор — мини-босс, охраняющий&6Проклятая пирамида.&r"]
 			icon: "cataclysm:kobolediator_skull"
 			id: "7FEA004E872EF175"
 			rewards: [
@@ -2932,7 +2932,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["You can craft an eye of curse to locate the structure."]
+			description: ["Вы можете создать глаз проклятия, чтобы найти структуру."]
 			icon: "cataclysm:cursed_eye"
 			id: "17F953D448E7B6FD"
 			rewards: [
@@ -2967,7 +2967,7 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: ["Can be found in &3Frosted Prison&r"]
+			description: ["Можно найти в&3Морозная тюрьма&r"]
 			icon: "cataclysm:aptrgangr_head"
 			id: "2A7455826CF9F976"
 			rewards: [

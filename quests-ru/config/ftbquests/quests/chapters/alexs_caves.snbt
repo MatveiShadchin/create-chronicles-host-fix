@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["24416D60F9757C16"]
-			description: ["The &6Magnetic Caves&r are distinguished by towering &6Neodymium&r crystals set against a backdrop of &6Galena&r, lending the cave its magnetic moniker. These crystals exist in &6Scarlet&r and &6Azure&r varieties, with the former &6attracting&r and the latter &6repelling&r metallic items. To navigate safely, it's wise to use non-metallic gear."]
+			description: ["The &6Магнитные пещеры&rотличаются высокими&6Неодим&rкристаллы на фоне&6Галенит&r, придав пещере свое магнитное прозвище. Эти кристаллы существуют в&6Скарлет&rи&6Лазурный&rразновидности, с бывшим&6привлечение&rи последний&6отталкивающий&rметаллические предметы. Для безопасного плавания разумно использовать неметаллические приспособления."]
 			icon: {
 				Count: 1
 				id: "alexscaves:cave_tablet"
@@ -244,7 +244,7 @@
 		}
 		{
 			dependencies: ["5782F8A43B93FC7D"]
-			description: ["&2A Floater&r is a rideable entity primarily used to save yourself from drowning by rapidly ascending yourself above the surface of water."]
+			description: ["&2Поплавок&r— это ездовое существо, которое в основном используется, чтобы спастись от утопления, быстро поднявшись над поверхностью воды."]
 			id: "10DA24F96BA7A28E"
 			rewards: [{
 				id: "6A6056EF6329BFE6"
@@ -381,7 +381,7 @@
 		}
 		{
 			dependencies: ["773A0ACF6CC25768"]
-			description: ["Unique melee weapon obtained through trading with Deep One Knights. It is similar to a trident, in that it is a melee weapon with a right click ability."]
+			description: ["Уникальное оружие ближнего боя, полученное в результате торговли с Рыцарями Глубоководных. Он похож на трезубец в том, что это оружие ближнего боя, позволяющее щелкнуть правой кнопкой мыши."]
 			id: "6BB561AF24722175"
 			rewards: [{
 				id: "24D98F891D4035BA"
@@ -405,7 +405,7 @@
 		}
 		{
 			dependencies: ["773A0ACF6CC25768"]
-			description: ["The Magic Conch is an extremely magical weapon capable of summoning loyal Deep Ones to aid you in battle."]
+			description: ["Волшебная Раковина — чрезвычайно магическое оружие, способное призывать верных Глубоководных на помощь вам в бою."]
 			id: "54D9E80AD12E1F7D"
 			rewards: [{
 				id: "4CB0772BD7A42F37"
@@ -668,7 +668,7 @@
 		}
 		{
 			dependencies: ["16EEB94284FA163B"]
-			description: ["Obtain the Heart of Iron by killing the Magnetron."]
+			description: ["Получите Железное Сердце, убив Магнетрона."]
 			id: "0D5BFDD982438E57"
 			rewards: [{
 				id: "0BD3F303EA5F3348"
@@ -715,7 +715,7 @@
 		}
 		{
 			dependencies: ["16EEB94284FA163B"]
-			description: ["Obtain the Hearth of Iron by killing the &aMagnetron.&r"]
+			description: ["Получите Железный Очаг, убив&aМагнетрон.&r"]
 			id: "618DBBF502E14043"
 			rewards: [{
 				id: "30E17AEEE31E5633"
@@ -932,7 +932,7 @@
 		}
 		{
 			dependencies: ["724179DC4605ECC2"]
-			description: ["Moth balls can be used to repel mobs."]
+			description: ["Шарики нафталина можно использовать для отпугивания мобов."]
 			id: "2D0FAC539F548968"
 			rewards: [{
 				id: "6B4AB0921E519CC8"
@@ -1145,7 +1145,7 @@
 				"6B2047D7A9D2E35E"
 				"65CC2F06272495DB"
 			]
-			description: ["Used to summon &cLuxtructosauros&r"]
+			description: ["Используется для вызова&cЛюксруктозавры&r"]
 			id: "0AB7F0D505BA018B"
 			rewards: [{
 				id: "699514F052E70146"
@@ -1204,7 +1204,7 @@
 		}
 		{
 			dependencies: ["5952AF93B95E494C"]
-			description: ["Upon mining Amber, there is a chance that &6Amber Curiosity&r will drop."]
+			description: ["При добыче янтаря есть шанс, что&6Янтарное любопытство&rупадет."]
 			id: "3E1E7BDF07F26798"
 			rewards: [{
 				id: "704922CD66DED068"
@@ -1285,7 +1285,7 @@
 		}
 		{
 			dependencies: ["38325B285FDE9576"]
-			description: ["Hazmat Armor uses many layers to reduce damage from Acid and the Irradiated effect."]
+			description: ["Hazmat Armor использует множество слоев для уменьшения урона от кислоты и эффекта облучения."]
 			id: "5DF0DC8F642AA126"
 			rewards: [{
 				id: "6FA6029D4797B98B"
@@ -1394,7 +1394,7 @@
 		}
 		{
 			dependencies: ["52034A3AD5A347C8"]
-			description: ["&6Radon Gas&r, collectable by using a &6glass bottle&r on the fumes from &6Geothermal Vents&r, serves a dual purpose. "]
+			description: ["&6Радон Газ&r, можно собрать с помощью&6стеклянная бутылка&rна дым от&6Геотермальные источники&r, служит двойной цели."]
 			id: "38325B285FDE9576"
 			rewards: [{
 				id: "034C4203E47B2431"
@@ -1411,7 +1411,7 @@
 		}
 		{
 			dependencies: ["52034A3AD5A347C8"]
-			description: ["The &6Brainiac&r, a formidable mutant born from zombies and other cryptic creatures, is known for its speed, aggression, and strength. Its long tongue allows it to lash out at targets from afar. Notably, Brainiacs carry &6Waste Drums&r on their backs, using them both for self-healing and as projectiles in attacks. Defeating a Brainiac may yield a &6Charred Remnant&r."]
+			description: ["The &6Брейниак&r, грозный мутант, рожденный от зомби и других загадочных существ, известный своей скоростью, агрессивностью и силой. Его длинный язык позволяет ему атаковать цель издалека. Примечательно, что Брейниаки несут&6Мусорные барабаны&rна спинах, используя их как для самоисцеления, так и в качестве снарядов при атаках. Победа над Брэйниаком может дать&6Обугленный остаток&r."]
 			id: "3D2650CB3F913539"
 			rewards: [{
 				id: "4E9DC4B2D6F17EED"
@@ -1428,7 +1428,7 @@
 		}
 		{
 			dependencies: ["3D2650CB3F913539"]
-			description: ["&6The nuclear siren&r will emit a loud sound if any imminent nuclear explosion is going to happen. The siren will make a sound within a range of 128 blocks."]
+			description: ["&6Ядерная сирена&rиздаст громкий звук, если произойдет неизбежный ядерный взрыв. Сирена издаст звук в радиусе 128 блоков."]
 			id: "14A5FF0F3BCF9C41"
 			rewards: [{
 				id: "3CD22CD86CB0BF9E"
@@ -1445,7 +1445,7 @@
 		}
 		{
 			dependencies: ["1D7887F2DD464E2C"]
-			description: ["The remote detonator allows you to detonate any type of TNT from a certain distance."]
+			description: ["Дистанционный детонатор позволяет взорвать любой тип тротила с определенного расстояния."]
 			id: "73F56AA993211D9E"
 			rewards: [{
 				id: "6FA59B744705F7CE"
@@ -1583,7 +1583,7 @@
 		}
 		{
 			dependencies: ["4BAF03239FBEA642"]
-			description: ["Allows you to avoid fall damage and it makes you bounce. It also leaves a rainbow trail as you fall."]
+			description: ["Позволяет избежать урона от падения и заставляет вас подпрыгивать. При падении он также оставляет радужный след."]
 			id: "54C71D964F389BF2"
 			rewards: [
 				{
@@ -1615,7 +1615,7 @@
 		}
 		{
 			dependencies: ["6D42FFB26774833A"]
-			description: ["It allows the player to recreate some of the Licowitch's attacks. "]
+			description: ["Это позволяет игроку воссоздать некоторые атаки Ликовича."]
 			id: "6A9047497BE80DE8"
 			rewards: [
 				{
@@ -1756,7 +1756,7 @@
 		}
 		{
 			dependencies: ["4BAF03239FBEA642"]
-			description: ["Drinking this will remove the insomnia effect from the player, which is the effect that makes Phantom spawn."]
+			description: ["Выпив это, вы снимете с игрока эффект бессонницы, который вызывает появление Фантома."]
 			id: "096FD8208453176D"
 			rewards: [
 				{
@@ -1782,7 +1782,7 @@
 		}
 		{
 			dependencies: ["4BAF03239FBEA642"]
-			description: ["A weapon to shoot your enemies with &cGumball Pile&r!"]
+			description: ["Оружие, из которого можно стрелять по врагам&cКуча Гамбола&r!"]
 			id: "6E910871CDD12D0D"
 			rewards: [
 				{
@@ -1924,7 +1924,7 @@
 		}
 		{
 			dependencies: ["54C71D964F389BF2"]
-			description: [" It has no durability and instead must be replenished or retrieved when thrown."]
+			description: ["Он не имеет долговечности, и вместо этого его необходимо пополнять или извлекать при броске."]
 			id: "7F079B7ADC0C38C8"
 			rewards: [
 				{

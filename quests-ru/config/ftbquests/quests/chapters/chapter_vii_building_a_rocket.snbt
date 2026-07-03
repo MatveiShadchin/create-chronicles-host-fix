@@ -33,7 +33,7 @@
 	quests: [
 		{
 			dependencies: ["5F8B17F4A8CF47C7"]
-			description: ["Let's get the basic parts ready to head to space."]
+			description: ["Давайте подготовим основные детали для полета в космос."]
 			id: "59753336427A57A6"
 			rewards: [{
 				id: "63A8D8C6D85E85F4"
@@ -51,7 +51,7 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			description: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"52BB4427D9F5163D\" } }"]
+			description: ["{ \\\"text\\\": \\\"☞ Нажмите здесь, чтобы получить дополнительную информацию.\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"52BB4427D9F5163D\\\" } }"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5F8B17F4A8CF47C7"
@@ -316,7 +316,7 @@
 				""
 				"Создавать&n&cполимерные пластины&r&r, материалы можно найти в&aТоксичные пещеры&rиз Пещер Алекса."
 				""
-				"{ \\\\\\\"text\\\\\\\": \\\\\\\"☞ Нажмите здесь, чтобы узнать больше.\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"52034A3AD5A347C8\\\\\\\" } }"
+				"{ \\\\\\\\\\\\\\\"текст\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"☞ Нажмите здесь, чтобы узнать больше.\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"clickEvent\\\\\\\\\\\\\\\": { \\\\\\\\\\\\\\\"действие\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"change_page\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"значение\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"52034A3AD5A347C8\\\\\\\\\\\\\\\" } }"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -554,7 +554,7 @@
 		{
 			dependencies: ["47A6ACAA667AD14A"]
 			dependency_requirement: "one_completed"
-			description: ["&6The Rover&r is a land vehicle that can drive on rough terrain of moons and planets. It's very fast, has an inventory for&9 eight items&r, and has two seats for multiple riders. To use it, fill it with fuel by shift-clicking and placing &aastral fuel buckets&r in the left input slot."]
+			description: ["&6Ровер&r— наземное транспортное средство, способное передвигаться по пересеченной местности лун и планет. Это очень быстро, есть инвентарь для&9восемь предметов&rи имеет два сиденья для нескольких пассажиров. Чтобы использовать его, заполните его топливом, нажав Shift и поместив&aастральные ведра с топливом&rв левом входном слоте."]
 			hide_until_deps_complete: true
 			id: "694646586C18C609"
 			optional: true

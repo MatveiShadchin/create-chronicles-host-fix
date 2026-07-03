@@ -62,7 +62,7 @@
 		}
 		{
 			dependencies: ["7D6E6EFCB2DD19A0"]
-			description: ["With the small version, you pour water on it using a &6Spout&r. You have to pour water 3 times on the &bSmall Certus Quartz Bud.&r"]
+			description: ["В маленькой версии вы наливаете на него воду с помощью&6Носик&r. Воду нужно лить 3 раза.&bМаленький бутон Цертус Кварц.&r"]
 			id: "72C989B765AD2A4B"
 			rewards: [
 				{
@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["72C989B765AD2A4B"]
-			description: ["With the medium version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bMedium Certus Quartz.&r"]
+			description: ["В средней версии вы наливаете на него воду с помощью&6Носик.&rВоду нужно лить 3 раза.&bСредний Цертус Кварц.&r"]
 			id: "0101855DF75D6C40"
 			rewards: [
 				{
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["0101855DF75D6C40"]
-			description: ["With the large version, you pour water on it using a &6Spout.&r You have to pour water 3 times on the &bLarge Certus Quartz.&r"]
+			description: ["В большой версии вы наливаете на нее воду с помощью&6Носик.&rВоду нужно лить 3 раза.&bБольшой Цертус Кварц.&r"]
 			id: "5BFA4F90901AC7B2"
 			rewards: [
 				{
@@ -137,7 +137,7 @@
 		}
 		{
 			dependencies: ["5BFA4F90901AC7B2"]
-			description: ["With the Certus Quartz Cluster, you don’t pour water on it, this time you crush it either using the &6Crushing Wheels&r or the &6Millstone.&r"]
+			description: ["Используя кластер Certus Quartz, вы не льете на него воду, на этот раз вы раздавливаете его либо с помощью&6Дробильные Колеса&rили&6Жернов.&r"]
 			id: "49E754928BF234F3"
 			rewards: [
 				{
@@ -166,7 +166,7 @@
 				"2EBE018FE570EF16"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Pour Destabilized Redstone with a Spout onto a Certus Quartz Crystal 3 times to turn it into a Rose Quartz."]
+			description: ["Вылейте дестабилизированный красный камень с помощью носика на кристалл цертусового кварца 3 раза, чтобы превратить его в розовый кварц."]
 			id: "340B69A08A8A7CF3"
 			rewards: [
 				{
@@ -201,7 +201,7 @@
 				"64A476C01D1C4742"
 			]
 			dependency_requirement: "one_completed"
-			description: ["With the Redstone Dust and Nether Wart you’ve collected. Put them inside a basing on top of a Blaze Burner and mix them up with a Mechanical Mixer."]
+			description: ["С собранной вами красной каменной пылью и бородавкой Пустоты. Поместите их в подставку поверх горелки и перемешайте механическим миксером."]
 			id: "2EBE018FE570EF16"
 			rewards: [
 				{
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
-			description: ["You probably already know how to get some Sand by now."]
+			description: ["Вы, наверное, уже знаете, как добыть песок."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "671ABB3F4DDF8A89"
@@ -359,7 +359,7 @@
 				"5924E1675FE1A9D0"
 				"588F642CD467FC64"
 			]
-			description: ["Time to assemble! You have two ways to do this, you can either use a Deployer holding a &6Polished Quartz Rose&r and place it into an Iron Sheet or you can use Mechanical Crafts for something more fancy looking."]
+			description: ["Время собираться! У вас есть два способа сделать это: вы можете использовать Deployer, содержащий&6Полированный кварц розовый&rи поместите его в железный лист, или вы можете использовать «Механические поделки», чтобы создать что-то более необычное."]
 			id: "1BAF2EB40FE08B25"
 			rewards: [
 				{
@@ -475,7 +475,7 @@
 				"14ADA913C53709AE"
 			]
 			dependency_requirement: "one_completed"
-			description: ["To get Brass Ingots you have to mix both&6 Zinc Ingots&r and &6Copper Ingots&r. To do so you need a Basin on top of a Blaze Burner and a Mechanical Mixer."]
+			description: ["Чтобы получить латунные слитки, вам нужно смешать оба&6цинковые слитки&rи&6Медные слитки&r. Для этого вам понадобится таз на вершине огненной горелки и механический миксер."]
 			id: "5E59C8255183FF3E"
 			rewards: [
 				{
@@ -506,7 +506,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
-			description: ["You probably already know how to get some&d copper ingots&r by now."]
+			description: ["Вы, наверное, уже знаете, как получить&dмедные слитки&rк настоящему времени."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "555CE8F6001EF8E7"
@@ -566,7 +566,7 @@
 		}
 		{
 			dependencies: ["5E59C8255183FF3E"]
-			description: ["Grab your Brass Ingots, place it under a Mechanical Press and start flat lining them to make some Brass Sheets."]
+			description: ["Возьмите латунные слитки, поместите их под механический пресс и начните выравнивать их, чтобы сделать несколько латунных листов."]
 			id: "701883FE5E3CF381"
 			rewards: [
 				{
@@ -597,7 +597,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
-			description: ["The &cNether Wart&r can be found in the Nether or you can farm like you farm wheat. Instead of dirt you need to plant the &cNether Wart&r in &6Soul Sand&r and the &rNether Wart&r doesn’t need light to grow."]
+			description: ["The &cПустота Бородавки&rможно найти в Пустоте, или вы можете заниматься сельским хозяйством, как выращиваете пшеницу. Вместо грязи нужно посадить&cПустота Бородавки&rв&6Душевой песок&rи&rПустота Бородавки&rдля роста не нужен свет."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5167DEF3903D6CFD"
@@ -978,7 +978,7 @@
 		}
 		{
 			dependencies: ["646C119DC7AC80AB"]
-			description: ["You know how to craft one… Fine… For consistency's sake… Grab a Shaft, grab a Wood Plank and either use a Deployer to place the Wood Plank on a Shaft, or a Mechanical Mixer with a Basin to mix both or use the trusty Crafting Table to make the Cog Wheel. "]
+			description: ["Вы знаете, как его изготовить… Отлично… Ради последовательности… Возьмите вал, возьмите деревянную доску и либо используйте развертыватель, чтобы поместить деревянную доску на вал, либо механический миксер с тазом, чтобы смешать и то, и другое, или используйте верный верстак, чтобы сделать зубчатое колесо."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7F75BF2B511A2B14"
@@ -1066,7 +1066,7 @@
 		}
 		{
 			dependencies: ["77BBCB5B0ED47F06"]
-			description: ["Framed storage items can be painted with a Paint Kit to disguise them as any full block while maintaining functionality."]
+			description: ["Предметы хранения в рамке можно покрасить с помощью набора для рисования, чтобы замаскировать их под любой полноценный блок, сохранив при этом функциональность."]
 			id: "07E522F440A317AA"
 			rewards: [{
 				id: "0D8EFAE620D1FF15"

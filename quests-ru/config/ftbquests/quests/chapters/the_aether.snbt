@@ -338,7 +338,7 @@
 		}
 		{
 			dependencies: ["324287EC1ACF685B"]
-			description: ["Think of this as yellow Coal."]
+			description: ["Думайте об этом как о желтом угле."]
 			id: "586483D57C8A463E"
 			rewards: [
 				{
@@ -901,7 +901,7 @@
 		}
 		{
 			dependencies: ["4A5578CD756D9DDC"]
-			description: ["Used to control the time of day."]
+			description: ["Используется для контроля времени суток."]
 			id: "56A60C713CE0DE97"
 			rewards: [
 				{
@@ -1102,7 +1102,7 @@
 		}
 		{
 			dependencies: ["57078A29DBC3CF41"]
-			description: ["So sticky!"]
+			description: ["Такой липкий!"]
 			id: "09966BA346283D39"
 			rewards: [
 				{
@@ -1169,7 +1169,7 @@
 		}
 		{
 			dependencies: ["324287EC1ACF685B"]
-			description: ["The Cobblestone of the &bAether&r..."]
+			description: ["Булыжник&bЭфир&r..."]
 			id: "3BADA9E324F873D7"
 			rewards: [
 				{

@@ -17,7 +17,7 @@
 				""
 				"&7Глава Fallow ars novoau, в которой вы узнаете, как создать Кувшин света.&r"
 				""
-				"{ \\\\\\\"text\\\\\\\": \\\\\\\"🔗 Нажмите здесь, чтобы получить дополнительную информацию.\\\\\\\", \\\\\\\"clickEvent\\\\\\\": { \\\\\\\"action\\\\\\\": \\\\\\\"change_page\\\\\\\", \\\\\\\"value\\\\\\\": \\\\\\\"6DAA82B5F94AF9F8\\\\\\\" } }"
+				"{ \\\\\\\\\\\\\\\"text\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"🔗 Нажмите здесь, чтобы получить дополнительную информацию.\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"clickEvent\\\\\\\\\\\\\\\": { \\\\\\\\\\\\\\\"action\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"change_page\\\\\\\\\\\\\\\", \\\\\\\\\\\\\\\"значение\\\\\\\\\\\\\\\": \\\\\\\\\\\\\\\"6DAA82B5F94AF9F8\\\\\\\\\\\\\\\" } }"
 			]
 			hide_until_deps_complete: true
 			id: "2F0F635C06E8D307"
@@ -83,7 +83,7 @@
 		}
 		{
 			dependencies: ["51EC1DBEAFF575D7"]
-			description: ["Your first target is the Naga, which lives in&a the courtyard of the forest.&r"]
+			description: ["Ваша первая цель — Нага, живущая в&aдвор леса.&r"]
 			id: "043A32CFAF07245A"
 			rewards: [
 				{
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["043A32CFAF07245A"]
-			description: ["Atop the &egrand tower&r is the &cLich&r. While shielded &ehe is unable to be damaged&r, however his &bown attacks may be lethal to him&r."]
+			description: ["На вершине&eБольшая башня&rэто&cЛич&r. В то время как экранированный&eего невозможно повредить&r, однако его&bсобственные атаки могут быть для него смертельными&r."]
 			id: "65E6F43E380A343B"
 			rewards: [
 				{
@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["65E6F43E380A343B"]
-			description: ["Deep in the &bSnowy Forest&r you will find the &aLair of the Yeti&r. &aYetis&r can pick you up and throw you to deal significant damage, but the &eFur of the Alpha Yeti&r will be required to advanced into the &3glacial area&r of the &bSnowy Forest&r."]
+			description: ["Глубоко в&bСнежный лес&rвы найдете&aЛогово Йети&r. &aЙети&rможет поднять вас и бросить, чтобы нанести значительный урон, но&eМех Альфа Йети&rпотребуется для продвижения в&3ледниковая зона&rпринадлежащий&bСнежный лес&r."]
 			id: "2471021B93EE125D"
 			rewards: [{
 				count: 32
@@ -476,7 +476,7 @@
 		}
 		{
 			dependencies: ["6186282EA9E837D8"]
-			description: ["And that's it! Sorry to disappoint, but this &emarks the end&r of progression in &dThe Twilight Forest&r at least for now. "]
+			description: ["И все! Извините, что разочаровал, но это&eотмечает конец&rпрогресса в&dСумеречный лес&rпо крайней мере на данный момент."]
 			id: "7CA4CDBFAA14FA9F"
 			rewards: [
 				{
@@ -516,7 +516,7 @@
 		}
 		{
 			dependencies: ["043A32CFAF07245A"]
-			description: ["From the scales of the Naga, you can craft some armor. Not super strong, but looks nice."]
+			description: ["Из чешуи Наги можно изготовить доспехи. Не супер мощный, но выглядит красиво."]
 			id: "0938415ECE0664EC"
 			rewards: [
 				{
@@ -569,7 +569,7 @@
 		}
 		{
 			dependencies: ["1125F566DAEFC4A5"]
-			description: ["This is a drop from the Minoshroom. It deals more damage when sprinting."]
+			description: ["Это дроп из Миношрума. Он наносит больше урона при спринте."]
 			id: "7A44612694194919"
 			rewards: [{
 				id: "47FA588D37DD9CA6"
@@ -609,7 +609,7 @@
 		}
 		{
 			dependencies: ["65E6F43E380A343B"]
-			description: ["This item will prevent you from losing the items in your main and off-hand, as well as your armor when you die."]
+			description: ["Этот предмет не позволит вам потерять предметы в основной и дополнительной руке, а также броню после смерти."]
 			id: "65719A526AE9588E"
 			rewards: [{
 				id: "3A5AE7FF91269DF7"
@@ -626,7 +626,7 @@
 		}
 		{
 			dependencies: ["65719A526AE9588E"]
-			description: ["This item will let you keep your armor and hotbar when you die."]
+			description: ["Этот предмет позволит вам сохранить броню и панель быстрого доступа после смерти."]
 			id: "01DB3000FBBAB496"
 			rewards: [{
 				id: "47046358B5481CAE"
@@ -643,7 +643,7 @@
 		}
 		{
 			dependencies: ["01DB3000FBBAB496"]
-			description: ["This item will let you keep all of your items in your inventory when you die."]
+			description: ["Этот предмет позволит вам сохранить все ваши предметы в инвентаре после смерти."]
 			id: "619ED52038647A5A"
 			rewards: [{
 				id: "55C60AB1C968965A"
@@ -929,7 +929,7 @@
 		}
 		{
 			dependencies: ["08864DB101FED90C"]
-			description: ["Chance of being found in Phantom Knight chests."]
+			description: ["Шанс быть найденным в сундуках Призрачного Рыцаря."]
 			id: "7CAD7CE1BCA369A3"
 			rewards: [{
 				id: "0A1D6ED1DE96700A"
@@ -965,7 +965,7 @@
 		}
 		{
 			dependencies: ["08864DB101FED90C"]
-			description: ["Crafted or found in the Phantom Knight's chests."]
+			description: ["Создается или находится в сундуках Призрачного рыцаря."]
 			id: "71E8DAB10669FADA"
 			rewards: [{
 				id: "1D995C8B0F47E6F5"
@@ -1024,7 +1024,7 @@
 		}
 		{
 			dependencies: ["2471021B93EE125D"]
-			description: ["Crafted from Alpha Yeti Fur."]
+			description: ["Изготовлен из меха альфа-йети."]
 			id: "5D2BE6E37AC8D896"
 			rewards: [
 				{
@@ -1114,7 +1114,7 @@
 		}
 		{
 			dependencies: ["2471021B93EE125D"]
-			description: ["Small Yetis and Winter Wolves drop fur to make this armor."]
+			description: ["Для изготовления этой брони из маленьких йети и зимних волков выпадает мех."]
 			id: "4FA382E4AE085E48"
 			rewards: [{
 				id: "53907844BB2ECADF"
@@ -1174,7 +1174,7 @@
 		}
 		{
 			dependencies: ["2C964425741DFA07"]
-			description: ["Dropped from the Snow Queen, this bow shoots 3 arrows at the same time, while only using 1."]
+			description: ["Выпавший из Снежной Королевы, этот лук выпускает 3 стрелы одновременно, используя только 1."]
 			id: "0D307B465646C366"
 			rewards: [{
 				id: "7BE065DF481F310B"
@@ -1197,7 +1197,7 @@
 		}
 		{
 			dependencies: ["2C964425741DFA07"]
-			description: ["Dropped from the Snow Queen, this bow will shoot arrows that home in on your targets. No more missing!"]
+			description: ["Выпавший из Снежной Королевы, этот лук будет стрелять стрелами, попадающими в вашу цель. Больше ничего не пропало!"]
 			id: "7283D021B45550CC"
 			rewards: [{
 				id: "0013A225DCAC6DC6"
@@ -1247,7 +1247,7 @@
 		}
 		{
 			dependencies: ["2C964425741DFA07"]
-			description: ["Found randomly in loot chests, this bow will inflict Slowness III for 10 seconds on hit."]
+			description: ["Случайно найденный в сундуках с добычей, этот лук накладывает эффект Slowness III на 10 секунд при попадании."]
 			id: "428F3A8F379F4A85"
 			rewards: [{
 				id: "1DB297E1903943D1"
@@ -1687,7 +1687,7 @@
 		}
 		{
 			dependencies: ["6EEF1E5F9EA109F6"]
-			description: ["A Snowy Cloud makes it snow wherever it drifts, covering the ground in a soft layer of snow."]
+			description: ["Снежное облако выбрасывает снег везде, где оно дрейфует, покрывая землю мягким слоем снега."]
 			id: "644902A7AC16ABD9"
 			rewards: [{
 				id: "19CA207AA548F4CA"
@@ -1704,7 +1704,7 @@
 		}
 		{
 			dependencies: ["6EEF1E5F9EA109F6"]
-			description: ["A Rainy Cloud makes it rain wherever it drifts, soaking the ground with a steady downpour."]
+			description: ["Дождливое облако вызывает дождь везде, где бы оно ни плыло, пропитывая землю постоянным ливнем."]
 			id: "4B0C98FB634E8A9B"
 			rewards: [{
 				id: "3DD2097301456D16"

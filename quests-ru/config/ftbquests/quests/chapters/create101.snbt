@@ -976,7 +976,7 @@
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["This will be the main ingredient for most of this mod's items and blocks."]
+			description: ["Это будет основной ингредиент для большинства предметов и блоков этого мода."]
 			id: "0F16498769DFB3B0"
 			rewards: [{
 				count: 8
@@ -1088,7 +1088,7 @@
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["&n&6The Stressometer&r&r will show you how stressed the system is when you connect it."]
+			description: ["&n&6Стрессометр&r&rпокажет вам, насколько нагружена система при ее подключении."]
 			id: "48BE7DAC5082044D"
 			rewards: [{
 				count: 5
@@ -1151,7 +1151,7 @@
 		}
 		{
 			dependencies: ["24F8BCB6A24AD091"]
-			description: ["The &n&6Blaze Cake&r is used to Super-Heat the Blaze Burner."]
+			description: ["The &n&6Пылающий Торт&rиспользуется для перегрева пламя горелки."]
 			id: "4C77ABCD41383F32"
 			rewards: [{
 				id: "1012A0FB19029124"
@@ -1199,7 +1199,7 @@
 		}
 		{
 			dependencies: ["0CF69DBA9573A7B3"]
-			description: ["The &n&6Schematicannon&r&r will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
+			description: ["The &n&6Схемапушка&r&rбудет строить конструкции по схемам, беря материалы из близлежащих сундуков и используя порох в качестве топлива."]
 			id: "7D67058592EE5958"
 			rewards: [{
 				count: 10
@@ -1217,7 +1217,7 @@
 		}
 		{
 			dependencies: ["79C542CA156AB01E"]
-			description: ["&n&6Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
+			description: ["&n&6Супер клей&rможет использоваться для прикрепления блоков друг к другу и перемещения их с помощью поршней или других средств."]
 			id: "1F58AA51814C7568"
 			rewards: [{
 				id: "0E2F2593DBDC06FF"
@@ -1291,7 +1291,7 @@
 		}
 		{
 			dependencies: ["4E2362A17A68A962"]
-			description: ["Please follow &6Chapter II: The Valve Machine&r to learn how to craft the valve mechanism."]
+			description: ["Пожалуйста, следуйте&6Глава II: Клапанная машина&rнаучиться изготавливать клапанный механизм."]
 			id: "6135016A83A473F6"
 			rewards: [{
 				count: 4
@@ -1312,7 +1312,7 @@
 		}
 		{
 			dependencies: ["4CD28EFB5B86F561"]
-			description: ["Please follow &6Chapter III: The Precision Machine&r to learn how to craft the precision mechanism."]
+			description: ["Пожалуйста, следуйте&6Глава III: Точная машина&rнаучиться создавать точный механизм."]
 			id: "1C391F19D41777F9"
 			rewards: [{
 				count: 2
@@ -1352,7 +1352,7 @@
 		}
 		{
 			dependencies: ["7E6A93A86BA569CE"]
-			description: ["Please follow &6Chapter IV: The Locomotive Machine&r to learn how to craft the locomotive mechanism."]
+			description: ["Пожалуйста, следуйте&6Глава IV: Локомотив&rнаучиться изготавливать механизм локомотива."]
 			id: "48540220FACDD9F0"
 			rewards: [{
 				id: "01A213CDF5AEB2BE"
@@ -1447,7 +1447,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A redstone component that toggles on when recieving a redstone signal on one side and off when recieviing a signal on anoter side."]
+			description: ["Компонент красного камня, который включается при получении сигнала красного камня на одной стороне и выключается при получении сигнала на другой стороне."]
 			id: "08C56563442FE079"
 			rewards: [{
 				count: 3
@@ -1466,7 +1466,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A redstone component that toggles its state with every redstone pulse."]
+			description: ["Компонент красного камня, который меняет свое состояние с каждым импульсом красного камня."]
 			id: "59AE879BA13AD91D"
 			rewards: [{
 				count: 3
@@ -1556,7 +1556,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A redstone component that extends a pulse to a configurable amount."]
+			description: ["Компонент красного камня, который увеличивает импульс до настраиваемой величины."]
 			id: "13018D7AC52AF359"
 			rewards: [{
 				count: 3
@@ -1575,7 +1575,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A repeater that sends a pulse after a configurable amount of time."]
+			description: ["Повторитель, который отправляет импульс через настраиваемый промежуток времени."]
 			id: "5369A4AC170D1D7E"
 			rewards: [{
 				count: 3
@@ -1594,7 +1594,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["This lever functions like a precise output power of redstone. You can adjust how much redstone strength you wish to output. "]
+			description: ["Этот рычаг действует как точная выходная мощность красного камня. Вы можете настроить, сколько силы красного камня вы хотите получить."]
 			id: "63E05F3657CF988C"
 			rewards: [{
 				id: "2A85FF5A62B4B5B0"
@@ -2129,7 +2129,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["The &n&6Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
+			description: ["The &n&6Умный желоб&rаналогичен Chute, но имеет дополнительные функции, такие как размер стека и фильтры."]
 			id: "4D9BE80EC1D1F792"
 			rewards: [{
 				count: 2
@@ -2291,7 +2291,7 @@
 		}
 		{
 			dependencies: ["7A154BE7095012ED"]
-			description: ["The &n&6Clutch&r will stop any rotation if a redstone signal is applied."]
+			description: ["The &n&6Схватить&rостановит любое вращение при подаче сигнала красного камня."]
 			id: "5AB5DF09F2F68283"
 			rewards: [{
 				id: "290707DEEA3A26D5"
@@ -2309,7 +2309,7 @@
 		}
 		{
 			dependencies: ["7A154BE7095012ED"]
-			description: ["he &n&6Chain Drive&r can relay rotation to each other in a row. Any part of the row can be rotated 90 degrees to send rotation upwards or downwards."]
+			description: ["он&n&6Цепной привод&rмогут передавать вращение друг другу подряд. Любую часть ряда можно повернуть на 90 градусов, чтобы повернуть вверх или вниз."]
 			id: "063D0C4E3D5DC067"
 			rewards: [{
 				id: "74BD53115D4BA077"
@@ -2351,7 +2351,7 @@
 		}
 		{
 			dependencies: ["7A154BE7095012ED"]
-			description: ["The &n&6Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
+			description: ["The &n&6Переключение передач&rизменит направление вращения при подаче сигнала красного камня."]
 			id: "0317829B7FB5EEC2"
 			rewards: [{
 				id: "40961031DA6EE10F"
@@ -2369,7 +2369,7 @@
 		}
 		{
 			dependencies: ["7A154BE7095012ED"]
-			description: ["The &n&6Sequence Gearshift&r&r allows you to set up a sequence of rotations that are executed when the block receives a redstone signal."]
+			description: ["The &n&6Последовательное переключение передач&r&rпозволяет настроить последовательность вращений, которые выполняются, когда блок получает сигнал красного камня."]
 			id: "6C63B932DB2BC31D"
 			rewards: [{
 				id: "05D0BEEB3F0AA33B"
@@ -2387,7 +2387,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["The &n&6Mechanical Piston&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."]
+			description: ["The &n&6Механический поршень&rпохож на поршень, он может толкать блоки, но вы можете добавить столько удлинителей, сколько пожелаете."]
 			id: "3B8703C3C4518847"
 			rewards: [{
 				count: 5
@@ -2454,7 +2454,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["A &n&6Mechanical Bearing&r&r rotates attached structures when supplied with Rotational Power."]
+			description: ["A &n&6Механический подшипник&r&rвращает прикрепленные конструкции при наличии вращательной мощности."]
 			id: "4AB9A1A1223DD0E4"
 			rewards: [
 				{
@@ -2481,7 +2481,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["The &n&6Rope Pulley&r can move blocks up or down, they can be glued together."]
+			description: ["The &n&6Веревочный шкив&rможно перемещать блоки вверх или вниз, их можно склеивать."]
 			id: "505B5C5846D0E711"
 			rewards: [
 				{
@@ -2508,7 +2508,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["The &6millstone&r has the ability to crush many items"]
+			description: ["The &6жернов&rимеет способность раздавливать множество предметов"]
 			id: "6265FAB402D76D11"
 			rewards: [
 				{
@@ -2643,7 +2643,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["Can display text or numbers. This would be useful in making elevators too."]
+			description: ["Может отображать текст или цифры. Это также будет полезно при изготовлении лифтов."]
 			hide_dependency_lines: true
 			id: "4E948759E37C7057"
 			rewards: [{
@@ -2664,7 +2664,7 @@
 		}
 		{
 			dependencies: ["7A7D302E0EFDC7CF"]
-			description: ["&n&6Fluid Pipes&r&r transfer fluid through them. Right-click with a Wrench to add a window and watch the fluids move!"]
+			description: ["&n&6Жидкостные трубы&r&rпропускают через них жидкость. Щелкните правой кнопкой мыши гаечным ключом, чтобы добавить окно и наблюдать за движением жидкости!"]
 			id: "753B48CB539ACA4E"
 			rewards: [{
 				count: 2
@@ -2710,7 +2710,7 @@
 		}
 		{
 			dependencies: ["08847873D33F4388"]
-			description: ["Allows filters"]
+			description: ["Позволяет фильтровать"]
 			id: "5AF0D3168EB2AB4C"
 			rewards: [{
 				count: 2
@@ -2777,7 +2777,7 @@
 		}
 		{
 			dependencies: ["08847873D33F4388"]
-			description: ["The &n&6Spout&r is used to fill items with liquid or poured on certain items. It can be used with a &bdepot&r or a &bbelt&r."]
+			description: ["The &n&6Носик&rиспользуется для наполнения предметов жидкостью или выливания на определенные предметы. Его можно использовать с&bдепо&rили&bпояс&r."]
 			id: "50418F41EBF35C53"
 			rewards: [{
 				count: 2
@@ -2796,7 +2796,7 @@
 		}
 		{
 			dependencies: ["08847873D33F4388"]
-			description: ["The &6hose pulley&r has the ability to pull liquids from the world to be transported, if the source the pulley is pulling from is larger than 10,000 blocks then it classes it as an infinite source of liquid"]
+			description: ["The &6шланговый шкив&rимеет возможность извлекать жидкости из мира для транспортировки, если источник, из которого шкив тянет, превышает 10 000 блоков, то он классифицирует его как бесконечный источник жидкости"]
 			id: "3AE96B65B211C2EF"
 			rewards: [{
 				count: 2
@@ -2838,7 +2838,7 @@
 		}
 		{
 			dependencies: ["0E99CC805F88B787"]
-			description: ["&n&6Nozzles&r&r can be attached to the front of a Fan to distribute its effects in all directions."]
+			description: ["&n&6Насадки&r&rможно прикрепить к передней части веера, чтобы распределить его эффект во всех направлениях."]
 			id: "47DCCE7116DEBDCA"
 			rewards: [
 				{
@@ -2945,7 +2945,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["Lets you create your own custom functional clock."]
+			description: ["Позволяет создавать собственные функциональные часы."]
 			id: "53A9F583ED1CFC6E"
 			rewards: [{
 				count: 2
@@ -3116,7 +3116,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["&n&6Linked Controllers&r&r allow handheld wireless control over six different Redstone Links."]
+			description: ["&n&6Связанные контроллеры&r&rпозволяют осуществлять портативное беспроводное управление шестью различными каналами Redstone Links."]
 			id: "439F2B2537914CC9"
 			rewards: [{
 				count: 3
@@ -3153,7 +3153,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["The &n&6Mixer&r can be used combined with the Basin to craft."]
+			description: ["The &n&6Миксер&rможно использовать в сочетании с бассейном для крафта."]
 			id: "770A23791D7F7DB6"
 			rewards: [
 				{
@@ -3290,7 +3290,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["The &n&6Basin&r is used for recipes, mainly including the &3Mechanical Press&r and the &3Mechanical Mixer&r."]
+			description: ["The &n&6Бассейн&rиспользуется для рецептов, в основном включающих&3Механический пресс&rи&3Механический миксер&r."]
 			id: "3F691828CC609297"
 			rewards: [
 				{
@@ -3398,7 +3398,7 @@
 		}
 		{
 			dependencies: ["08847873D33F4388"]
-			description: ["Ever wanted to jump like a bunny? Now you can! "]
+			description: ["Вам когда-нибудь хотелось прыгать как кролик? Теперь вы можете!"]
 			id: "7C031AA7A7E697DD"
 			rewards: [{
 				count: 2
@@ -3437,7 +3437,7 @@
 		}
 		{
 			dependencies: ["14F1FF3CB61083E3"]
-			description: ["Throwable &eTorch,&r allows you to explore &8caves&r and decorate your &6builds&r!"]
+			description: ["Бросок&eФакел,&rпозволяет вам исследовать&8пещеры&rи укрась свой&6строит&r!"]
 			id: "5A3ECED26AC9242B"
 			rewards: [{
 				id: "786A1C0CE12D6E17"
@@ -3536,7 +3536,7 @@
 		}
 		{
 			dependencies: ["14F1FF3CB61083E3"]
-			description: ["Useful in creating a create alternative to &5mending&r or a &dVibration Mechanism&r."]
+			description: ["Полезно при создании альтернативы&5починка&rили&dВибрационный механизм&r."]
 			id: "2FE8BF89339153CB"
 			rewards: [{
 				count: 2
@@ -3555,7 +3555,7 @@
 		}
 		{
 			dependencies: ["16DF65A27C527EC4"]
-			description: ["&n&6Empty Blaze Burners&r&r can be used to capture &cBlazes&r to make &4Blaze Burners&r, or can be lit with a Flint and Steel to make a brazier!"]
+			description: ["&n&6Пустые пламя горелки&r&rможет быть использован для захвата&cПылает&rсделать&4Пламенные горелки&rили можно зажечь кремнем и сталью, чтобы сделать жаровню!"]
 			id: "35CB3E93AD19F975"
 			rewards: [{
 				count: 5
@@ -3628,7 +3628,7 @@
 		}
 		{
 			dependencies: ["286B180E5031E542"]
-			description: ["&6The Alternator&r turns rotational power (Needs at least 32rpm) into energy power. The RPM determines how much energy power is generated."]
+			description: ["&6Генератор&rпревращает мощность вращения (необходимо не менее 32 об/мин) в энергетическую мощность. Число оборотов в минуту определяет, сколько энергии генерируется."]
 			id: "612F6D99772C9805"
 			rewards: [
 				{
@@ -3707,7 +3707,7 @@
 		}
 		{
 			dependencies: ["2019EABB05F886B5"]
-			description: ["Use the &6&nRolling Mill&r&r to craft some new rod items."]
+			description: ["Используйте&6&nПрокатный стан&r&rчтобы создать новые предметы для стержней."]
 			id: "66694D12CB49FD69"
 			rewards: [{
 				count: 4
@@ -3726,7 +3726,7 @@
 		}
 		{
 			dependencies: ["66694D12CB49FD69"]
-			description: ["One of the new &6wire&r forms."]
+			description: ["Один из новых&6проволока&rформы."]
 			id: "5B1DED129F765EB2"
 			rewards: [{
 				count: 4
@@ -3745,7 +3745,7 @@
 		}
 		{
 			dependencies: ["5B1DED129F765EB2"]
-			description: ["Deals &cdamage&r to any mob or player that passes through it."]
+			description: ["Специальные предложения&cповреждать&rлюбому мобу или игроку, который проходит через него."]
 			id: "51A98E4349E463B8"
 			rewards: [{
 				count: 16
@@ -3857,7 +3857,7 @@
 		}
 		{
 			dependencies: ["79C542CA156AB01E"]
-			description: ["The &n&6Hand Crank&r&r is the simplest way to generate kinetic energy, by using yourself as the power source. Get that arm strength!"]
+			description: ["The &n&6Ручная рукоятка&r&rЭто самый простой способ генерировать кинетическую энергию, используя себя в качестве источника энергии. Получите эту силу рук!"]
 			id: "31C539FC15F26208"
 			rewards: [{
 				count: 5
@@ -3916,7 +3916,7 @@
 		}
 		{
 			dependencies: ["79C542CA156AB01E"]
-			description: ["&6Windmills&r are great power generators. Place a Radial Chassis in front of the Bearing, attach it to at least 8 Wool Blocks (or Sails), and right-click the Bearing to assemble the Contraption and start the windmill!"]
+			description: ["&6Ветряные мельницы&rявляются отличными генераторами энергии. Поместите радиальное шасси перед подшипником, прикрепите его как минимум к 8 шерстяным блокам (или парусам) и щелкните правой кнопкой мыши по подшипнику, чтобы собрать приспособление и запустить ветряную мельницу!"]
 			icon: "create:white_sail"
 			id: "372818524C1822A0"
 			rewards: [{
@@ -3965,7 +3965,7 @@
 		}
 		{
 			dependencies: ["1997E3F261152BC2"]
-			description: ["Generates twice as much SU as the regular water wheel but at a slower RPM. Just know that this thing is bigger and bulkier so have a lot of space for it."]
+			description: ["Генерирует в два раза больше энергии, чем обычное водяное колесо, но с более низкой скоростью вращения. Просто знайте, что эта штука больше и громоздче, поэтому имейте для нее много места."]
 			id: "2A43D53F3C3FA699"
 			rewards: [{
 				id: "3C47CEE086475132"
@@ -4038,7 +4038,7 @@
 		}
 		{
 			dependencies: ["0CED2AC028189316"]
-			description: ["A redstone component that only allows energy(E) to flow when it's receiving a redstone signal."]
+			description: ["Компонент красного камня, который позволяет энергии (E) течь только тогда, когда он получает сигнал красного камня."]
 			id: "4F70C070C46D78AB"
 			rewards: [{
 				count: 3
@@ -4143,7 +4143,7 @@
 		}
 		{
 			dependencies: ["4CD28EFB5B86F561"]
-			description: ["The &6item drain&r has the ability to take liquid out of a container and then it stores it until it it is piped out into a container"]
+			description: ["The &6слив предмета&rимеет возможность забирать жидкость из контейнера, а затем хранить ее до тех пор, пока она не будет перекачена в контейнер"]
 			id: "3BC9D3B6BAF2C477"
 			progression_mode: "flexible"
 			rewards: [
@@ -4170,7 +4170,7 @@
 		}
 		{
 			dependencies: ["3BC9D3B6BAF2C477"]
-			description: ["To get the liquid xp from the &6bottle o' enchanting&r you need the item drain, it will give you back the bottle after it has drained the xp"]
+			description: ["Чтобы получить жидкий опыт из&6очаровательная бутылка&rвам нужен слив предмета, он вернет вам бутылку после того, как он истощит опыт"]
 			id: "7C80752635A0BAD6"
 			progression_mode: "flexible"
 			rewards: [{
@@ -4221,7 +4221,7 @@
 		}
 		{
 			dependencies: ["1B6AA26ACA2BC3DE"]
-			description: ["Either &6nuggets of experience&r or &6heaps of experience&r will be fully consumed and turned into their liquid form"]
+			description: ["Или&6крупицы опыта&rили&6куча опыта&rбудут полностью израсходованы и превращены в жидкую форму"]
 			id: "62984B2002961EEF"
 			progression_mode: "flexible"
 			rewards: [{
@@ -4240,7 +4240,7 @@
 		}
 		{
 			dependencies: ["1B6AA26ACA2BC3DE"]
-			description: ["Any &6enchanted item&r can be placed on a disenchanted and it will take the xp and store it as liquid and you will get what you put that was enchanted back, so &6enchanted book&r will give you a book back, or &6an enchanted piece of armour&r will give you the armour piece without any enchantments"]
+			description: ["Любой&6зачарованный предмет&rможно поместить на разочарованный, и он возьмет опыт и сохранит его в жидком виде, и вы получите то, что вы положили и которое было зачаровано, обратно, так что&6зачарованная книга&rвернет вам книгу или&6зачарованная часть брони&rдаст вам часть брони без каких-либо чар"]
 			id: "512322517816BBDB"
 			progression_mode: "flexible"
 			rewards: [{
@@ -4324,7 +4324,7 @@
 		}
 		{
 			dependencies: ["6E7BCB29DADBF655"]
-			description: ["With a spout attached to the tank of liquid xp via pipes, you will be able to put the liquid back into bottles either by right clicking bottles onto a depot or having bottles put on a belt line underneath the spout"]
+			description: ["С носиком, прикрепленным к резервуару с жидкостью XP через трубы, вы сможете налить жидкость обратно в бутылки, щелкнув правой кнопкой мыши по бутылкам на складе или поместив бутылки на линию ремня под носиком."]
 			id: "0C09A77E15438295"
 			progression_mode: "flexible"
 			rewards: [{
@@ -4344,7 +4344,7 @@
 		}
 		{
 			dependencies: ["6E7BCB29DADBF655"]
-			description: ["Once you have the xp stored in a tank, all you need to get the xp orbs to fall back onto the player all you need is a pump and pipe with nothing on the end this will pull the liquid xp down and dispense the orbs for the player to pick up"]
+			description: ["После того, как у вас есть опыт, хранящийся в резервуаре, все, что вам нужно, чтобы сферы опыта упали обратно на игрока, все, что вам нужно, это насос и труба без ничего на конце, это будет вытягивать жидкий опыт вниз и распределять сферы, чтобы игрок мог их подобрать."]
 			id: "543F60744F864D03"
 			progression_mode: "flexible"
 			rewards: [{
@@ -4365,7 +4365,7 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
-			description: ["&6Welcome to Create Enchantment Industry&r, a mod offering more tools and methods to handle experience and enchantment in Create."]
+			description: ["&6Добро пожаловать в создание индустрии волшебства&r, мод, предлагающий больше инструментов и методов для управления опытом и чарами в Create."]
 			id: "4CD28EFB5B86F561"
 			rewards: [{
 				count: 5
@@ -4387,7 +4387,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["Use &6Spout Gun&r to shoot &9liquid&r to your &cenemies&r!"]
+			description: ["Использовать&6Носик Пистолет&rстрелять&9жидкость&rк твоему&cвраги&r!"]
 			id: "00E8C3B95D0A3373"
 			rewards: [{
 				count: 2
@@ -4481,7 +4481,7 @@
 		}
 		{
 			dependencies: ["6FB5BB638FCCE5A6"]
-			description: ["An upgraded version of the Copper Backtank. How is there so much defense if you're not protected from the front, though?"]
+			description: ["Улучшенная версия Медного бактанка. Откуда такая защита, если ты не защищен спереди?"]
 			id: "72CCC3706ED918F0"
 			rewards: [{
 				count: 5
@@ -4505,7 +4505,7 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
-			description: ["A helmet that lets you use air from an equipped tank to breathe underwater. "]
+			description: ["Шлем, позволяющий использовать воздух из оборудованного баллона для дыхания под водой."]
 			id: "7F1A89396E466A62"
 			rewards: [{
 				count: 5
@@ -4529,7 +4529,7 @@
 		}
 		{
 			dependencies: ["7F1A89396E466A62"]
-			description: ["An upgraded version of the Copper Diving Helmet. The icon from afar looks like a helmet for a soldier."]
+			description: ["Усовершенствованная версия медного водолазного шлема. Икона издалека выглядит как каска солдата."]
 			id: "695D86B08337B586"
 			rewards: [{
 				count: 5
@@ -4553,7 +4553,7 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
-			description: ["Allows you to walk underwater like you do on land as well as walk on belts without them moving you, if you think about it, must be really slippery."]
+			description: ["Позволяет вам ходить под водой так же, как по суше, а также ходить на ремнях, не перемещая вас; если подумать, они должны быть действительно скользкими."]
 			id: "2AFC93D91EE19439"
 			rewards: [{
 				count: 5
@@ -4577,7 +4577,7 @@
 		}
 		{
 			dependencies: ["2AFC93D91EE19439"]
-			description: ["An upgraded version of the Copper Diving Boots."]
+			description: ["Улучшенная версия медных водолазных ботинок."]
 			id: "0F875C6440C21D88"
 			rewards: [{
 				count: 5
@@ -4601,7 +4601,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["&6Brass Gearboxes&r let you toggle this independently for each side."]
+			description: ["&6Латунные коробки передач&rпозвольте вам переключать это независимо для каждой стороны."]
 			id: "55A7089FC773397D"
 			rewards: [{
 				count: 2
@@ -4663,7 +4663,7 @@
 		}
 		{
 			dependencies: ["4CD28EFB5B86F561"]
-			description: ["You will polish the &drose quartz&r to use in making electron tubes"]
+			description: ["Ты отполируешь&dрозовый кварц&rиспользовать при изготовлении электронных ламп"]
 			id: "14F1FF3CB61083E3"
 			progression_mode: "flexible"
 			rewards: [
@@ -4713,7 +4713,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["Throw potatos on your friends with this potato cannon."]
+			description: ["Забрасывайте друзей картошкой из этой картофельной пушки."]
 			id: "63B4347F61566BF9"
 			rewards: [{
 				count: 16
@@ -4759,7 +4759,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["&6Mechanical Rollers&r help clean up terrain on and under Train Tracks. It can clear blocks in front of it, or can automatically place blocks under Train Tracks from a Train's on-board inventories."]
+			description: ["&6Механические ролики&rПомогите очистить местность на железнодорожных путях и под ними. Он может убирать блоки перед собой или автоматически размещать блоки под железнодорожными путями из бортового инвентаря поезда."]
 			id: "69416BCA0EB9380A"
 			rewards: [{
 				count: 2
@@ -4811,7 +4811,7 @@
 		}
 		{
 			dependencies: ["31C539FC15F26208"]
-			description: ["So a Cog Crank is just essentially a Hand Crank, but instead of putting a crank on blocks or machinery, this crank is used for rotational force and direction of cogwheels."]
+			description: ["Таким образом, зубчатая рукоятка — это, по сути, просто ручная рукоятка, но вместо того, чтобы прикреплять рукоятку к блокам или механизмам, эта рукоятка используется для определения силы вращения и направления зубчатых колес."]
 			id: "439FA5EBC730A6A0"
 			rewards: [{
 				count: 5
@@ -5025,7 +5025,7 @@
 		}
 		{
 			dependencies: ["286B180E5031E542"]
-			description: ["A multi-block structure that lets you store large amounts of energy."]
+			description: ["Многоблочная структура, позволяющая хранить большое количество энергии."]
 			id: "4792BA3DF070E24E"
 			rewards: [{
 				id: "4DBE55EA4315C7D8"
@@ -5061,7 +5061,7 @@
 		}
 		{
 			dependencies: ["79C542CA156AB01E"]
-			description: ["The &6kinetic motor&r has literally 0 SU. It can power literally nothing other then shafts and cogs and propellers (and other stuff that doesn't take SU) ."]
+			description: ["The &6кинетический двигатель&rимеет буквально 0 SU. Он не может приводить в действие буквально ничего, кроме валов, шестерен и пропеллеров (и других вещей, которые не требуют SU)."]
 			id: "6C3FB10919F1A353"
 			rewards: [{
 				id: "2B4D4CC047A60886"
@@ -5094,7 +5094,7 @@
 		}
 		{
 			dependencies: ["286B180E5031E542"]
-			description: ["Energy transport it on a contraption!"]
+			description: ["Энергию транспортируйте на такой штуковине!"]
 			id: "425DB2C7F1C67A64"
 			rewards: [{
 				count: 2
@@ -5158,7 +5158,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["By right cliking on the ground, you can summon in a \"mirror\" that will, well, mirror the blocks you place down."]
+			description: ["Щелкнув правой кнопкой мыши по земле, вы можете вызвать «зеркало», которое будет отражать блоки, которые вы кладете вниз."]
 			id: "6E2B46D5F2596E20"
 			rewards: [{
 				count: 2
@@ -5177,7 +5177,7 @@
 		}
 		{
 			dependencies: ["0427B74E71A4115C"]
-			description: ["Change your fan's processing type more efficiently with Catalysts."]
+			description: ["Измените тип обработки вашего вентилятора более эффективно с помощью Catalysts."]
 			id: "4A799454B6F6443A"
 			rewards: [{
 				count: 2
@@ -5345,7 +5345,7 @@
 		}
 		{
 			dependencies: ["7EDD2769836E51E5"]
-			description: ["Any aspiring station masters need this!"]
+			description: ["Это нужно любому начинающему начальнику станции!"]
 			id: "505DCBCA99EA1647"
 			rewards: [{
 				count: 2
@@ -5524,7 +5524,7 @@
 		}
 		{
 			dependencies: ["7124FD269AE128F1"]
-			description: ["With &3&oCreate: Steam and Rails&r&r you can add various smoke stacks to add some flair to your train without having to use campfires. "]
+			description: ["С&3&oСоздать: Steam и Rails&r&rвы можете добавить различные дымовые трубы, чтобы придать вашему поезду изюминку, не разжигая костры."]
 			id: "1F95201C8B7DACC4"
 			rewards: [{
 				count: 15
@@ -5575,7 +5575,7 @@
 		}
 		{
 			dependencies: ["1F95201C8B7DACC4"]
-			description: ["Useful for sepeating trains/carts that bump up against each other or to add an extra flair for your train."]
+			description: ["Полезно для разделения поездов/вагонов, которые сталкиваются друг с другом, или для придания вашему поезду особого изящества."]
 			id: "307473D6106D7C4C"
 			rewards: [
 				{
@@ -5632,7 +5632,7 @@
 		}
 		{
 			dependencies: ["058C9035FE584EA6"]
-			description: ["Used to visualise and control which direction trains go in intersections."]
+			description: ["Используется для визуализации и контроля направления движения поездов на перекрестках."]
 			id: "2FD2B1E101481B4A"
 			rewards: [{
 				count: 5
@@ -5650,7 +5650,7 @@
 		}
 		{
 			dependencies: ["2FD2B1E101481B4A"]
-			description: ["Same as the Andesite Track Switch but also allows for switching for scheduled trains."]
+			description: ["То же, что и переключатель путей Andesite, но также позволяет переключаться на регулярные поезда."]
 			id: "7259701778971E87"
 			rewards: [{
 				count: 5
@@ -5690,7 +5690,7 @@
 		}
 		{
 			dependencies: ["27EE348B6DDCCD0D"]
-			description: ["&6Seats! &rYou can sit on them, and so can mobs if you use a Lead on them and right-click on the seat."]
+			description: ["&6Сиденья!&rВы можете сидеть на них, как и мобы, если вы используете на них поводок и щелкните правой кнопкой мыши на сиденье."]
 			id: "276AFF6A055FA969"
 			rewards: [{
 				id: "5931D25FFCA67B71"
@@ -5730,7 +5730,7 @@
 		}
 		{
 			dependencies: ["75DF02727DA03273"]
-			description: ["The Hydraulic Press can press a stack of an item instead of 1 by 1."]
+			description: ["Гидравлический пресс может прессовать стопку предметов вместо одного к одному."]
 			id: "1CB094DFF05CB16C"
 			rewards: [{
 				count: 5
@@ -5765,7 +5765,7 @@
 		}
 		{
 			dependencies: ["4E2362A17A68A962"]
-			description: ["&6Cooking Guides&r can be used on Blaze Burners to easily automate Cooking Pot recipes."]
+			description: ["&6Кулинарные руководства&rможно использовать на горелках Blaze, чтобы легко автоматизировать рецепты в кастрюле."]
 			id: "4D3706462A81436B"
 			rewards: [{
 				id: "3D58C30471234EE6"
@@ -5838,7 +5838,7 @@
 		}
 		{
 			dependencies: ["432D36983BC11115"]
-			description: ["&6Brass Depositors&r work like Andesite Depositors, but can take items from the card/coins in your inventory rather than just in your hand."]
+			description: ["&6Латунные вкладчики&rработают как Андезитовые вкладчики, но могут брать предметы с карты/монеты в вашем инвентаре, а не только в вашей руке."]
 			id: "3C342B80CF63A563"
 			rewards: [{
 				count: 3
@@ -6090,7 +6090,7 @@
 		}
 		{
 			dependencies: ["08847873D33F4388"]
-			description: ["Horizontal fluid tanks! Work on trains, work as boilers, and feature multiple window shapes."]
+			description: ["Горизонтальные баки для жидкости! Работайте в поездах, работайте котлами и используйте окна различной формы."]
 			id: "0899D56FE2572D21"
 			rewards: [{
 				count: 2

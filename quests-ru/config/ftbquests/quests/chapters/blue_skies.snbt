@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["6E177CA79B7ABD7C"]
-			description: ["The &6Spear&r is the favored weapon in Blue Skies. It can be enchanted, and works as a nice ranged weapon for the enemies you'll face."]
+			description: ["The &6Копье&r— любимое оружие в Blue Skies. Его можно зачаровать, и он станет отличным оружием дальнего боя против врагов, с которыми вы столкнетесь."]
 			id: "5ED6634F52CAC058"
 			optional: true
 			rewards: [
@@ -468,7 +468,7 @@
 		}
 		{
 			dependencies: ["158F48B73171BDE1"]
-			description: ["The green gemstone &eDiopside&r is a very tough metal that packs a punch, but is on the slower side. This is great for weapons!"]
+			description: ["Зеленый драгоценный камень&eДиопсид&rЭто очень прочный металл, обладающий мощной силой, но более медленный. Это отлично подходит для оружия!"]
 			id: "128C5B7A82FF802E"
 			rewards: [
 				{
@@ -747,7 +747,7 @@
 		}
 		{
 			dependencies: ["23CC5B8D9AAD4E12"]
-			description: ["This is a lantern that prevents hostile spawns within a large radius. "]
+			description: ["Это фонарь, который предотвращает появление врагов в большом радиусе."]
 			id: "3857D8DF87108DAB"
 			optional: true
 			rewards: [{
@@ -1085,7 +1085,7 @@
 		}
 		{
 			dependencies: ["3C1212AA4663C39B"]
-			description: ["Increases movement speed."]
+			description: ["Увеличивает скорость передвижения."]
 			id: "7E124E6EFC7E8ADD"
 			rewards: [
 				{
@@ -1122,7 +1122,7 @@
 		}
 		{
 			dependencies: ["6832C9E6D2E2949E"]
-			description: ["Grants invisibility when sneaking."]
+			description: ["Дает невидимость при подкрадывании."]
 			id: "0515422E36E4E9A3"
 			rewards: [
 				{
@@ -1194,7 +1194,7 @@
 		}
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
-			description: ["Increases damage done when poisoned."]
+			description: ["Увеличивает урон, наносимый при отравлении."]
 			id: "08DA36DAD1422B0A"
 			rewards: [
 				{
@@ -1292,7 +1292,7 @@
 		}
 		{
 			dependencies: ["1F944EEA0F397B95"]
-			description: ["Increases max hearts."]
+			description: ["Увеличивает максимальное количество сердец."]
 			id: "37CBBAB88E2E49AC"
 			rewards: [
 				{
@@ -1407,7 +1407,7 @@
 		}
 		{
 			dependencies: ["3E1A86A6D2155B53"]
-			description: ["With this creation, I was able to harness the Snowcap Mushroom’s heating and cooling power. By sapping the heat out of warm objects, it can cook whatever you put inside, occasionally leaving the frozen byproduct of the fuel behind. It even allows for things such as water to be used as a fuel source, albeit not a very good one."]
+			description: ["С помощью этого творения я смог использовать нагревательную и охлаждающую способность снежного гриба. Забирая тепло из теплых предметов, он может приготовить все, что вы положите внутрь, иногда оставляя замороженные побочные продукты топлива. Это даже позволяет использовать такие вещи, как вода, в качестве источника топлива, хотя и не очень хорошего."]
 			id: "76A6385DA264F372"
 			rewards: [
 				{

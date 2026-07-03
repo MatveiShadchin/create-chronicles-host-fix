@@ -177,7 +177,7 @@
 				"08838CFB8BF290E5"
 				"48802E2C9058AF11"
 			]
-			description: ["This &6Stack Upgrade&r allows each slot in your Sophisticated Storage to hold &6double&r its normal capacity, accommodating &62 stacks&r of items per slot."]
+			description: ["Этот&6Обновление стека&rпозволяет каждому слоту вашего сложного хранилища хранить&6двойной&rего нормальная вместимость, вмещающая&62 стопки&rпредметов на слот."]
 			id: "761D029F52BA267B"
 			rewards: [{
 				id: "00AA466E54F18783"
@@ -3823,7 +3823,7 @@
 		}
 		{
 			dependencies: ["3BFAF2034D6C99BC"]
-			description: ["&6Storage I/O&r combines the functionalities of both Storage Input and Storage Output into a single block. This allows items to be both inserted into and extracted from the network seamlessly."]
+			description: ["&6Ввод-вывод хранилища&rобъединяет функции ввода и вывода хранилища в один блок. Это позволяет беспрепятственно вставлять и извлекать элементы из сети."]
 			id: "0E2DD647FACCEE2A"
 			rewards: [{
 				id: "717CFC7387D5907E"
@@ -3874,7 +3874,7 @@
 		}
 		{
 			dependencies: ["7261FED43BDDEFA8"]
-			description: ["The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"]
+			description: ["The &6железный рюкзак&rэто обновление базового&eрюкзак&r. Он имеет 54 слота и может содержать 2 улучшения."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1DDD74A012CDE699"
@@ -3904,7 +3904,7 @@
 		}
 		{
 			dependencies: ["1DDD74A012CDE699"]
-			description: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
+			description: ["The &6золотой рюкзак&rэто обновление&eжелезный рюкзак&r. Он имеет 81 слот для хранения и может вместить 3 обновления."]
 			id: "5A52E77204B42646"
 			progression_mode: "flexible"
 			rewards: [
@@ -3932,7 +3932,7 @@
 		}
 		{
 			dependencies: ["5A52E77204B42646"]
-			description: ["The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"]
+			description: ["The &6алмазный рюкзак&rэто обновление&eзолотой рюкзак&r. Он имеет 108 слотов для хранения и может вместить 5 обновлений."]
 			id: "0C28D365031DFBB9"
 			progression_mode: "flexible"
 			rewards: [
@@ -3960,7 +3960,7 @@
 		}
 		{
 			dependencies: ["0C28D365031DFBB9"]
-			description: ["The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"]
+			description: ["The &6незеритовый рюкзак&rэто обновление&eалмазный рюкзак&r. Он имеет 120 слотов для хранения и может вместить 7 обновлений."]
 			id: "0E10A137480D309E"
 			progression_mode: "flexible"
 			rewards: [
@@ -3988,7 +3988,7 @@
 		}
 		{
 			dependencies: ["7261FED43BDDEFA8"]
-			description: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
+			description: ["The &6обновить базу&r— это главное, что необходимо для каждого обновления, которое вы можете использовать в моде. Оно используется для создания каждого отдельного обновления."]
 			id: "33628061006314AB"
 			progression_mode: "flexible"
 			rewards: [
@@ -4408,7 +4408,7 @@
 		}
 		{
 			dependencies: ["33628061006314AB"]
-			description: ["With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"]
+			description: ["С&6Начальное обновление&r, в рюкзаки можно положить рюкзаки!"]
 			id: "5BC526ACC0046B20"
 			subtitle: "Спина на спине на спине"
 			tasks: [{
@@ -4421,7 +4421,7 @@
 		}
 		{
 			dependencies: ["7226FB66C2B28ACB"]
-			description: ["&eDecoration Table&r allows you to customize the Chest with any block."]
+			description: ["&eСтол для украшения&rпозволяет настроить Сундук с любым блоком."]
 			id: "6A0982B3EC12BAF2"
 			rewards: [{
 				id: "2D1902E3619D2D0D"
@@ -4438,7 +4438,7 @@
 		}
 		{
 			dependencies: ["6A0982B3EC12BAF2"]
-			description: ["Apply your custom decoration at the table by inserting a paintbrush. Once applied, you can use the paintbrush directly on a chest without breaking it, instantly transferring the chosen style."]
+			description: ["Нанесите на стол свое индивидуальное украшение, вставив в него кисть. После нанесения вы можете использовать кисть прямо на сундуке, не ломая его, мгновенно передавая выбранный стиль."]
 			id: "065D5E33586CE44C"
 			rewards: [{
 				id: "49D0CF4C8C3D869C"

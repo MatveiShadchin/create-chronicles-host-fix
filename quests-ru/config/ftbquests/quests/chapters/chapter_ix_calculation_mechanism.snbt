@@ -1353,7 +1353,7 @@
 		}
 		{
 			dependencies: ["78344EA2C9E89AD9"]
-			description: ["This takes around &b50 seconds&r per alloy to charge with tesla coil. (with proper energy generation)"]
+			description: ["Это занимает около&b50 секунд&rза сплав для зарядки катушкой Тесла. (при правильном производстве энергии)"]
 			id: "12B028C021E25ED0"
 			rewards: [{
 				count: 5
