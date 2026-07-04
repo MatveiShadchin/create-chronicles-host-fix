@@ -11,6 +11,15 @@
 quests-ru\config\ftbquests\quests\
 ```
 
+## Промпт для Cursor
+
+Открой **[PROMPT-QUESTS-RU.md](PROMPT-QUESTS-RU.md)** — там готовый текст для вставки в чат Agent.
+
+Кратко:
+1. Cursor → Open Folder → `%appdata%\.minecraft`
+2. Новый чат → скопировать промпт из PROMPT-QUESTS-RU.md
+3. Перезапустить Minecraft
+
 ## Установка
 
 1. Закрой Minecraft полностью.

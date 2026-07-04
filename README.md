@@ -6,7 +6,8 @@
 
 | Задача | Инструкция |
 |--------|------------|
-| **Только русские квесты** | **[INSTALL-QUESTS-RU.md](INSTALL-QUESTS-RU.md)** ← для хоста, если kubejs уже есть |
+| **Только русские квесты** | [INSTALL-QUESTS-RU.md](INSTALL-QUESTS-RU.md) |
+| **Промпт для Cursor** (скопировать в чат) | **[PROMPT-QUESTS-RU.md](PROMPT-QUESTS-RU.md)** |
 | Полный фикс (предметы + квесты) | [INSTALL-HOST.md](INSTALL-HOST.md) |
 
 ## Только перевод (кратко)
@@ -31,7 +32,8 @@ ZIP: https://github.com/MatveiShadchin/create-chronicles-host-fix/archive/refs/h
 
 ## Cursor на ПК хоста
 
-Промпт для автоматической установки: **[PROMPT-DLYA-CURSOR.md](PROMPT-DLYA-CURSOR.md)**
+- **Только квесты:** [PROMPT-QUESTS-RU.md](PROMPT-QUESTS-RU.md) — открой файл, скопируй текст в чат Agent
+- Полный фикс kubejs: [PROMPT-DLYA-CURSOR.md](PROMPT-DLYA-CURSOR.md)
 
 ## Ссылки
 
