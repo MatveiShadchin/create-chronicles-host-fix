@@ -1,54 +1,40 @@
 # Create Chronicles: Bosses and Beyond — фикс для хоста
 
-Пакет для **хоста** (сервера в LAN). Сборка **2.5.3**, Minecraft **1.20.1**, Forge **47.3.0**.
-
-Без этих файлов не работают кастомные предметы KubeJS (`rotation_mechanism`, машины, очки навыков и т.д.).
+Пакет для **хоста** (LAN-сервера) и второго игрока. Сборка **2.5.3**, Minecraft **1.20.1**, Forge **47.3.0**.
 
 ## Что внутри
 
 | Папка | Назначение |
 |-------|------------|
-| `kubejs/` | Скрипты, рецепты и текстуры сборки (658 файлов) |
-| `defaultconfigs/` | Серверные конфиги модов (15 файлов) |
+| `kubejs/` | Скрипты, рецепты, текстуры (658 файлов) — **обязательно** |
+| `defaultconfigs/` | Серверные конфиги модов |
+| `quests-ru/` | **Все квесты на русском** (31 глава) |
 
-## Установка (хост)
+Без `kubejs` не работают кастомные предметы (`rotation_mechanism`, машины, очки навыков и т.д.).
 
-1. **Сделай бэкап мира** — папка `saves\ИмяМира`.
-2. Закрой Minecraft полностью.
-3. Открой папку Minecraft:
-   ```
-   %appdata%\.minecraft
-   ```
-   Если играешь через CurseForge — папка инстанса:
-   ```
-   ...\Instances\Create Chronicles Bosses and Beyond\minecraft
-   ```
-4. Скопируй содержимое `kubejs/` → в `.minecraft\kubejs\` (замени папку).
-5. Скопируй содержимое `defaultconfigs/` → в `.minecraft\defaultconfigs\` (замени или объедини).
-6. Запусти Minecraft заново (не `/reload`).
+## Быстрая установка
 
-## Установка (второй игрок)
+Подробная инструкция: **[INSTALL-HOST.md](INSTALL-HOST.md)**
 
-Тот же `kubejs/` и `defaultconfigs/` — версии у обоих должны совпадать.
+1. Бэкап мира → `saves\ИмяМира_backup`
+2. Закрыть Minecraft
+3. Скопировать в `%appdata%\.minecraft\`:
+   - `kubejs/` → `kubejs/`
+   - `defaultconfigs/` → `defaultconfigs/`
+   - `quests-ru/config/ftbquests/quests/` → `config/ftbquests/quests/`
+4. Полный перезапуск игры
 
 ## Проверка
 
-После перезапуска в JEI (поиск) должен находиться **Rotation Mechanism**.
+- JEI: **Rotation Mechanism** находится
+- Квесты: текст на русском
+- Лог: `logs/kubejs/startup.log` — `launch.js`, `main.js` (не только `example.js`)
 
-Логи KubeJS: `.minecraft\logs\kubejs\startup.log` — должны быть `launch.js`, `main.js`, а не только `example.js`.
+## Cursor на ПК хоста
 
-## Важно
+Промпт для автоматической установки: **[PROMPT-DLYA-CURSOR.md](PROMPT-DLYA-CURSOR.md)**
 
-- Рекомендуется **8 GB RAM** для сборки.
-- Forge: **47.3.0** (как в манифесте сборки).
-- Официальная страница: [CurseForge](https://www.curseforge.com/minecraft/modpacks/create-chronicles-bosses-and-beyond)
+## Ссылки
 
-## Быстрая установка через git
-
-```powershell
-cd %appdata%\.minecraft
-git clone https://github.com/MatveiShadchin/create-chronicles-host-fix.git temp-cc-fix
-xcopy /E /I /Y temp-cc-fix\kubejs kubejs
-xcopy /E /I /Y temp-cc-fix\defaultconfigs defaultconfigs
-rmdir /S /Q temp-cc-fix
-```
+- Репозиторий: https://github.com/MatveiShadchin/create-chronicles-host-fix
+- Сборка: https://www.curseforge.com/minecraft/modpacks/create-chronicles-bosses-and-beyond

@@ -28,13 +28,15 @@ https://github.com/MatveiShadchin/create-chronicles-host-fix
 
 4. Установи файлы:
    - Замени папку kubejs в .minecraft на kubejs из репозитория (658 файлов)
-   - Замени/дополни папку defaultconfigs в .minecraft (15 файлов)
+   - Замени/дополни папку defaultconfigs в .minecraft
+   - Скопируй quests-ru/config/ftbquests/quests/ → config/ftbquests/quests/ (русские квесты, 31 глава)
    - Удали старые example.js если остались единственными скриптами — после установки должны быть launch.js, main.js, loot.js и др.
 
 5. Проверь установку:
    - В kubejs\startup_scripts должны быть: launch.js, fluids.js, worldgenRemove.js
    - В kubejs\server_scripts должны быть: main.js, loot.js, misc_recipes.js и др.
    - Должна быть текстура: kubejs\assets\kubejs\textures\item\rotation_mechanism.png
+   - В config\ftbquests\quests\chapters — 31 файл .snbt на русском
    - НЕ должно быть ситуации когда только example.js в startup_scripts
 
 6. НЕ удаляй папку saves, mods, config целиком — только замена kubejs и defaultconfigs.
