@@ -39,3 +39,4 @@ ZIP: https://github.com/MatveiShadchin/create-chronicles-host-fix/archive/refs/h
 
 - Репозиторий: https://github.com/MatveiShadchin/create-chronicles-host-fix
 - Сборка: https://www.curseforge.com/minecraft/modpacks/create-chronicles-bosses-and-beyond
+- Лицензия: [MIT](LICENSE)
